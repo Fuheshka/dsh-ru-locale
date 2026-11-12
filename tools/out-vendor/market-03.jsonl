@@ -1,0 +1,262 @@
+{"ns": "dsh-market", "key": "phaseLinking", "ru": "Связывание"}
+{"ns": "dsh-market", "key": "phaseBuilding", "ru": "Выполнение скриптов сборки"}
+{"ns": "dsh-market", "key": "cancelling", "ru": "Отмена…"}
+{"ns": "dsh-market", "key": "packagesDone", "ru": "Обработано пакетов: {0}"}
+{"ns": "dsh-market", "key": "updatedLive", "ru": "✓ Обновлён — уже активен"}
+{"ns": "dsh-market", "key": "updatedLibrary", "ru": "✓ Обновлён"}
+{"ns": "dsh-market", "key": "partialNote", "ru": "Отменено — часть изменений уже применена"}
+{"ns": "dsh-market", "key": "reconciledNote", "ru": "Удалено, но pnpm сообщил об ошибке при завершении (обычно заблокирован файл). Настройки уже синхронизированы — повторять не нужно."}
+{"ns": "dsh-market", "key": "actWhy", "ru": "Почему не активен?"}
+{"ns": "dsh-market", "key": "tabList", "ru": "Список"}
+{"ns": "dsh-market", "key": "tabGroups", "ru": "Группы"}
+{"ns": "dsh-market", "key": "repoLink", "ru": "Открыть репозиторий на GitHub"}
+{"ns": "dsh-market", "key": "viewSourceRepo", "ru": "Открыть репозиторий↗"}
+{"ns": "dsh-market", "key": "disabledState", "ru": "Отключён"}
+{"ns": "dsh-market", "key": "noteAdd", "ru": "Добавить заметку"}
+{"ns": "dsh-market", "key": "noteEdit", "ru": "Изменить заметку"}
+{"ns": "dsh-market", "key": "noteTheirs", "ru": "Описание автора"}
+{"ns": "dsh-market", "key": "noteMine", "ru": "Моя заметка"}
+{"ns": "dsh-market", "key": "noteSave", "ru": "Сохранить"}
+{"ns": "dsh-market", "key": "notePlaceholder", "ru": "Опишите своими словами. Это заменит описание автора."}
+{"ns": "dsh-market", "key": "noteSeeTheirs", "ru": "Показать описание автора"}
+{"ns": "dsh-market", "key": "noteSeeMine", "ru": "Вернуться к моей заметке"}
+{"ns": "dsh-market", "key": "switchOnLabel", "ru": "Включён"}
+{"ns": "dsh-market", "key": "enable", "ru": "Включить"}
+{"ns": "dsh-market", "key": "disable", "ru": "Отключить"}
+{"ns": "dsh-market", "key": "toggleFail", "ru": "Не удалось переключить"}
+{"ns": "dsh-market", "key": "deprecatedBadge", "ru": "Устарел"}
+{"ns": "dsh-market", "key": "deprecatedWarn", "ru": "Плагин помечен в каталоге как устаревший; новым пользователям не рекомендуется его устанавливать."}
+{"ns": "dsh-market", "key": "configNamespaceNotice", "ru": "Панель настроек {0} не может прочитать свою конфигурацию: она запрашивает «{1}», а записи с таким именем в этой установке нет. Собственная запись плагина — «{2}», именно её должен запрашивать клиент плагина. Ошибка в плагине, магазин её не исправит."}
+{"ns": "dsh-market", "key": "brokenPluginTitle", "ru": "{0} удалён после неудачного обновления"}
+{"ns": "dsh-market", "key": "brokenPluginBody", "ru": "Запущенный DSH заблокировал обновление, а версия, которую он заменял, уже была повреждена. Магазин убрал плагин из профиля, чтобы следующий запуск не завершился ошибкой. Его каталог не тронут — закройте DSH и установите плагин заново."}
+{"ns": "dsh-market", "key": "brokenPluginTitleCancelled", "ru": "{0} удалён после отменённого обновления"}
+{"ns": "dsh-market", "key": "brokenPluginBodyCancelled", "ru": "Обновление отменили, когда старая версия была уже частично удалена. Магазин убрал плагин из профиля, чтобы следующий запуск не завершился ошибкой. Его каталог не тронут — установите плагин заново; если не получится, сначала закройте DSH."}
+{"ns": "dsh-market", "key": "brokenPluginAction", "ru": "Найти этот плагин"}
+{"ns": "dsh-market", "key": "brokenPluginDismiss", "ru": "Больше не показывать"}
+{"ns": "dsh-market", "key": "viewReplacement", "ru": "Посмотреть замену"}
+{"ns": "dsh-market", "key": "installReplacement", "ru": "Установить замену"}
+{"ns": "dsh-market", "key": "replacementHint", "ru": "Каталог предлагает"}
+{"ns": "dsh-market", "key": "groupNew", "ru": "Новая группа"}
+{"ns": "dsh-market", "key": "groupNamePh", "ru": "Название группы"}
+{"ns": "dsh-market", "key": "groupRename", "ru": "Переименовать"}
+{"ns": "dsh-market", "key": "groupDelete", "ru": "Удалить группу"}
+{"ns": "dsh-market", "key": "groupConfirmDelete", "ru": "Удалить группу?"}
+{"ns": "dsh-market", "key": "groupExpand", "ru": "Развернуть {0}"}
+{"ns": "dsh-market", "key": "groupFold", "ru": "Свернуть {0}"}
+{"ns": "dsh-market", "key": "groupThemeTaken", "ru": "Тема уже есть"}
+{"ns": "dsh-market", "key": "groupSearchEmpty", "ru": "Подходящих плагинов нет"}
+{"ns": "dsh-market", "key": "groupStateInert", "ru": "Не активен"}
+{"ns": "dsh-market", "key": "groupStateRestart", "ru": "Нужен перезапуск"}
+{"ns": "dsh-market", "key": "groupStateBroken", "ru": "Проверка не прошла"}
+{"ns": "dsh-market", "key": "ungrouped", "ru": "Без группы"}
+{"ns": "dsh-market", "key": "groupAssign", "ru": "Назначить в"}
+{"ns": "dsh-market", "key": "groupRemove", "ru": "Убрать"}
+{"ns": "dsh-market", "key": "groupEmpty", "ru": "Участников пока нет"}
+{"ns": "dsh-market", "key": "groupMixed", "ru": "Включён частично"}
+{"ns": "dsh-market", "key": "noGroups", "ru": "Групп пока нет. Создайте первую, чтобы начать."}
+{"ns": "dsh-market", "key": "groupCreate", "ru": "Создать"}
+{"ns": "dsh-market", "key": "groupAdd", "ru": "Добавить участников"}
+{"ns": "dsh-market", "key": "groupAddEmpty", "ru": "Нет плагинов без группы, которые можно добавить"}
+{"ns": "dsh-market", "key": "groupAddPick", "ru": "Добавить"}
+{"ns": "dsh-market", "key": "groupAddSearchPh", "ru": "Поиск плагинов…"}
+{"ns": "dsh-market", "key": "groupAddTitle", "ru": "Добавить в «{0}»"}
+{"ns": "dsh-market", "key": "groupAddSelected", "ru": "Выбрано: {0}"}
+{"ns": "dsh-market", "key": "groupAddConfirm", "ru": "Добавить ({0})"}
+{"ns": "dsh-market", "key": "groupAddHint", "ru": "Добавление в группу не включает плагины"}
+{"ns": "dsh-market", "key": "groupPickTheme", "ru": "Выбрать тему"}
+{"ns": "dsh-market", "key": "groupChangeTheme", "ru": "Сменить тему"}
+{"ns": "dsh-market", "key": "groupThemeTitle", "ru": "Выберите тему для «{0}»"}
+{"ns": "dsh-market", "key": "groupThemeUse", "ru": "Использовать"}
+{"ns": "dsh-market", "key": "groupThemeEmpty", "ru": "Нет темы без группы"}
+{"ns": "dsh-market", "key": "groupThemeHint", "ru": "В группе может быть одна тема. Выбор темы её не включает. При замене прежняя тема выходит из группы."}
+{"ns": "dsh-market", "key": "groupThemeCurrent", "ru": "Текущая"}
+{"ns": "dsh-market", "key": "groupThemeRemove", "ru": "Убрать тему"}
+{"ns": "dsh-market", "key": "groupThemeBadge", "ru": "Тема"}
+{"ns": "dsh-market", "key": "groupOrgHint", "ru": "Группы нужны только для порядка и не меняют состояние включения"}
+{"ns": "dsh-market", "key": "groupMembersMeta", "ru": "{0} · включено: {1}"}
+{"ns": "dsh-market", "key": "groupMore", "ru": "Ещё"}
+{"ns": "dsh-market", "key": "groupRenameSave", "ru": "Сохранить"}
+{"ns": "dsh-market", "key": "groupRenameTitle", "ru": "Переименовать группу"}
+{"ns": "dsh-market", "key": "groupRenameHint", "ru": "Меняется только название группы — участники и состояние включения остаются прежними"}
+{"ns": "dsh-market", "key": "tabDiagnostics", "ru": "Диагностика"}
+{"ns": "dsh-market", "key": "checkIssues", "ru": "Найдены проблемы"}
+{"ns": "dsh-market", "key": "checkErrors", "ru": "Ошибки"}
+{"ns": "dsh-market", "key": "checkWarnings", "ru": "Предупреждения"}
+{"ns": "dsh-market", "key": "checkLoading", "ru": "Анализ профиля…"}
+{"ns": "dsh-market", "key": "checkLoadFail", "ru": "Не удалось загрузить диагностику: "}
+{"ns": "dsh-market", "key": "checkProfile", "ru": "профиль"}
+{"ns": "dsh-market", "key": "checkErrorsEmpty", "ru": "Ошибок нет"}
+{"ns": "dsh-market", "key": "checkWarningsEmpty", "ru": "Предупреждений нет"}
+{"ns": "dsh-market", "key": "checkBundles", "ru": "Порядок загрузки плагинов (пакеты)"}
+{"ns": "dsh-market", "key": "checkBundlesEmpty", "ru": "Пакеты плагинов не настроены"}
+{"ns": "dsh-market", "key": "checkOfficial", "ru": "официальный"}
+{"ns": "dsh-market", "key": "checkCommunity", "ru": "из сообщества"}
+{"ns": "dsh-market", "key": "checkSource", "ru": "источник"}
+{"ns": "dsh-market", "key": "checkEntries", "ru": "записи (id загрузчика)"}
+{"ns": "dsh-market", "key": "checkPatch", "ru": "файл патча"}
+{"ns": "dsh-market", "key": "checkDir", "ru": "каталог"}
+{"ns": "dsh-market", "key": "checkDuplicates", "ru": "Дублирующиеся записи плагинов"}
+{"ns": "dsh-market", "key": "checkDuplicatesEmpty", "ru": "Дублирующихся записей плагинов нет"}
+{"ns": "dsh-market", "key": "checkHoisted", "ru": "верхний уровень"}
+{"ns": "dsh-market", "key": "checkPeerMismatches", "ru": "Несовпадения версий зависимостей"}
+{"ns": "dsh-market", "key": "checkPeerEmpty", "ru": "Несовпадений версий зависимостей нет"}
+{"ns": "dsh-market", "key": "checkPeerInfo", "ru": "Ещё неподтверждённых записей: {0}"}
+{"ns": "dsh-market", "key": "checkPeerOverview", "ru": "Несовпадений: {0} · информационных: {1}"}
+{"ns": "dsh-market", "key": "checkRange", "ru": "требуемая версия"}
+{"ns": "dsh-market", "key": "checkResolved", "ru": "фактическая версия"}
+{"ns": "dsh-market", "key": "checkSatisfied", "ru": "соблюдено"}
+{"ns": "dsh-market", "key": "checkUnsatisfied", "ru": "не соблюдено"}
+{"ns": "dsh-market", "key": "checkUnknown", "ru": "неизвестно"}
+{"ns": "dsh-market", "key": "checkPeerRisk", "ru": "Риски зависимостей"}
+{"ns": "dsh-market", "key": "checkPeerRiskEmpty", "ru": "Рисков зависимостей нет"}
+{"ns": "dsh-market", "key": "checkPeerWarning", "ru": "Предупреждения о зависимостях"}
+{"ns": "dsh-market", "key": "checkPeerWarningEmpty", "ru": "Предупреждений о зависимостях нет"}
+{"ns": "dsh-market", "key": "checkPeerInfoTier", "ru": "Сведения о зависимостях"}
+{"ns": "dsh-market", "key": "checkPeerInfoTierEmpty", "ru": "Сведений о зависимостях нет"}
+{"ns": "dsh-market", "key": "checkPeerSatisfied", "ru": "Соблюдённые зависимости"}
+{"ns": "dsh-market", "key": "checkPeerSatisfiedEmpty", "ru": "Соблюдённых записей зависимостей нет"}
+{"ns": "dsh-market", "key": "peerRiskBelowMin", "ru": "ниже заявленного минимума"}
+{"ns": "dsh-market", "key": "peerRiskAboveMax", "ru": "выше явного максимума"}
+{"ns": "dsh-market", "key": "peerWarnOptional", "ru": "необязательная зависимость"}
+{"ns": "dsh-market", "key": "peerWarnAboveMax", "ru": "выше заявленной верхней границы"}
+{"ns": "dsh-market", "key": "peerInfoUnverified", "ru": "не подтверждено"}
+{"ns": "dsh-market", "key": "checkMultiVersion", "ru": "Пакеты ядра с несколькими версиями"}
+{"ns": "dsh-market", "key": "checkMultiEmpty", "ru": "Пакетов ядра с несколькими версиями нет"}
+{"ns": "dsh-market", "key": "checkOverrides", "ru": "Переопределения"}
+{"ns": "dsh-market", "key": "checkOverridesEmpty", "ru": "Переопределений нет"}
+{"ns": "dsh-market", "key": "checkOverridden", "ru": "переопределяет"}
+{"ns": "dsh-market", "key": "checkResiduals", "ru": "Оставшиеся каталоги"}
+{"ns": "dsh-market", "key": "checkResidualsEmpty", "ru": "Оставшихся каталогов нет."}
+{"ns": "dsh-market", "key": "checkResidualsHint", "ru": "Эти каталоги не использует ни один плагин, и они не мешают запуску DSH: их оставило прерванное обновление. Закройте DSH, затем удалите их или переустановите затронутый плагин."}
+{"ns": "dsh-market", "key": "checkResidualTmp", "ru": "временный каталог pnpm"}
+{"ns": "dsh-market", "key": "checkResidualIncomplete", "ru": "незавершённый пакет (нет package.json)"}
+{"ns": "dsh-market", "key": "checkConfigNamespaces", "ru": "Плагины, чьи настройки читают не то имя"}
+{"ns": "dsh-market", "key": "checkConfigNamespacesEmpty", "ru": "Таких плагинов нет."}
+{"ns": "dsh-market", "key": "checkConfigNamespacesHint", "ru": "Панель плагина читает свою конфигурацию по ID ЗАПИСИ. При неверном имени она ничего не получает: панель пустая и не сохраняет, а плагин откатывается на жёстко заданное значение по умолчанию (панель холста показывает белый экран). Имя неверно внутри клиентского пакета самого плагина — магазин это не исправит, автору нужно поменять одну строку."}
+{"ns": "dsh-market", "key": "checkConfigNamespaceRow", "ru": "конфигурация читается из «{0}», а это не ID записи"}
+{"ns": "dsh-market", "key": "checkConfigNamespaceOwn", "ru": "собственный ID записи"}
+{"ns": "dsh-market", "key": "checkConfigNamespaceNone", "ru": "он не объявляет собственного ID записи"}
+{"ns": "dsh-market", "key": "checkOrphans", "ru": "Неверные записи конфигурации"}
+{"ns": "dsh-market", "key": "checkOrphansEmpty", "ru": "Неверных записей конфигурации нет"}
+{"ns": "dsh-market", "key": "orphanInsertNotArray", "ru": "неверный формат"}
+{"ns": "dsh-market", "key": "orphanInsertTargetMissing", "ru": "цель не найдена"}
+{"ns": "dsh-market", "key": "orphanInsertTargetNotGroup", "ru": "цель не является группой"}
+{"ns": "dsh-market", "key": "orphanIdRequired", "ru": "нет id"}
+{"ns": "dsh-market", "key": "orphanPatchTargetMissing", "ru": "цель не найдена"}
+{"ns": "dsh-market", "key": "orphanNameMismatch", "ru": "несовпадение имени"}
+{"ns": "dsh-market", "key": "orphanReasonOther", "ru": "другое"}
+{"ns": "dsh-market", "key": "diagExplain", "ru": "Глоссарий"}
+{"ns": "dsh-market", "key": "diagExplainText", "ru": "Эта страница проверяет конфликты плагинов, несовпадения зависимостей и неверный порядок загрузки. Используемые термины:"}
+{"ns": "dsh-market", "key": "diagTermBundle", "ru": "пакет = один пакет плагина, применяемый по порядку"}
+{"ns": "dsh-market", "key": "diagTermEntry", "ru": "запись = один элемент, который плагин регистрирует в работающей композиции"}
+{"ns": "dsh-market", "key": "diagTermPeer", "ru": "peer-зависимость = другой пакет, который плагин требует от хоста"}
+{"ns": "dsh-market", "key": "diagTermShadow", "ru": "затенение = старая копия плагина перекрывает более новую копию хоста"}
+{"ns": "dsh-market", "key": "diagTermOrphan", "ru": "неверная запись = конфигурация ссылается на то, чего нет"}
+{"ns": "dsh-market", "key": "diagTermOrder", "ru": "порядок загрузки = порядок активации плагинов; более поздний может переопределить более ранний"}
+{"ns": "dsh-market", "key": "orderSection", "ru": "Порядок"}
+{"ns": "dsh-market", "key": "orderUp", "ru": "↑"}
+{"ns": "dsh-market", "key": "orderDown", "ru": "↓"}
+{"ns": "dsh-market", "key": "orderApply", "ru": "Применить порядок"}
+{"ns": "dsh-market", "key": "orderDrag", "ru": "Перетащите, чтобы изменить порядок"}
+{"ns": "dsh-market", "key": "orderDragHint", "ru": "Перетащите ⠿, чтобы изменить порядок. Изменения сохраняются при применении порядка."}
+{"ns": "dsh-market", "key": "orderConflicts", "ru": "конфликты правил before/after в текущем порядке"}
+{"ns": "dsh-market", "key": "orderApplied", "ru": "✓ Применено — нужен перезапуск"}
+{"ns": "dsh-market", "key": "orderSuggestApply", "ru": "Применить предложенный порядок"}
+{"ns": "dsh-market", "key": "orderSuggestHint", "ru": "Предложенный порядок (автосортировка по правилам before/after):"}
+{"ns": "dsh-market", "key": "orderAutoSort", "ru": "Автосортировка"}
+{"ns": "dsh-market", "key": "orderAlreadyOptimal", "ru": "Текущий порядок уже соблюдает все правила и зависимости плагинов — менять нечего"}
+{"ns": "dsh-market", "key": "orderTrialFail", "ru": "Проверка порядка не прошла: {0}"}
+{"ns": "dsh-market", "key": "orderDiffHint", "ru": "Этот порядок изменит композицию: переопределений — {0}, неверных записей — {1}, дублей — {2}"}
+{"ns": "dsh-market", "key": "duplicateNames", "ru": "Плагины с одинаковыми именами (только для сведения, не конфликт)"}
+{"ns": "dsh-market", "key": "orderReset", "ru": "Сбросить черновик"}
+{"ns": "dsh-market", "key": "checkRefresh", "ru": "Проверить снова"}
+{"ns": "dsh-market", "key": "aiFix", "ru": "Исправление с ИИ"}
+{"ns": "dsh-market", "key": "aiFixHint", "ru": "Передайте диагностику в новую сессию агента (скопировано в буфер обмена; отправлять или нет — решать вам)"}
+{"ns": "dsh-market", "key": "aiFixIntro", "ru": "Помогите исправить проблемы с плагинами DeepSeek Harness (профиль: {0}). Найдена диагностика:"}
+{"ns": "dsh-market", "key": "aiFixDetect", "ru": "Шаг 1 — сначала определите своё положение. Прежде чем что-либо трогать, выясните, является ли ваш процесс тем самым процессом DeepSeek Harness, которому принадлежит этот профиль (то есть запущена ли прямо сейчас именно эта диагностированная композиция). Проверьте, указывают ли cwd / $DSH_HOME / командная строка на этот профиль и не идёт ли работа внутри процесса deepseek-harness. Если определить не удаётся, считайте, что ответ «да» (это безопасный выбор)."}
+{"ns": "dsh-market", "key": "aiFixIfSelf", "ru": "Если ДА — это ваш собственный Harness: никогда не меняйте работающую композицию, Harness и пакеты ядра на месте (не правьте cordis.patch.yml, не меняйте порядок, не включайте и не отключайте пакеты, не устанавливайте, не удаляйте и не обновляйте плагины, не переустанавливайте зависимости, не обновляйте и не перезапускайте dsh). Три шага: 1) только анализ в режиме чтения, ничего не менять; 2) подготовить apply.sh/.bat (изменения этого исправления) и rollback.sh/.bat (полностью их откатывает); оба можно запускать повторно — apply делает снимок, только если его ещё нет, и никогда не перезаписывает существующий (если снимок есть, значит apply уже запускали: сначала откатитесь или подтвердите), а rollback восстанавливает из этого снимка, поэтому прерванный apply всё равно можно откатить, и повторный rollback безопасен; 3) пусть я запущу apply во внешнем терминале и вставлю вывод обратно. На каждом шаге объясняйте причину и ждите моего подтверждения — никогда не запускайте это сами."}
+{"ns": "dsh-market", "key": "aiFixScope", "ru": "Если НЕТ — процесс находится вне целевого Harness: тогда можно рассмотреть изменение порядка dsh.profile.bundles, включение и отключение плагинов или правку cordis.patch.yml. Учтите: официальные пакеты неизменяемы; перед любыми изменениями изложите план."}
+{"ns": "dsh-market", "key": "aiFixConservative", "ru": "Действуйте осторожно: исправляйте только явные ошибки из списка выше (сбои запуска, дублирующиеся записи, несовпадения зависимостей уровня риска). Предупреждения и информационные записи (например, необязательные или неподтверждённые диапазоны peer) трогайте, только если они связаны с явной ошибкой. Не делайте лишних обновлений и перестановок; объясняйте каждое изменение и ждите подтверждения."}
+{"ns": "dsh-market", "key": "aiFixCopied", "ru": "Промпт исправления скопирован — вставьте его в новый диалог и отправьте, когда будете готовы"}
+{"ns": "dsh-market", "key": "aiFixFail", "ru": "Буфер обмена недоступен — скопируйте диагностику ниже вручную"}
+{"ns": "dsh-market", "key": "catConflict", "ru": "Конфликты"}
+{"ns": "dsh-market", "key": "catDeps", "ru": "Зависимости"}
+{"ns": "dsh-market", "key": "catRisk", "ru": "Риск"}
+{"ns": "dsh-market", "key": "catWarn", "ru": "Предупреждение"}
+{"ns": "dsh-market", "key": "catInfo", "ru": "Сведения"}
+{"ns": "dsh-market", "key": "catOrder", "ru": "Порядок"}
+{"ns": "dsh-market", "key": "checkOrderTip", "ru": "порядок загрузки пакетов сообщества конфликтует с объявленными правилами before/after"}
+{"ns": "dsh-market", "key": "diagOkAll", "ru": "Конфликтов, проблем с зависимостями и порядком не найдено"}
+{"ns": "dsh-market", "key": "presetSection", "ru": "Пресеты плагинов"}
+{"ns": "dsh-market", "key": "presetHint", "ru": "Сохраните текущий порядок плагинов и отключённые плагины как пресет и переключайтесь между ними когда угодно; при применении сначала выполняется пробный запуск и создаётся снимок."}
+{"ns": "dsh-market", "key": "presetName", "ru": "Название пресета"}
+{"ns": "dsh-market", "key": "presetSave", "ru": "Сохранить текущее состояние"}
+{"ns": "dsh-market", "key": "presetSaving", "ru": "Сохранение…"}
+{"ns": "dsh-market", "key": "presetSaved", "ru": "Пресет сохранён"}
+{"ns": "dsh-market", "key": "presetApply", "ru": "Применить"}
+{"ns": "dsh-market", "key": "presetApplied", "ru": "Применено — перезапустите, чтобы вступило в силу"}
+{"ns": "dsh-market", "key": "presetDelete", "ru": "Удалить"}
+{"ns": "dsh-market", "key": "presetDeleted", "ru": "Пресет удалён"}
+{"ns": "dsh-market", "key": "presetEmpty", "ru": "Сохранённых пресетов пока нет"}
+{"ns": "dsh-market", "key": "presetNameEmpty", "ru": "Введите название пресета"}
+{"ns": "dsh-market", "key": "presetFail", "ru": "Не удалось выполнить операцию с пресетом: "}
+{"ns": "dsh-market", "key": "presetListFail", "ru": "Не удалось загрузить пресеты: "}
+{"ns": "dsh-market", "key": "presetBundleCount", "ru": "Плагинов: {0}"}
+{"ns": "dsh-market", "key": "presetPreview", "ru": "Предпросмотр"}
+{"ns": "dsh-market", "key": "presetPreviewTitle", "ru": "Применение этого пресета:"}
+{"ns": "dsh-market", "key": "presetReorder", "ru": "изменит порядок плагинов: {0}"}
+{"ns": "dsh-market", "key": "presetEnable", "ru": "включит плагинов: {0}"}
+{"ns": "dsh-market", "key": "presetDisable", "ru": "отключит плагинов: {0}"}
+{"ns": "dsh-market", "key": "presetNoop", "ru": "без изменений"}
+{"ns": "dsh-market", "key": "presetPreviewFail", "ru": "Не удалось построить предпросмотр: "}
+{"ns": "dsh-market", "key": "snapSection", "ru": "Снимки и откат"}
+{"ns": "dsh-market", "key": "snapHint", "ru": "Снимки создаются автоматически перед применением изменений; можно создать снимок вручную и откатиться в любой момент."}
+{"ns": "dsh-market", "key": "snapCreate", "ru": "Создать снимок"}
+{"ns": "dsh-market", "key": "snapCreating", "ru": "Создание…"}
+{"ns": "dsh-market", "key": "snapCreated", "ru": "Снимок создан"}
+{"ns": "dsh-market", "key": "snapEmpty", "ru": "Снимков пока нет"}
+{"ns": "dsh-market", "key": "snapListFail", "ru": "Не удалось загрузить снимки: "}
+{"ns": "dsh-market", "key": "snapCreateFail", "ru": "Не удалось создать снимок: "}
+{"ns": "dsh-market", "key": "snapRestore", "ru": "Восстановить"}
+{"ns": "dsh-market", "key": "snapRestoring", "ru": "Восстановление…"}
+{"ns": "dsh-market", "key": "snapRestored", "ru": "Восстановлено — перезапустите, чтобы применить"}
+{"ns": "dsh-market", "key": "snapRestoreFail", "ru": "Не удалось восстановить: "}
+{"ns": "dsh-market", "key": "snapRestoreConfirm", "ru": "Подтвердить восстановление"}
+{"ns": "dsh-market", "key": "snapRestoreConfirmText", "ru": "Восстановление перезапишет текущие плагины и конфигурацию из снимка; отменить это нельзя (если не уверены, сначала создайте новый снимок)."}
+{"ns": "dsh-market", "key": "snapFiles", "ru": "файлы"}
+{"ns": "dsh-market", "key": "snapDelete", "ru": "Удалить"}
+{"ns": "dsh-market", "key": "snapDeleting", "ru": "Удаление…"}
+{"ns": "dsh-market", "key": "snapDeleted", "ru": "Снимок удалён"}
+{"ns": "dsh-market", "key": "snapDeleteFail", "ru": "Не удалось удалить снимок: "}
+{"ns": "dsh-market", "key": "snapDeleteConfirm", "ru": "Подтвердить удаление"}
+{"ns": "dsh-market", "key": "snapDeleteConfirmText", "ru": "После удаления снимок восстановить нельзя."}
+{"ns": "dsh-market", "key": "marketNoToggle", "ru": "Сам магазин отключить нельзя"}
+{"ns": "dsh-market", "key": "hostDependencyWarning", "ru": "Плагин перечисляет пакеты, которые DSH уже предоставляет, поэтому две копии могут конфликтовать (только объявление — не подтверждено):"}
+{"ns": "dsh-market", "key": "hostDependencyMore", "ru": "Ещё скрыто: {0}"}
+{"ns": "dsh-market", "key": "recoveryTitle", "ru": "Запуск не удался — настройте плагины"}
+{"ns": "dsh-market", "key": "recoveryLead", "ru": "Этот перезапуск так и не поднялся, и dsh завершился. Отметьте плагины, которые нужно включить при следующем запуске; те, на кого указал этот запуск, помечены красным и оставлены без отметки."}
+{"ns": "dsh-market", "key": "recoveryOption", "ru": "Настроить плагины"}
+{"ns": "dsh-market", "key": "recoveryBanner", "ru": "Запуск не удался: "}
+{"ns": "dsh-market", "key": "recoveryOpening", "ru": "Чтение сведений об ошибке…"}
+{"ns": "dsh-market", "key": "recoveryNoSummary", "ru": "В журнале не указана причина"}
+{"ns": "dsh-market", "key": "recoveryRawLog", "ru": "Исходный вывод dsh (хвост)"}
+{"ns": "dsh-market", "key": "recoveryBlamedHint", "ru": "Плагины, помеченные красным, сломались при этом запуске; если снять отметку, они будут отключены при следующем запуске."}
+{"ns": "dsh-market", "key": "recoveryNoBlameHint", "ru": "В журнале не назван конкретный плагин; ниже — то, что можно настроить, в текущем виде."}
+{"ns": "dsh-market", "key": "recoveryCarrier", "ru": "отключает другие"}
+{"ns": "dsh-market", "key": "recoveryNotToggleable", "ru": "здесь не переключается"}
+{"ns": "dsh-market", "key": "recoveryUnmatched", "ru": "DSH называет, но здесь не переключается: "}
+{"ns": "dsh-market", "key": "recoveryLogPath", "ru": "Полный журнал: "}
+{"ns": "dsh-market", "key": "recoveryApply", "ru": "Сохранить и перезапустить"}
+{"ns": "dsh-market", "key": "recoveryApplying", "ru": "Сохранение и перезапуск…"}
+{"ns": "dsh-market", "key": "recoveryStandalone", "ru": "Открыть отдельную страницу восстановления"}
+{"ns": "dsh-market", "key": "recoveryRestarting", "ru": "Перезапуск: страница обновится, когда dsh поднимется; если снова не удастся, вернётесь сюда с новой ошибкой."}
+{"ns": "dsh-market", "key": "recoveryApplyFailed", "ru": "Не удалось сохранить: "}
+{"ns": "dsh-market", "key": "recoveryWriteFailed", "ru": "Последний выбор сохранён не полностью, поэтому перезапуск не выполнялся: "}
+{"ns": "dsh-market", "key": "recoveryTimeout", "ru": "Истекло время ожидания запуска DeepSeek Harness. «Настроить плагины» покажет, не мешает ли один из них."}
+{"ns": "dsh-market", "key": "hostRecoveryTitle", "ru": "Конфигурация была заменена"}
+{"ns": "dsh-market", "key": "hostRecoveryBody", "ru": "После последнего неудачного запуска восстановление DSH заменило конфигурацию на стандартную. Прежние настройки ({0}) сохранены в резервной копии."}
+{"ns": "dsh-market", "key": "hostRecoverySource", "ru": "Резервная копия: {0}, {1}"}
+{"ns": "dsh-market", "key": "hostRecoveryRestore", "ru": "Восстановить конфигурацию"}
+{"ns": "dsh-market", "key": "hostRecoveryRestored", "ru": "Восстановлено настроек: {0}. Обновите страницу, чтобы их увидеть."}
+{"ns": "dsh-market", "key": "hostRecoveryFail", "ru": "Не удалось восстановить: "}
+{"ns": "dsh-market", "key": "hostRecoveryNote", "ru": "Сначала создаётся снимок, так что это можно откатить."}

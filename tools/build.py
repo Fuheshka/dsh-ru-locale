@@ -90,6 +90,81 @@ window.__ModuleLoader__.load({{
             `ru-locale: ${{ns}} dictionary`,
           );
         }}
+        // Bridge for plugins that keep their own copy chain instead of reading the
+        // registry (dsh-better-sidebar's `t()` only knows zh/en unless a
+        // `betterLocale` service hands it another language). We publish that
+        // service, so a plugin that registers its dictionaries with us gets its
+        // Russian text served while our locale is active. Every method is a no-op
+        // or `undefined` when we cannot answer, so an unbridged plugin keeps its
+        // own behaviour instead of breaking.
+        const vendorDicts = {{}};
+        const vendorListeners = new Set();
+        const vendorRuActive = () => {{
+          try {{
+            const active = ctx.locale.getSnapshot().active;
+            return typeof active === 'string' && active.toLowerCase().startsWith('ru') ? active : undefined;
+          }} catch (error) {{
+            return undefined;
+          }}
+        }};
+        const vendorNotify = () => {{
+          for (const listener of [...vendorListeners]) {{
+            try {{
+              listener();
+            }} catch (error) {{
+              console.warn('[ru-locale] bridge listener failed:', error);
+            }}
+          }}
+        }};
+        const vendorStore = {{
+          // The Sidebar re-renders on this value, so it must be a plain string and
+          // stable between locale changes.
+          get active() {{
+            return vendorRuActive();
+          }},
+          subscribe(listener) {{
+            if (typeof listener !== 'function') return () => {{}};
+            vendorListeners.add(listener);
+            return () => vendorListeners.delete(listener);
+          }},
+          register(ns, dicts) {{
+            if (typeof ns !== 'string' || dicts === null || typeof dicts !== 'object') return () => {{}};
+            vendorDicts[ns] = dicts;
+            vendorNotify();
+            return () => {{
+              delete vendorDicts[ns];
+              vendorNotify();
+            }};
+          }},
+          // 'ru' is the only language this pack speaks; any other active locale
+          // (zh/en/…) falls through to the plugin's own chain.
+          getOverride(active, ns, key) {{
+            if (typeof active !== 'string' || !active.toLowerCase().startsWith('ru')) return undefined;
+            try {{
+              const own = DICT[ns];
+              if (own !== undefined && typeof own[key] === 'string') return own[key];
+              const vendor = vendorDicts[ns];
+              const ru = vendor && vendor.ru;
+              if (ru !== null && typeof ru === 'object' && typeof ru[key] === 'string') return ru[key];
+            }} catch (error) {{
+              console.warn('[ru-locale] bridge lookup failed:', error);
+            }}
+            return undefined;
+          }},
+          isOverrideActive(active) {{
+            return typeof active === 'string' && active.toLowerCase().startsWith('ru');
+          }},
+        }};
+        try {{
+          if (typeof ctx.provide === 'function') ctx.provide('betterLocale', vendorStore);
+        }} catch (error) {{
+          console.warn('[ru-locale] another plugin already provides betterLocale:', error);
+        }}
+        try {{
+          ctx.effect(() => ctx.locale.subscribe(() => vendorNotify()), 'ru-locale: bridge repaint');
+        }} catch (error) {{
+          console.warn('[ru-locale] could not follow locale changes:', error);
+        }}
         // One-time adoption: a reader already on the shipped Russian dictionary
         // gets the reviewed pack without hunting for a switch. The marker keeps
         // a deliberate choice of the shipped Russian from being overridden again.

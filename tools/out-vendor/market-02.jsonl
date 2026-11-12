@@ -1,0 +1,264 @@
+{"ns": "dsh-market", "key": "hostIncompatibleFoundUpdate", "ru": "Можно обновиться до {version} — там заявлена поддержка этой версии DSH."}
+{"ns": "dsh-market", "key": "hostIncompatibleHeldTarget", "ru": "{version} заявляет поддержку этой версии DSH, но ещё не прошёл срок ожидания релиза: новому релизу нужно отстояться {window} ч, так что осталось около {hours} ч."}
+{"ns": "dsh-market", "key": "hostIncompatibleHeldTargetUnknown", "ru": "{version} заявляет поддержку этой версии DSH, но ещё не прошёл срок ожидания релиза, а эта установка не может определить, сколько осталось."}
+{"ns": "dsh-market", "key": "hostIncompatibleHeldButton", "ru": "Ещё ждать ({hours} ч)"}
+{"ns": "dsh-market", "key": "hostIncompatibleHeldButtonUnknown", "ru": "Ещё ждать"}
+{"ns": "dsh-market", "key": "hostIncompatibleNoCompat", "ru": "Ни одна версия не заявляет поддержку этой версии DSH."}
+{"ns": "dsh-market", "key": "hostIncompatibleSearchFailed", "ru": "Не удалось найти совместимые версии."}
+{"ns": "dsh-market", "key": "hostIncompatibleInstallCompat", "ru": "Установить {version}"}
+{"ns": "dsh-market", "key": "hostIncompatibleUpdateCompat", "ru": "Обновить до {version}"}
+{"ns": "dsh-market", "key": "hostIncompatibleRetry", "ru": "Повторить"}
+{"ns": "dsh-market", "key": "hostIncompatibleKeep", "ru": "Оставить текущую версию"}
+{"ns": "dsh-market", "key": "hostIncompatibleAnyway", "ru": "Обновить всё равно"}
+{"ns": "dsh-market", "key": "hostStatusCompatible", "ru": "Требование к DSH выполнено (заявлено)"}
+{"ns": "dsh-market", "key": "hostStatusIncompatible", "ru": "Подтверждена несовместимость с этой версией DSH"}
+{"ns": "dsh-market", "key": "hostIncompatibleBodyInstall", "ru": "{plugin} заявляет, что ему нужен DSH {requirement}, а у вас запущен {host}. Установка, скорее всего, сломает плагин.\nНичего не установлено.\nЕсли вы знаете, что номер версии неверный (например, встроенный DSH не сообщает версию), можно установить всё равно."}
+{"ns": "dsh-market", "key": "hostIncompatibleCancel", "ru": "Отменить установку"}
+{"ns": "dsh-market", "key": "hostIncompatibleInstallAnyway", "ru": "Установить всё равно"}
+{"ns": "dsh-market", "key": "restoreNameOnlyHint", "ru": "Ваша локальная копия не указывает исходный репозиторий, поэтому магазин смог сопоставить её только по имени пакета. Плагин ниже может быть плагином другого автора с тем же именем, а не источником вашей копии. Проверьте владельца и репозиторий, прежде чем подтверждать. Локальная версия будет удалена, установлен тот плагин, и отменить это нельзя."}
+{"ns": "dsh-market", "key": "restoreContinue", "ru": "Продолжить обновление"}
+{"ns": "dsh-market", "key": "restoreProceed", "ru": "Подтвердить восстановление"}
+{"ns": "dsh-market", "key": "restoreNoCatalogTitle", "ru": "Восстановление невозможно"}
+{"ns": "dsh-market", "key": "restoreNoCatalog", "ru": "Этот плагин не входит в курируемый каталог, поэтому восстановить его нельзя. Удалите локальную копию или продолжайте разработку локально."}
+{"ns": "dsh-market", "key": "restoreNoMatch", "ru": "В каталоге есть плагин с тем же именем, но он не совпадает с вашим локальным репозиторием, поэтому восстановление небезопасно. Удалите локальную копию или продолжайте разработку локально."}
+{"ns": "dsh-market", "key": "restoreFail", "ru": "Не удалось восстановить"}
+{"ns": "dsh-market", "key": "exportLog", "ru": "Экспортировать журнал"}
+{"ns": "dsh-market", "key": "crashTitle", "ru": "Не удалось показать магазин плагинов"}
+{"ns": "dsh-market", "key": "crashHint", "ru": "Не удалось показать магазин. Плагины не затронуты, ничего не изменено.\nОбычно помогает перезагрузка. Если это повторяется, экспортируйте журнал и приложите его к issue — в журнале записано, где произошла ошибка.\nЕсли браузер переводит эту страницу, отключите перевод и перезагрузите. Это известная причина."}
+{"ns": "dsh-market", "key": "crashReload", "ru": "Перезагрузить"}
+{"ns": "dsh-market", "key": "crashDetails", "ru": "Подробности ошибки"}
+{"ns": "dsh-market", "key": "exportingLog", "ru": "Экспорт…"}
+{"ns": "dsh-market", "key": "exportedLog", "ru": "Журнал экспортирован: dsh-market-log.txt — приложите его к issue"}
+{"ns": "dsh-market", "key": "exportLogFail", "ru": "Не удалось экспортировать журнал"}
+{"ns": "dsh-market", "key": "readme", "ru": "README"}
+{"ns": "dsh-market", "key": "comments", "ru": "Комментарии"}
+{"ns": "dsh-market", "key": "commentsTitle", "ru": "Комментарии"}
+{"ns": "dsh-market", "key": "commentsNote", "ru": "Комментарии берутся из GitHub Discussions. При открытии страница подключается к giscus.app и GitHub; для отправки нужен аккаунт GitHub."}
+{"ns": "dsh-market", "key": "commentsLoginHint", "ru": "Вход отсюда уводит со страницы; после него нужно снова открыть dsh web — ничего не сломано. Пишите на GitHub, эта страница только для чтения."}
+{"ns": "dsh-market", "key": "commentsLoading", "ru": "Загрузка комментариев…"}
+{"ns": "dsh-market", "key": "commentsError", "ru": "Не удалось загрузить комментарии. Проверьте соединение и повторите попытку."}
+{"ns": "dsh-market", "key": "commentsRetry", "ru": "Повторить"}
+{"ns": "dsh-market", "key": "commentsOnGitHub", "ru": "Войти и присоединиться на GitHub"}
+{"ns": "dsh-market", "key": "conflictTitle", "ru": "Установка невозможна: конфликт с установленным плагином"}
+{"ns": "dsh-market", "key": "conflictBody", "ru": "Он конфликтует с установленным плагином — остаться может только один:"}
+{"ns": "dsh-market", "key": "conflictReverted", "ru": "Отменено автоматически, ничего не изменено"}
+{"ns": "dsh-market", "key": "conflictKeep", "ru": "Оставить существующие плагины"}
+{"ns": "dsh-market", "key": "conflictKeepNote", "ru": ""}
+{"ns": "dsh-market", "key": "conflictSwap", "ru": "Переключиться на этот"}
+{"ns": "dsh-market", "key": "conflictSwapNote", "ru": "Настройки удалённых плагинов сохраняются, поэтому их можно будет установить снова"}
+{"ns": "dsh-market", "key": "conflictDetails", "ru": "Подробности"}
+{"ns": "dsh-market", "key": "conflictOutcomeInstall", "ru": "установка"}
+{"ns": "dsh-market", "key": "conflictOutcomeSkip", "ru": "пропуск"}
+{"ns": "dsh-market", "key": "conflictOutcomeKeep", "ru": "оставить"}
+{"ns": "dsh-market", "key": "conflictOutcomeRemove", "ru": "удаление"}
+{"ns": "dsh-market", "key": "conflictWhy", "ru": "Cordis не допускает повторяющиеся id записей: если оставить этот плагин, DeepSeek Harness не запустится."}
+{"ns": "dsh-market", "key": "opTitle", "ru": "Задачи"}
+{"ns": "dsh-market", "key": "opInstalling", "ru": "Установка"}
+{"ns": "dsh-market", "key": "opNeedsYou", "ru": "требует внимания"}
+{"ns": "dsh-market", "key": "opQueued", "ru": "В очереди"}
+{"ns": "dsh-market", "key": "opQueuedAhead", "ru": "впереди:"}
+{"ns": "dsh-market", "key": "opQueuedWaitingAgents", "ru": "Ожидание завершения сессий: {0}"}
+{"ns": "dsh-market", "key": "opWaitingAgents", "ru": "Задач в ожидании простоя агентов: {0}"}
+{"ns": "dsh-market", "key": "opRunning", "ru": "Выполняется"}
+{"ns": "dsh-market", "key": "opNeedsChoice", "ru": "Установка невозможна · отменено автоматически, ничего не изменено"}
+{"ns": "dsh-market", "key": "opDone", "ru": "Готово"}
+{"ns": "dsh-market", "key": "opDoneRefresh", "ru": "Установлено · обновите страницу, чтобы применить"}
+{"ns": "dsh-market", "key": "opLeaveHint", "ru": "Страницу можно закрыть: по завершении придёт уведомление"}
+{"ns": "dsh-market", "key": "opLeaveHintAgents", "ru": "Начнётся само, когда агенты освободятся"}
+{"ns": "dsh-market", "key": "opEmpty", "ru": "Нет выполняемых операций"}
+{"ns": "dsh-market", "key": "opEmptyHint", "ru": "Здесь показывается ход установки, обновления и удаления"}
+{"ns": "dsh-market", "key": "opClose", "ru": "Свернуть"}
+{"ns": "dsh-market", "key": "opClear", "ru": "Очистить завершённые"}
+{"ns": "dsh-market", "key": "opDequeue", "ru": "Убрать из очереди"}
+{"ns": "dsh-market", "key": "opRunNow", "ru": "Запустить"}
+{"ns": "dsh-market", "key": "opUpdateNow", "ru": "Обновить"}
+{"ns": "dsh-market", "key": "opUninstallNow", "ru": "Удалить"}
+{"ns": "dsh-market", "key": "agentsRunningConfirm", "ru": "Продолжить всё равно?"}
+{"ns": "dsh-market", "key": "agentsRunningRisk", "ru": "Сессии выполняются. Операция заменяет или удаляет файлы плагинов, поэтому работающие сессии могут упасть посреди хода. Если не хотите рисковать, отмените и дождитесь их завершения."}
+{"ns": "dsh-market", "key": "opRetry", "ru": "Повторить"}
+{"ns": "dsh-market", "key": "opKind_install", "ru": "Установка"}
+{"ns": "dsh-market", "key": "opKind_update", "ru": "Обновление"}
+{"ns": "dsh-market", "key": "opKind_uninstall", "ru": "Удаление"}
+{"ns": "dsh-market", "key": "opBlockedCard", "ru": "Установка невозможна · подробности"}
+{"ns": "dsh-market", "key": "conflictDeclined", "ru": "Вы оставили установленные плагины; этот не установлен"}
+{"ns": "dsh-market", "key": "conflictReplacing", "ru": "Замена…"}
+{"ns": "dsh-market", "key": "conflictReplaceFailed", "ru": "Замена не завершилась. Эти плагины удалены и не восстановлены — установите их снова:"}
+{"ns": "dsh-market", "key": "lightboxClose", "ru": "Закрыть предпросмотр"}
+{"ns": "dsh-market", "key": "lightboxPrev", "ru": "Назад"}
+{"ns": "dsh-market", "key": "lightboxNext", "ru": "Вперёд"}
+{"ns": "dsh-market", "key": "envMissing", "ru": "Перед установкой плагинов нужно настроить pnpm"}
+{"ns": "dsh-market", "key": "envFix", "ru": "Настроить автоматически"}
+{"ns": "dsh-market", "key": "envFixing", "ru": "Настройка…"}
+{"ns": "dsh-market", "key": "envFixFail", "ru": "Автоматическая настройка не удалась. Экспортируйте журнал и приложите его к issue."}
+{"ns": "dsh-market", "key": "loading", "ru": "Загрузка каталога…"}
+{"ns": "dsh-market", "key": "backTop", "ru": "Наверх"}
+{"ns": "dsh-market", "key": "confirm", "ru": "Подтвердить"}
+{"ns": "dsh-market", "key": "confirmInstall", "ru": "Подтвердить установку"}
+{"ns": "dsh-market", "key": "cmdDetails", "ru": "Команда установки"}
+{"ns": "dsh-market", "key": "cmdCopy", "ru": "Копировать команду установки"}
+{"ns": "dsh-market", "key": "cmdDesktopUnavailable", "ru": "Плагины в приложении Desktop устанавливаются самим приложением — используйте кнопку «Установить» выше; `dsh plugin` не принимает этот профиль."}
+{"ns": "dsh-market", "key": "cmdCopied", "ru": "Скопировано"}
+{"ns": "dsh-market", "key": "catsMore", "ru": "Больше категорий"}
+{"ns": "dsh-market", "key": "catsLess", "ru": "Меньше категорий"}
+{"ns": "dsh-market", "key": "filter", "ru": "Фильтр"}
+{"ns": "dsh-market", "key": "filterSort", "ru": "Поле сортировки"}
+{"ns": "dsh-market", "key": "filterDir", "ru": "Порядок"}
+{"ns": "dsh-market", "key": "filterTime", "ru": "Выпущено за"}
+{"ns": "dsh-market", "key": "filterHost", "ru": "Версия DSH"}
+{"ns": "dsh-market", "key": "hostAll", "ru": "Показать все"}
+{"ns": "dsh-market", "key": "hostCompatible", "ru": "Совместимо с текущей версией DSH {0}"}
+{"ns": "dsh-market", "key": "hostDetecting", "ru": "Определение версии DSH…"}
+{"ns": "dsh-market", "key": "hostUnknown", "ru": "Версия DSH неизвестна"}
+{"ns": "dsh-market", "key": "hostFilterLoading", "ru": "Проверка требований к DSH {0}/{1}; плагины без заявленных требований и недоступные остаются видимыми"}
+{"ns": "dsh-market", "key": "hostFilterActive", "ru": "Скрыто несовместимых с DSH {0}: {1}; плагины без указанной версии остаются в списке"}
+{"ns": "dsh-market", "key": "hostRequirement", "ru": "DSH {0}"}
+{"ns": "dsh-market", "key": "hostRequirementLoading", "ru": "Чтение требования к DSH…"}
+{"ns": "dsh-market", "key": "hostRequirementUndeclared", "ru": "Требование к DSH не указано"}
+{"ns": "dsh-market", "key": "hostRequirementUnavailable", "ru": "Требование к DSH неизвестно"}
+{"ns": "dsh-market", "key": "sortDownloads", "ru": "Скачивания в npm (30 дней)"}
+{"ns": "dsh-market", "key": "downloadsPeriod", "ru": "30 дней"}
+{"ns": "dsh-market", "key": "downloadsMeaning", "ru": "За последние 30 дней в npm: {0}"}
+{"ns": "dsh-market", "key": "githubReleaseDownloadsMeaning", "ru": "Скачивания файлов GitHub Release за всё время: {0} (пакеты, контрольные суммы и сопутствующие файлы)"}
+{"ns": "dsh-market", "key": "starsMeaning", "ru": "Звёзды GitHub: {0}"}
+{"ns": "dsh-market", "key": "statisticCheckedAt", "ru": "; проверено {0}"}
+{"ns": "dsh-market", "key": "downloadsWindow", "ru": " ({0} – {1})"}
+{"ns": "dsh-market", "key": "catalogNpmLatest", "ru": "последняя в npm"}
+{"ns": "dsh-market", "key": "catalogVersionDated", "ru": "версия для установки по состоянию на последнее обновление каталога ({0}); релиз, опубликованный после этого, появится при следующем обновлении"}
+{"ns": "dsh-market", "key": "catalogVersionUndated", "ru": "версия для установки по состоянию на последнее обновление каталога — каталог обновляется ежедневно, поэтому новые релизы проекта могут появиться не сразу"}
+{"ns": "dsh-market", "key": "sortStars", "ru": "Звёзды"}
+{"ns": "dsh-market", "key": "sortAdded", "ru": "Дата добавления"}
+{"ns": "dsh-market", "key": "recentlyAdded", "ru": "Недавно добавленные"}
+{"ns": "dsh-market", "key": "recentHide", "ru": "Скрыть этот блок"}
+{"ns": "dsh-market", "key": "recentShow", "ru": "Показать недавно добавленные"}
+{"ns": "dsh-market", "key": "sortDesc", "ru": "По убыванию"}
+{"ns": "dsh-market", "key": "sortAsc", "ru": "По возрастанию"}
+{"ns": "dsh-market", "key": "sortNewest", "ru": "Сначала новые"}
+{"ns": "dsh-market", "key": "sortOldest", "ru": "Сначала старые"}
+{"ns": "dsh-market", "key": "timeAll", "ru": "За всё время"}
+{"ns": "dsh-market", "key": "timeDay", "ru": "За сутки"}
+{"ns": "dsh-market", "key": "timeWeek", "ru": "За 7 дней"}
+{"ns": "dsh-market", "key": "timeMonth", "ru": "За 30 дней"}
+{"ns": "dsh-market", "key": "timeQuarter", "ru": "За 90 дней"}
+{"ns": "dsh-market", "key": "timeYear", "ru": "За год"}
+{"ns": "dsh-market", "key": "published", "ru": "Дата добавления"}
+{"ns": "dsh-market", "key": "prevPage", "ru": "Назад"}
+{"ns": "dsh-market", "key": "nextPage", "ru": "Вперёд"}
+{"ns": "dsh-market", "key": "loadMore", "ru": "Загрузить ещё"}
+{"ns": "dsh-market", "key": "pageInfo", "ru": "Страница {0} из {1}"}
+{"ns": "dsh-market", "key": "perPage", "ru": "На странице"}
+{"ns": "dsh-market", "key": "marketUpdate", "ru": "Обновить магазин плагинов"}
+{"ns": "dsh-market", "key": "updateAll", "ru": "Обновить все"}
+{"ns": "dsh-market", "key": "heldReleaseNotice", "ru": "Установлено, но не самое новое: минимальный возраст релиза в этом профиле задержал {0}, поэтому установлен {1}."}
+{"ns": "dsh-market", "key": "versionUnverifiedNote", "ru": "Установлено, но версию подтвердить не удалось: оба запроса к реестру не прошли, так что {0} — это выбор pnpm. На странице плагина показана версия, которая действительно лежит на диске."}
+{"ns": "dsh-market", "key": "versionUnverifiedNoteUnknown", "ru": "Установлено, но версию подтвердить не удалось: оба запроса к реестру не прошли. На странице плагина показана версия, которая действительно лежит на диске."}
+{"ns": "dsh-market", "key": "installedDependencyNote", "ru": "Пакетов, пришедших как зависимости плагинов: {0} — это не плагины, поэтому выше они не показаны."}
+{"ns": "dsh-market", "key": "heldReleaseAction", "ru": "Установить {0} всё равно"}
+{"ns": "dsh-market", "key": "ignoreUpdateNotice", "ru": "Не напоминать до перезапуска"}
+{"ns": "dsh-market", "key": "openInHostPage", "ru": "Открыть в разделе «Плагины»"}
+{"ns": "dsh-market", "key": "ignoreAllUpdateNotices", "ru": "Не напоминать ни о чём до перезапуска"}
+{"ns": "dsh-market", "key": "updateNoticeIgnored", "ru": "Напоминаний не будет до перезапуска"}
+{"ns": "dsh-market", "key": "updateExemptAdd", "ru": "Не напоминать об обновлениях"}
+{"ns": "dsh-market", "key": "updateExemptRemove", "ru": "Возобновить напоминания об обновлениях"}
+{"ns": "dsh-market", "key": "updateExemptMark", "ru": "Напоминания выключены"}
+{"ns": "dsh-market", "key": "updateExemptRestore", "ru": "Напоминать снова"}
+{"ns": "dsh-market", "key": "updateExemptHint", "ru": "Новые версии остаются в списке. Пропадает только напоминание."}
+{"ns": "dsh-market", "key": "updateExemptOn", "ru": "Напоминания об обновлениях выключены. Новые версии остаются в списке."}
+{"ns": "dsh-market", "key": "updateExemptOff", "ru": "Напоминания об обновлениях снова включены."}
+{"ns": "dsh-market", "key": "updateExemptFailed", "ru": "Не удалось сохранить. Повторите попытку."}
+{"ns": "dsh-market", "key": "updateAvailableShort", "ru": "Новая версия"}
+{"ns": "dsh-market", "key": "copyPath", "ru": "Копировать путь"}
+{"ns": "dsh-market", "key": "pathCopied", "ru": "Скопировано"}
+{"ns": "dsh-market", "key": "tabThemes", "ru": "Темы"}
+{"ns": "dsh-market", "key": "tabBackup", "ru": "Резервные копии"}
+{"ns": "dsh-market", "key": "backupLocal", "ru": "Локальный файл"}
+{"ns": "dsh-market", "key": "backupExportFailed", "ru": "Не удалось экспортировать резервную копию"}
+{"ns": "dsh-market", "key": "backupDownload", "ru": "Экспортировать резервную копию"}
+{"ns": "dsh-market", "key": "backupImport", "ru": "Импортировать и просмотреть"}
+{"ns": "dsh-market", "key": "backupHint", "ru": "Включает список плагинов и конфигурацию профиля, но не файлы плагинов. Восстановление устанавливает их заново по списку."}
+{"ns": "dsh-market", "key": "webdav", "ru": "WebDAV"}
+{"ns": "dsh-market", "key": "webdavPreset", "ru": "Пресет провайдера"}
+{"ns": "dsh-market", "key": "webdavUrl", "ru": "URL файла резервной копии"}
+{"ns": "dsh-market", "key": "webdavUser", "ru": "Имя пользователя (необязательно)"}
+{"ns": "dsh-market", "key": "webdavPassword", "ru": "Пароль (необязательно)"}
+{"ns": "dsh-market", "key": "webdavUpload", "ru": "Загрузить резервную копию"}
+{"ns": "dsh-market", "key": "webdavRestore", "ru": "Восстановить из WebDAV"}
+{"ns": "dsh-market", "key": "autoBackup", "ru": "Копировать ежедневно (при открытии магазина)"}
+{"ns": "dsh-market", "key": "webdavNote", "ru": "URL WebDAV и имя пользователя хранятся только в этом браузере; пароль остаётся на этой странице, и после перезагрузки его нужно ввести снова."}
+{"ns": "dsh-market", "key": "webdavAutoBackupPaused", "ru": "Ежедневное копирование не выполнилось: этому серверу нужен пароль, а пароль не сохраняется, поэтому после перезагрузки его нужно ввести снова. Введите его и нажмите «Загрузить резервную копию»."}
+{"ns": "dsh-market", "key": "webdavPathHint", "ru": "Укажите полный путь к файлу вместе с именем: резервная копия пишется в этот файл, а восстановление читает его. При включённом автоматическом копировании загрузка идёт не чаще раза в день."}
+{"ns": "dsh-market", "key": "localOnly", "ru": "URL WebDAV и имя пользователя хранятся только в этом браузере."}
+{"ns": "dsh-market", "key": "credsWarning", "ru": "Учтите: резервные копии включают конфигурацию профиля и файлы, в которых могут быть секреты (config.toml, .env, …). Локальный экспорт не изменяется, поэтому загружайте его только на WebDAV-сервер, которому доверяете."}
+{"ns": "dsh-market", "key": "gist", "ru": "GitHub Gist"}
+{"ns": "dsh-market", "key": "gistToken", "ru": "Токен GitHub (только в памяти сессии — после обновления введите снова; оставьте пустым, чтобы использовать серверный DSH_GITHUB_TOKEN или авторизованный gh CLI)"}
+{"ns": "dsh-market", "key": "gistId", "ru": "ID или URL Gist (оставьте пустым при экспорте, чтобы создать новый приватный Gist)"}
+{"ns": "dsh-market", "key": "gistVerify", "ru": "Проверить соединение"}
+{"ns": "dsh-market", "key": "gistExport", "ru": "Экспортировать в Gist…"}
+{"ns": "dsh-market", "key": "gistImport", "ru": "Импортировать из Gist"}
+{"ns": "dsh-market", "key": "gistExportDone", "ru": "Экспортировано в Gist"}
+{"ns": "dsh-market", "key": "gistVerifySource", "ru": "Проверено — источник токена: {0}"}
+{"ns": "dsh-market", "key": "gistSrcToken", "ru": "введён вручную"}
+{"ns": "dsh-market", "key": "gistSrcEnv", "ru": "переменная окружения DSH_GITHUB_TOKEN"}
+{"ns": "dsh-market", "key": "gistSrcGh", "ru": "gh CLI"}
+{"ns": "dsh-market", "key": "gistExportSelect", "ru": "Выберите плагины для экспорта"}
+{"ns": "dsh-market", "key": "gistExportHint", "ru": "Все отмечены = полная копия (с конфигурацией); иначе экспортируются только отмеченные плагины плюс «включить конфигурацию», если она отмечена."}
+{"ns": "dsh-market", "key": "gistSelectAll", "ru": "Выбрать все"}
+{"ns": "dsh-market", "key": "gistSelectNone", "ru": "Снять выбор"}
+{"ns": "dsh-market", "key": "gistIncludeConfig", "ru": "Включить файлы конфигурации (могут содержать секреты)"}
+{"ns": "dsh-market", "key": "gistNoPlugins", "ru": "В этом профиле нет плагинов для экспорта"}
+{"ns": "dsh-market", "key": "gistSpecLocal", "ru": "локально"}
+{"ns": "dsh-market", "key": "gistExportGo", "ru": "Экспортировать"}
+{"ns": "dsh-market", "key": "gistCreated", "ru": "Экспортировано:"}
+{"ns": "dsh-market", "key": "gistErrTimeout", "ru": "Истекло время ожидания запроса к GitHub — проверьте сеть и повторите"}
+{"ns": "dsh-market", "key": "gistErrNetwork", "ru": "Не удаётся связаться с GitHub — проверьте сеть или прокси"}
+{"ns": "dsh-market", "key": "gistErrAuth", "ru": "Не удалось пройти аутентификацию в GitHub: токен недействителен или истёк, либо gh CLI не авторизован"}
+{"ns": "dsh-market", "key": "gistErrNotFound", "ru": "Gist не найден — проверьте ID или URL"}
+{"ns": "dsh-market", "key": "gistErrRateLimit", "ru": "Достигнут лимит запросов GitHub или у токена нет области gist"}
+{"ns": "dsh-market", "key": "gistErrInvalid", "ru": "Содержимое Gist некорректно или использует неподдерживаемый формат резервной копии"}
+{"ns": "dsh-market", "key": "gistModeUpdate", "ru": "Обновить Gist из поля"}
+{"ns": "dsh-market", "key": "gistModeCreate", "ru": "Создать новый приватный Gist"}
+{"ns": "dsh-market", "key": "gistErrNoId", "ru": "Для обновления нужен ID Gist — заполните его или переключитесь на «Создать»"}
+{"ns": "dsh-market", "key": "gistNote", "ru": "В отличие от локального экспорта (архив этой машины), Gist служит для синхронизации между машинами: экспортируйте в приватный Gist, затем импортируйте на другом компьютере с тем же аккаунтом, чтобы перенести плагины. Токен хранится только в памяти этой сессии и никогда не записывается в хранилище браузера; авторизованный gh CLI или DSH_GITHUB_TOKEN избавят от его ввода. Gist приватны, до 1 МБ на файл."}
+{"ns": "dsh-market", "key": "backupWorking", "ru": "Выполняется…"}
+{"ns": "dsh-market", "key": "backupDone", "ru": "Резервная копия загружена"}
+{"ns": "dsh-market", "key": "restoreDone", "ru": "Восстановление завершено — перезапустите DeepSeek Harness"}
+{"ns": "dsh-market", "key": "restorePartial", "ru": "Восстановление завершено, но эти плагины не установились:"}
+{"ns": "dsh-market", "key": "restoreUnportable", "ru": "устанавливается из пути на другом компьютере, которого здесь нет — установите заново или укажите локальный путь"}
+{"ns": "dsh-market", "key": "restoreSelfPinned", "ru": "во время восстановления магазин сохраняет свою версию — замена на полпути подменила бы работающий магазин. Обновите его отдельно, когда понадобится более новая версия"}
+{"ns": "dsh-market", "key": "restoreBootError", "ru": "После восстановления запуск всё ещё не удаётся:"}
+{"ns": "dsh-market", "key": "orphanBundle", "ru": "⚠️ Следующий запуск завершится ошибкой: профиль объявляет эти плагины, но они не установлены. Установите их снова или удалите из dsh.profile.bundles в package.json профиля:"}
+{"ns": "dsh-market", "key": "restoreConfirm", "ru": "Восстановление перезапишет конфигурацию этого профиля и установит плагины заново. Продолжить?"}
+{"ns": "dsh-market", "key": "restorePreviewDone", "ru": "Резервная копия импортирована. Проверьте список установленных и запустите восстановление."}
+{"ns": "dsh-market", "key": "restoreMissing", "ru": "Плагинов из этой копии не установлено: {0}"}
+{"ns": "dsh-market", "key": "restoreStart", "ru": "Начать восстановление"}
+{"ns": "dsh-market", "key": "notInstalled", "ru": "Не установлен"}
+{"ns": "dsh-market", "key": "themeApply", "ru": "Применить"}
+{"ns": "dsh-market", "key": "themeActive", "ru": "Активна"}
+{"ns": "dsh-market", "key": "themeDeactivate", "ru": "Отключить"}
+{"ns": "dsh-market", "key": "themeEmpty", "ru": "В каталоге пока нет тем"}
+{"ns": "dsh-market", "key": "themePreview", "ru": "Предпросмотр"}
+{"ns": "dsh-market", "key": "themePreviewLoading", "ru": "Поиск предпросмотра…"}
+{"ns": "dsh-market", "key": "themePreviewMissing", "ru": "Предпросмотр недоступен"}
+{"ns": "dsh-market", "key": "themePreviewCount", "ru": "Предпросмотров: {0}"}
+{"ns": "dsh-market", "key": "themeResultCount", "ru": "Тем: {0}"}
+{"ns": "dsh-market", "key": "themeFullscreen", "ru": "Открыть на весь экран"}
+{"ns": "dsh-market", "key": "themeExitFullscreen", "ru": "Выйти из полноэкранного режима"}
+{"ns": "dsh-market", "key": "progressHint", "ru": "Первая установка скачивает плагин и его зависимости — большие плагины могут занять 1–3 минуты"}
+{"ns": "dsh-market", "key": "progressSlow", "ru": "Дольше обычного. Зависимость, которая скачивается или собирается, может занять несколько минут. Если ждать некогда, отмените и повторите в другой сети"}
+{"ns": "dsh-market", "key": "toastReady", "ru": "установлен и работает"}
+{"ns": "dsh-market", "key": "toastTheme", "ru": "теперь активна. Сменить можно в любой момент: Настройки → Магазин плагинов → Темы"}
+{"ns": "dsh-market", "key": "toastToggledOn", "ru": "теперь включён"}
+{"ns": "dsh-market", "key": "toastToggledOff", "ru": "теперь выключен; он сразу перестал работать"}
+{"ns": "dsh-market", "key": "gotIt", "ru": "Понятно"}
+{"ns": "dsh-market", "key": "stateLive", "ru": "Активен"}
+{"ns": "dsh-market", "key": "stateRestart", "ru": "Установлен — перезапустите для применения"}
+{"ns": "dsh-market", "key": "stateIncompatible", "ru": "Установлен — несовместим с этой версией DSH"}
+{"ns": "dsh-market", "key": "stateInert", "ru": "Установлен, не активен"}
+{"ns": "dsh-market", "key": "stateLibrary", "ru": "Библиотека"}
+{"ns": "dsh-market", "key": "libraryUseHint", "ru": "Общий код для других плагинов. Включать его не нужно."}
+{"ns": "dsh-market", "key": "stateDependencyLibrary", "ru": "Библиотека для {0}"}
+{"ns": "dsh-market", "key": "stateLoadedByProfile", "ru": "Загружен вашей конфигурацией"}
+{"ns": "dsh-market", "key": "stateBroken", "ru": "Установлен, проверка не прошла"}
+{"ns": "dsh-market", "key": "stateFailed", "ru": "Не загрузился при запуске"}
+{"ns": "dsh-market", "key": "stateDisabled", "ru": "Отключён"}
+{"ns": "dsh-market", "key": "phaseResolving", "ru": "Подготовка зависимостей"}
+{"ns": "dsh-market", "key": "phaseDownloading", "ru": "Скачивание"}

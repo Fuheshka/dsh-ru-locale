@@ -1,0 +1,264 @@
+{"ns": "dsh-market", "key": "nav", "en": "Plugin Market", "ru": null, "zh": "插件市场", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setCardDesc", "en": "View the plugin market version and settings.", "ru": null, "zh": "查看插件市场版本与设置。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setSelfUpToDate", "en": "Up to date", "ru": null, "zh": "已是最新版本", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setSelfUpdateReady", "en": "New version available:", "ru": null, "zh": "有新版本", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setSelfUpdateHint", "en": "Updating downloads the new version; it takes effect after a restart.", "ru": null, "zh": "更新会下载新版本，重启后生效。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setSelfUpToDateHint", "en": "", "ru": null, "zh": "", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setSelfHostManagedHint", "en": "This copy was installed by the desktop app; update it from there.", "ru": null, "zh": "这份市场由桌面端安装，新版本请在桌面端更新。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setSelfUpdate", "en": "Update", "ru": null, "zh": "更新", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setSelfUpdatedHint", "en": "Downloaded. Restart DeepSeek Harness for it to take effect — the page will already show the new version.", "ru": null, "zh": "已下载完成。重启 DeepSeek Harness 后新版本才会生效——页面会先显示新版本号。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setSidebar", "en": "Sidebar shortcut", "ru": null, "zh": "侧栏入口", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setSidebarHint", "en": "Shows the market below Plugins in the sidebar.", "ru": null, "zh": "在侧栏「插件」下方显示市场。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setSidebarOnlyDoorHint", "en": "This host has no market page in Settings, so this row is the only way in and stays on.", "ru": null, "zh": "这个宿主没有市场设置页，这一行是唯一的入口，不能关闭。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setAdvanced", "en": "Advanced", "ru": null, "zh": "高级", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setAdvancedHint", "en": "Where the market appears. Keep at least one entry.", "ru": null, "zh": "控制市场在界面中的入口。至少保留一个。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setEntrySection", "en": "Settings entry", "ru": null, "zh": "设置页入口", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setEntrySectionHint", "en": "Shows the market section in Settings.", "ru": null, "zh": "在设置中显示插件市场分区。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setEntryPluginsTab", "en": "Plugins page entry", "ru": null, "zh": "插件页入口", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setEntryPluginsTabHint", "en": "Shows the market tab beside Installed on the Plugins page.", "ru": null, "zh": "在插件页「已安装」旁显示插件市场页签。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setEntryLastDoorHint", "en": "Keep at least one entry; this is the only one left.", "ru": null, "zh": "至少保留一个入口；这是当前唯一可用的入口。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setEntryShow", "en": "Show", "ru": null, "zh": "显示", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setEntryHide", "en": "Hide", "ru": null, "zh": "不显示", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setIndexSource", "en": "Discover index", "ru": null, "zh": "官方 Discover 索引", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setIndexSourceHint", "en": "On dsh 0.2.1 and newer, add https://cdn.jsdelivr.net/npm/dsh-plugin-catalog/index.json under Plugins → Discover → Index sources — the official Discover tab and the plugin_market agent tool then search the same catalog.", "ru": null, "zh": "dsh 0.2.1 起，官方的「插件 → 发现 → 索引源」可以添加 https://cdn.jsdelivr.net/npm/dsh-plugin-catalog/index.json —— 官方发现页和 plugin_market 智能体工具会搜索同一份目录。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setSidebarOn", "en": "Show", "ru": null, "zh": "显示", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setSidebarOff", "en": "Hide", "ru": null, "zh": "不显示", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "sidebarTip", "en": "Want a quicker open? Show it in the sidebar.", "ru": null, "zh": "想更快打开？可在侧栏显示。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "sidebarTipDismiss", "en": "Don't show again", "ru": null, "zh": "不再提示", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setRegion", "en": "Download region", "ru": null, "zh": "下载区域", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setRegionGlobal", "en": "Global", "ru": null, "zh": "全球", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setRegionChina", "en": "China mainland", "ru": null, "zh": "中国大陆", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setRegionGlobalHint", "en": "Downloads directly from npm and GitHub.", "ru": null, "zh": "从 npm 和 GitHub 官方源下载。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setRegionChinaHint", "en": "Faster in mainland China. Changes the download route, not the source.", "ru": null, "zh": "中国大陆访问更快。仅改变下载线路，插件来源不变。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setRegionAuto", "en": "Selected from a network check. Change it anytime.", "ru": null, "zh": "已根据网络状况自动选择，可随时切换。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setGithubProxy", "en": "GitHub acceleration", "ru": null, "zh": "GitHub 加速", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setGithubProxyAutoHint", "en": "Chooses a working route automatically and switches only after a failure.", "ru": null, "zh": "自动选择可用线路，失败时才切换。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setGithubProxyCustom", "en": "Custom", "ru": null, "zh": "自定义", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setGithubProxyCustomHint", "en": "Tries your custom route first, then falls back to GitHub directly.", "ru": null, "zh": "优先使用自定义线路，失败后仍会尝试直连。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setGithubProxyManagedHint", "en": "Managed by DSHM_GITHUB_PROXY and cannot be changed here.", "ru": null, "zh": "由环境变量 DSHM_GITHUB_PROXY 管理，界面中不可修改。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setGithubProxyEdit", "en": "Edit", "ru": null, "zh": "编辑", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setGithubProxyAuto", "en": "Restore automatic", "ru": null, "zh": "恢复自动", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setGithubProxyInput", "en": "HTTPS acceleration prefix", "ru": null, "zh": "HTTPS 加速前缀", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setGithubProxySave", "en": "Save", "ru": null, "zh": "保存", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setBuildEnv", "en": "Build environment", "ru": null, "zh": "构建环境变量", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setBuildEnvHint", "en": "Reaches every process the market runs — installs, builds, git — not just the compiler. One KEY=value per line, e.g. CC=/usr/bin/gcc-11. PATH and CI are managed by the market. Saving an empty list restores the original config.", "ru": null, "zh": "作用于市场启动的每个进程（安装、编译、git 等），不只是编译器。每行一个 KEY=value，例如 CC=/usr/bin/gcc-11；PATH 和 CI 由市场管理。留空保存即恢复原有配置。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setBuildEnvSave", "en": "Save variables", "ru": null, "zh": "保存环境变量", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setChannel", "en": "Update channel", "ru": null, "zh": "更新通道", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setChannelStable", "en": "Stable", "ru": null, "zh": "稳定版", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setChannelBeta", "en": "Beta", "ru": null, "zh": "Beta", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setChannelStableHint", "en": "Released versions only.", "ru": null, "zh": "仅接收正式发布版本。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setChannelBetaHint", "en": "Early access to unverified versions. Affects the plugin market only.", "ru": null, "zh": "提前获取待验证版本，可能不稳定。仅影响插件市场自身。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setChannelDev", "en": "Dev", "ru": null, "zh": "开发版", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setChannelDevHint", "en": "Unverified builds from a development branch. Not recommended for general use.", "ru": null, "zh": "开发分支构建，未经验证，不建议普通用户使用。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setChannelSwitch", "en": "Switch to", "ru": null, "zh": "切换至", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setChannelSwitchHint", "en": "This version is lower than the one installed.", "ru": null, "zh": "该版本低于当前已安装版本。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setSelfRemove", "en": "Uninstall the plugin market", "ru": null, "zh": "卸载插件市场", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setSelfRemoveHint", "en": "Uninstall the market from this profile. Your other plugins are untouched.", "ru": null, "zh": "从这个 profile 卸载市场。已装的其它插件不受影响。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setSelfRemoveRemote", "en": "This page was not opened on the machine running DSH, so the market cannot remove itself from here. Remove it there: Settings → Plugins on the desktop app, or the command line elsewhere.", "ru": null, "zh": "这个页面不是从本机打开的，市场没法从这里卸载自己。请到运行 DSH 的那台机器上移除：桌面端用「设置 → 插件」，其它环境用命令行。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setSelfConfirm", "en": "Uninstall the plugin market? Reinstalling it requires the command line.", "ru": null, "zh": "确定要卸载插件市场吗？卸载后需使用命令行重新安装。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setSelfPurge", "en": "Also clear the market's own data", "ru": null, "zh": "同时清除市场自己的数据", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setSelfPurgeOn", "en": "Will delete: the market's disable list and custom groups, plus the disable entries it wrote into your config file — plugins it switched off will run again. No passwords or tokens are involved; the market never stores those on disk.", "ru": null, "zh": "将删除：市场的停用清单与自定义分组，以及它写进配置文件的停用记录——被停用的插件将恢复运行。不涉及密码或密钥，市场从不把它们存在磁盘上。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setSelfPurgeOff", "en": "Keeps the market's data. Note: plugins the market switched off stay off, and once it is removed there is no UI left to switch them back on.", "ru": null, "zh": "保留市场数据。注意：被市场停用的插件会保持停用，且移除后将没有界面可将其重新启用。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setSelfRemoveConfirm", "en": "Uninstall", "ru": null, "zh": "确认卸载", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setSelfCancel", "en": "Cancel", "ru": null, "zh": "取消", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setSelfWorking", "en": "Uninstalling…", "ru": null, "zh": "正在卸载…", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setSelfRemoved", "en": "Uninstalled", "ru": null, "zh": "已卸载", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setSelfRemovedHint", "en": "Restart DeepSeek Harness to finish cleaning up.", "ru": null, "zh": "重启 DeepSeek Harness 后完全清理。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "setSelfFailed", "en": "The operation failed", "ru": null, "zh": "操作失败", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "versionHint", "en": "Plugin market version — include it when reporting an issue", "ru": null, "zh": "插件市场版本 — 反馈问题时请附上", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "subtitle", "en": "Discover community plugins for DeepSeek Harness", "ru": null, "zh": "发现社区为 DeepSeek Harness 开发的插件", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "submitPlugin", "en": "Submit a plugin ↗", "ru": null, "zh": "申请收录插件 ↗", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "descExpand", "en": "Show more", "ru": null, "zh": "展开", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "descCollapse", "en": "Show less", "ru": null, "zh": "收起", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "descMore", "en": "Show all", "ru": null, "zh": "展开全部", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "searchPh", "en": "Search plugins: notify, terminal, memory…", "ru": null, "zh": "搜索插件，例如：通知、终端、记忆…", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "searchFavoritesPh", "en": "Search favorites…", "ru": null, "zh": "搜索收藏…", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "clearSearch", "en": "Clear search", "ru": null, "zh": "清除搜索", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capabilityTitle", "en": "What it does", "ru": null, "zh": "它会做什么", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capabilityAhead", "en": "After you install, it can", "ru": null, "zh": "安装后它可以", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capabilityCount", "en": "{0} found", "ru": null, "zh": "{0} 项", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capabilityCountUncommon", "en": "{0} found, {1} less common among scanned plugins", "ru": null, "zh": "{0} 项，{1} 项在已扫描插件里较少出现", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capabilityUncommonLegend", "en": "Filled items are less common among scanned plugins", "ru": null, "zh": "实心的项在已扫描的插件里较少出现", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capGroupFiles", "en": "Files & env", "ru": null, "zh": "文件与环境", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capGroupNetwork", "en": "Network", "ru": null, "zh": "网络", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capGroupRun", "en": "Runs code", "ru": null, "zh": "执行", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capGroupKeys", "en": "Keys", "ru": null, "zh": "密钥", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capGroupHost", "en": "DSH internals", "ru": null, "zh": "DSH 内部", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capGroupOther", "en": "Other", "ru": null, "zh": "其他", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capShell", "en": "runs commands", "ru": null, "zh": "能运行命令", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capFsRead", "en": "reads files on this machine", "ru": null, "zh": "会读取本机文件", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capFsWrite", "en": "writes files on this machine", "ru": null, "zh": "会写入本机文件", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capNetwork", "en": "connects to servers", "ru": null, "zh": "会联网", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capCredentials", "en": "uses your API keys", "ru": null, "zh": "会用你的密钥", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capEnv", "en": "reads your environment variables", "ru": null, "zh": "会读你的环境变量", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capLlm", "en": "calls an AI model", "ru": null, "zh": "会调用 AI 模型", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capSubagent", "en": "runs its own subagents", "ru": null, "zh": "会自己开任务干活", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capDynamicCode", "en": "runs code it assembles at runtime", "ru": null, "zh": "会在运行时执行拼出来的代码", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capHostRuntime", "en": "uses DSH host-internal packages", "ru": null, "zh": "用到 DSH 宿主内部的包", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capInstallScript", "en": "runs code when you install", "ru": null, "zh": "安装时就会运行代码", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capabilityNone", "en": "Nothing found — which is not the same as safe.", "ru": null, "zh": "没有扫描到。这不等于安全。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capabilityUnchecked", "en": "Not scanned yet", "ru": null, "zh": "还没有扫描结果", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capabilityNote", "en": "A static scan only shows what it found. “Nothing found” is not “safe”.", "ru": null, "zh": "静态扫描只能证明「有」，不能证明「没有」。这不代表它安全。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capabilityScannedAt", "en": "Scanned {0}", "ru": null, "zh": "扫描于 {0}", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capRedCredentialsNetwork", "en": "connects to servers and uses your API keys", "ru": null, "zh": "会联网，并用到你的密钥", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capRedPlaintextHttp", "en": "makes an unencrypted connection to {0}", "ru": null, "zh": "有连接没有加密（{0}）", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capRedLiteralIp", "en": "connects to the fixed IP address {0}", "ru": null, "zh": "会直接连接固定 IP 地址（{0}）", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capRedInstallScript", "en": "runs its own script the moment you install — you do not have to open the plugin", "ru": null, "zh": "安装时会立刻运行它自带的脚本，不需要你打开插件", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capRedInstallScriptScripts", "en": "runs {0} the moment you install — you do not have to open the plugin", "ru": null, "zh": "安装时会立刻运行 {0}，不需要你打开插件", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capRedCoreTamper", "en": "replaces parts of DSH itself", "ru": null, "zh": "会改动 DSH 自带的组件", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capRedCoreTamperDetail", "en": "replaces parts of DSH itself ({0})", "ru": null, "zh": "会改动 DSH 自带的组件（{0}）", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capRedCoreOverride", "en": "overrides a part of DSH itself ({0})", "ru": null, "zh": "会覆盖 DSH 自带的组件（{0}）", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "capRedCoreDisable", "en": "disables a part of DSH itself ({0})", "ru": null, "zh": "会禁用 DSH 自带的组件（{0}）", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "favoriteAdd", "en": "Add to favorites", "ru": null, "zh": "加入收藏", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "favoriteRemove", "en": "Remove from favorites", "ru": null, "zh": "取消收藏", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "favoritesEmpty", "en": "No favorites yet. Use the bookmark icon in Discover or Themes, or “Add to favorites” in an installed row’s “···” menu.", "ru": null, "zh": "还没有收藏。在「发现」或「主题」里点书签图标，或在「已安装」的「···」里加入收藏。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "favoritesResultCount", "en": "{0} favorites", "ru": null, "zh": "共 {0} 个收藏", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "favoritesPluginsSection", "en": "Plugins ({0})", "ru": null, "zh": "插件（{0}）", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "favoritesThemesSection", "en": "Themes ({0})", "ru": null, "zh": "主题（{0}）", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "favoritesStaleEmpty", "en": "Bookmarked entries are no longer in the catalog.", "ru": null, "zh": "收藏的条目已不在目录中。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "favoritesStaleNote", "en": "{0} favorites are no longer in the catalog", "ru": null, "zh": "{0} 个收藏已不在目录中", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "favoritesClearStale", "en": "Remove stale favorites", "ru": null, "zh": "清除失效收藏", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "favoritesClearingStale", "en": "Removing…", "ru": null, "zh": "清除中…", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "blockAdd", "en": "Hide", "ru": null, "zh": "屏蔽", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "blockRemove", "en": "Show again", "ru": null, "zh": "取消屏蔽", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "blockMoved", "en": "Removed from Discover. Undo it in Hidden, the tab after Installed.", "ru": null, "zh": "已从发现页移出。在「已安装」后面的「已屏蔽」里可以取消。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "blockedTabHint", "en": "These stay off Discover, and Update all skips them.", "ru": null, "zh": "这些插件不在发现页显示，全部更新也会跳过。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "blockedFilteredEmpty", "en": "Matching plugins are on the Hidden tab.", "ru": null, "zh": "匹配的插件在「已屏蔽」标签里。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "blockedEmpty", "en": "No hidden plugins yet.", "ru": null, "zh": "还没有屏蔽任何插件。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "blockFailed", "en": "Could not update the hidden list. Try again.", "ru": null, "zh": "无法更新屏蔽列表，请重试。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "tabDiscover", "en": "Discover", "ru": null, "zh": "发现", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "tabFavorites", "en": "Favorites", "ru": null, "zh": "收藏", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "tabInstalled", "en": "Installed", "ru": null, "zh": "已安装", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "tabBlocked", "en": "Hidden", "ru": null, "zh": "已屏蔽", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "tabAdvanced", "en": "Advanced", "ru": null, "zh": "高级", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "all", "en": "All", "ru": null, "zh": "全部", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "install", "en": "Install", "ru": null, "zh": "安装", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "installing", "en": "Installing…", "ru": null, "zh": "安装中…", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "installedBadge", "en": "✓ Installed", "ru": null, "zh": "✓ 已安装", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "alreadyInstalled", "en": "✓ Installed", "ru": null, "zh": "✓ 已安装", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "restartBanner", "en": "change(s) pending restart — restart DeepSeek Harness to apply", "ru": null, "zh": "项变更需重启 DeepSeek Harness 后生效", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "uninstall", "en": "Uninstall", "ru": null, "zh": "卸载", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "confirmRemove", "en": "Uninstall?", "ru": null, "zh": "确认卸载？", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "uninstalling", "en": "Uninstalling…", "ru": null, "zh": "卸载中…", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "uninstallConfirmDesc", "en": "This removes the plugin from the current profile.", "ru": null, "zh": "将从当前 profile 中移除该插件。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "uninstallLibraryConfirmDesc", "en": "Removing this library may stop plugins that use it from starting.", "ru": null, "zh": "删除这个依赖库后，使用它的插件可能无法启动。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "restartHint", "en": "To restart: stop the current dsh process and run it again (e.g. dsh web)", "ru": null, "zh": "重启方式：关闭当前 dsh 进程后重新运行（例如 dsh web）", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "restartHintSupervised", "en": "This process is {0}'s own service process, so restarts belong to it — restarting from here would kill the takeover process along with the cgroup and the service would not come back. Use systemctl restart &lt;your unit&gt;. If your unit can survive a self-restart (KillMode=process), turn Allow restart on in this plugin's configuration.", "ru": null, "zh": "本进程是 {0} 服务的主进程，重启交给它负责——市场自己重启会连带杀掉 cgroup 里的接管进程，服务将起不来。请执行 systemctl restart <你的 unit>。确认你的配置能承受市场自行重启（如 KillMode=process），可在本插件配置里手动打开「允许重启」。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "restartHintDebugged", "en": "This dsh process is under a debugger. Stop it from your IDE or terminal and start it again — the market cannot stop the debugged process from the UI.", "ru": null, "zh": "当前 dsh 进程正被调试器连接。请从 IDE 或终端停止该进程后重新启动，市场不能从界面里结束正在调试的 dsh。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "restartHintViaProxy", "en": "You are reaching dsh through a proxy or gateway, and for safety restart only accepts a direct local connection. Restart it on the machine running dsh, for example with docker restart or kubectl rollout restart.", "ru": null, "zh": "你是通过代理或网关访问的，出于安全，重启只接受本机直连。请在运行 dsh 的机器上重启它，例如 docker restart 或 kubectl rollout restart。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "confirmTitle", "en": "Install", "ru": null, "zh": "安装", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "confirmWarn", "en": "Community third-party plugin. Build scripts do not run by default.", "ru": null, "zh": "社区第三方插件，构建脚本默认不运行。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "installCaution", "en": "Before you install", "ru": null, "zh": "安装前请注意", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "terminalCautionTitle", "en": "May not work in the web app", "ru": null, "zh": "可能不适用于网页版", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "terminalCautionBody", "en": "This is a terminal plugin. It may not work in the web version.", "ru": null, "zh": "这是终端插件，网页版里可能用不了。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "terminalCautionStartup", "en": "It can stop DeepSeek Harness from starting.", "ru": null, "zh": "也可能让 DeepSeek Harness 起不来。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "terminalCautionLink", "en": "Read its instructions first ↗", "ru": null, "zh": "先看使用说明 ↗", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "cancel", "en": "Cancel", "ru": null, "zh": "取消", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "empty", "en": "No plugins match", "ru": null, "zh": "没有匹配的插件", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "clearFilters", "en": "Clear filters", "ru": null, "zh": "清除筛选", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "installedEmpty", "en": "No community plugins yet — browse the Discover tab", "ru": null, "zh": "尚未安装社区插件，可前往「发现」页浏览", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "marketGoneTitle", "en": "The plugin market stopped running", "ru": null, "zh": "插件市场已停止运行", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "marketGoneBody", "en": "DSH unloaded the market while reloading plugins. Restart DSH to bring it back. The last operation may already have finished.", "ru": null, "zh": "DSH 重新加载插件时把市场一起卸载了。重启 DSH 即可恢复；刚才的操作可能已经完成。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "marketGoneRecord", "en": "DSH unloaded the market, so this operation got no result. Once the market is back, check Installed.", "ru": null, "zh": "市场被 DSH 卸载了，这次操作没有等到结果。市场恢复后，到「已安装」里确认。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "marketGoneReconnecting", "en": "Reconnecting…", "ru": null, "zh": "正在重新连接…", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "marketGoneReconnect", "en": "Reconnect", "ru": null, "zh": "重新连接", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "loadFail", "en": "The plugin catalog failed to load. Try again later.", "ru": null, "zh": "插件目录加载失败，请稍后重试", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "loadRetry", "en": "Retry", "ru": null, "zh": "重试", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "installFail", "en": "Install failed", "ru": null, "zh": "安装失败", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "viewSource", "en": "Source", "ru": null, "zh": "源码", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "refreshBanner", "en": "change(s) applied — refresh the page to see them", "ru": null, "zh": "项变更，刷新后生效", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "refresh", "en": "Refresh", "ru": null, "zh": "刷新页面", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "update", "en": "Update", "ru": null, "zh": "更新", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "updating", "en": "Updating…", "ru": null, "zh": "更新中…", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "updated", "en": "✓ Updated — restart to apply", "ru": null, "zh": "✓ 已更新，重启后生效", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "cancelOp", "en": "Cancel", "ru": null, "zh": "取消", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "cancelled", "en": "Cancelled", "ru": null, "zh": "已取消", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "busyWait", "en": "Another install, update or uninstall is still running — wait for it to finish, then try again.", "ru": null, "zh": "另一个安装、更新或卸载还在进行，请等它完成后再试", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "agentBusyUpdate", "en": "An agent is currently working — wait for it to finish (or cancel it) before updating. Updates replace plugin files in place, so a working agent can fail or mix versions mid-turn.", "ru": null, "zh": "有 Agent 正在运行，请等它完成或先取消，再更新——更新会直接替换插件文件，运行中的 Agent 可能中途报错或新旧版本混用。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "agentBusyInstall", "en": "An agent is currently working — wait for it to finish (or cancel it) before installing. Installing changes plugin files, so a working agent can fail mid-turn.", "ru": null, "zh": "有 Agent 正在运行，请等它完成或先取消，再安装——安装会改动插件文件，运行中的 Agent 可能中途报错。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "agentBusyQueued", "en": "Agent is busy — queued and will install automatically when idle (cancel it in Tasks, top right).", "ru": null, "zh": "Agent 正忙，已排队，空闲后自动安装（可在右上角「任务」里取消）。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "agentBusyUpdateQueued", "en": "Agent is busy — queued and will update automatically when idle (cancel it in Tasks, top right).", "ru": null, "zh": "Agent 正忙，已排队，空闲后自动更新（可在右上角「任务」里取消）。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "agentBusyUninstallQueued", "en": "Agent is busy — queued and will uninstall automatically when idle (cancel it in Tasks, top right).", "ru": null, "zh": "Agent 正忙，已排队，空闲后自动卸载（可在右上角「任务」里取消）。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "queuedRunBlocked", "en": "{0} session(s) are running, so this cannot start yet: these operations replace plugin files in place, and a working agent can fail mid-turn. It will begin on its own once they go idle (or cancel this entry in Tasks).", "ru": null, "zh": "有 {0} 个会话正在运行，现在还不能执行：这类操作会直接替换插件文件，运行中的 Agent 可能中途报错。它们空闲后会自动开始（也可以先在「任务」里取消这一条）。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "queuedRunBusy", "en": "Another install, update or uninstall is still running, so this cannot start yet: it stays queued and begins on its own when that one finishes — no need to press again.", "ru": null, "zh": "另一个安装、更新或卸载还在进行，现在还不能开始：这一条留在队列里，等它完成后会自动开始，不需要再点一次。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "queuedInstallGone", "en": "The plugin this entry was going to install is no longer in the catalog (it was refreshed or you changed pages), so the entry was removed. Find it in the catalog and install it again.", "ru": null, "zh": "这一条要装的插件在当前目录里找不到了（目录刷新过或换了页），已从队列移除。请在目录里重新找到它再装一次。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "agentQueueStaleGone", "en": "It was installed when you queued this, and is not now — skipped, nothing was uninstalled.", "ru": null, "zh": "排队时它还在已安装列表里，现在已不在，因此跳过（没有卸载）。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "agentQueueStaleNoUpdate", "en": "It had an update available when you queued this, and does not now — skipped.", "ru": null, "zh": "排队时它有可用更新，现在没有了，已跳过。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "queuedBadge", "en": "Queued", "ru": null, "zh": "排队中", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "agentDrainBadge", "en": "Waiting for Agents", "ru": null, "zh": "等待 Agent", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "agentDrainWaiting", "en": "Waiting for {0} Agent(s) to reach a safe point…", "ru": null, "zh": "等待 {0} 个 Agent 到达安全点…", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "agentDrainShowAgents", "en": "Show running sessions", "ru": null, "zh": "查看正在运行的会话", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "agentDrainVerifying", "en": "Verifying the result…", "ru": null, "zh": "正在验证结果…", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "agentDrainCancelled", "en": "Cancelled.", "ru": null, "zh": "已取消。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "agentDrainRestarted", "en": "The host restarted before this finished, so the task was cancelled. Start it again if you still need it.", "ru": null, "zh": "宿主在这次操作完成前重启了，它已取消。需要的话请重新发起。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "agentDrainHistoryDone", "en": "The last deferred operation completed.", "ru": null, "zh": "上次排队的操作已完成。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "agentDrainHistoryFailed", "en": "The last deferred operation failed ({0}). Check Installed or the exported log.", "ru": null, "zh": "上次排队的操作失败了（{0}）。请检查「已安装」或导出的日志。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "agentDrainHistoryFailedShort", "en": "The last deferred operation failed. Check Installed or the exported log.", "ru": null, "zh": "上次排队的操作失败了。请检查「已安装」或导出的日志。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "agentDrainHistoryCancelled", "en": "The last deferred operation was cancelled.", "ru": null, "zh": "上次排队的操作已取消。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "favoriteFailed", "en": "Could not update favorites. Try again.", "ru": null, "zh": "收藏失败，请稍后重试", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "favoriteUnavailable", "en": "Favorites are unavailable. Refresh the page or restart dsh web.", "ru": null, "zh": "收藏功能暂不可用。请刷新页面或重启 dsh web。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "favoriteBusy", "en": "A plugin operation is still running. Favorites were not saved — try again shortly.", "ru": null, "zh": "插件操作未结束，收藏未保存，请稍后重试", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "compatRiskBanner", "en": "Compatibility risk detected — open Diagnostics before restarting, or roll this operation back.", "ru": null, "zh": "检测到兼容性风险，建议重启前到诊断页处理，或回滚本次操作。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "compatRiskBannerNoRollback", "en": "Compatibility risk detected — open Diagnostics before restarting.", "ru": null, "zh": "检测到兼容性风险，建议重启前到诊断页处理。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "shadowNameBanner", "en": "One plugin name is now defined in two places (informational only, not a conflict):", "ru": null, "zh": "此操作后，同一个插件名出现在两处（仅供参考，不算冲突）：", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "brokenBundleBanner", "en": "These plugins have damaged UI files. The page may be blank after a refresh; rolling back is recommended:", "ru": null, "zh": "下列插件的界面文件已损坏，刷新后页面可能空白，建议回滚：", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "goDiagnose", "en": "Open Diagnostics", "ru": null, "zh": "查看诊断", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "rollbackNow", "en": "Roll back", "ru": null, "zh": "回滚", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "rollingBack", "en": "Rolling back…", "ru": null, "zh": "回滚中…", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "rollbackUnavailable", "en": "Automatic rollback is unavailable because the previous exact source could not be verified.", "ru": null, "zh": "无法确认更新前的准确来源，自动回滚不可用。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "approveBuilds", "en": "Allow build scripts and retry", "ru": null, "zh": "允许构建脚本并重试", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "buildsSkipped", "en": "This plugin needs its build scripts to run; they are blocked by default for safety. If you trust the source, allow them and reinstall:", "ru": null, "zh": "该插件需要运行构建脚本才能工作，出于安全考虑已默认阻止。确认来源可信后，可放行并重新安装：", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "restartNow", "en": "Restart now", "ru": null, "zh": "立即重启", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "dismiss", "en": "Dismiss", "ru": null, "zh": "关闭提示", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "dismissNotice", "en": "Dismiss this notice", "ru": null, "zh": "关闭此提示", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "restarting", "en": "Restarting…", "ru": null, "zh": "正在重启…", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "restartFail", "en": "Restart failed", "ru": null, "zh": "重启失败", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "restartTimeout", "en": "Timed out waiting for DeepSeek Harness to start", "ru": null, "zh": "等待 DeepSeek Harness 启动超时", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "updateNow", "en": "Update now", "ru": null, "zh": "立即更新", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "updateFail", "en": "Update failed", "ru": null, "zh": "更新失败", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "upToDate", "en": "Up to date", "ru": null, "zh": "已是最新", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "updateHeldTag", "en": "new version waiting", "ru": null, "zh": "新版等待中", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "updateHeldTarget", "en": "Latest {0} was just released; about {1} hours to wait. Update to {2} for now.", "ru": null, "zh": "最新版 {0} 刚发布，还要约 {1} 小时。先更新到 {2}。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "updateHeldTargetUnknown", "en": "The release time of latest {0} is unknown, so it still needs to wait. Update to {2} for now.", "ru": null, "zh": "最新版 {0} 的发布时间暂不确定，还需等待。先更新到 {2}。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "updateHeldHint", "en": "This profile waits a while before it installs a fresh release; about {1} hour(s) left.", "ru": null, "zh": "这个 profile 要求新版本发布满一段时间才允许安装，大约还要 {1} 小时。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "updateHeldEstimatedHint", "en": "The new version is listed, but the registry mirror has not caught up with its metadata, so the update is held; the market checks again in about {1} minute(s).", "ru": null, "zh": "新版本已经出现在 /latest，但镜像的完整信息还没同步，所以先不提供更新；大约 {1} 分钟后会重新检查。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "newerPrereleaseAvailable", "en": "prerelease {0} published", "ru": null, "zh": "预发布版 {0} 已发布", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "newerPrereleaseHint", "en": "The package's latest tag has no update; the prerelease line you are on published a newer build.", "ru": null, "zh": "npm 上的 latest 没有更新；你在跟的这条预发布线发布了更新的版本。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "unreleasedCommits", "en": "New commits (unreleased) {0}", "ru": null, "zh": "有新提交（未发版）{0}", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "unreleasedCommitsHint", "en": "The selected branch has commits newer than your install, but no new version was published; the market installs releases only and will not apply them automatically.", "ru": null, "zh": "所选分支上有比你已装版本更新的提交，但没有发布新版本号；市场只安装正式版本，不会自动装这些提交。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "linkedDev", "en": "local", "ru": null, "zh": "本地开发", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "hostUpdateReady", "en": "New version {0}", "ru": null, "zh": "有新版本 {0}", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "hostUpdateHint", "en": "Installed and updated by the desktop app; update it there.", "ru": null, "zh": "本市场由桌面端安装和更新，新版本请在桌面端更新", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "notesLink", "en": "What changed", "ru": null, "zh": "更新内容", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "notesRelease", "en": "Release notes", "ru": null, "zh": "版本说明", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "notesCommits", "en": "Commits", "ru": null, "zh": "提交记录", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "notesCommitsRecent", "en": "Recent commits (do not match your installed version — for reference only)", "ru": null, "zh": "最近提交（无法对应你当前安装的版本，仅供参考）", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "notesNpm", "en": "Version publish times", "ru": null, "zh": "版本发布时间", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "notesNone", "en": "This plugin does not publish update notes.", "ru": null, "zh": "该插件未提供更新说明。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "notesSource", "en": "The market doesn't have update notes for this plugin yet.", "ru": null, "zh": "市场还没收录这个插件的更新说明。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "notesSourceUnreadable", "en": "This plugin was not installed from GitHub, so the market cannot read its change history.", "ru": null, "zh": "这个插件不是从 GitHub 装的，市场读不到它的改动记录。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "notesSourceLink", "en": "See what changed in the repository", "ru": null, "zh": "去仓库看改了什么", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "notesSourceNoLink", "en": "You can ask the plugin author what changed.", "ru": null, "zh": "可以问问插件作者改了什么。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "notesLoadFail", "en": "Update notes are unavailable right now — try again later.", "ru": null, "zh": "暂时读不到更新说明，稍后再试。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "migrateNpm", "en": "Use npm version", "ru": null, "zh": "换用 npm 版本", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "migrateTitle", "en": "Use npm version?", "ru": null, "zh": "换用 npm 版本？", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "migrateDescription", "en": "This changes the plugin's install source rather than its version.", "ru": null, "zh": "这会更改插件的安装来源，而不是普通版本更新。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "migrateCurrentSource", "en": "Current source", "ru": null, "zh": "当前来源", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "migrateTargetSource", "en": "New npm source", "ru": null, "zh": "新的 npm 来源", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "migrateWarning", "en": "The npm package may be published by someone else and not be the same plugin. Continue only if you trust it.", "ru": null, "zh": "该 npm 包可能由其他人发布，并非同一插件；确认可信后再继续。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "migrateContinue", "en": "Confirm switch", "ru": null, "zh": "确认换用", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "migrateFail", "en": "Source switch failed", "ru": null, "zh": "换用来源失败", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "renameRowAction", "en": "Migrate to new name", "ru": null, "zh": "迁移到新名字", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "renameTitle", "en": "Migrate to the new name and update?", "ru": null, "zh": "迁移到新名字并更新？", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "renameDescription", "en": "This plugin has a new npm package name, and the old one no longer gets new versions. Migrating moves the install to the new name; switches, groups and notes stay.", "ru": null, "zh": "这个插件换了 npm 包名，旧名字不再发新版本。迁移会把安装换成新名字，开关、分组和备注都保留。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "renameCurrentPackage", "en": "Current package", "ru": null, "zh": "现在的包", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "renameTargetPackage", "en": "New package", "ru": null, "zh": "新的包", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "renameWarning", "en": "Data the plugin saved itself (personas, habits, bindings) is not part of the market; migrating leaves it alone.", "ru": null, "zh": "插件自己保存的数据（人格、习惯、绑定）不归市场管，迁移不会动它们。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "renameContinue", "en": "Migrate and update", "ru": null, "zh": "迁移并更新", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "restoreOnline", "en": "Use online version", "ru": null, "zh": "换用线上版本", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "restoreHint", "en": "This uninstalls the local version and installs the online version. Update checks continue as usual. This cannot be undone.", "ru": null, "zh": "将卸载本地版本并安装线上版本，之后照常检查更新。此操作无法撤销。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "hostIncompatibleTitle", "en": "This release needs a newer DSH", "ru": null, "zh": "这个新版本要求更新的 DSH", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "hostIncompatibleBody", "en": "{plugin} declares that it needs DSH {requirement}, and you are running {host}. Installing it would most likely break the plugin, leaving a manual downgrade as the only way back.\nNothing was changed — the plugin is still on its current version.\nIf you know the version number is wrong (a bundled DSH that does not report one, for example), you can update anyway.", "ru": null, "zh": "{plugin} 声明需要 DSH {requirement}，而你现在运行的是 {host}。装上去很可能用不了，只能手动装回旧版。\n已停止，插件仍是原来的版本。\n如果你确定这个版本号不准（例如桌面端自带的 DSH 不报告版本），仍可继续更新。", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "hostIncompatibleUnknown", "en": "an unknown version", "ru": null, "zh": "未知版本", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "hostIncompatibleSearching", "en": "Looking for a version that still supports this DSH…", "ru": null, "zh": "正在查找还兼容当前 DSH 的版本…", "source": "dshmarket"}
+{"ns": "dsh-market", "key": "hostIncompatibleFoundInstall", "en": "You can install {version} — it declares support for this DSH.", "ru": null, "zh": "可以装 {version}：它声明兼容当前 DSH。", "source": "dshmarket"}
