@@ -1,0 +1,250 @@
+{"ns": "settings.models", "key": "nav", "ru": "Модели"}
+{"ns": "settings.models", "key": "deepSeekAccount", "ru": "Аккаунт DeepSeek"}
+{"ns": "settings.models", "key": "title", "ru": "Модели"}
+{"ns": "settings.models", "key": "intro", "ru": "Введите ключи API, чтобы использовать модели перечисленных провайдеров."}
+{"ns": "settings.models", "key": "edit", "ru": "Редактировать"}
+{"ns": "settings.models", "key": "editProvider", "ru": "Редактировать {provider}"}
+{"ns": "settings.models", "key": "remove", "ru": "Удалить"}
+{"ns": "settings.models", "key": "removeProvider", "ru": "Удалить {provider}"}
+{"ns": "settings.models", "key": "deleteTitle", "ru": "Удалить {provider}?"}
+{"ns": "settings.models", "key": "deleteDescription", "ru": "Вместе с {provider} удаляется его конфигурация. Учётные данные, которые он использует, управляются в другом месте и сохранятся."}
+{"ns": "settings.models", "key": "deleteDescriptionWithCredential", "ru": "Вместе с {provider} удаляются его конфигурация и сохранённый ключ API."}
+{"ns": "settings.models", "key": "deleteConfirm", "ru": "Удалить {provider}"}
+{"ns": "settings.models", "key": "deleting", "ru": "Удаление {provider}…"}
+{"ns": "settings.models", "key": "add", "ru": "Добавить провайдера моделей"}
+{"ns": "settings.models", "key": "addMode", "ru": "Как добавить"}
+{"ns": "settings.models", "key": "addCatalog", "ru": "Сторонний провайдер моделей"}
+{"ns": "settings.models", "key": "addCustom", "ru": "Свой API модели"}
+{"ns": "settings.models", "key": "addCatalogHint", "ru": "Выберите OpenAI, Anthropic, Kimi или другого провайдера из встроенного каталога и введите его ключ API."}
+{"ns": "settings.models", "key": "addCustomHint", "ru": "Подключите шлюз, свой сервер или другую конечную точку, совместимую с OpenAI или Anthropic: укажите базовый URL, протокол и модели."}
+{"ns": "settings.models", "key": "addCatalogExhausted", "ru": "Все провайдеры из каталога уже настроены."}
+{"ns": "settings.models", "key": "addCustomUnavailable", "ru": "Нет доступного протокола API."}
+{"ns": "settings.models", "key": "provider", "ru": "Провайдер"}
+{"ns": "settings.models", "key": "close", "ru": "Закрыть"}
+{"ns": "settings.models", "key": "cancel", "ru": "Отмена"}
+{"ns": "settings.models", "key": "apply", "ru": "Применить"}
+{"ns": "settings.models", "key": "applying", "ru": "Применение…"}
+{"ns": "settings.models", "key": "savedProvider", "ru": "Сохранено: {provider}."}
+{"ns": "settings.models", "key": "credentialConfigured", "ru": "Ключ API настроен"}
+{"ns": "settings.models", "key": "credentialMissing", "ru": "Ключ API отсутствует"}
+{"ns": "settings.models", "key": "accountSignedIn", "ru": "Вход выполнен"}
+{"ns": "settings.models", "key": "readOnly", "ru": "В этой установке документ настроек доступен только для чтения."}
+{"ns": "settings.models", "key": "loadFailed", "ru": "Не удалось загрузить каталог провайдеров"}
+{"ns": "settings.models", "key": "conflict", "ru": "Пока карточка была открыта, эти настройки изменил кто-то другой. Закройте её и откройте снова, чтобы редактировать актуальные значения."}
+{"ns": "settings.models", "key": "retry", "ru": "Повторить"}
+{"ns": "settings.models", "key": "keyInput", "ru": "Ключ API"}
+{"ns": "settings.models", "key": "keyReveal", "ru": "Показать ключ"}
+{"ns": "settings.models", "key": "keyHide", "ru": "Скрыть ключ"}
+{"ns": "settings.models", "key": "keyPlaceholder", "ru": "Введите ключ API"}
+{"ns": "settings.models", "key": "keyPlaceholderFallback", "ru": "Оставьте пустым, чтобы авторизоваться через переменные окружения ({hint})"}
+{"ns": "settings.models", "key": "keyPlaceholderSaved", "ru": "Оставьте пустым, чтобы использовать сохранённые учётные данные"}
+{"ns": "settings.models", "key": "keyFallbackMissing", "ru": "Переменная окружения не найдена. Введите ключ API или задайте {hint} в окружении."}
+{"ns": "settings.models", "key": "keyFallbackDetected", "ru": "Переменная окружения найдена ({hint})."}
+{"ns": "settings.models", "key": "keyFallbackDetectedHidden", "ru": "Переменная окружения найдена."}
+{"ns": "settings.models", "key": "keyFallbackUnchecked", "ru": "Статус учётных данных окружения не подтверждён."}
+{"ns": "settings.models", "key": "keyHelp", "ru": "Сначала используются сохранённые учётные данные. Резервные варианты из окружения перечислены по порядку: {env}. Источники: окружение запуска, $cwd/.env, затем $DSH_HOME/.env."}
+{"ns": "settings.models", "key": "authHelp", "ru": "Детали аутентификации"}
+{"ns": "settings.models", "key": "customized", "ru": "Изменённые настройки"}
+{"ns": "settings.models", "key": "baseUrl", "ru": "Базовый URL"}
+{"ns": "settings.models", "key": "baseUrlDefault", "ru": "Нет конечной точки по умолчанию"}
+{"ns": "settings.models", "key": "baseUrlEnvironment", "ru": "Конечная точка из конфигурации провайдера: {env}"}
+{"ns": "settings.models", "key": "baseUrlConfigured", "ru": "Конечная точка задана провайдером"}
+{"ns": "settings.models", "key": "baseUrlPlaceholder", "ru": "{url}"}
+{"ns": "settings.models", "key": "deepSeekBaseUrl", "ru": "https://api.deepseek.com/anthropic (по умолчанию используется DEEPSEEK_BASE_URL)"}
+{"ns": "settings.models", "key": "deepSeekEndpointHint", "ru": "Укажите конечную точку API, совместимую с Anthropic Messages."}
+{"ns": "settings.models", "key": "models", "ru": "Модели"}
+{"ns": "settings.models", "key": "modelsInherited", "ru": "По умолчанию из адаптера"}
+{"ns": "settings.models", "key": "modelsCustomized", "ru": "Изменённый каталог моделей"}
+{"ns": "settings.models", "key": "resetModels", "ru": "Вернуть по умолчанию"}
+{"ns": "settings.models", "key": "model", "ru": "Модель"}
+{"ns": "settings.models", "key": "modelId", "ru": "ID модели"}
+{"ns": "settings.models", "key": "modelName", "ru": "Отображаемое имя"}
+{"ns": "settings.models", "key": "modelNamePlaceholder", "ru": "Если пусто, используется ID модели"}
+{"ns": "settings.models", "key": "contextWindow", "ru": "Контекстное окно"}
+{"ns": "settings.models", "key": "contextWindowPlaceholder", "ru": "По умолчанию у провайдера"}
+{"ns": "settings.models", "key": "maxTokens", "ru": "Максимум выходных токенов"}
+{"ns": "settings.models", "key": "maxTokensPlaceholder", "ru": "По умолчанию у провайдера"}
+{"ns": "settings.models", "key": "modelAdvanced", "ru": "Параметры модели"}
+{"ns": "settings.models", "key": "modelInputTypes", "ru": "Типы ввода"}
+{"ns": "settings.models", "key": "modelInputText", "ru": "Текст"}
+{"ns": "settings.models", "key": "modelInputImage", "ru": "Изображение"}
+{"ns": "settings.models", "key": "modelReasoning", "ru": "Уровни рассуждений"}
+{"ns": "settings.models", "key": "modelReasoningLevel", "ru": "Уровень"}
+{"ns": "settings.models", "key": "modelReasoningValue", "ru": "Значение API"}
+{"ns": "settings.models", "key": "modelReasoningHelp", "ru": "Об уровнях рассуждений"}
+{"ns": "settings.models", "key": "modelReasoningHelpText", "ru": "Значение API уходит в поле reasoning effort запроса, например reasoning_effort у OpenAI. По умолчанию берётся название уровня; если документация API провайдера модели требует другого значения, следуйте ей. «Выкл.» отключает рассуждения и значения не требует; уже записанное в конфигурации значение сохраняется и отправляется."}
+{"ns": "settings.models", "key": "modelReasoningNeedsLevel", "ru": "Добавьте хотя бы один уровень помимо «Выкл.» или отключите уровни рассуждений."}
+{"ns": "settings.models", "key": "modelReasoningValueRequired", "ru": "Для каждого уровня, кроме «Выкл.», нужно значение API — пустых быть не должно."}
+{"ns": "settings.models", "key": "modelReasoningAdd", "ru": "Добавить уровень"}
+{"ns": "settings.models", "key": "modelReasoningRemove", "ru": "Удалить уровень"}
+{"ns": "settings.models", "key": "modelReasoningOffValuePlaceholder", "ru": "Отключает рассуждения"}
+{"ns": "settings.models", "key": "addModel", "ru": "Добавить модель"}
+{"ns": "settings.models", "key": "removeModel", "ru": "Удалить модель"}
+{"ns": "settings.models", "key": "reorderModel", "ru": "Изменить порядок модели"}
+{"ns": "settings.models", "key": "reorderModelHelp", "ru": "Перетащите, чтобы изменить порядок, или используйте клавиши со стрелками вверх и вниз."}
+{"ns": "settings.models", "key": "modelsEmpty", "ru": "В списке выбора не будет ни одной модели. ID, которых нет в списке, всё равно можно отправлять напрямую."}
+{"ns": "settings.models", "key": "keyBlank", "ru": "Введите ключ API или оставьте поле пустым, чтобы оставить сохранённый."}
+{"ns": "settings.models", "key": "keyBlankNew", "ru": "Введите ключ API или оставьте поле пустым, если провайдер авторизуется иначе."}
+{"ns": "settings.models", "key": "keyIllegalCharacters", "ru": "Ключ API в неверном формате. Проверьте его."}
+{"ns": "settings.models", "key": "modelIdRequired", "ru": "Укажите ID модели."}
+{"ns": "settings.models", "key": "modelIdDuplicate", "ru": "ID модели должен быть уникальным."}
+{"ns": "settings.models", "key": "modelNameInvalid", "ru": "Отображаемое имя не может быть пустым."}
+{"ns": "settings.models", "key": "modelContextInvalid", "ru": "Контекстное окно должно быть положительным числом, например 131072, 256K или 1M."}
+{"ns": "settings.models", "key": "modelMaxTokensInvalid", "ru": "Максимум выходных токенов должен быть положительным числом, например 8192, 64K или 1M."}
+{"ns": "settings.models", "key": "advancedHint", "ru": "Остальные поля — в cordis.patch.yml; правьте этот раздел напрямую."}
+{"ns": "settings.models", "key": "modelCapacityInvalid", "ru": "Ёмкость должна быть числом, при желании с суффиксом K или M."}
+{"ns": "settings.models", "key": "modelDuplicate", "ru": "Каждый ID модели может встречаться только один раз."}
+{"ns": "settings.models", "key": "fetchModels", "ru": "Получить доступные модели"}
+{"ns": "settings.models", "key": "fetching", "ru": "Запрос к провайдеру…"}
+{"ns": "settings.models", "key": "fetchNeedsBaseUrl", "ru": "Сначала укажите базовый URL, потом запрашивайте."}
+{"ns": "settings.models", "key": "fetchEmpty", "ru": "Провайдер не вернул моделей. Добавьте их вручную."}
+{"ns": "settings.models", "key": "fetchTitle", "ru": "Выберите модели"}
+{"ns": "settings.models", "key": "fetchDescription", "ru": "Это модели, доступные у провайдера. Отмеченные составят список."}
+{"ns": "settings.models", "key": "fetchSearch", "ru": "Поиск моделей"}
+{"ns": "settings.models", "key": "fetchNoMatches", "ru": "Нет подходящих моделей."}
+{"ns": "settings.models", "key": "fetchSelectAll", "ru": "Выбрать все"}
+{"ns": "settings.models", "key": "fetchDeselectAll", "ru": "Снять все"}
+{"ns": "settings.models", "key": "fetchAdopt", "ru": "Обновить список"}
+{"ns": "settings.models", "key": "fetchKeepOne", "ru": "Оставьте отмеченной хотя бы одну модель."}
+{"ns": "settings.models", "key": "customTag", "ru": "Свой"}
+{"ns": "settings.models", "key": "customRoute", "ru": "ID провайдера"}
+{"ns": "settings.models", "key": "customRouteHint", "ru": "Идентификатор в нижнем регистре, начинающийся с буквы: однозначно называет провайдера в запросах и в имени его учётных данных."}
+{"ns": "settings.models", "key": "customRouteInvalid", "ru": "Начните со строчной буквы; затем строчные буквы, цифры и тире."}
+{"ns": "settings.models", "key": "customRouteTaken", "ru": "Этот ID уже занят другим провайдером."}
+{"ns": "settings.models", "key": "customDisplayName", "ru": "Отображаемое имя"}
+{"ns": "settings.models", "key": "customApi", "ru": "Протокол API"}
+{"ns": "settings.models", "key": "customApiUnset", "ru": "Не выбрано"}
+{"ns": "settings.models", "key": "protocolOpenAiCompletions", "ru": "OpenAI Chat Completions"}
+{"ns": "settings.models", "key": "protocolOpenAiResponses", "ru": "OpenAI Responses"}
+{"ns": "settings.models", "key": "protocolAnthropicMessages", "ru": "Anthropic Messages"}
+{"ns": "settings.models", "key": "customNeedsBaseUrl", "ru": "Пользовательскому провайдеру нужен базовый URL."}
+{"ns": "settings.models", "key": "customBaseUrlInvalid", "ru": "Укажите корректный URL HTTP или HTTPS."}
+{"ns": "settings.models", "key": "customNeedsModels", "ru": "Пользовательскому провайдеру нужна хотя бы одна модель."}
+{"ns": "settings.models", "key": "customBaseUrlPlaceholder", "ru": "https://gateway.example/v1"}
+{"ns": "settings.models", "key": "customAnthropicBaseUrlPlaceholder", "ru": "https://gateway.example"}
+{"ns": "settings.models", "key": "settingsPathUnresolvable", "ru": "путь к настройкам не определён"}
+{"ns": "settings.models", "key": "create", "ru": "Создать провайдера"}
+{"ns": "settings.models", "key": "creating", "ru": "Создание…"}
+{"ns": "settings.models", "key": "welcomeTitle", "ru": "Предварительная версия"}
+{"ns": "settings.models", "key": "welcomeBody", "ru": "DeepSeek Harness 0.2 всё ещё в предварительной версии: многие места требуют доработки. Мы ждём отзывов и предложений от разработчиков и пользователей. Новое настольное приложение рассчитано на широкую аудиторию, а продвинутые функции для разработчиков включаются в настройках. Функции продукта и API плагинов DeepSeek Harness продолжат быстро развиваться и со временем станут стабильнее.\n\nВместе с пользователями и разработчиками по всему миру мы хотим исследовать границы возможностей интеллекта, опираясь на открытую, переиспользуемую и компонуемую инфраструктуру. Воплощайте свои идеи с DeepSeek Harness и присоединяйтесь к сообществу — вместе мы обогатим экосистему плагинов."}
+{"ns": "settings.models", "key": "welcomeContinue", "ru": "Продолжить"}
+{"ns": "settings.models", "key": "welcomeError", "ru": "Не удалось сохранить подтверждение. Повторите попытку."}
+{"ns": "settings.models", "key": "onboardingTitle", "ru": "Добавьте ключ API для начала работы"}
+{"ns": "settings.models", "key": "onboardingDescription", "ru": "Настройте официального провайдера DeepSeek, чтобы начать работу."}
+{"ns": "settings.models", "key": "onboardingLater", "ru": "Настроить позже"}
+{"ns": "settings.models", "key": "onboardingSave", "ru": "Сохранить и продолжить"}
+{"ns": "settings.models", "key": "onboardingSaving", "ru": "Сохранение…"}
+{"ns": "settings.models", "key": "keyRequired", "ru": "Введите ключ API, чтобы продолжить."}
+{"ns": "pluginMarket", "key": "title", "ru": "Обзор"}
+{"ns": "pluginMarket", "key": "refresh", "ru": "Обновить"}
+{"ns": "pluginMarket", "key": "loading", "ru": "Чтение индекса"}
+{"ns": "pluginMarket", "key": "retry", "ru": "Повторить"}
+{"ns": "pluginMarket", "key": "close", "ru": "Закрыть"}
+{"ns": "pluginMarket", "key": "cancel", "ru": "Отмена"}
+{"ns": "pluginMarket", "key": "emptyTitle", "ru": "Индексы плагинов ещё не добавлены"}
+{"ns": "pluginMarket", "key": "emptyDescription", "ru": "Добавьте индекс плагинов — здесь можно будет их просматривать и устанавливать."}
+{"ns": "pluginMarket", "key": "addFirstSource", "ru": "Добавить источник индекса"}
+{"ns": "pluginMarket", "key": "sourcesFailed", "ru": "Не удалось прочитать источники индекса."}
+{"ns": "pluginMarket", "key": "manageSources", "ru": "Управление источниками индекса…"}
+{"ns": "pluginMarket", "key": "marketMenu", "ru": "Переключить индекс плагинов (сейчас: {market})"}
+{"ns": "pluginMarket", "key": "sourcesTitle", "ru": "Источники индекса"}
+{"ns": "pluginMarket", "key": "sourcesDescription", "ru": "Индекс плагинов — это URL одного файла индекса. «Обзор» показывает индексы из списка ниже."}
+{"ns": "pluginMarket", "key": "sourcesLabel", "ru": "Добавленные источники индекса"}
+{"ns": "pluginMarket", "key": "sourceUrl", "ru": "URL индекса"}
+{"ns": "pluginMarket", "key": "sourcePlaceholder", "ru": "https://example.com/index.json"}
+{"ns": "pluginMarket", "key": "addSource", "ru": "Добавить"}
+{"ns": "pluginMarket", "key": "removeSource", "ru": "Удалить"}
+{"ns": "pluginMarket", "key": "removeSourceNamed", "ru": "Удалить {url}"}
+{"ns": "pluginMarket", "key": "sourcesTrust", "ru": "Индексы поступают от третьих лиц. Добавляйте только те источники, которым вы доверяете: их плагины запускаются с вашими разрешениями после установки."}
+{"ns": "pluginMarket", "key": "sourceInvalid", "ru": "Используйте адрес http или https без имени пользователя, пароля или фрагмента #."}
+{"ns": "pluginMarket", "key": "sourceDuplicate", "ru": "Этот источник индекса уже добавлен."}
+{"ns": "pluginMarket", "key": "sourceUnavailable", "ru": "Источники индекса здесь сохранить нельзя."}
+{"ns": "pluginMarket", "key": "sourceFailed", "ru": "Не удалось сохранить источники индекса."}
+{"ns": "pluginMarket", "key": "readFailed", "ru": "Не удалось прочитать этот индекс."}
+{"ns": "pluginMarket", "key": "readInvalid", "ru": "Неверный формат индекса."}
+{"ns": "pluginMarket", "key": "readChanged", "ru": "Индекс изменился во время загрузки."}
+{"ns": "pluginMarket", "key": "search", "ru": "Поиск плагинов"}
+{"ns": "pluginMarket", "key": "filter", "ru": "Метки"}
+{"ns": "pluginMarket", "key": "filterCount", "ru": "Метки · {count}"}
+{"ns": "pluginMarket", "key": "sortBy", "ru": "Сортировка: {sort}"}
+{"ns": "pluginMarket", "key": "sortRelevance", "ru": "По релевантности"}
+{"ns": "pluginMarket", "key": "sortDefault", "ru": "Порядок по умолчанию"}
+{"ns": "pluginMarket", "key": "sortPublished", "ru": "Дата публикации"}
+{"ns": "pluginMarket", "key": "switchToAscending", "ru": "Сортировать по возрастанию"}
+{"ns": "pluginMarket", "key": "switchToDescending", "ru": "Сортировать по убыванию"}
+{"ns": "pluginMarket", "key": "categoriesLabel", "ru": "Категории"}
+{"ns": "pluginMarket", "key": "allCategories", "ru": "Все"}
+{"ns": "pluginMarket", "key": "emptyIndex", "ru": "В этом индексе нет плагинов."}
+{"ns": "pluginMarket", "key": "noMatches", "ru": "Нет подходящих плагинов."}
+{"ns": "pluginMarket", "key": "showMore", "ru": "Показать больше"}
+{"ns": "pluginMarket", "key": "entryMeta", "ru": "{version} · {date}"}
+{"ns": "pluginMarket", "key": "entryMetaAuthor", "ru": "{version} · {author} · {date}"}
+{"ns": "pluginMarket", "key": "openEntry", "ru": "Посмотреть {name}"}
+{"ns": "pluginMarket", "key": "install", "ru": "Установить"}
+{"ns": "pluginMarket", "key": "installTitle", "ru": "Установить {name}"}
+{"ns": "pluginMarket", "key": "installVersionTitle", "ru": "Установить {name} {version}"}
+{"ns": "pluginMarket", "key": "openInstalled", "ru": "Посмотреть {name} в списке «Установлено»"}
+{"ns": "pluginMarket", "key": "statusInstalled", "ru": "Установлено"}
+{"ns": "pluginMarket", "key": "statusUpdate", "ru": "Доступно обновление"}
+{"ns": "pluginMarket", "key": "statusProvided", "ru": "Предоставлено DSH"}
+{"ns": "pluginMarket", "key": "incompatible", "ru": "Эта версия несовместима с текущей DSH {runtime}; требуется DSH {range}."}
+{"ns": "pluginMarket", "key": "noCompatibleVersion", "ru": "Ни одна версия не совместима с DSH {runtime}"}
+{"ns": "pluginMarket", "key": "exempted", "ru": "Эта версия несовместима с текущей DSH, но для неё сделано исключение по совместимости."}
+{"ns": "pluginMarket", "key": "backToList", "ru": "Обзор"}
+{"ns": "pluginMarket", "key": "factSource", "ru": "Источник"}
+{"ns": "pluginMarket", "key": "factPackage", "ru": "Пакет"}
+{"ns": "pluginMarket", "key": "factRegistry", "ru": "Реестр"}
+{"ns": "pluginMarket", "key": "factRepository", "ru": "Репозиторий"}
+{"ns": "pluginMarket", "key": "factCommit", "ru": "Коммит"}
+{"ns": "pluginMarket", "key": "factDirectory", "ru": "Каталог"}
+{"ns": "pluginMarket", "key": "factPublished", "ru": "Опубликовано"}
+{"ns": "pluginMarket", "key": "factAuthor", "ru": "Автор"}
+{"ns": "pluginMarket", "key": "factHomepage", "ru": "Домашняя страница"}
+{"ns": "pluginMarket", "key": "factSourceCode", "ru": "Исходный код"}
+{"ns": "pluginMarket", "key": "factCategory", "ru": "Категория"}
+{"ns": "pluginMarket", "key": "factLabels", "ru": "Метки"}
+{"ns": "pluginMarket", "key": "factMarket", "ru": "Индекс плагинов"}
+{"ns": "pluginMarket", "key": "versionsTitle", "ru": "Версии"}
+{"ns": "pluginMarket", "key": "versionsLabel", "ru": "Версии {name}"}
+{"ns": "pluginMarket", "key": "versionDefault", "ru": "Рекомендуемый"}
+{"ns": "pluginMarket", "key": "versionInstalled", "ru": "Установлено"}
+{"ns": "pluginMarket", "key": "versionIncompatible", "ru": "Несовместимый"}
+{"ns": "pluginMarket", "key": "versionExempted", "ru": "Исключён"}
+{"ns": "pluginMarket", "key": "versionPrerelease", "ru": "Пререлиз"}
+{"ns": "pluginMarket", "key": "confirmTitle", "ru": "Установить «{name}»?"}
+{"ns": "pluginMarket", "key": "installTrust", "ru": "Плагины запускаются на этой машине с вашими правами. Убедитесь, что доверяете источнику плагина."}
+{"ns": "pluginMarket", "key": "detailTitle", "ru": "Подробности"}
+{"ns": "pluginMarket", "key": "detailLoading", "ru": "Чтение подробностей"}
+{"ns": "pluginMarket", "key": "detailTooLarge", "ru": "Подробности и их репозиторий превышают лимит размера и не загружены."}
+{"ns": "pluginMarket", "key": "detailNetwork", "ru": "Не удалось связаться с источником подробностей."}
+{"ns": "pluginMarket", "key": "detailDenied", "ru": "Не удалось открыть репозиторий с подробностями. Проверьте учётные данные Git."}
+{"ns": "pluginMarket", "key": "detailGitUnavailable", "ru": "Подробности лежат в репозитории, который читается только через Git, а Git запустить не удалось. Установите Git и повторите попытку."}
+{"ns": "pluginMarket", "key": "detailInvalid", "ru": "Плагин указывает неверный файл подробностей."}
+{"ns": "pluginMarket", "key": "detailFailed", "ru": "Не удалось прочитать подробности."}
+{"ns": "pluginMarket", "key": "footnotes", "ru": "Сноски"}
+{"ns": "settings.theme", "key": "appearance.title", "ru": "Внешний вид"}
+{"ns": "settings.theme", "key": "appearance.light", "ru": "Светлая"}
+{"ns": "settings.theme", "key": "appearance.dark", "ru": "Тёмная"}
+{"ns": "settings.theme", "key": "appearance.system", "ru": "Системная"}
+{"ns": "settings.theme", "key": "fontSize.text.title", "ru": "Размер шрифта"}
+{"ns": "settings.theme", "key": "fontSize.text.description", "ru": "Влияет только на содержимое чата"}
+{"ns": "settings.theme", "key": "fontSize.text.increase", "ru": "Увеличить размер шрифта"}
+{"ns": "settings.theme", "key": "fontSize.text.decrease", "ru": "Уменьшить размер шрифта"}
+{"ns": "settings.theme", "key": "fontSize.code.title", "ru": "Размер шрифта кода"}
+{"ns": "settings.theme", "key": "fontSize.code.description", "ru": "Для блоков кода, инлайн-кода и вывода инструментов"}
+{"ns": "settings.theme", "key": "fontSize.code.increase", "ru": "Увеличить размер шрифта кода"}
+{"ns": "settings.theme", "key": "fontSize.code.decrease", "ru": "Уменьшить размер шрифта кода"}
+{"ns": "settings.theme", "key": "fontSize.terminal.title", "ru": "Размер шрифта терминала"}
+{"ns": "settings.theme", "key": "fontSize.terminal.description", "ru": "Для терминала в боковой панели"}
+{"ns": "settings.theme", "key": "fontSize.terminal.increase", "ru": "Увеличить размер шрифта терминала"}
+{"ns": "settings.theme", "key": "fontSize.terminal.decrease", "ru": "Уменьшить размер шрифта терминала"}
+{"ns": "settings.theme", "key": "fontSize.unit", "ru": "px"}
+{"ns": "settings.theme", "key": "fontFamily.text.title", "ru": "Шрифт текста"}
+{"ns": "settings.theme", "key": "fontFamily.text.description", "ru": "Используется для интерфейса и текста чата. Перечисляйте шрифты через запятую; пустое поле — шрифт по умолчанию"}
+{"ns": "settings.theme", "key": "fontFamily.code.title", "ru": "Шрифт кода"}
+{"ns": "settings.theme", "key": "fontFamily.code.description", "ru": "Для блоков кода, инлайн-кода и вывода инструментов. Перечисляйте шрифты через запятую; пустое поле — шрифт по умолчанию"}
+{"ns": "settings.theme", "key": "fontFamily.terminal.title", "ru": "Шрифт терминала"}
+{"ns": "settings.theme", "key": "fontFamily.terminal.description", "ru": "Для терминала в боковой панели. Перечисляйте шрифты через запятую; пустое поле — шрифт по умолчанию"}
+{"ns": "settings.theme", "key": "fontFamily.placeholder", "ru": "По умолчанию"}
+{"ns": "settings.theme", "key": "fontSize.more", "ru": "Дополнительные настройки шрифта"}
+{"ns": "fileDrag", "key": "failed", "ru": "Не удалось перетащить. Повторите попытку."}

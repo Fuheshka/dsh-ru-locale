@@ -1,0 +1,250 @@
+{"ns": "deliverables", "key": "presented.nativeUnavailable", "ru": "У этого файла нет доступного пути на хосте. Откройте предпросмотр на боковой панели."}
+{"ns": "deliverables", "key": "presented.revealError", "ru": "Не удалось показать в файловом менеджере. Повторите попытку."}
+{"ns": "deliverables", "key": "presented.directoryError", "ru": "Не удалось открыть папку с файлом. Повторите попытку."}
+{"ns": "deliverables", "key": "presented.directoryOpening", "ru": "Открытие папки с файлом…"}
+{"ns": "deliverables", "key": "presented.revealing", "ru": "Показ в файловом менеджере…"}
+{"ns": "deliverables", "key": "presented.unavailable", "ru": "На этом хосте нет рабочего стола, поэтому файлы и папки не открыть во внешних приложениях. Предпросмотр по-прежнему доступен на боковой панели."}
+{"ns": "deliverables", "key": "presented.retry", "ru": "Повторить"}
+{"ns": "deliverables", "key": "presented.hostError", "ru": "Не удалось прочитать данные о рабочем столе хоста"}
+{"ns": "deliverables", "key": "presented.preview", "ru": "Предпросмотр на боковой панели"}
+{"ns": "deliverables", "key": "presented.previewButton", "ru": "Открыть {name} на боковой панели"}
+{"ns": "deliverables", "key": "presented.previewCard", "ru": "Предпросмотр {name} на боковой панели"}
+{"ns": "deliverables", "key": "presented.all", "ru": "Все файлы ({count})"}
+{"ns": "deliverables", "key": "presented.expandAria", "ru": "Показать все переданные файлы ({count})"}
+{"ns": "deliverables", "key": "presented.collapse", "ru": "Свернуть"}
+{"ns": "deliverables", "key": "presented.collapseAria", "ru": "Свернуть переданные файлы"}
+{"ns": "deliverables", "key": "presented.opening", "ru": "Открытие…"}
+{"ns": "deliverables", "key": "presented.error", "ru": "Не удалось открыть. Нажмите, чтобы повторить."}
+{"ns": "deliverables", "key": "presented.file", "ru": "Файл"}
+{"ns": "deliverables", "key": "row.title", "ru": "Показать файлы"}
+{"ns": "deliverables", "key": "row.running", "ru": "Передача"}
+{"ns": "deliverables", "key": "row.preparing", "ru": "Подготовка результатов"}
+{"ns": "deliverables", "key": "row.ok", "ru": "Передано"}
+{"ns": "deliverables", "key": "row.error", "ru": "Не удалось передать"}
+{"ns": "deliverables", "key": "row.stopped", "ru": "Прервано"}
+{"ns": "deliverables", "key": "row.inspect", "ru": "Посмотреть вызов"}
+{"ns": "deliverables", "key": "changes.title", "ru": "Изменено файлов: {count}"}
+{"ns": "deliverables", "key": "changes.singleTitle", "ru": "Изменён файл {name}"}
+{"ns": "deliverables", "key": "changes.added", "ru": "+{count}"}
+{"ns": "deliverables", "key": "changes.deleted", "ru": "-{count}"}
+{"ns": "deliverables", "key": "changes.binary", "ru": "бинарный"}
+{"ns": "deliverables", "key": "changes.openReview", "ru": "Посмотреть изменения этого хода на боковой панели"}
+{"ns": "deliverables", "key": "changes.all", "ru": "Все файлы ({count})"}
+{"ns": "deliverables", "key": "changes.expandAria", "ru": "Показать все изменённые файлы ({count})"}
+{"ns": "deliverables", "key": "changes.collapse", "ru": "Свернуть"}
+{"ns": "deliverables", "key": "changes.collapseAria", "ru": "Свернуть изменённые файлы"}
+{"ns": "deliverables", "key": "changes.oversized", "ru": "слишком большой"}
+{"ns": "deliverables", "key": "changes.viewDiff", "ru": "Посмотреть изменения в {name}"}
+{"ns": "deliverables", "key": "review.title", "ru": "Проверка · ход {turn}"}
+{"ns": "deliverables", "key": "review.selectFile", "ru": "Выберите файл для проверки"}
+{"ns": "deliverables", "key": "review.split", "ru": "Переключиться на разделённый вид"}
+{"ns": "deliverables", "key": "review.unified", "ru": "Переключиться на единый вид"}
+{"ns": "deliverables", "key": "review.splitAria", "ru": "Разделённый вид"}
+{"ns": "deliverables", "key": "review.wrap", "ru": "Включить перенос строк"}
+{"ns": "deliverables", "key": "review.nowrap", "ru": "Отключить перенос строк"}
+{"ns": "deliverables", "key": "review.wrapAria", "ru": "Перенос строк"}
+{"ns": "deliverables", "key": "review.openFile", "ru": "Открыть весь файл на боковой панели"}
+{"ns": "deliverables", "key": "review.openFileAria", "ru": "Открыть {name} на боковой панели"}
+{"ns": "deliverables", "key": "diff.loading", "ru": "Чтение изменений…"}
+{"ns": "deliverables", "key": "diff.missing", "ru": "Содержимое изменений этого хода больше недоступно"}
+{"ns": "deliverables", "key": "diff.error", "ru": "Не удалось прочитать изменения"}
+{"ns": "deliverables", "key": "diff.binary", "ru": "Бинарный файл. Изменения не отображаются"}
+{"ns": "deliverables", "key": "diff.oversized", "ru": "Файл слишком большой. Изменения не отображаются"}
+{"ns": "deliverables", "key": "diff.created", "ru": "Создан в этом ходе"}
+{"ns": "deliverables", "key": "diff.deleted", "ru": "Удалён в этом ходе"}
+{"ns": "deliverables", "key": "diff.unchanged", "ru": "Строки с обеих сторон совпадают"}
+{"ns": "deliverables", "key": "diff.coarse", "ru": "Сравнение по строкам не завершилось вовремя. Показана замена файла целиком"}
+{"ns": "deliverables", "key": "diff.truncated", "ru": "Показаны первые строки: {count}"}
+{"ns": "shortcuts", "key": "edit-label", "ru": "Изменить сочетание клавиш для {command}"}
+{"ns": "shortcuts", "key": "record", "ru": "Нажмите сочетание клавиш"}
+{"ns": "shortcuts", "key": "record-help", "ru": "Отпустите клавиши, чтобы сохранить. Tab переключает между действиями, Esc отменяет."}
+{"ns": "shortcuts", "key": "web-help", "ru": "Комбинации, доступные в браузере: Mod+/, Mod+Shift+, и Mod+Shift+. Mod — это Command на Mac, а в других системах — Ctrl."}
+{"ns": "shortcuts", "key": "unsupported-key", "ru": "Эта клавиша не поддерживается."}
+{"ns": "shortcuts", "key": "reserved", "ru": "Это сочетание зарезервировано для системных действий и действий с текстом."}
+{"ns": "shortcuts", "key": "modifier-required", "ru": "Добавьте в сочетание Command, Ctrl или Alt."}
+{"ns": "shortcuts", "key": "too-many-keys", "ru": "Удерживайте не больше двух клавиш помимо модификаторов. Отпустите клавиши и повторите."}
+{"ns": "shortcuts", "key": "macos-web-help", "ru": "Используйте Command+/, Command+,, Command+\\, Control+`, Command+Option+клавиша или Command+Shift+клавиша. Сочетания из трёх или четырёх разных модификаторов тоже поддерживаются. Сочетания, занятые браузером или системой, могут не доходить до страницы."}
+{"ns": "shortcuts", "key": "windows-web-help", "ru": "Используйте Ctrl+/, Ctrl+,, Ctrl+Alt+клавиша или Ctrl+Shift+клавиша. Сочетания из трёх или четырёх разных модификаторов тоже поддерживаются. Сочетания, занятые браузером или системой, могут не доходить до страницы."}
+{"ns": "shortcuts", "key": "unsupported-browser", "ru": "Этот браузер пока не поддерживает такое сочетание."}
+{"ns": "shortcuts", "key": "conflict", "ru": "Уже используется: «{commands}»"}
+{"ns": "shortcuts", "key": "saved", "ru": "Изменено"}
+{"ns": "shortcuts", "key": "clear", "ru": "Удалить"}
+{"ns": "shortcuts", "key": "retry-save", "ru": "Повторить сохранение"}
+{"ns": "shortcuts", "key": "reset", "ru": "Вернуть по умолчанию"}
+{"ns": "shortcuts", "key": "reset-all", "ru": "Вернуть все по умолчанию"}
+{"ns": "shortcuts", "key": "modified-count", "ru": "Изменено: {count}"}
+{"ns": "shortcuts", "key": "reset-title", "ru": "Вернуть все сочетания клавиш по умолчанию?"}
+{"ns": "shortcuts", "key": "reset-description", "ru": "Сочетания клавиш по умолчанию для этой платформы будут восстановлены, включая все изменённые и удалённые. Других платформ это не коснётся."}
+{"ns": "shortcuts", "key": "cancel", "ru": "Отмена"}
+{"ns": "shortcuts", "key": "reset-saved", "ru": "Сочетания клавиш по умолчанию восстановлены"}
+{"ns": "shortcuts", "key": "close-confirmation", "ru": "Закрыть подтверждение"}
+{"ns": "shortcuts", "key": "reset-failed", "ru": "Не удалось восстановить значения по умолчанию. Сочетания клавиш не изменились. Повторите попытку."}
+{"ns": "shortcuts", "key": "review", "ru": "Я проверил актуальную конфигурацию"}
+{"ns": "shortcuts", "key": "stale", "ru": "Конфигурация сочетаний клавиш или доступные команды изменились. Перед сохранением проверьте актуальные привязки."}
+{"ns": "shortcuts", "key": "write-failed", "ru": "Не удалось сохранить. Прежние сочетания клавиш и текущий черновик сохранены. Повторите попытку."}
+{"ns": "shortcuts", "key": "not-ready", "ru": "Сочетания клавиш ещё не готовы. Повторите попытку."}
+{"ns": "shortcuts", "key": "read", "ru": "Не удалось прочитать {location}. Проверьте разрешения на доступ, затем {reload}."}
+{"ns": "shortcuts", "key": "invalid", "ru": "Конфигурация сочетаний клавиш в {location} повреждена. Сделайте резервную копию, исправьте её, затем {reload}."}
+{"ns": "shortcuts", "key": "future", "ru": "Конфигурация сочетаний клавиш в {location} создана более новой версией. Обновите Harness и повторите попытку."}
+{"ns": "shortcuts", "key": "web-document", "ru": "запись dsh.keybindings.v1 в localStorage этого сайта"}
+{"ns": "shortcuts", "key": "desktop-document", "ru": "userData/keybindings.json"}
+{"ns": "shortcuts", "key": "web-reload", "ru": "перезагрузить страницу"}
+{"ns": "shortcuts", "key": "desktop-reload", "ru": "перезапустить Harness"}
+{"ns": "shortcuts", "key": "using-defaults", "ru": "Привязки по умолчанию активны."}
+{"ns": "shortcuts", "key": "using-accepted", "ru": "Последние успешно прочитанные привязки остаются активными."}
+{"ns": "shortcuts", "key": "native-failed", "ru": "Не удалось включить защиту записи клавиш рабочего стола. Выйдите из режима записи и повторите попытку."}
+{"ns": "shortcuts", "key": "global-hint", "ru": "Открывает из любого места"}
+{"ns": "shortcuts", "key": "clear-search", "ru": "Очистить поиск"}
+{"ns": "shortcuts", "key": "title", "ru": "Сочетания клавиш"}
+{"ns": "shortcuts", "key": "open", "ru": "Открыть сочетания клавиш"}
+{"ns": "shortcuts", "key": "settings", "ru": "Сочетания клавиш"}
+{"ns": "shortcuts", "key": "view", "ru": "Изменить сочетания клавиш"}
+{"ns": "shortcuts", "key": "description", "ru": "Просмотр и изменение доступных сочетаний клавиш и действий ввода"}
+{"ns": "shortcuts", "key": "search", "ru": "Поиск сочетаний клавиш"}
+{"ns": "shortcuts", "key": "close", "ru": "Закрыть сочетания клавиш"}
+{"ns": "shortcuts", "key": "application", "ru": "Приложение"}
+{"ns": "shortcuts", "key": "input", "ru": "Ввод сообщения"}
+{"ns": "shortcuts", "key": "menus", "ru": "Меню и диалоги"}
+{"ns": "shortcuts", "key": "approval", "ru": "Область подтверждений"}
+{"ns": "shortcuts", "key": "unbound", "ru": "Нет сочетания"}
+{"ns": "shortcuts", "key": "empty", "ru": "Нет подходящих сочетаний"}
+{"ns": "shortcuts", "key": "move", "ru": "Переместить выбор в меню"}
+{"ns": "shortcuts", "key": "select", "ru": "Выбрать пункт меню"}
+{"ns": "shortcuts", "key": "dismiss", "ru": "Закрыть меню или верхний диалог"}
+{"ns": "settings.account", "key": "modelSignInRequired", "ru": "Модель недоступна. Войдите и повторите попытку."}
+{"ns": "settings.account", "key": "sessionExpired", "ru": "Вы вышли из аккаунта. Войдите снова."}
+{"ns": "settings.account", "key": "close", "ru": "Закрыть"}
+{"ns": "settings.account", "key": "addApiKey", "ru": "Добавить ключ API"}
+{"ns": "settings.account", "key": "retry", "ru": "Войти снова"}
+{"ns": "settings.account", "key": "loginTitle", "ru": "Начало работы"}
+{"ns": "settings.account", "key": "loginDescription", "ru": "Войдите в аккаунт DeepSeek или добавьте ключ API, чтобы начать. Ваши проекты и файлы хранятся локально."}
+{"ns": "settings.account", "key": "browserTitle", "ru": "Ожидание входа"}
+{"ns": "settings.account", "key": "browserPrompt", "ru": "Страница не открылась автоматически? "}
+{"ns": "settings.account", "key": "copyLink", "ru": "Скопировать ссылку для входа"}
+{"ns": "settings.account", "key": "copiedLink", "ru": "Ссылка скопирована"}
+{"ns": "settings.account", "key": "copyFailed", "ru": "Не удалось скопировать"}
+{"ns": "settings.account", "key": "browserDescription", "ru": ", затем откройте его в браузере, чтобы завершить вход."}
+{"ns": "settings.account", "key": "timeoutTitle", "ru": "Время ожидания входа истекло"}
+{"ns": "settings.account", "key": "timeoutDescription", "ru": "Войдите снова, чтобы продолжить."}
+{"ns": "settings.account", "key": "failureTitle", "ru": "Не удалось войти"}
+{"ns": "settings.account", "key": "platformFailed", "ru": "Не удалось завершить операцию. Повторите попытку."}
+{"ns": "settings.account", "key": "platformRetry", "ru": "Повторить"}
+{"ns": "settings.account", "key": "loading", "ru": "Загрузка…"}
+{"ns": "settings.account", "key": "backToHarness", "ru": "Вернуться к DeepSeek Harness"}
+{"ns": "settings.account", "key": "settings", "ru": "Настройки"}
+{"ns": "settings.account", "key": "contactUs", "ru": "Обратная связь"}
+{"ns": "settings.account", "key": "menu", "ru": "Меню аккаунта"}
+{"ns": "settings.account", "key": "nav", "ru": "Аккаунт"}
+{"ns": "settings.account", "key": "signedIn", "ru": "Выполнен вход в DeepSeek"}
+{"ns": "settings.account", "key": "signedOut", "ru": "Вход не выполнен"}
+{"ns": "settings.account", "key": "signIn", "ru": "Войти"}
+{"ns": "settings.account", "key": "signOut", "ru": "Выйти"}
+{"ns": "settings.account", "key": "signOutUnknownDescription", "ru": "Не удалось проверить запущенные задачи. Выход может прервать задачи, использующие этот аккаунт. Выйти сейчас?"}
+{"ns": "settings.account", "key": "signOutDescription", "ru": "Выход не удалит данные. В этот аккаунт можно войти снова."}
+{"ns": "settings.account", "key": "signOutRunningDescription", "ru": "Сейчас выполняются задачи. Выход прервёт их. Выйти сейчас?"}
+{"ns": "settings.account", "key": "cancel", "ru": "Отмена"}
+{"ns": "settings.account", "key": "open", "ru": "Открыть браузер"}
+{"ns": "settings.account", "key": "initializing", "ru": "Запуск входа…"}
+{"ns": "settings.account", "key": "waiting", "ru": "Продолжить в браузере"}
+{"ns": "settings.account", "key": "completing", "ru": "Завершение входа…"}
+{"ns": "settings.account", "key": "expired", "ru": "Срок входа истёк. Повторите попытку."}
+{"ns": "settings.account", "key": "failed", "ru": "Не удалось завершить операцию. Повторите попытку."}
+{"ns": "settings.account", "key": "noResponse", "ru": "Что-то пошло не так. Проверьте подключение к сети и повторите попытку."}
+{"ns": "settings.account", "key": "settingsSignedOutTitle", "ru": "Вы не вошли в DeepSeek Harness"}
+{"ns": "settings.account", "key": "settingsSignedOutDescription", "ru": "Войдите в DeepSeek Harness, чтобы получить персональный ключ API."}
+{"ns": "settings.account", "key": "signInDescription", "ru": "Используйте аккаунт DeepSeek, чтобы начать."}
+{"ns": "settings.account", "key": "profileUnavailable", "ru": "Данные аккаунта пока недоступны."}
+{"ns": "settings.account", "key": "balance", "ru": "Основной баланс"}
+{"ns": "settings.account", "key": "bonusBalance", "ru": "Бонусный баланс"}
+{"ns": "settings.account", "key": "balanceUnavailable", "ru": "Посмотреть на платформе"}
+{"ns": "settings.account", "key": "balanceSignedOut", "ru": "Войдите, чтобы посмотреть"}
+{"ns": "settings.account", "key": "accountInfo", "ru": "Подробнее об аккаунте"}
+{"ns": "settings.account", "key": "more", "ru": "Ещё"}
+{"ns": "settings.account", "key": "usage", "ru": "Посмотреть расход"}
+{"ns": "settings.account", "key": "topUp", "ru": "Пополнить"}
+{"ns": "settings.account", "key": "quotaTitle", "ru": "Нет доступного баланса"}
+{"ns": "settings.account", "key": "quotaDescription", "ru": "Без баланса DeepSeek Harness не запустит новую задачу с этим аккаунтом. Пополнить счёт? Это можно сделать и позже: Настройки → Аккаунт."}
+{"ns": "settings.account", "key": "quotaTopUp", "ru": "Пополнить"}
+{"ns": "settings.account", "key": "bonusNoticeTitle", "ru": "Бонус начислен"}
+{"ns": "creationRecommendations", "key": "heading", "ru": "Персональные страницы"}
+{"ns": "creationRecommendations", "key": "location", "ru": "Добавить в"}
+{"ns": "creationRecommendations", "key": "creationInfo", "ru": "Создание и расход токенов: как это работает"}
+{"ns": "creationRecommendations", "key": "creationMethod", "ru": "Режим автора создаёт новую страницу, которую можно удалить в любой момент."}
+{"ns": "creationRecommendations", "key": "creationCost", "ru": "Создание может занять время и потратить много токенов."}
+{"ns": "creationRecommendations", "key": "creationBackground", "ru": "Нажмите «Создать», чтобы запустить создание в фоне. Общаться здесь можно и дальше."}
+{"ns": "creationRecommendations", "key": "initialContent", "ru": "Начальное содержимое"}
+{"ns": "creationRecommendations", "key": "expandContent", "ru": "Показать всё содержимое"}
+{"ns": "creationRecommendations", "key": "collapseContent", "ru": "Свернуть содержимое"}
+{"ns": "creationRecommendations", "key": "sidebar-right", "ru": "Правая боковая панель"}
+{"ns": "creationRecommendations", "key": "page", "ru": "Вкладка сессии"}
+{"ns": "creationRecommendations", "key": "sidebar-left", "ru": "Глобальная страница"}
+{"ns": "creationRecommendations", "key": "custom", "ru": "Свой вариант"}
+{"ns": "creationRecommendations", "key": "sidebar-rightHint", "ru": "Открыть рядом с этой сессией"}
+{"ns": "creationRecommendations", "key": "pageHint", "ru": "Открыть рядом с «Чатом» и «Траекторией»"}
+{"ns": "creationRecommendations", "key": "sidebar-leftHint", "ru": "Открыть с левой боковой панели"}
+{"ns": "creationRecommendations", "key": "customHint", "ru": "Опишите, где её разместить"}
+{"ns": "creationRecommendations", "key": "customLabel", "ru": "Где её разместить?"}
+{"ns": "creationRecommendations", "key": "customPlaceholder", "ru": "Например, пункт на левой боковой панели, открывающий календарь на всю страницу"}
+{"ns": "creationRecommendations", "key": "create", "ru": "Создать"}
+{"ns": "creationRecommendations", "key": "starting", "ru": "Запуск…"}
+{"ns": "creationRecommendations", "key": "dismiss", "ru": "Не сейчас"}
+{"ns": "creationRecommendations", "key": "retry", "ru": "Создать снова"}
+{"ns": "creationRecommendations", "key": "undo", "ru": "Отменить"}
+{"ns": "creationRecommendations", "key": "restore", "ru": "Восстановить"}
+{"ns": "creationRecommendations", "key": "restoring", "ru": "Восстановление…"}
+{"ns": "creationRecommendations", "key": "dismissed", "ru": "Отклонено"}
+{"ns": "creationRecommendations", "key": "replaced", "ru": "Заменено"}
+{"ns": "creationRecommendations", "key": "creating", "ru": "Создаётся в фоне"}
+{"ns": "creationRecommendations", "key": "cancel", "ru": "Отменить создание"}
+{"ns": "creationRecommendations", "key": "cancelling", "ru": "Отмена…"}
+{"ns": "creationRecommendations", "key": "installing", "ru": "Установка…"}
+{"ns": "creationRecommendations", "key": "sourceRetained", "ru": "При отмене исходные файлы остаются в папке .dsh-created-plugins/ исходной рабочей области."}
+{"ns": "creationRecommendations", "key": "installed", "ru": "Установлено"}
+{"ns": "creationRecommendations", "key": "kept", "ru": "Оставлено"}
+{"ns": "creationRecommendations", "key": "removed", "ru": "Удалено"}
+{"ns": "creationRecommendations", "key": "failed", "ru": "Создание не удалось. Повторите попытку."}
+{"ns": "creationRecommendations", "key": "interrupted", "ru": "Создание прервано. Повторите попытку."}
+{"ns": "creationRecommendations", "key": "unconfirmed", "ru": "Результат не подтверждён. Повторите, чтобы проверить."}
+{"ns": "creationRecommendations", "key": "invalid-location", "ru": "Выберите место или опишите его (до 1000 символов)."}
+{"ns": "creationRecommendations", "key": "restart-required", "ru": "Изменение сохранено. Перезапустите DSH, чтобы применить его."}
+{"ns": "creationRecommendations", "key": "overridden", "ru": "Это изменение перекрыто другой конфигурацией."}
+{"ns": "creationRecommendations", "key": "cancelled", "ru": "Отменено"}
+{"ns": "creationRecommendations", "key": "applicationFailed", "ru": "Последнее изменение не применилось. Проверьте раздел «Плагины»."}
+{"ns": "creationRecommendations", "key": "applicationCancelled", "ru": "Последнее изменение отменено."}
+{"ns": "creationRecommendations", "key": "transport", "ru": "Не удалось подтвердить результат. Переподключитесь и проверьте карточку, прежде чем повторять."}
+{"ns": "creationRecommendations", "key": "unknown", "ru": "Эта рекомендация больше недоступна."}
+{"ns": "creationRecommendations", "key": "unavailable", "ru": "Действие недоступно. Проверьте плагин в разделе «Плагины»."}
+{"ns": "creationRecommendations", "key": "access-denied", "ru": "Из этого подключения нельзя менять плагины."}
+{"ns": "creationRecommendations", "key": "not-live-root", "ru": "Откройте исходную сессию, чтобы использовать эту карточку."}
+{"ns": "creationRecommendations", "key": "closing", "ru": "Плагин создания останавливается. Повторите попытку после его перезагрузки."}
+{"ns": "creationRecommendations", "key": "read-only", "ru": "Эта сессия доступна только для чтения. Чтобы создавать страницы, смените пресет разрешений."}
+{"ns": "creationRecommendations", "key": "source-missing", "ru": "Файлы страницы пропали. Запросите новое предложение."}
+{"ns": "open-in-app", "key": "menu.openIn", "ru": "Открыть в"}
+{"ns": "open-in-app", "key": "menu.openInSidebar", "ru": "Открыть на боковой панели"}
+{"ns": "open-in-app", "key": "menu.openInFloat", "ru": "Открыть на плавающей панели"}
+{"ns": "open-in-app", "key": "menu.finder", "ru": "Показать в Finder"}
+{"ns": "open-in-app", "key": "menu.reveal", "ru": "Показать в папке"}
+{"ns": "open-in-app", "key": "menu.defaultApp", "ru": "Открыть в приложении по умолчанию"}
+{"ns": "open-in-app", "key": "menu.external", "ru": "Открыть во внешнем браузере"}
+{"ns": "open-in-app", "key": "menu.copyLink", "ru": "Копировать адрес ссылки"}
+{"ns": "open-in-app", "key": "menu.copyPath", "ru": "Копировать путь к файлу"}
+{"ns": "open-in-app", "key": "menu.copyDirectoryPath", "ru": "Копировать путь к папке"}
+{"ns": "open-in-app", "key": "menu.copied", "ru": "Скопировано"}
+{"ns": "open-in-app", "key": "menu.copyFailed", "ru": "Не удалось скопировать. Убедитесь, что содержимое доступно, и повторите."}
+{"ns": "open-in-app", "key": "open.title", "ru": "Открыть в {app}"}
+{"ns": "open-in-app", "key": "path.appDefault", "ru": "{app} (по умолчанию)"}
+{"ns": "open-in-app", "key": "path.appsError", "ru": "Не удалось загрузить список приложений"}
+{"ns": "open-in-app", "key": "shortcut.busy", "ru": "Открытие рабочей области"}
+{"ns": "open-in-app", "key": "shortcut.unavailable", "ru": "Текущая рабочая область или локальное приложение недоступны"}
+{"ns": "open-in-app", "key": "open.tooltip", "ru": "Открыть локально"}
+{"ns": "open-in-app", "key": "path.open", "ru": "Открыть"}
+{"ns": "open-in-app", "key": "path.more", "ru": "Ещё способы открыть"}
+{"ns": "open-in-app", "key": "path.reveal", "ru": "Показать местоположение файла"}
+{"ns": "open-in-app", "key": "path.opened", "ru": "Открыто на другом устройстве"}
+{"ns": "open-in-app", "key": "path.revealed", "ru": "Местоположение файла показано на другом устройстве"}
+{"ns": "open-in-app", "key": "path.openError", "ru": "Не удалось открыть. Повторите попытку."}
+{"ns": "open-in-app", "key": "path.revealError", "ru": "Не удалось показать местоположение файла. Повторите попытку."}
+{"ns": "open-in-app", "key": "app.finder", "ru": "Finder"}
+{"ns": "open-in-app", "key": "app.explorer", "ru": "Проводник"}
+{"ns": "open-in-app", "key": "app.filemanager", "ru": "Файлы"}
+{"ns": "open-in-app", "key": "app.terminal", "ru": "Терминал"}

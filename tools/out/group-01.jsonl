@@ -1,0 +1,389 @@
+{"ns": "conversation", "key": "quote.remove", "ru": "Удалить цитату"}
+{"ns": "conversation", "key": "shortcut.newline", "ru": "Новая строка"}
+{"ns": "conversation", "key": "shortcut.complementary", "ru": "Использовать другое действие: очередь или направить"}
+{"ns": "conversation", "key": "shortcut.slash", "ru": "Открыть меню команд"}
+{"ns": "conversation", "key": "shortcut.mention", "ru": "Открыть меню ссылок"}
+{"ns": "conversation", "key": "hint.plan", "ru": null}
+{"ns": "conversation", "key": "hint.goal", "ru": "опишите цель длительной задачи"}
+{"ns": "conversation", "key": "hint.goal.active", "ru": "цель активна — edit / pause / resume / clear"}
+{"ns": "conversation", "key": "placeholder.plan", "ru": null}
+{"ns": "conversation", "key": "placeholder.default", "ru": "Сообщение или задача, /команды, @файлы или сессии"}
+{"ns": "conversation", "key": "placeholder.unavailable", "ru": "Сессия недоступна"}
+{"ns": "conversation", "key": "placeholder.hero", "ru": "Опишите, что хотите собрать: /команды, @файлы или сессии"}
+{"ns": "conversation", "key": "placeholder.workspace", "ru": "Выберите рабочую область, чтобы начать"}
+{"ns": "conversation", "key": "placeholder.steerQueue", "ru": "Cmd/Ctrl+Enter направляет все сообщения из очереди"}
+{"ns": "conversation", "key": "input.commands", "ru": "Добавить файлы или выполнить команды"}
+{"ns": "conversation", "key": "input.file", "ru": "Файл"}
+{"ns": "conversation", "key": "input.stop", "ru": "Остановить генерацию"}
+{"ns": "conversation", "key": "input.send", "ru": "Отправить сообщение"}
+{"ns": "conversation", "key": "input.continue", "ru": "Продолжить генерацию"}
+{"ns": "conversation", "key": "input.sending", "ru": "Отправка сообщения"}
+{"ns": "conversation", "key": "input.send.queue", "ru": "Поставить в очередь"}
+{"ns": "conversation", "key": "input.send.steer", "ru": "Направить в текущий ход"}
+{"ns": "conversation", "key": "attachment.pending", "ru": "Вложения к отправке"}
+{"ns": "conversation", "key": "attachment.scrollLeft", "ru": "Прокрутить вложения влево"}
+{"ns": "conversation", "key": "attachment.scrollRight", "ru": "Прокрутить вложения вправо"}
+{"ns": "conversation", "key": "attachment.dropTitle", "ru": "Перетащите сюда файлы или изображения, чтобы добавить их"}
+{"ns": "conversation", "key": "attachment.dropDesc", "ru": "Изображений: не больше {count}, по {size} каждое"}
+{"ns": "conversation", "key": "attachment.dropBlocked", "ru": "Сейчас нельзя добавить файлы и изображения"}
+{"ns": "conversation", "key": "attachment.directoryDesktopOnly", "ru": "Папки можно добавлять только в настольном приложении; в браузере добавляйте отдельные файлы"}
+{"ns": "conversation", "key": "attachment.pathUnavailable", "ru": "Не удалось определить путь к папке. Перетащите её ещё раз"}
+{"ns": "conversation", "key": "attachment.pathUnsupported", "ru": "В пути есть символы, которые нельзя передать в ссылке. Переименуйте и повторите попытку"}
+{"ns": "conversation", "key": "image.pending", "ru": "Изображения к отправке"}
+{"ns": "conversation", "key": "image.openOriginal", "ru": "Посмотреть оригинал"}
+{"ns": "conversation", "key": "image.openOriginalLabel", "ru": "{label}, нажмите, чтобы посмотреть оригинал"}
+{"ns": "conversation", "key": "image.remove", "ru": "Удалить изображение {name}"}
+{"ns": "conversation", "key": "image.original", "ru": "Исходное изображение"}
+{"ns": "conversation", "key": "image.label", "ru": "Изображение"}
+{"ns": "conversation", "key": "image.loadFailed", "ru": "Не удалось загрузить изображение. Нажмите, чтобы повторить"}
+{"ns": "conversation", "key": "image.loading", "ru": "Загрузка изображения…"}
+{"ns": "conversation", "key": "image.preview", "ru": "Предпросмотр исходного изображения"}
+{"ns": "conversation", "key": "image.closePreview", "ru": "Закрыть предпросмотр исходного изображения"}
+{"ns": "conversation", "key": "image.unsupportedType", "ru": "Поддерживаются только PNG, JPG, WebP и GIF"}
+{"ns": "conversation", "key": "image.tooMany", "ru": "Изображений: не больше {count}"}
+{"ns": "conversation", "key": "image.fileTooLarge", "ru": "Каждое изображение должно быть меньше {size}"}
+{"ns": "conversation", "key": "image.totalTooLarge", "ru": "Суммарный размер изображений больше {size}. Удалите часть и повторите попытку"}
+{"ns": "conversation", "key": "image.tooManyPixels", "ru": "Слишком высокое разрешение изображения. Сожмите его и повторите попытку"}
+{"ns": "conversation", "key": "image.dimensionTooLarge", "ru": "Стороны изображения не должны превышать {size}px. Уменьшите изображение и повторите попытку"}
+{"ns": "conversation", "key": "image.modelUnsupported", "ru": "Модель не поддерживает изображения. Выберите модель, которая их поддерживает"}
+{"ns": "conversation", "key": "image.sendFailed", "ru": "Не удалось отправить изображения ({reason}). Добавьте их заново и повторите попытку"}
+{"ns": "conversation", "key": "file.pending", "ru": "Файлы к отправке"}
+{"ns": "conversation", "key": "file.remove", "ru": "Удалить файл {name}"}
+{"ns": "conversation", "key": "file.uploading", "ru": "Загрузка…"}
+{"ns": "conversation", "key": "file.uploadFailed", "ru": "Не удалось загрузить. Нажмите, чтобы повторить"}
+{"ns": "conversation", "key": "file.retry", "ru": "Повторить загрузку {name}"}
+{"ns": "conversation", "key": "file.stillUploading", "ru": "Файлы ещё загружаются. Отправьте, когда загрузка завершится"}
+{"ns": "conversation", "key": "file.sessionUnavailable", "ru": "Сессия недоступна. Загрузить файлы нельзя"}
+{"ns": "conversation", "key": "file.notStaged", "ru": "Файл ещё не загружен. Добавьте его заново и повторите попытку"}
+{"ns": "conversation", "key": "file.label", "ru": "Файл"}
+{"ns": "conversation", "key": "context.aria", "ru": "Использовано {percent} контекста"}
+{"ns": "conversation", "key": "context.used", "ru": "контекста использовано"}
+{"ns": "conversation", "key": "context.system", "ru": "Системный промпт"}
+{"ns": "conversation", "key": "context.tools", "ru": "Определения инструментов"}
+{"ns": "conversation", "key": "context.messages", "ru": "Сообщения"}
+{"ns": "conversation", "key": "settings.enter.title", "ru": "Поведение отправки, пока агент занят"}
+{"ns": "conversation", "key": "settings.enter.description", "ru": "Что делают Enter и кнопка «Отправить», пока работает агент. Cmd/Ctrl+Enter делает наоборот"}
+{"ns": "conversation", "key": "settings.enter.queue", "ru": "Очередь"}
+{"ns": "conversation", "key": "settings.enter.steer", "ru": "Направить"}
+{"ns": "conversation", "key": "hero.headline", "ru": "В неизвестность"}
+{"ns": "conversation", "key": "hero.preview", "ru": "Предпросмотр"}
+{"ns": "conversation", "key": "hero.chooseWorkspace", "ru": "Выбрать рабочую область"}
+{"ns": "conversation", "key": "header.more", "ru": "Другие действия"}
+{"ns": "conversation", "key": "session.hierarchy", "ru": "Иерархия сессий"}
+{"ns": "conversation", "key": "session.moreViews", "ru": "Другие представления беседы"}
+{"ns": "conversation", "key": "todo.title", "ru": "Задачи"}
+{"ns": "conversation", "key": "todo.progress.done", "ru": "{done} завершено"}
+{"ns": "conversation", "key": "todo.progress.active", "ru": "{active} в процессе"}
+{"ns": "conversation", "key": "todo.progress.pending", "ru": "{pending} в ожидании"}
+{"ns": "conversation", "key": "todo.status.completed", "ru": "Завершено"}
+{"ns": "conversation", "key": "todo.status.inProgress", "ru": "В процессе"}
+{"ns": "conversation", "key": "todo.status.pending", "ru": "Ожидается"}
+{"ns": "conversation", "key": "todo.rowTitle", "ru": "Обновить список задач"}
+{"ns": "conversation", "key": "tool.title.createGoal", "ru": "Создать цель"}
+{"ns": "conversation", "key": "tool.title.getGoal", "ru": "Посмотреть цель"}
+{"ns": "conversation", "key": "tool.title.updateGoal", "ru": "Обновить цель"}
+{"ns": "conversation", "key": "tool.preparing.content", "ru": "{kilobytes}KB"}
+{"ns": "conversation", "key": "tool.title.createSchedule", "ru": "Создать задачу автоматизации"}
+{"ns": "conversation", "key": "tool.title.listSchedules", "ru": "Показать задачи автоматизации"}
+{"ns": "conversation", "key": "tool.title.viewSchedule", "ru": "Посмотреть задачу автоматизации"}
+{"ns": "conversation", "key": "tool.title.editSchedule", "ru": "Изменить задачу автоматизации"}
+{"ns": "conversation", "key": "tool.title.deleteSchedule", "ru": "Удалить задачу автоматизации"}
+{"ns": "conversation", "key": "tool.title.updateSchedule", "ru": "Обновить задачу автоматизации"}
+{"ns": "conversation", "key": "detail.state", "ru": "Статус"}
+{"ns": "conversation", "key": "detail.todo.completed", "ru": "Завершено"}
+{"ns": "conversation", "key": "detail.todo.in_progress", "ru": "В процессе"}
+{"ns": "conversation", "key": "detail.todo.pending", "ru": "Ожидается"}
+{"ns": "conversation", "key": "detail.todo.empty", "ru": "Список задач пуст"}
+{"ns": "conversation", "key": "todo.diff.initial", "ru": "Исходный список"}
+{"ns": "conversation", "key": "todo.diff.compare", "ru": "Изменения с предыдущего списка"}
+{"ns": "conversation", "key": "todo.diff.unavailable", "ru": "Предыдущий список недоступен"}
+{"ns": "conversation", "key": "todo.diff.noChanges", "ru": "В списке нет изменений"}
+{"ns": "conversation", "key": "todo.diff.added", "ru": "Добавлено: {count}"}
+{"ns": "conversation", "key": "todo.diff.updated", "ru": "Обновлено: {count}"}
+{"ns": "conversation", "key": "todo.diff.removed", "ru": "Удалено: {count}"}
+{"ns": "conversation", "key": "todo.diff.unchanged", "ru": "Без изменений: {count}"}
+{"ns": "conversation", "key": "todo.diff.addedItem", "ru": "Добавлено"}
+{"ns": "conversation", "key": "todo.diff.updatedItem", "ru": "Статус изменён"}
+{"ns": "conversation", "key": "todo.diff.movedItem", "ru": "Порядок изменён"}
+{"ns": "conversation", "key": "todo.diff.removedItem", "ru": "Удалено"}
+{"ns": "conversation", "key": "detail.goal.empty", "ru": "Нет цели"}
+{"ns": "conversation", "key": "detail.goal.active", "ru": "Активна"}
+{"ns": "conversation", "key": "detail.goal.disarmed", "ru": "Ожидание продолжения"}
+{"ns": "conversation", "key": "detail.goal.paused", "ru": "Приостановлена"}
+{"ns": "conversation", "key": "detail.goal.blocked", "ru": "Заблокирована"}
+{"ns": "conversation", "key": "detail.goal.complete", "ru": "Завершена"}
+{"ns": "conversation", "key": "detail.goal.rounds", "ru": "Раунды"}
+{"ns": "conversation", "key": "detail.goal.reason", "ru": "Блокер"}
+{"ns": "conversation", "key": "detail.days", "ru": "{count} дн."}
+{"ns": "conversation", "key": "detail.hours", "ru": "{count} ч"}
+{"ns": "conversation", "key": "detail.minutes", "ru": "{count} мин"}
+{"ns": "conversation", "key": "detail.seconds", "ru": "{count} с"}
+{"ns": "conversation", "key": "detail.schedule.once", "ru": "Один раз"}
+{"ns": "conversation", "key": "detail.schedule.every", "ru": "Раз в {interval}"}
+{"ns": "conversation", "key": "detail.schedule.when", "ru": "Запланировано на"}
+{"ns": "conversation", "key": "detail.schedule.frequency", "ru": "Повтор"}
+{"ns": "conversation", "key": "detail.schedule.scheduled", "ru": "Запланировано"}
+{"ns": "conversation", "key": "detail.schedule.overdue", "ru": "Просрочено, ожидает возобновления сессии"}
+{"ns": "conversation", "key": "detail.schedule.active", "ru": "Включено"}
+{"ns": "conversation", "key": "detail.schedule.paused", "ru": "Приостановлена"}
+{"ns": "conversation", "key": "detail.schedule.ended", "ru": "Завершена"}
+{"ns": "conversation", "key": "detail.schedule.empty", "ru": "Нет задач автоматизации"}
+{"ns": "conversation", "key": "detail.schedule.deleted", "ru": "Удалено"}
+{"ns": "conversation", "key": "detail.schedule.count", "ru": "Задач автоматизации: {count}"}
+{"ns": "conversation", "key": "detail.schedule.daily", "ru": "Каждый день в {time} ({zone})"}
+{"ns": "conversation", "key": "detail.schedule.weekly", "ru": "По {days} в {time} ({zone})"}
+{"ns": "conversation", "key": "detail.schedule.cron", "ru": "Cron {expression} ({zone})"}
+{"ns": "conversation", "key": "detail.schedule.custom", "ru": "Свой вариант"}
+{"ns": "conversation", "key": "detail.weekday.1", "ru": "Пн"}
+{"ns": "conversation", "key": "detail.weekday.2", "ru": "Вт"}
+{"ns": "conversation", "key": "detail.weekday.3", "ru": "Ср"}
+{"ns": "conversation", "key": "detail.weekday.4", "ru": "Чт"}
+{"ns": "conversation", "key": "detail.weekday.5", "ru": "Пт"}
+{"ns": "conversation", "key": "detail.weekday.6", "ru": "Сб"}
+{"ns": "conversation", "key": "detail.weekday.7", "ru": "Вс"}
+{"ns": "conversation", "key": "detail.weekday.join", "ru": ", "}
+{"ns": "conversation", "key": "tool.title.inspectProviders", "ru": "Проверить провайдеров"}
+{"ns": "conversation", "key": "tool.title.queryRuntime", "ru": "Запрос к среде выполнения"}
+{"ns": "conversation", "key": "tool.title.inspectPlugins", "ru": "Проверить плагины"}
+{"ns": "conversation", "key": "tool.title.workflow", "ru": "Запустить воркфлоу"}
+{"ns": "conversation", "key": "tool.title.ralph", "ru": "Запустить цикл ralph"}
+{"ns": "conversation", "key": "tool.title.readEvent", "ru": "Прочитать событие"}
+{"ns": "conversation", "key": "tool.title.searchEvents", "ru": "Найти события"}
+{"ns": "conversation", "key": "tool.title.traceEvent", "ru": "Отследить событие"}
+{"ns": "conversation", "key": "tool.title.searchSessions", "ru": "Найти сессии"}
+{"ns": "conversation", "key": "tool.title.traceSession", "ru": "Отследить сессию"}
+{"ns": "conversation", "key": "tool.title.listModels", "ru": "Показать модели"}
+{"ns": "conversation", "key": "tool.title.subagent", "ru": "Создать субагента"}
+{"ns": "conversation", "key": "tool.title.subagentFork", "ru": "Создать форк субагента"}
+{"ns": "conversation", "key": "tool.title.listAgents", "ru": "Показать субагентов"}
+{"ns": "conversation", "key": "tool.title.sendMessage", "ru": "Отправить сообщение"}
+{"ns": "conversation", "key": "tool.title.interruptAgent", "ru": "Прервать агента"}
+{"ns": "conversation", "key": "tool.title.listJobs", "ru": "Показать фоновые задачи"}
+{"ns": "conversation", "key": "tool.title.readJob", "ru": "Прочитать вывод задачи"}
+{"ns": "conversation", "key": "tool.title.killJob", "ru": "Отменить фоновую задачу"}
+{"ns": "conversation", "key": "tool.title.openTerminal", "ru": "Открыть терминал"}
+{"ns": "conversation", "key": "tool.title.readTerminal", "ru": "Прочитать терминал"}
+{"ns": "conversation", "key": "tool.title.listTerminals", "ru": "Показать терминалы"}
+{"ns": "conversation", "key": "tool.title.signalTerminal", "ru": "Отправить сигнал в терминал"}
+{"ns": "conversation", "key": "tool.title.closeTerminal", "ru": "Закрыть терминал"}
+{"ns": "conversation", "key": "tool.title.lsp", "ru": "Запросить символы кода"}
+{"ns": "conversation", "key": "tool.title.findDefinition", "ru": "Найти определение"}
+{"ns": "conversation", "key": "tool.title.findReferences", "ru": "Найти ссылки"}
+{"ns": "conversation", "key": "tool.title.findImplementation", "ru": "Найти реализацию"}
+{"ns": "conversation", "key": "tool.title.hoverSymbol", "ru": "Посмотреть символ"}
+{"ns": "conversation", "key": "tool.title.spawnTeammate", "ru": "Создать участника команды"}
+{"ns": "conversation", "key": "tool.title.createTeamTask", "ru": "Создать командную задачу"}
+{"ns": "conversation", "key": "tool.title.getTeamTask", "ru": "Прочитать командную задачу"}
+{"ns": "conversation", "key": "tool.title.updateTeamTask", "ru": "Обновить командную задачу"}
+{"ns": "conversation", "key": "tool.title.listTeamTasks", "ru": "Показать командные задачи"}
+{"ns": "conversation", "key": "tool.title.waitAgent", "ru": "Ожидание сообщений…"}
+{"ns": "conversation", "key": "detail.recordedResult", "ru": "Сохранённый результат"}
+{"ns": "conversation", "key": "detail.empty", "ru": "Нет результатов"}
+{"ns": "conversation", "key": "detail.none", "ru": "Нет"}
+{"ns": "conversation", "key": "detail.yes", "ru": "Да"}
+{"ns": "conversation", "key": "detail.no", "ru": "Нет"}
+{"ns": "conversation", "key": "detail.moreInInspect", "ru": "Ещё элементов в Inspect: {count}"}
+{"ns": "conversation", "key": "detail.status.running", "ru": "Выполняется"}
+{"ns": "conversation", "key": "detail.status.idle", "ru": "Простаивает"}
+{"ns": "conversation", "key": "detail.status.ready", "ru": "Готово"}
+{"ns": "conversation", "key": "detail.status.inactive", "ru": "Неактивен"}
+{"ns": "conversation", "key": "detail.status.provisioning", "ru": "Подготовка"}
+{"ns": "conversation", "key": "detail.status.failed", "ru": "Не удалось"}
+{"ns": "conversation", "key": "detail.status.corrupt", "ru": "Повреждено"}
+{"ns": "conversation", "key": "detail.status.unsupported", "ru": "Не поддерживается"}
+{"ns": "conversation", "key": "detail.status.unavailable", "ru": "Недоступно"}
+{"ns": "conversation", "key": "detail.status.completed", "ru": "Завершено"}
+{"ns": "conversation", "key": "detail.status.deleted", "ru": "Удалено"}
+{"ns": "conversation", "key": "detail.status.killed", "ru": "Отменено"}
+{"ns": "conversation", "key": "detail.status.accepted", "ru": "Принято"}
+{"ns": "conversation", "key": "detail.status.queued", "ru": "В очереди"}
+{"ns": "conversation", "key": "detail.status.exited", "ru": "Завершён"}
+{"ns": "conversation", "key": "detail.field.id", "ru": "ID"}
+{"ns": "conversation", "key": "detail.field.revision", "ru": "Версия"}
+{"ns": "conversation", "key": "detail.field.platform", "ru": "Платформа"}
+{"ns": "conversation", "key": "detail.field.provider", "ru": "Провайдер"}
+{"ns": "conversation", "key": "detail.field.model", "ru": "Модель"}
+{"ns": "conversation", "key": "detail.field.role", "ru": "Роль"}
+{"ns": "conversation", "key": "detail.field.context", "ru": "Контекст"}
+{"ns": "conversation", "key": "detail.field.owner", "ru": "Владелец"}
+{"ns": "conversation", "key": "detail.field.ready", "ru": "Готово"}
+{"ns": "conversation", "key": "detail.field.dependencies", "ru": "Зависимости"}
+{"ns": "conversation", "key": "detail.field.writeScopes", "ru": "Области записи"}
+{"ns": "conversation", "key": "detail.field.warnings", "ru": "Предупреждения"}
+{"ns": "conversation", "key": "detail.field.diagnostics", "ru": "Диагностика"}
+{"ns": "conversation", "key": "detail.field.methods", "ru": "Методы"}
+{"ns": "conversation", "key": "detail.field.inputSchema", "ru": "Входная схема"}
+{"ns": "conversation", "key": "detail.field.outputSchema", "ru": "Выходная схема"}
+{"ns": "conversation", "key": "detail.field.currentPackage", "ru": "Текущий пакет"}
+{"ns": "conversation", "key": "detail.field.nextPackage", "ru": "Следующий пакет"}
+{"ns": "conversation", "key": "detail.field.latestRun", "ru": "Последний запуск"}
+{"ns": "conversation", "key": "detail.field.packages", "ru": "Пакеты"}
+{"ns": "conversation", "key": "detail.field.registrations", "ru": "Регистрации"}
+{"ns": "conversation", "key": "detail.field.props", "ru": "Свойства"}
+{"ns": "conversation", "key": "detail.field.data", "ru": "Данные"}
+{"ns": "conversation", "key": "detail.field.source", "ru": "Источник"}
+{"ns": "conversation", "key": "detail.field.content", "ru": "Содержимое"}
+{"ns": "conversation", "key": "detail.field.message", "ru": "Сообщение"}
+{"ns": "conversation", "key": "detail.field.messageId", "ru": "ID сообщения"}
+{"ns": "conversation", "key": "detail.field.root", "ru": "Корень"}
+{"ns": "conversation", "key": "detail.field.pid", "ru": "ID процесса"}
+{"ns": "conversation", "key": "detail.field.type", "ru": "Тип"}
+{"ns": "conversation", "key": "detail.field.time", "ru": "Время"}
+{"ns": "conversation", "key": "detail.field.seq", "ru": "Номер события"}
+{"ns": "conversation", "key": "detail.field.turn", "ru": "Ход"}
+{"ns": "conversation", "key": "detail.field.step", "ru": "Шаг"}
+{"ns": "conversation", "key": "detail.field.callId", "ru": "ID вызова"}
+{"ns": "conversation", "key": "detail.field.agents", "ru": "Запущено агентов"}
+{"ns": "conversation", "key": "detail.field.result", "ru": "Результат"}
+{"ns": "conversation", "key": "detail.field.parent", "ru": "Родитель"}
+{"ns": "conversation", "key": "detail.field.exitCode", "ru": "Код выхода"}
+{"ns": "conversation", "key": "detail.field.signal", "ru": "Сигнал"}
+{"ns": "conversation", "key": "detail.field.previousStatus", "ru": "Предыдущий статус"}
+{"ns": "conversation", "key": "detail.field.agent", "ru": "ID агента"}
+{"ns": "conversation", "key": "detail.field.agentName", "ru": "Имя агента"}
+{"ns": "conversation", "key": "detail.field.agentDescription", "ru": "Описание задачи агента"}
+{"ns": "conversation", "key": "detail.field.job", "ru": "ID задачи"}
+{"ns": "conversation", "key": "detail.field.task", "ru": "Задача"}
+{"ns": "conversation", "key": "detail.field.processGroup", "ru": "Группа процессов"}
+{"ns": "conversation", "key": "detail.field.availability", "ru": "Доступность"}
+{"ns": "conversation", "key": "detail.field.bestMatch", "ru": "Лучшее совпадение"}
+{"ns": "conversation", "key": "detail.field.target", "ru": "Целевое событие"}
+{"ns": "conversation", "key": "detail.field.surface", "ru": "Статус записи"}
+{"ns": "conversation", "key": "detail.agents.count", "ru": "Агентов: {count}"}
+{"ns": "conversation", "key": "detail.jobs.count", "ru": "Фоновых задач: {count}"}
+{"ns": "conversation", "key": "detail.terminals.count", "ru": "Терминалов: {count}"}
+{"ns": "conversation", "key": "detail.tasks.count", "ru": "Командных задач: {count}"}
+{"ns": "conversation", "key": "detail.tasks.nextPage", "ru": "Есть ещё задачи; следующий курсор — {cursor}"}
+{"ns": "conversation", "key": "detail.locations.count", "ru": "Местоположений: {count}"}
+{"ns": "conversation", "key": "detail.location", "ru": "Строка {line}, столбец {column}"}
+{"ns": "conversation", "key": "detail.receipt.delivered", "ru": "Сообщение доставлено"}
+{"ns": "conversation", "key": "detail.receipt.interrupt", "ru": "Запрошено прерывание"}
+{"ns": "conversation", "key": "detail.receipt.started", "ru": "Запущено"}
+{"ns": "conversation", "key": "detail.receipt.cancel", "ru": "Запрошена отмена"}
+{"ns": "conversation", "key": "detail.receipt.alreadyFinished", "ru": "Уже завершено"}
+{"ns": "conversation", "key": "detail.receipt.signal", "ru": "Сигнал доставлен"}
+{"ns": "conversation", "key": "detail.receipt.closed", "ru": "Закрыто"}
+{"ns": "conversation", "key": "detail.receipt.closing", "ru": "Закрытие"}
+{"ns": "conversation", "key": "detail.wait.noProgress", "ru": "Нет активных субагентов"}
+{"ns": "conversation", "key": "detail.wait.title", "ru": "Результат ожидания"}
+{"ns": "conversation", "key": "detail.wait.timeout", "ru": "Время ожидания истекло"}
+{"ns": "conversation", "key": "detail.wait.ended", "ru": "Ожидание завершено"}
+{"ns": "conversation", "key": "detail.agent.reply", "ru": "Ответ агента"}
+{"ns": "conversation", "key": "detail.models.title", "ru": "Доступные модели"}
+{"ns": "conversation", "key": "detail.output.lines", "ru": "Строки {begin}–{end} из {total}"}
+{"ns": "conversation", "key": "detail.output.truncated", "ru": "Вывод сокращён"}
+{"ns": "conversation", "key": "detail.providers.count", "ru": "Провайдеров Inspect: {count}"}
+{"ns": "conversation", "key": "detail.plugins.count", "ru": "Динамических плагинов: {count}"}
+{"ns": "conversation", "key": "detail.workflow.script", "ru": "Сценарий воркфлоу"}
+{"ns": "conversation", "key": "detail.ralph.reportedComplete", "ru": "Исполнитель сообщил о завершении"}
+{"ns": "conversation", "key": "detail.ralph.reportedBlocker", "ru": "Исполнитель сообщил о блокере"}
+{"ns": "conversation", "key": "detail.ralph.limit", "ru": "Достигнут лимит раундов"}
+{"ns": "conversation", "key": "detail.report.nextSteps", "ru": "Оставшаяся работа"}
+{"ns": "conversation", "key": "detail.trace.replacedBy", "ru": "Заменено на"}
+{"ns": "conversation", "key": "detail.trace.replacementChain", "ru": "Цепочка замен"}
+{"ns": "conversation", "key": "detail.trace.replaces", "ru": "Заменённые события"}
+{"ns": "conversation", "key": "detail.trace.sources", "ru": "Исходные события"}
+{"ns": "conversation", "key": "detail.trace.derived", "ru": "Производные события"}
+{"ns": "conversation", "key": "detail.trace.ancestors", "ru": "Родительские сессии"}
+{"ns": "conversation", "key": "detail.trace.descendants", "ru": "Дочерние сессии"}
+{"ns": "conversation", "key": "detail.matches.count", "ru": "Совпадений: {count}"}
+{"ns": "conversation", "key": "detail.matches.capped", "ru": "Достигнут предел результатов. Уточните поиск, чтобы увидеть больше"}
+{"ns": "conversation", "key": "detail.event.neighbors", "ru": "Соседние события"}
+{"ns": "conversation", "key": "todo.completed", "ru": "{done}/{total} завершено"}
+{"ns": "conversation", "key": "command.attachmentsUnsupported", "ru": "/{command} не принимает вложения. Сначала удалите их"}
+{"ns": "conversation", "key": "ask.rowTitle", "ru": "Задать вопрос"}
+{"ns": "conversation", "key": "ask.waiting", "ru": "ожидание"}
+{"ns": "conversation", "key": "ask.pending", "ru": "продолжено; ответ ещё доступен"}
+{"ns": "conversation", "key": "ask.pendingDetail", "ru": "На эти вопросы ещё можно ответить из поля ввода"}
+{"ns": "conversation", "key": "ask.reopen", "ru": "Ответить"}
+{"ns": "conversation", "key": "ask.review", "ru": "Посмотреть ответы"}
+{"ns": "conversation", "key": "ask.closed", "ru": "закрыто"}
+{"ns": "conversation", "key": "ask.closedDetail", "ru": "Вопрос закрыт. Результат — в беседе ниже."}
+{"ns": "conversation", "key": "ask.cancelled", "ru": "отменено"}
+{"ns": "conversation", "key": "ask.cancelledDetail", "ru": "Набор вопросов отменён до отправки ответов."}
+{"ns": "conversation", "key": "ask.interrupted", "ru": "прервано"}
+{"ns": "conversation", "key": "ask.interruptedDetail", "ru": "Набор вопросов прерван до отправки ответов."}
+{"ns": "conversation", "key": "ask.answered", "ru": "Ответов: {answered} из {total}"}
+{"ns": "conversation", "key": "ask.skipped", "ru": "Без ответа"}
+{"ns": "conversation", "key": "bash.running", "ru": "Выполняется"}
+{"ns": "conversation", "key": "bash.failed", "ru": "Не удалось"}
+{"ns": "conversation", "key": "bash.stopped", "ru": "Остановлено"}
+{"ns": "conversation", "key": "row.running", "ru": "Выполняется"}
+{"ns": "conversation", "key": "row.preparing", "ru": "Подготовка вызова инструмента"}
+{"ns": "conversation", "key": "row.failed", "ru": "Не удалось"}
+{"ns": "conversation", "key": "row.stopped", "ru": "Остановлено"}
+{"ns": "conversation", "key": "row.commandArguments", "ru": "Аргументы команды"}
+{"ns": "conversation", "key": "row.input", "ru": "IN"}
+{"ns": "conversation", "key": "row.output", "ru": "OUT"}
+{"ns": "conversation", "key": "row.inspect", "ru": "Открыть Inspect"}
+{"ns": "conversation", "key": "row.imageSize", "ru": "{width}x{height}px, {bytes} байт"}
+{"ns": "conversation", "key": "row.imageSizeDownscaled", "ru": "{width}x{height}px (уменьшено с {originalWidth}x{originalHeight}px), {bytes} байт"}
+{"ns": "conversation", "key": "tool.title.search", "ru": "Поиск"}
+{"ns": "conversation", "key": "tool.title.read", "ru": "Прочитать"}
+{"ns": "conversation", "key": "tool.title.bash", "ru": "Bash"}
+{"ns": "conversation", "key": "tool.title.write", "ru": "Записать"}
+{"ns": "conversation", "key": "tool.title.edit", "ru": "Изменить"}
+{"ns": "conversation", "key": "tool.title.applyPatch", "ru": "Изменить"}
+{"ns": "conversation", "key": "tool.title.code", "ru": "Код"}
+{"ns": "conversation", "key": "tool.title.generic", "ru": "Вызов инструмента"}
+{"ns": "conversation", "key": "tool.title.inspect", "ru": "Запрос среды Cordis"}
+{"ns": "conversation", "key": "tool.title.runCordis", "ru": "Запустить плагин Cordis"}
+{"ns": "conversation", "key": "tool.title.stopCordis", "ru": "Остановить плагин Cordis"}
+{"ns": "conversation", "key": "tool.title.removeCordis", "ru": "Удалить плагин Cordis"}
+{"ns": "conversation", "key": "tool.title.pwsh", "ru": "PowerShell"}
+{"ns": "conversation", "key": "tool.title.readImage", "ru": "Прочитать изображение"}
+{"ns": "conversation", "key": "tool.title.grep", "ru": "Grep"}
+{"ns": "conversation", "key": "tool.title.glob", "ru": "Glob"}
+{"ns": "conversation", "key": "tool.title.webSearch", "ru": "Поиск"}
+{"ns": "conversation", "key": "tool.title.webFetch", "ru": "Получить"}
+{"ns": "conversation", "key": "tool.autoReviewRejected", "ru": "Отклонено Auto review"}
+{"ns": "conversation", "key": "tool.autoReviewNotExecuted", "ru": "Инструмент не выполнен. Причина: {reason}"}
+{"ns": "conversation", "key": "tool.autoReviewReasonFallback", "ru": "Auto review не разрешил это действие"}
+{"ns": "conversation", "key": "diff.collapseAria", "ru": "Свернуть дифф"}
+{"ns": "conversation", "key": "diff.expandAria", "ru": "Развернуть ещё {count} стр. диффа"}
+{"ns": "conversation", "key": "diff.expandRest", "ru": "… ещё {count} стр."}
+{"ns": "conversation", "key": "read.window", "ru": "Показано строк: {shown} из {total}"}
+{"ns": "conversation", "key": "read.collapseAria", "ru": "Свернуть содержимое"}
+{"ns": "conversation", "key": "read.expandAria", "ru": "Развернуть ещё {count} стр."}
+{"ns": "conversation", "key": "read.expandRest", "ru": "… ещё {count} стр."}
+{"ns": "conversation", "key": "search.paths", "ru": "Путей: {shown}"}
+{"ns": "conversation", "key": "search.paths.truncated", "ru": "Путей: {shown} из {total}"}
+{"ns": "conversation", "key": "search.matches", "ru": "Совпадений: {shown} · Файлов: {files}"}
+{"ns": "conversation", "key": "search.matches.truncated", "ru": "Совпадений: {shown} из {total} · Файлов: {files}"}
+{"ns": "conversation", "key": "search.noResults", "ru": "Нет результатов"}
+{"ns": "conversation", "key": "search.collapseAria", "ru": "Свернуть результаты"}
+{"ns": "conversation", "key": "search.expandAria", "ru": "Развернуть ещё {count} стр. результатов"}
+{"ns": "conversation", "key": "search.expandRest", "ru": "… ещё {count} стр."}
+{"ns": "conversation", "key": "web.noResults", "ru": "Результаты не найдены"}
+{"ns": "conversation", "key": "web.sourcesTruncated", "ru": "Список источников сокращён"}
+{"ns": "conversation", "key": "web.http", "ru": "HTTP"}
+{"ns": "conversation", "key": "web.contentTruncated", "ru": "Содержимое сокращено"}
+{"ns": "conversation", "key": "details.running", "ru": "Выполняется…"}
+{"ns": "conversation", "key": "queue.count", "ru": "Сообщений в очереди: {n}"}
+{"ns": "conversation", "key": "queue.sending", "ru": "Отправка…"}
+{"ns": "conversation", "key": "queue.image", "ru": "Изображение в очереди"}
+{"ns": "conversation", "key": "queue.file", "ru": "Файл в очереди: {name}"}
+{"ns": "conversation", "key": "queue.edit", "ru": "Изменить сообщение в очереди"}
+{"ns": "conversation", "key": "queue.edit.unsupported", "ru": "Есть нетекстовое содержимое. Редактирование пока не поддерживается"}
+{"ns": "conversation", "key": "queue.save", "ru": "Сохранить сообщение в очереди"}
+{"ns": "conversation", "key": "queue.cancelEdit", "ru": "Отменить редактирование"}
+{"ns": "conversation", "key": "queue.remove", "ru": "Удалить сообщение из очереди"}
+{"ns": "conversation", "key": "queue.steer", "ru": "Направить сообщение из очереди"}
+{"ns": "conversation", "key": "queue.steer.unavailable", "ru": "Направить можно только во время работы агента"}
+{"ns": "conversation", "key": "error.sessionInUse", "ru": "Эта сессия уже используется — возможно, другим запущенным экземпляром DSH (например, dsh web или настольным приложением). Закройте другие экземпляры DSH и повторите попытку."}
+{"ns": "conversation", "key": "queue.editFailed", "ru": "Не удалось изменить: возможно, сообщение уже начало отправляться."}
+{"ns": "conversation", "key": "queue.removeFailed", "ru": "Не удалось удалить: возможно, сообщение уже начало отправляться."}
+{"ns": "conversation", "key": "queue.steerFailed", "ru": "Не удалось направить. Повторите попытку."}
+{"ns": "conversation", "key": "terminal.signal", "ru": "сигнал {signal}"}
+{"ns": "conversation", "key": "terminal.exitCode", "ru": "код выхода {code}"}
+{"ns": "conversation", "key": "terminal.noExitCode", "ru": "нет кода выхода"}
+{"ns": "conversation", "key": "terminal.commandLine", "ru": "Командная строка {n}"}
+{"ns": "conversation", "key": "terminal.running", "ru": "Выполняется"}
+{"ns": "conversation", "key": "terminal.failed", "ru": "Не удалось"}
+{"ns": "conversation", "key": "terminal.done", "ru": "Готово"}
+{"ns": "conversation", "key": "terminal.noOutput", "ru": "Нет вывода"}
+{"ns": "conversation", "key": "terminal.collapseAria", "ru": "Свернуть вывод"}
+{"ns": "conversation", "key": "terminal.expandAria", "ru": "Развернуть остальные {n} стр. вывода"}
+{"ns": "conversation", "key": "terminal.expandRest", "ru": "… ещё {n} стр."}
+{"ns": "conversation", "key": "terminal.sendInput", "ru": "(отправить ввод)"}
+{"ns": "conversation", "key": "terminal.session", "ru": "Терминал {sessionId}"}

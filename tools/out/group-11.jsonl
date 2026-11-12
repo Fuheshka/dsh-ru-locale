@@ -1,0 +1,250 @@
+{"ns": "sidebarRight", "key": "menu.close", "ru": "Закрыть"}
+{"ns": "sidebarRight", "key": "menu.closeOthers", "ru": "Закрыть другие вкладки"}
+{"ns": "sidebarRight", "key": "menu.closeRight", "ru": "Закрыть вкладки справа"}
+{"ns": "sidebarRight", "key": "command.close", "ru": "Закрыть текущую страницу или окно"}
+{"ns": "sidebarRight", "key": "command.refresh", "ru": "Обновить текущую страницу"}
+{"ns": "sidebarRight", "key": "command.noRefresh", "ru": "Страницу нельзя обновить"}
+{"ns": "sidebarRight", "key": "command.toggle", "ru": "Переключить правую боковую панель"}
+{"ns": "sidebarRight", "key": "command.fullscreen", "ru": "Переключить полноэкранный режим панели"}
+{"ns": "sidebarRight", "key": "command.noSession", "ru": "Сначала выберите сессию"}
+{"ns": "sidebarRight", "key": "command.noFocus", "ru": "Сначала сфокусируйтесь на панели справа"}
+{"ns": "sidebarRight", "key": "command.stale", "ru": "Страница изменилась. Сфокусируйтесь на ней ещё раз"}
+{"ns": "sidebarRight", "key": "command.collapsed", "ru": "Сначала разверните правую боковую панель"}
+{"ns": "sidebarRight", "key": "command.float", "ru": "Это действие недоступно в плавающей панели"}
+{"ns": "sidebarRight", "key": "command.empty", "ru": "Сначала откройте страницу"}
+{"ns": "sidebarRight", "key": "command.budget", "ru": "Максимум две панели"}
+{"ns": "sidebarRight", "key": "command.width", "ru": "Не хватает ширины для разделения. Расширьте боковую панель"}
+{"ns": "sidebarRight", "key": "chrome.expand", "ru": "Открыть боковую панель"}
+{"ns": "sidebarRight", "key": "chrome.expandAria", "ru": "Открыть правую боковую панель"}
+{"ns": "sidebarRight", "key": "chrome.collapse", "ru": "Свернуть боковую панель"}
+{"ns": "sidebarRight", "key": "chrome.collapseAria", "ru": "Свернуть правую боковую панель"}
+{"ns": "sidebarRight", "key": "chrome.toFullscreen", "ru": "Полноэкранный режим"}
+{"ns": "sidebarRight", "key": "chrome.exitFullscreen", "ru": "Выйти из полноэкранного режима"}
+{"ns": "sidebarRight", "key": "dock.emptyPane", "ru": "Пустая панель"}
+{"ns": "sidebarRight", "key": "dock.splitPane", "ru": "Разделить"}
+{"ns": "sidebarRight", "key": "dock.splitPaneDisabled", "ru": "Максимум две панели"}
+{"ns": "sidebarRight", "key": "dock.splitPaneNarrow", "ru": "Не хватает ширины для разделения. Расширьте боковую панель"}
+{"ns": "sidebarRight", "key": "dock.closeTab", "ru": "Закрыть"}
+{"ns": "sidebarRight", "key": "dock.addTab", "ru": "Новая вкладка"}
+{"ns": "sidebarRight", "key": "dock.dockFloat", "ru": "Вернуть на боковую панель"}
+{"ns": "sidebarRight", "key": "dock.closeFloat", "ru": "Закрыть"}
+{"ns": "sidebarRight", "key": "dock.drop.center", "ru": "Переместить сюда"}
+{"ns": "sidebarRight", "key": "dock.drop.left", "ru": "Разделить слева"}
+{"ns": "sidebarRight", "key": "dock.drop.right", "ru": "Разделить справа"}
+{"ns": "sidebarRight", "key": "dock.drop.top", "ru": "Разделить сверху"}
+{"ns": "sidebarRight", "key": "dock.drop.bottom", "ru": "Разделить снизу"}
+{"ns": "sidebarRight", "key": "tab.guide.title", "ru": "Старт"}
+{"ns": "sidebarRight", "key": "tab.guide.more", "ru": "Ещё инструменты"}
+{"ns": "sidebarRight", "key": "tab.unavailable", "ru": "Такое содержимое пока нечем открыть"}
+{"ns": "settings.pluginInventory", "key": "tab", "ru": "Список плагинов"}
+{"ns": "settings.pluginInventory", "key": "loading", "ru": "Чтение плагинов…"}
+{"ns": "settings.pluginInventory", "key": "clientSyncing", "ru": "Синхронизация плагинов на этой странице…"}
+{"ns": "settings.pluginInventory", "key": "clientSyncFailed", "ru": "Часть плагинов не синхронизировалась на этой странице. Включение на хосте не изменилось"}
+{"ns": "settings.pluginInventory", "key": "clientSyncRetry", "ru": "Повторить синхронизацию"}
+{"ns": "settings.pluginInventory", "key": "error", "ru": "Плагины временно недоступны."}
+{"ns": "settings.pluginInventory", "key": "metadataError", "ru": "Ошибка метаданных пакета: {error}"}
+{"ns": "settings.pluginInventory", "key": "retry", "ru": "Повторить"}
+{"ns": "settings.pluginInventory", "key": "search", "ru": "Поиск плагинов"}
+{"ns": "settings.pluginInventory", "key": "empty", "ru": "Нет доступных плагинов."}
+{"ns": "settings.pluginInventory", "key": "emptySearch", "ru": "Нет подходящих плагинов."}
+{"ns": "settings.pluginInventory", "key": "presetTitle", "ru": "Плагины сессий"}
+{"ns": "settings.pluginInventory", "key": "presetSubtitle", "ru": "Собирается для каждой сессии пресетами агента"}
+{"ns": "settings.pluginInventory", "key": "switcherLabel", "ru": "Выберите пресет агента для просмотра"}
+{"ns": "settings.pluginInventory", "key": "presetOptionDefault", "ru": "{name} (по умолчанию)"}
+{"ns": "settings.pluginInventory", "key": "presetOptionBroken", "ru": "{name} (не удалось загрузить)"}
+{"ns": "settings.pluginInventory", "key": "globalTitle", "ru": "Глобальные плагины"}
+{"ns": "settings.pluginInventory", "key": "globalSubtitle", "ru": "Общие для системы и всех сессий"}
+{"ns": "settings.pluginInventory", "key": "presetProvidedDetail", "ru": "Отключено глобально; пресеты агента предоставляют его в каждой сессии"}
+{"ns": "settings.pluginInventory", "key": "enabledIn", "ru": "Включено в"}
+{"ns": "settings.pluginInventory", "key": "matchesInOtherPresets", "ru": "Ещё совпадений в других пресетах ({count}): "}
+{"ns": "settings.pluginInventory", "key": "enabledTag", "ru": "Включено"}
+{"ns": "settings.pluginInventory", "key": "disabledTag", "ru": "Отключено"}
+{"ns": "settings.pluginInventory", "key": "conditionalTag", "ru": "Условный"}
+{"ns": "settings.pluginInventory", "key": "presetEnabledTag", "ru": "Через пресеты"}
+{"ns": "settings.pluginInventory", "key": "failedTag", "ru": "Сбой"}
+{"ns": "settings.pluginInventory", "key": "moduleLabel", "ru": "Модуль"}
+{"ns": "settings.pluginInventory", "key": "fromPreset", "ru": "Из пресета"}
+{"ns": "settings.pluginInventory", "key": "condition", "ru": "Отключено, когда"}
+{"ns": "settings.pluginInventory", "key": "configuration", "ru": "Конфигурация"}
+{"ns": "settings.pluginInventory", "key": "runtime", "ru": "Статус"}
+{"ns": "settings.pluginInventory", "key": "unobserved", "ru": "Не запущен"}
+{"ns": "settings.pluginInventory", "key": "pending", "ru": "Ожидание зависимостей"}
+{"ns": "settings.pluginInventory", "key": "loadingPhase", "ru": "Загрузка"}
+{"ns": "settings.pluginInventory", "key": "active", "ru": "Работает"}
+{"ns": "settings.pluginInventory", "key": "failed", "ru": "Не удалось запустить"}
+{"ns": "settings.pluginInventory", "key": "unloading", "ru": "Выгрузка"}
+{"ns": "settings.subagent", "key": "overridden", "ru": "Переопределено"}
+{"ns": "settings.subagent", "key": "reset", "ru": "Сбросить к значению по умолчанию"}
+{"ns": "settings.subagent", "key": "readOnly", "ru": "В этой установке настройки доступны только для чтения"}
+{"ns": "settings.subagent", "key": "unavailable", "ru": "Плагин не загружен, поэтому настройка сейчас недоступна"}
+{"ns": "settings.subagent", "key": "save", "ru": "Сохранить"}
+{"ns": "settings.subagent", "key": "saving", "ru": "Сохранение…"}
+{"ns": "settings.subagent", "key": "saveFailed", "ru": "Установка не приняла эти значения; они остались на исправление"}
+{"ns": "settings.subagent", "key": "subagentTitle", "ru": "Субагент"}
+{"ns": "settings.subagent", "key": "subagentDescription", "ru": "Настройте глубину рекурсии субагентов, их количество и модели"}
+{"ns": "settings.subagent", "key": "subagentLimitsTitle", "ru": "Ограничения"}
+{"ns": "settings.subagent", "key": "subagentMaxDepth", "ru": "Максимальная глубина рекурсии"}
+{"ns": "settings.subagent", "key": "subagentDepthHelpLabel", "ru": "О максимальной глубине рекурсии"}
+{"ns": "settings.subagent", "key": "subagentDepthHelp", "ru": "Ограничивает количество уровней субагентов, которые может создать агент."}
+{"ns": "settings.subagent", "key": "subagentDepthZero", "ru": "Отключить субагентов"}
+{"ns": "settings.subagent", "key": "subagentDepthOne", "ru": "Только главный агент может создавать субагентов"}
+{"ns": "settings.subagent", "key": "subagentDepthOverride", "ru": "Если инструмент определяет собственную максимальную глубину рекурсии, этот параметр имеет приоритет."}
+{"ns": "settings.subagent", "key": "subagentMaxActive", "ru": "Максимум одновременных субагентов"}
+{"ns": "settings.subagent", "key": "subagentCapacityHelpLabel", "ru": "О максимуме одновременных субагентов"}
+{"ns": "settings.subagent", "key": "subagentCapacityHelp", "ru": "Сколько субагентов одновременно работает под одним главным агентом на всех уровнях рекурсии. Главный агент не считается. Когда лимит достигнут, новые запросы на запуск отклоняются"}
+{"ns": "settings.subagent", "key": "subagentDepthInvalid", "ru": "Введите целое число не меньше 0"}
+{"ns": "settings.subagent", "key": "subagentCapacityInvalid", "ru": "Введите целое число не меньше 1"}
+{"ns": "settings.subagent", "key": "subagentModelSelectionTitle", "ru": "Выбор модели"}
+{"ns": "settings.subagent", "key": "subagentModelSelectionToggle", "ru": "Разрешить агентам выбирать модели для субагентов"}
+{"ns": "settings.subagent", "key": "subagentModelSelectionChoose", "ru": "Если включено, агенты могут выбирать провайдера, модель и уровень рассуждений для каждого субагента из разрешённых моделей ниже. Действует только для новых сессий"}
+{"ns": "settings.subagent", "key": "subagentModelSelectionAllowed", "ru": "Модели, доступные агентам"}
+{"ns": "settings.subagent", "key": "subagentModelSelectionLoading", "ru": "Загрузка моделей…"}
+{"ns": "settings.subagent", "key": "subagentModelSelectionLoadFailed", "ru": "Не удалось загрузить модели."}
+{"ns": "settings.subagent", "key": "subagentModelSelectionRetry", "ru": "Повторить"}
+{"ns": "settings.subagent", "key": "subagentModelSelectionPartial", "ru": "Часть провайдеров не загрузилась; сохранённые варианты по-прежнему можно убрать"}
+{"ns": "settings.subagent", "key": "subagentModelSelectionUnavailable", "ru": "Сейчас недоступно"}
+{"ns": "settings.subagent", "key": "subagentModelSelectionUnavailableGroup", "ru": "Сохранено, но сейчас недоступно"}
+{"ns": "settings.subagent", "key": "subagentModelSelectionEmpty", "ru": "Ни один провайдер сейчас не предоставляет моделей"}
+{"ns": "settings.subagent", "key": "subagentModelSelectionRequired", "ru": "Перед сохранением выберите хотя бы одну модель"}
+{"ns": "settings.subagent", "key": "subagentModelSelectionConflict", "ru": "Настройки изменены в другом месте. Сбросьте черновик и повторите попытку"}
+{"ns": "settings.subagent", "key": "subagentModelSelectionOff", "ru": "Субагенты используют настроенные по умолчанию значения или наследуют модель родительского агента. Сохранённый выбор моделей не сбрасывается"}
+{"ns": "settings.webSearch", "key": "title", "ru": "Веб-поиск и получение страниц"}
+{"ns": "settings.webSearch", "key": "description", "ru": "Выберите провайдеров для веб-поиска и получения веб-страниц"}
+{"ns": "settings.webSearch", "key": "searchSection", "ru": "Провайдер веб-поиска"}
+{"ns": "settings.webSearch", "key": "fetchSection", "ru": "Провайдер получения веб-страниц"}
+{"ns": "settings.webSearch", "key": "providerDeepSeek", "ru": "DeepSeek Search API"}
+{"ns": "settings.webSearch", "key": "providerLegacy", "ru": "DeepSeek (прежняя версия)"}
+{"ns": "settings.webSearch", "key": "legacyKeyHint", "ru": "Для запросов к моделям аккаунта используется аккаунт с выполненным входом; в остальных случаях — этот ключ API ({ref}), по умолчанию общий с разделом «Модели»"}
+{"ns": "settings.webSearch", "key": "maxUses", "ru": "Максимум поисков на запрос"}
+{"ns": "settings.webSearch", "key": "maxUsesHint", "ru": "Максимум серверных поисков на запрос Messages: положительное целое, по умолчанию 5."}
+{"ns": "settings.webSearch", "key": "invalidMaxUses", "ru": "Введите положительное целое или оставьте поле пустым для значения по умолчанию"}
+{"ns": "settings.webSearch", "key": "providerLocal", "ru": "Прямое получение"}
+{"ns": "settings.webSearch", "key": "providerDeepSeekFetch", "ru": "DeepSeek Fetch API"}
+{"ns": "settings.webSearch", "key": "providerMissing", "ru": "{id} (не загружен)"}
+{"ns": "settings.webSearch", "key": "providerAuto", "ru": "Автоматически"}
+{"ns": "settings.webSearch", "key": "providersFailed", "ru": "Не удалось загрузить список провайдеров, поэтому меню может быть неполным"}
+{"ns": "settings.webSearch", "key": "retry", "ru": "Повторить"}
+{"ns": "settings.webSearch", "key": "pluginProviderHint", "ru": "Настраивается в настройках соответствующего плагина"}
+{"ns": "settings.webSearch", "key": "credential", "ru": "Ключ API"}
+{"ns": "settings.webSearch", "key": "baseUrl", "ru": "Базовый URL"}
+{"ns": "settings.webSearch", "key": "baseUrlHint", "ru": "Укажите адрес вместе с префиксом API. Если оставить поле пустым, используется официальный адрес. Провайдер добавляет {path}"}
+{"ns": "settings.webSearch", "key": "apiKeyUnsetApi", "ru": "Ключ не настроен."}
+{"ns": "settings.webSearch", "key": "searchGuide", "ru": "Руководство по поиску и получению"}
+{"ns": "settings.webSearch", "key": "searchGuideUrl", "ru": "https://api-docs.deepseek.com/guides/search"}
+{"ns": "settings.webSearch", "key": "apiKeySet", "ru": "Ключ настроен."}
+{"ns": "settings.webSearch", "key": "count", "ru": "Результатов на поиск"}
+{"ns": "settings.webSearch", "key": "countHint", "ru": "Сколько результатов возвращается на запрос: целое число от 1 до 50, по умолчанию 10. Это число результатов, а не количество поисковых вызовов. web_search хранит не больше источников, чем допускает его собственный лимит результатов"}
+{"ns": "settings.webSearch", "key": "overridden", "ru": "Переопределено"}
+{"ns": "settings.webSearch", "key": "reset", "ru": "Сбросить к значению по умолчанию"}
+{"ns": "settings.webSearch", "key": "readOnly", "ru": "В этой установке настройки доступны только для чтения"}
+{"ns": "settings.webSearch", "key": "unavailable", "ru": "Плагин не загружен, поэтому настройка сейчас недоступна"}
+{"ns": "settings.webSearch", "key": "save", "ru": "Сохранить"}
+{"ns": "settings.webSearch", "key": "saving", "ru": "Сохранение…"}
+{"ns": "settings.webSearch", "key": "saveFailed", "ru": "Установка не приняла эти значения; они остались на исправление"}
+{"ns": "settings.webSearch", "key": "invalidNumber", "ru": "Введите число или оставьте поле пустым, чтобы использовать значение по умолчанию."}
+{"ns": "settings.webSearch", "key": "invalidCount", "ru": "Введите целое число от 1 до 50 или оставьте поле пустым, чтобы использовать значение по умолчанию."}
+{"ns": "cotTranslation", "key": "provider", "ru": "Служба перевода"}
+{"ns": "cotTranslation", "key": "google", "ru": "Google"}
+{"ns": "cotTranslation", "key": "bing", "ru": "Bing"}
+{"ns": "cotTranslation", "key": "deepseekAccount", "ru": "DeepSeek Flash — аккаунт (платный)"}
+{"ns": "cotTranslation", "key": "deepseekOfficial", "ru": "DeepSeek Flash — официальный API (платный)"}
+{"ns": "cotTranslation", "key": "providerUnavailableOption", "ru": "{provider} — недоступен"}
+{"ns": "cotTranslation", "key": "providerUnavailable", "ru": "Этот провайдер недоступен. Настройте аккаунт DeepSeek или провайдера официального API либо выберите доступную службу перевода"}
+{"ns": "cotTranslation", "key": "paidNotice", "ru": "Каждый фрагмент без кэша отправляет отдельный платный запрос DeepSeek Flash через выбранный аккаунт или учётные данные официального API. При повторном раскрытии рассуждений используется прежний результат; смена провайдера, языка, исходного текста или настроек запроса может отправить новый платный запрос"}
+{"ns": "cotTranslation", "key": "anonymousNotice", "ru": "Bing и Google не требуют входа или ключа API. Их анонимные интерфейсы могут отклонять запросы или ограничивать их"}
+{"ns": "cotTranslation", "key": "targetLanguage", "ru": "Целевой язык"}
+{"ns": "cotTranslation", "key": "targetLanguageHint", "ru": "auto — язык интерфейса; можно указать код языка, например zh, en или ja"}
+{"ns": "cotTranslation", "key": "privacy", "ru": "Раскрытые рассуждения отправляются в выбранную службу. В них может быть приватный код или детали диалога"}
+{"ns": "cotTranslation", "key": "translation", "ru": "Посмотреть перевод"}
+{"ns": "cotTranslation", "key": "original", "ru": "Посмотреть оригинал"}
+{"ns": "cotTranslation", "key": "retry", "ru": "Повторить"}
+{"ns": "cotTranslation", "key": "failed", "ru": "Перевод не удался. Показан оригинал"}
+{"ns": "cotTranslation", "key": "translating", "ru": "Перевод рассуждений"}
+{"ns": "cotTranslation", "key": "invalidProvider", "ru": "Выберите службу перевода"}
+{"ns": "cotTranslation", "key": "invalidLanguage", "ru": "Введите auto или код языка, например zh, en или ja."}
+{"ns": "cotTranslation", "key": "overridden", "ru": "Переопределено"}
+{"ns": "cotTranslation", "key": "reset", "ru": "Сбросить к значению по умолчанию"}
+{"ns": "cotTranslation", "key": "unavailable", "ru": "Настройки перевода недоступны."}
+{"ns": "cotTranslation", "key": "readOnly", "ru": "В этой установке настройки доступны только для чтения"}
+{"ns": "cotTranslation", "key": "saveFailed", "ru": "Установка не приняла эти значения; они остались на исправление"}
+{"ns": "cotTranslation", "key": "save", "ru": "Сохранить"}
+{"ns": "cotTranslation", "key": "saving", "ru": "Сохранение…"}
+{"ns": "cotTranslation", "key": "copy", "ru": "Копировать"}
+{"ns": "cotTranslation", "key": "copied", "ru": "Скопировано"}
+{"ns": "cotTranslation", "key": "codeTitle", "ru": "Блок кода"}
+{"ns": "cotTranslation", "key": "wrap", "ru": "Перенос строк"}
+{"ns": "cotTranslation", "key": "unwrap", "ru": "Отключить перенос строк"}
+{"ns": "cotTranslation", "key": "footnotes", "ru": "Сноски"}
+{"ns": "question", "key": "error.incomplete", "ru": "Сначала ответьте на этот вопрос"}
+{"ns": "question", "key": "error.unanswered", "ru": "Выберите вариант или введите свой ответ"}
+{"ns": "question", "key": "error.unavailable", "ru": "Сейчас отправить нельзя. Повторите попытку чуть позже"}
+{"ns": "question", "key": "error.resubmit", "ru": "Ответ не дошёл до того, как работа продолжилась. Отправьте его ещё раз"}
+{"ns": "question", "key": "status.sent", "ru": "Ответ отправлен, но панель не закрылась"}
+{"ns": "question", "key": "wait.takeTime", "ru": "Не спешить"}
+{"ns": "question", "key": "wait.countdown", "ru": "Продолжение через {seconds} с"}
+{"ns": "question", "key": "wait.paused", "ru": "Пауза · осталось {seconds} с"}
+{"ns": "question", "key": "wait.held", "ru": "Ждём ответа"}
+{"ns": "question", "key": "wait.continued", "ru": "Работа продолжилась — ответить ещё можно"}
+{"ns": "question", "key": "review.status", "ru": "Отвечено"}
+{"ns": "question", "key": "review.skipped", "ru": "Вопрос пропущен"}
+{"ns": "question", "key": "reply.label", "ru": "Вопросы и ответы"}
+{"ns": "question", "key": "reply.answerLabel", "ru": "Ответ: "}
+{"ns": "question", "key": "reply.skipped", "ru": "Пропущено"}
+{"ns": "question", "key": "nav.prev", "ru": "Предыдущий вопрос"}
+{"ns": "question", "key": "nav.next", "ru": "Следующий вопрос"}
+{"ns": "question", "key": "nav.minimize", "ru": "Свернуть карточку с вопросом"}
+{"ns": "question", "key": "nav.maximize", "ru": "Развернуть карточку с вопросом"}
+{"ns": "question", "key": "nav.cancel", "ru": "Отклонить все вопросы"}
+{"ns": "question", "key": "nav.close", "ru": "Закрыть панель — снова открыть её можно из вызова инструмента"}
+{"ns": "question", "key": "text.expand", "ru": "Развернуть"}
+{"ns": "question", "key": "text.collapse", "ru": "Свернуть"}
+{"ns": "question", "key": "option.recommended", "ru": "Рекомендуется"}
+{"ns": "question", "key": "custom.placeholder", "ru": "Введите ответ"}
+{"ns": "question", "key": "action.skip", "ru": "Пропустить"}
+{"ns": "question", "key": "action.next", "ru": "Далее"}
+{"ns": "question", "key": "plan.header", "ru": "Проверка плана"}
+{"ns": "question", "key": "plan.approve", "ru": "Утвердить"}
+{"ns": "question", "key": "plan.decline", "ru": "Отказаться"}
+{"ns": "question", "key": "plan.discuss", "ru": "Запросить изменения"}
+{"ns": "agent-team", "key": "progress.completed", "ru": "Завершено: {count}"}
+{"ns": "agent-team", "key": "progress.active", "ru": "В работе: {count}"}
+{"ns": "agent-team", "key": "progress.pending", "ru": "В ожидании: {count}"}
+{"ns": "agent-team", "key": "command.title", "ru": "Совместная работа агентов"}
+{"ns": "agent-team", "key": "command.running", "ru": "Выполняется"}
+{"ns": "agent-team", "key": "command.done", "ru": "Завершено"}
+{"ns": "agent-team", "key": "command.failed", "ru": "Ошибка"}
+{"ns": "agent-team", "key": "command.failedReason", "ru": "Ошибка: {reason}"}
+{"ns": "agent-team", "key": "trigger", "ru": "Доска задач"}
+{"ns": "agent-team", "key": "mode.label", "ru": "Включить совместную работу агентов"}
+{"ns": "agent-team", "key": "mode.infoLabel", "ru": "О совместной работе агентов"}
+{"ns": "agent-team", "key": "mode.description", "ru": "Согласовывайте работу и прогресс агентов через общую доску задач: сложные задачи решаются лучше, но расход токенов выше"}
+{"ns": "agent-team", "key": "mode.failed", "ru": "Не удалось подтвердить сохранение настройки совместной работы агентов. Повторите попытку: {message}"}
+{"ns": "agent-team", "key": "disable.title", "ru": "Отключить совместную работу агентов?"}
+{"ns": "agent-team", "key": "disable.description", "ru": "При отключении во время разговора агенты перестают пользоваться общими инструментами задач и инструкциями по координации"}
+{"ns": "agent-team", "key": "disable.warning", "ru": "Это может нарушить переиспользование кэша, увеличить дальнейший расход токенов и затраты, а также помешать совместной работе над текущей задачей"}
+{"ns": "agent-team", "key": "disable.cancel", "ru": "Отмена"}
+{"ns": "agent-team", "key": "disable.confirm", "ru": "Отключить"}
+{"ns": "agent-team", "key": "disable.close", "ru": "Закрыть"}
+{"ns": "agent-team", "key": "loading", "ru": "Загрузка доски задач…"}
+{"ns": "agent-team", "key": "unavailable", "ru": "Доска задач недоступна"}
+{"ns": "agent-team", "key": "failure", "ru": "Недопустимая сохранённая запись задачи: {message}"}
+{"ns": "agent-team", "key": "empty", "ru": "Общих задач пока нет — создайте их в диалоге"}
+{"ns": "agent-team", "key": "tasks", "ru": "Общие задачи"}
+{"ns": "agent-team", "key": "owner", "ru": "Ответственный"}
+{"ns": "agent-team", "key": "unowned", "ru": "Не назначен"}
+{"ns": "agent-team", "key": "blocked", "ru": "Заблокировано зависимостями"}
+{"ns": "agent-team", "key": "status.pending", "ru": "Ожидается"}
+{"ns": "agent-team", "key": "status.in_progress", "ru": "В процессе"}
+{"ns": "agent-team", "key": "status.completed", "ru": "Завершено"}
+{"ns": "fileActions", "key": "menu.finder", "ru": "Показать в Finder"}
+{"ns": "fileActions", "key": "menu.reveal", "ru": "Показать в папке"}
+{"ns": "fileActions", "key": "menu.saveAs", "ru": "Сохранить как…"}
+{"ns": "fileActions", "key": "menu.copied", "ru": "Скопировано"}
+{"ns": "fileActions", "key": "menu.copyImage", "ru": "Копировать изображение"}
+{"ns": "fileActions", "key": "menu.download", "ru": "Скачать"}
+{"ns": "fileActions", "key": "menu.saveFailed", "ru": "Не удалось сохранить. Проверьте исходный файл и папку назначения и повторите попытку"}
+{"ns": "fileActions", "key": "menu.copyFailed", "ru": "Не удалось скопировать. Проверьте доступность содержимого и повторите попытку."}
+{"ns": "fileActions", "key": "menu.saved", "ru": "Сохранено"}
+{"ns": "fileActions", "key": "menu.downloadStarted", "ru": "Скачивание начато"}
+{"ns": "fileActions", "key": "menu.downloaded", "ru": "Скачивание завершено"}
+{"ns": "fileActions", "key": "path.revealError", "ru": "Не удалось показать местоположение файла. Повторите попытку"}

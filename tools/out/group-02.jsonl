@@ -1,0 +1,291 @@
+{"ns": "pluginManager", "key": "panel", "ru": "Плагины"}
+{"ns": "pluginManager", "key": "title", "ru": "Плагины"}
+{"ns": "pluginManager", "key": "intro", "ru": "Установка, включение и настройка плагинов"}
+{"ns": "pluginManager", "key": "infoLabel", "ru": "О плагинах"}
+{"ns": "pluginManager", "key": "infoDescription", "ru": "Здесь настраиваются официальные плагины, а также устанавливаются и управляются остальные. Список встроенных плагинов и статус работы — в разделе «Настройки» → «Встроенные плагины»."}
+{"ns": "pluginManager", "key": "loading", "ru": "Чтение плагинов…"}
+{"ns": "pluginManager", "key": "error", "ru": "Не удалось прочитать все плагины, возможно, из-за проблем с сетью"}
+{"ns": "pluginManager", "key": "unavailable", "ru": "Эта установка работает без управляемого профиля, поэтому устанавливать и переключать плагины здесь нельзя."}
+{"ns": "pluginManager", "key": "retry", "ru": "Повторить"}
+{"ns": "pluginManager", "key": "refresh", "ru": "Обновить"}
+{"ns": "pluginManager", "key": "refreshError", "ru": "Не удалось обновить. Повторите попытку."}
+{"ns": "pluginManager", "key": "empty", "ru": "Плагины пока не установлены."}
+{"ns": "pluginManager", "key": "addPlugin", "ru": "Добавить плагин"}
+{"ns": "pluginManager", "key": "chooseAddMethod", "ru": "Выберите, как добавить плагин"}
+{"ns": "pluginManager", "key": "installExisting", "ru": "Установить сторонний плагин"}
+{"ns": "pluginManager", "key": "installExistingDescription", "ru": "Поддерживаются пакеты npm, репозитории Git и локальные каталоги"}
+{"ns": "pluginManager", "key": "restartNotice", "ru": "Перезапустите DSH, чтобы применить изменения. {reason}"}
+{"ns": "pluginManager", "key": "restartReasonNoHmr", "ru": "Этот профиль применяет изменения только при запуске."}
+{"ns": "pluginManager", "key": "restartReasonPackageMoved", "ru": "Установленный пакет теперь ссылается на другой каталог, либо изменение заменяет пакет из состава DSH. Прежде чем устанавливать пакет из другого места, удалите его."}
+{"ns": "pluginManager", "key": "restartReasonHostModule", "ru": "Изменение затрагивает модули, которые загрузил сам DSH."}
+{"ns": "pluginManager", "key": "restartReasonUnmanagedPlugin", "ru": "Изменение затрагивает плагин, работающий вне списка плагинов."}
+{"ns": "pluginManager", "key": "restartReasonModuleComparison", "ru": "DSH не смог сравнить загруженные плагины с их файлами."}
+{"ns": "pluginManager", "key": "overriddenNotice", "ru": "{name} сохранён, но его перекрывает конфигурация с более высоким приоритетом, поэтому он не действует"}
+{"ns": "pluginManager", "key": "bundlesTitle", "ru": "Установленные плагины"}
+{"ns": "pluginManager", "key": "basicTitle", "ru": "Настройки встроенных плагинов"}
+{"ns": "pluginManager", "key": "extensionsTitle", "ru": "Экспериментальные плагины"}
+{"ns": "pluginManager", "key": "moreTitle", "ru": "Экспериментальные плагины"}
+{"ns": "pluginManager", "key": "moreAction", "ru": "Ещё"}
+{"ns": "pluginManager", "key": "tabsLabel", "ru": "Вкладки плагинов"}
+{"ns": "pluginManager", "key": "installedTab", "ru": "Установлено"}
+{"ns": "pluginManager", "key": "statusProblem", "ru": "Проблема"}
+{"ns": "pluginManager", "key": "statusBeta", "ru": "Экспериментальный"}
+{"ns": "pluginManager", "key": "reasonLabel", "ru": "Причина"}
+{"ns": "pluginManager", "key": "metadataError", "ru": "Ошибка метаданных пакета: {error}"}
+{"ns": "pluginManager", "key": "versionTag", "ru": "v{version}"}
+{"ns": "pluginManager", "key": "partsLabel", "ru": "Компоненты"}
+{"ns": "pluginManager", "key": "sourceTitle", "ru": "Источник"}
+{"ns": "pluginManager", "key": "sourceSpec", "ru": "Источник кода"}
+{"ns": "pluginManager", "key": "sourceBuiltIn", "ru": "Встроенный"}
+{"ns": "pluginManager", "key": "sourceVersion", "ru": "Текущая версия"}
+{"ns": "pluginManager", "key": "partsEmpty", "ru": "Этот пакет плагинов не содержит компонентов."}
+{"ns": "pluginManager", "key": "partsCountTotal", "ru": "Всего: {count}"}
+{"ns": "pluginManager", "key": "partsCountRunning", "ru": "Работает: {count}"}
+{"ns": "pluginManager", "key": "partsCountOff", "ru": "Выключено: {count}"}
+{"ns": "pluginManager", "key": "partOff", "ru": "Выкл."}
+{"ns": "pluginManager", "key": "partsCountFailed", "ru": "С ошибкой: {count}"}
+{"ns": "pluginManager", "key": "partsFilter", "ru": "Фильтр компонентов"}
+{"ns": "pluginManager", "key": "partsFilterEmpty", "ru": "Нет подходящих компонентов."}
+{"ns": "pluginManager", "key": "partToggle", "ru": "Включить компонент {name}"}
+{"ns": "pluginManager", "key": "rowPhasePending", "ru": "Ожидание зависимостей"}
+{"ns": "pluginManager", "key": "rowPhaseLoading", "ru": "Загрузка"}
+{"ns": "pluginManager", "key": "rowPhaseActive", "ru": "Работает"}
+{"ns": "pluginManager", "key": "rowPhaseFailed", "ru": "Проблема"}
+{"ns": "pluginManager", "key": "rowPhaseUnloading", "ru": "Выгрузка"}
+{"ns": "pluginManager", "key": "enableToggle", "ru": "Включить {name}"}
+{"ns": "pluginManager", "key": "applyingChange", "ru": "Применение изменений в {name}"}
+{"ns": "pluginManager", "key": "openDetail", "ru": "Посмотреть {name}"}
+{"ns": "pluginManager", "key": "backToList", "ru": "Вернуться к плагинам"}
+{"ns": "pluginManager", "key": "crumbRoot", "ru": "Плагины"}
+{"ns": "pluginManager", "key": "backToPackage", "ru": "Вернуться к {name}"}
+{"ns": "pluginManager", "key": "configureRow", "ru": "Настроить {name}"}
+{"ns": "pluginManager", "key": "rowStateIdle", "ru": "Не запущен"}
+{"ns": "pluginManager", "key": "uninstall", "ru": "Удалить"}
+{"ns": "pluginManager", "key": "uninstallLabel", "ru": "Удалить {name}"}
+{"ns": "pluginManager", "key": "installTitle", "ru": "Добавить плагин"}
+{"ns": "pluginManager", "key": "installDescription", "ru": "Введите имя пакета плагина, адрес репозитория GitHub или путь к локальному каталогу."}
+{"ns": "pluginManager", "key": "installSpecLabel", "ru": "Имя пакета или адрес"}
+{"ns": "pluginManager", "key": "installSpecPlaceholder", "ru": "например dsh-plugin-whale-pet"}
+{"ns": "pluginManager", "key": "installGuideToggle", "ru": "Руководство по установке и примеры"}
+{"ns": "pluginManager", "key": "installGuideHide", "ru": "Скрыть руководство"}
+{"ns": "pluginManager", "key": "installGuideIdTitle", "ru": "Введите имя npm-пакета плагина"}
+{"ns": "pluginManager", "key": "installGuideIdExample", "ru": "dsh-plugin-whale-pet"}
+{"ns": "pluginManager", "key": "installGuideIdHint", "ru": "Имя пакета плагина — это имя npm-пакета (например, dsh-xxx или @author/plugin): то, что стоит после dsh plugin add или pnpm add в команде установки из README плагина сообщества."}
+{"ns": "pluginManager", "key": "installGuideExampleLabel", "ru": "Пример: "}
+{"ns": "pluginManager", "key": "installGitTemplateHint", "ru": "Замените на настоящий адрес репозитория Git."}
+{"ns": "pluginManager", "key": "installPathTemplateHint", "ru": "Замените на настоящий путь к локальному каталогу плагина."}
+{"ns": "pluginManager", "key": "installGuideFill", "ru": "Использовать пример"}
+{"ns": "pluginManager", "key": "installGuideFillAria", "ru": "Использовать пример {example}"}
+{"ns": "pluginManager", "key": "installGuideSafety", "ru": "Устанавливайте только доверенные плагины: они запускаются с разрешениями пользователя и могут повредить DeepSeek Harness или привести к утечке данных."}
+{"ns": "pluginManager", "key": "installUpgradeNotice", "ru": "Официальные плагины, устанавливаемые по запросу, предлагают обновление, если их версия отличается от DSH. Остальные обновляются удалением и установкой заново."}
+{"ns": "pluginManager", "key": "registryToggle", "ru": "Реестр"}
+{"ns": "pluginManager", "key": "registryLegend", "ru": "Реестр npm, из которого загружается плагин"}
+{"ns": "pluginManager", "key": "registryDefault", "ru": "Реестр по умолчанию"}
+{"ns": "pluginManager", "key": "registryOfficial", "ru": "Официальный реестр npm"}
+{"ns": "pluginManager", "key": "registryNpmmirror", "ru": "Зеркало для Китая"}
+{"ns": "pluginManager", "key": "registryCustom", "ru": "Пользовательский адрес"}
+{"ns": "pluginManager", "key": "registryCustomPlaceholder", "ru": "https://npm.example.com/"}
+{"ns": "pluginManager", "key": "registryCustomHint", "ru": "Введите внутренний или приватный адрес реестра npm, начинающийся с http:// или https://. Если реестр требует авторизации, сохраните учётные данные в ~/.npmrc на этой машине."}
+{"ns": "pluginManager", "key": "registryCustomInvalid", "ru": "Введите адрес, начинающийся с http:// или https://"}
+{"ns": "pluginManager", "key": "registryListSeparator", "ru": ", "}
+{"ns": "pluginManager", "key": "sentenceSeparator", "ru": " "}
+{"ns": "pluginManager", "key": "installRun", "ru": "Установить"}
+{"ns": "pluginManager", "key": "installChecking", "ru": "Проверка…"}
+{"ns": "pluginManager", "key": "installConfirmedTitle", "ru": "Установить плагин"}
+{"ns": "pluginManager", "key": "installConfirmedRefused", "ru": "Этот плагин нельзя установить"}
+{"ns": "pluginManager", "key": "installProblemInvalid", "ru": "Не удалось распознать имя пакета или адрес: {reason}"}
+{"ns": "pluginManager", "key": "installProblemInstalled", "ru": "Плагин уже установлен. Чтобы обновить, удалите его и установите заново"}
+{"ns": "pluginManager", "key": "installProblemShipped", "ru": "Плагин входит в состав DSH: обновите DSH, чтобы получить новую версию"}
+{"ns": "pluginManager", "key": "installBundledTitle", "ru": "Плагин входит в состав DSH"}
+{"ns": "pluginManager", "key": "installBundledDescription", "ru": "Включите его без загрузки второй копии"}
+{"ns": "pluginManager", "key": "installProblemNotFound", "ru": "Плагин не найден"}
+{"ns": "pluginManager", "key": "installProblemNotPackage", "ru": "Путь не существует или не похож на пакет плагина"}
+{"ns": "pluginManager", "key": "installProblemNotBundle", "ru": "В этом пакете не объявлен пакет плагина, поэтому установить его как плагин нельзя: {reason}"}
+{"ns": "pluginManager", "key": "installProblemNetwork", "ru": "Реестр плагинов недоступен. Проверьте сеть и повторите попытку"}
+{"ns": "pluginManager", "key": "installProblemNetworkAll", "ru": "Ни один реестр не ответил (проверены: {registries}); проверьте сеть и прокси или смените реестр"}
+{"ns": "pluginManager", "key": "installProblemUnknown", "ru": "Не удалось получить сведения о плагине: {reason}"}
+{"ns": "pluginManager", "key": "installingTitle", "ru": "Установка плагина…"}
+{"ns": "pluginManager", "key": "installedTitle", "ru": "Установлено"}
+{"ns": "pluginManager", "key": "statusNotInstalled", "ru": "Не установлено"}
+{"ns": "pluginManager", "key": "statusMissingFiles", "ru": "Пакет недоступен"}
+{"ns": "pluginManager", "key": "statusUpdateAvailable", "ru": "Доступно обновление"}
+{"ns": "pluginManager", "key": "sourceNotInstalled", "ru": "Не установлено"}
+{"ns": "pluginManager", "key": "sourceTargetSpec", "ru": "Источник для этого DSH"}
+{"ns": "pluginManager", "key": "sourceTargetVersion", "ru": "Версия для этого DSH"}
+{"ns": "pluginManager", "key": "update", "ru": "Обновить"}
+{"ns": "pluginManager", "key": "updateLabel", "ru": "Обновить {name}"}
+{"ns": "pluginManager", "key": "versionsTitle", "ru": "Версии"}
+{"ns": "pluginManager", "key": "versionsRecheck", "ru": "Проверить снова"}
+{"ns": "pluginManager", "key": "versionsChecking", "ru": "Проверка обновлений"}
+{"ns": "pluginManager", "key": "versionsAvailable", "ru": "Доступно обновление до {version}"}
+{"ns": "pluginManager", "key": "versionsPublished", "ru": "Опубликовано {date}"}
+{"ns": "pluginManager", "key": "versionsLatest", "ru": "Актуально"}
+{"ns": "pluginManager", "key": "versionsCheckedAt", "ru": "Последняя проверка: {time}"}
+{"ns": "pluginManager", "key": "versionsBlocked", "ru": "Новые версии требуют обновления DSH"}
+{"ns": "pluginManager", "key": "versionsBlockedDetail", "ru": "{version} требует {peers}; текущий DSH — {runtime}"}
+{"ns": "pluginManager", "key": "versionsNoneInstallable", "ru": "Нет более новой версии для установки напрямую"}
+{"ns": "pluginManager", "key": "versionsNoneInstallableDetail", "ru": "Более новые версии устарели, являются пререлизами или не объявляют пакет плагина. Разверните, чтобы увидеть их"}
+{"ns": "pluginManager", "key": "versionsFailedNetwork", "ru": "Реестр недоступен"}
+{"ns": "pluginManager", "key": "versionsFailedOther", "ru": "Не удалось проверить наличие обновлений"}
+{"ns": "pluginManager", "key": "versionsDetails", "ru": "Подробности"}
+{"ns": "pluginManager", "key": "versionsNewerCount", "ru": "Новее: {count}"}
+{"ns": "pluginManager", "key": "versionsCollapse", "ru": "Свернуть"}
+{"ns": "pluginManager", "key": "versionsInstalledTag", "ru": "Установлено"}
+{"ns": "pluginManager", "key": "versionsPrereleaseTag", "ru": "Пререлиз"}
+{"ns": "pluginManager", "key": "versionsDeprecatedTag", "ru": "Устарело"}
+{"ns": "pluginManager", "key": "versionsNeedsDsh", "ru": "Требуется {peers}"}
+{"ns": "pluginManager", "key": "versionsNotBundle", "ru": "В этой версии нет объявленного пакета плагина — установить её нельзя"}
+{"ns": "pluginManager", "key": "versionsUpdateLabel", "ru": "Обновить до {version}"}
+{"ns": "pluginManager", "key": "versionsRegistry", "ru": "Реестр"}
+{"ns": "pluginManager", "key": "versionsCheckedAtLabel", "ru": "Проверено"}
+{"ns": "pluginManager", "key": "versionsFallbackTag", "ru": "Резервный"}
+{"ns": "pluginManager", "key": "versionsFallbackHint", "ru": "{registry} недоступен; список взят из резервного реестра"}
+{"ns": "pluginManager", "key": "versionsPrimaryTag", "ru": "Первый"}
+{"ns": "pluginManager", "key": "versionsShowPrerelease", "ru": "Показать пререлизы"}
+{"ns": "pluginManager", "key": "versionsOmitted", "ru": "Не показано версий новее установленной: {count}"}
+{"ns": "pluginManager", "key": "versionsProblemNetwork", "ru": "Недоступен"}
+{"ns": "pluginManager", "key": "versionsProblemNotFound", "ru": "Не найден"}
+{"ns": "pluginManager", "key": "versionsProblemUnknown", "ru": "Ошибка"}
+{"ns": "pluginManager", "key": "updatesAvailable", "ru": "Доступные обновления: {count}"}
+{"ns": "pluginManager", "key": "updatesNone", "ru": "Все плагины актуальны"}
+{"ns": "pluginManager", "key": "updatesFailed", "ru": "Некоторые плагины не удалось проверить"}
+{"ns": "pluginManager", "key": "updateTitle", "ru": "Обновление {name}"}
+{"ns": "pluginManager", "key": "updateSource", "ru": "Установить из"}
+{"ns": "pluginManager", "key": "updateDescription", "ru": "Обновление заменяет {from} на {to}; плагин может ненадолго остановиться. Если установка не удалась, {from} останется или будет установлен заново."}
+{"ns": "pluginManager", "key": "updateRunning", "ru": "Обновление"}
+{"ns": "pluginManager", "key": "updateStepChecking", "ru": "Проверка {version}"}
+{"ns": "pluginManager", "key": "updateStepRemoving", "ru": "Остановка и удаление {version}"}
+{"ns": "pluginManager", "key": "updateStepInstalling", "ru": "Установка {version} из {registry}"}
+{"ns": "pluginManager", "key": "updateStepRestoring", "ru": "Повторная установка {version}"}
+{"ns": "pluginManager", "key": "updateDone", "ru": "Обновлено до {version}"}
+{"ns": "pluginManager", "key": "updateDoneDetail", "ru": "Новая версия работает."}
+{"ns": "pluginManager", "key": "updateRestart", "ru": "{version} установлен: изменения вступят в силу после перезапуска"}
+{"ns": "pluginManager", "key": "updateRefused", "ru": "Не удалось обновить до {version}"}
+{"ns": "pluginManager", "key": "updateRemoveFailed", "ru": "Не удалось удалить {version}"}
+{"ns": "pluginManager", "key": "updateRestored", "ru": "Обновление не удалось; восстановлена версия {version}"}
+{"ns": "pluginManager", "key": "updateRestoredDetail", "ru": "Установить {to} не удалось; {from} установлен заново."}
+{"ns": "pluginManager", "key": "updateKept", "ru": "Не удалось обновить до {version}"}
+{"ns": "pluginManager", "key": "updateKeptDetail", "ru": "{from} не удалён и продолжает использоваться. {reason}"}
+{"ns": "pluginManager", "key": "updateBroken", "ru": "Обновление не удалось; плагин не установлен"}
+{"ns": "pluginManager", "key": "updateBrokenDetail", "ru": "Установить {to} не удалось, и повторная установка {from} тоже не удалась. Установите {name} заново через «Добавить плагин»."}
+{"ns": "pluginManager", "key": "updateLost", "ru": "Результат обновления неизвестен"}
+{"ns": "pluginManager", "key": "updateLostDetail", "ru": "Соединение с DSH было прервано: {reason}. Обновите список плагинов, чтобы увидеть установленную версию."}
+{"ns": "pluginManager", "key": "updateOutput", "ru": "Показать вывод установки"}
+{"ns": "pluginManager", "key": "updateFinish", "ru": "Готово"}
+{"ns": "pluginManager", "key": "installFailedTitle", "ru": "Плагин не удалось установить"}
+{"ns": "pluginManager", "key": "installGithubFailedTitle", "ru": "Нет доступа к GitHub"}
+{"ns": "pluginManager", "key": "installGithubTimeoutTitle", "ru": "Истекло время ожидания подключения к GitHub"}
+{"ns": "pluginManager", "key": "installGithubFailedDescription", "ru": "Попробуйте другой источник установки."}
+{"ns": "pluginManager", "key": "installUseGithubMirror", "ru": "Использовать зеркало для Китая"}
+{"ns": "pluginManager", "key": "installTryAnotherWay", "ru": "Попробовать другой способ"}
+{"ns": "pluginManager", "key": "installPackageLabel", "ru": "Имя пакета плагина"}
+{"ns": "pluginManager", "key": "installEdit", "ru": "Редактировать"}
+{"ns": "pluginManager", "key": "installEditAria", "ru": "Вернуться к редактированию"}
+{"ns": "pluginManager", "key": "installCancelAndEdit", "ru": "Отменить установку и вернуться к редактированию"}
+{"ns": "pluginManager", "key": "installApplyingCancellationError", "ru": "Отмена не подтверждена. Установка уже применяется; дождитесь результата. {reason}"}
+{"ns": "pluginManager", "key": "installReconcile", "ru": "Проверить статус установки"}
+{"ns": "pluginManager", "key": "installUnknownTitle", "ru": "Результат установки недоступен"}
+{"ns": "pluginManager", "key": "installUnknownDescription", "ru": "У хоста нет активной установки с этим идентификатором запроса. Проверьте список плагинов, прежде чем пробовать снова."}
+{"ns": "pluginManager", "key": "installResultUnconfirmed", "ru": "Результат установки не получен. Проверьте статус установки. {reason}"}
+{"ns": "pluginManager", "key": "installAwaitingAcceptance", "ru": "Ожидание, пока хост примет установку. После подтверждения отмена повторится автоматически."}
+{"ns": "pluginManager", "key": "installBackgroundUnknown", "ru": "Результат установки недоступен. Проверьте список плагинов."}
+{"ns": "pluginManager", "key": "installCancel", "ru": "Отменить установку"}
+{"ns": "pluginManager", "key": "installCloseCancels", "ru": "Отменить установку и закрыть"}
+{"ns": "pluginManager", "key": "installViewTask", "ru": "Посмотреть установку"}
+{"ns": "pluginManager", "key": "installUnconfirmedTitle", "ru": "Статус установки не подтверждён"}
+{"ns": "pluginManager", "key": "installBackgroundDone", "ru": "Установка завершена. Посмотреть подробности установки."}
+{"ns": "pluginManager", "key": "installBackgroundFailed", "ru": "Установка не удалась. Посмотреть подробности установки."}
+{"ns": "pluginManager", "key": "installBackgroundUnconfirmed", "ru": "Статус установки не подтверждён. Подробности — в окне установки."}
+{"ns": "pluginManager", "key": "installBackgroundApplying", "ru": "Установка уже применяется, отменить её нельзя. Посмотреть ход установки."}
+{"ns": "pluginManager", "key": "installStarting", "ru": "Подготовка к установке…"}
+{"ns": "pluginManager", "key": "installCancelling", "ru": "Остановка установки…"}
+{"ns": "pluginManager", "key": "installApplying", "ru": "Применяется конфигурация, подождите…"}
+{"ns": "pluginManager", "key": "installCancelledShort", "ru": "Отменено"}
+{"ns": "pluginManager", "key": "installCancelled", "ru": "Установка отменена: плагин не включён, скачанные файлы могли остаться"}
+{"ns": "pluginManager", "key": "installCancelUnconfirmed", "ru": "Остановка установки не подтверждена. Повторите отмену или дождитесь результата установки. {reason}"}
+{"ns": "pluginManager", "key": "installEnableNow", "ru": "Включить сейчас"}
+{"ns": "pluginManager", "key": "installDetailsShow", "ru": "Показать подробности установки"}
+{"ns": "pluginManager", "key": "installDetailsHide", "ru": "Скрыть подробности установки"}
+{"ns": "pluginManager", "key": "installDetailsNoOutput", "ru": "Вывод терминала этой установки не попал в подробности"}
+{"ns": "pluginManager", "key": "installVersion", "ru": "Версия {version}"}
+{"ns": "pluginManager", "key": "installSubjectPath", "ru": "Локальный каталог"}
+{"ns": "pluginManager", "key": "installSubjectGit", "ru": "Git-репозиторий"}
+{"ns": "pluginManager", "key": "installSubjectTarball", "ru": "Архив"}
+{"ns": "pluginManager", "key": "installLocation", "ru": "Устанавливается в {dir}"}
+{"ns": "pluginManager", "key": "installLogPath", "ru": "Полный журнал: {path}"}
+{"ns": "pluginManager", "key": "installRetry", "ru": "Повторить"}
+{"ns": "pluginManager", "key": "installChangeRegistry", "ru": "Изменить реестр"}
+{"ns": "pluginManager", "key": "installAttempt", "ru": "{previous} не смог отдать пакет; повтор через {registry} (реестр {index} из {total})"}
+{"ns": "pluginManager", "key": "installAttemptBadge", "ru": "Попытка {index} · {registry}"}
+{"ns": "pluginManager", "key": "installFailureNetwork", "ru": "Сбой подключения к сети"}
+{"ns": "pluginManager", "key": "installFailureNetworkAll", "ru": "Ни один реестр не ответил (проверены: {registries}). Проверьте сеть и прокси или смените реестр и повторите попытку."}
+{"ns": "pluginManager", "key": "installFailureNetworkHost", "ru": "Не удалось подключиться к {host}. Адреса GitHub и ссылки .tgz не загружаются через реестр: эта машина должна открывать их напрямую или через прокси. Если плагин есть и в npm, введите его имя пакета."}
+{"ns": "pluginManager", "key": "installFailureNotFound", "ru": "Плагин не найден"}
+{"ns": "pluginManager", "key": "installFailureNoMatchingVersion", "ru": "Ни одна версия не соответствует запросу"}
+{"ns": "pluginManager", "key": "installFailureDiskFull", "ru": "Диск заполнен; установка остановлена"}
+{"ns": "pluginManager", "key": "installFailurePermission", "ru": "Нет разрешения на запись: плагин установить нельзя"}
+{"ns": "pluginManager", "key": "installFailureBuildBlocked", "ru": "Сценарии установки зависимости требуют разрешения, без него установка не продолжится"}
+{"ns": "pluginManager", "key": "installFailureBuildBlockedManual", "ru": "pnpm заблокировал сценарии установки; разрешите их через allowBuilds в pnpm-workspace.yaml и повторите попытку"}
+{"ns": "pluginManager", "key": "installFailureIntegrity", "ru": "Пакет не прошёл проверку целостности"}
+{"ns": "pluginManager", "key": "installFailureTimeout", "ru": "Время установки истекло"}
+{"ns": "pluginManager", "key": "installFailurePnpmMissing", "ru": "pnpm не найден: без него установка невозможна"}
+{"ns": "pluginManager", "key": "installFailureGeneric", "ru": "Команда установки завершилась ошибкой; причина — в подробностях"}
+{"ns": "pluginManager", "key": "installFailedEnabling", "ru": "Установка завершена; ошибка возникла при включении плагина"}
+{"ns": "pluginManager", "key": "terminalCommandLine", "ru": "Командная строка {n}"}
+{"ns": "pluginManager", "key": "terminalRunning", "ru": "Выполняется"}
+{"ns": "pluginManager", "key": "terminalFailed", "ru": "Ошибка"}
+{"ns": "pluginManager", "key": "terminalDone", "ru": "Готово"}
+{"ns": "pluginManager", "key": "terminalCopy", "ru": "Копировать"}
+{"ns": "pluginManager", "key": "terminalCopied", "ru": "Скопировано"}
+{"ns": "pluginManager", "key": "terminalNoOutput", "ru": "Нет вывода"}
+{"ns": "pluginManager", "key": "terminalCollapseAria", "ru": "Свернуть вывод"}
+{"ns": "pluginManager", "key": "terminalCollapse", "ru": "Свернуть"}
+{"ns": "pluginManager", "key": "terminalExpandAria", "ru": "Развернуть оставшиеся строки вывода ({n})"}
+{"ns": "pluginManager", "key": "terminalExpand", "ru": "… ещё строк: {n}"}
+{"ns": "pluginManager", "key": "terminalExitCode", "ru": "код выхода {code}"}
+{"ns": "pluginManager", "key": "terminalSignal", "ru": "сигнал {signal}"}
+{"ns": "pluginManager", "key": "terminalNoExitCode", "ru": "нет кода выхода"}
+{"ns": "pluginManager", "key": "installDoneNothing", "ru": "Установка завершена без новых зависимостей."}
+{"ns": "pluginManager", "key": "installDoneRestart", "ru": "Установлено; перезапустите DSH, чтобы загрузить плагин. {reason}"}
+{"ns": "pluginManager", "key": "installDoneApproved", "ru": "Скрипты установки разрешены для {names}"}
+{"ns": "pluginManager", "key": "installDoneOtherVersion", "ru": "По политике безопасности цепочки поставок pnpm (minimumReleaseAge) недавно опубликованные версии не устанавливаются автоматически, поэтому здесь установлена {installed}, а не последняя {version}. Свежая версия ещё не прошла обязательный период ожидания и может содержать необнаруженный вредоносный код или дефекты. Если нужна {version}, удалите текущую версию и установите {exact}, чтобы запросить её."}
+{"ns": "pluginManager", "key": "installApprovalTitle", "ru": "Сценариям установки нужно разрешение"}
+{"ns": "pluginManager", "key": "installApprovalDescription", "ru": "Эти пакеты содержат сценарии установки, которые pnpm не запускал."}
+{"ns": "pluginManager", "key": "installApprovalConsequence", "ru": "После разрешения сценарии выполняются здесь с правами пользователя, а разрешение сохраняется в профиле."}
+{"ns": "pluginManager", "key": "installApprovalCaution", "ru": "Разрешайте только доверенные пакеты."}
+{"ns": "pluginManager", "key": "installApproveAndRetry", "ru": "Разрешить скрипты и повторить"}
+{"ns": "pluginManager", "key": "installClose", "ru": "Готово"}
+{"ns": "pluginManager", "key": "close", "ru": "Закрыть"}
+{"ns": "pluginManager", "key": "cancel", "ru": "Отмена"}
+{"ns": "pluginManager", "key": "confirmUninstallTitle", "ru": "Удалить «{name}»?"}
+{"ns": "pluginManager", "key": "confirmUninstallDescription", "ru": "Всё, что он предоставляет, пропадёт после удаления."}
+{"ns": "pluginManager", "key": "confirmUninstall", "ru": "Удалить"}
+{"ns": "pluginManager", "key": "failedEnable", "ru": "Не удалось включить: {reason}"}
+{"ns": "pluginManager", "key": "failedDisable", "ru": "Не удалось отключить: {reason}"}
+{"ns": "pluginManager", "key": "failedUninstall", "ru": "Не удалось удалить: {reason}"}
+{"ns": "pluginManager", "key": "failedRowEnable", "ru": "Не удалось включить компонент: {reason}"}
+{"ns": "pluginManager", "key": "failedRowDisable", "ru": "Не удалось отключить компонент: {reason}"}
+{"ns": "pluginManager", "key": "reasonManagementRequired", "ru": "Нужен для управления плагинами: его нельзя отключить или удалить."}
+{"ns": "pluginManager", "key": "reasonUnaddressable", "ru": "Патч профиля не может однозначно указать на этот элемент."}
+{"ns": "pluginManager", "key": "reasonUnknownPlugin", "ru": "Нет такого плагина."}
+{"ns": "pluginManager", "key": "reasonInvalidSpec", "ru": "Введите корректное имя пакета или адрес."}
+{"ns": "pluginManager", "key": "reasonAlreadyInstalled", "ru": "Этот пакет уже установлен; удалите его перед установкой другой версии."}
+{"ns": "pluginManager", "key": "reasonAmbiguousInstall", "ru": "Какой пакет был установлен, невозможно определить по изменению зависимостей."}
+{"ns": "pluginManager", "key": "reasonNotBundle", "ru": "В этом пакете не объявлен пакет плагина, поэтому управлять им как плагином нельзя."}
+{"ns": "pluginManager", "key": "reasonNotRemovable", "ru": "Этот пакет не принадлежит профилю или нужен управлению плагинами."}
+{"ns": "pluginManager", "key": "reasonStopProfile", "ru": "Этот профиль работает без HMR; остановите его и удалите пакет командой dsh plugin."}
+{"ns": "pluginManager", "key": "reasonBundleInUse", "ru": "Другая конфигурация по-прежнему использует компоненты этого пакета; сначала выключите их."}
+{"ns": "pluginManager", "key": "reasonStaleApproval", "ru": "Список сценариев, ожидающих подтверждения, изменился; установите заново, чтобы его обновить."}
+{"ns": "pluginManager", "key": "reasonIncompatibleVersion", "ru": "{plugin} несовместим с DSH {runtime} (требуется {requirements}); его запуск может привести к сбоям или потере данных."}
+{"ns": "pluginManager", "key": "reasonIncompatibleVersionUnnamed", "ru": "Этот плагин несовместим с работающей версией DSH; его запуск может привести к сбоям или потере данных."}
+{"ns": "pluginManager", "key": "reasonUnsupportedPlatform", "ru": "Этот плагин не поддерживает операционную систему, в которой работает DSH."}
+{"ns": "pluginManager", "key": "reasonIncompatibleInstall", "ru": "Установите версию плагина, совместимую с этим DSH."}
+{"ns": "pluginManager", "key": "reasonIncompatibleInstalled", "ru": "Удалите его и установите версию, совместимую с этим DSH."}
+{"ns": "pluginManager", "key": "reasonOperationError", "ru": "Хост сообщил об ошибке."}
+{"ns": "pluginManager", "key": "detailTitle", "ru": "Подробности"}
+{"ns": "pluginManager", "key": "detailLoading", "ru": "Чтение подробностей"}
+{"ns": "pluginManager", "key": "detailTooLarge", "ru": "Подробности превышают лимит размера и не загружены."}
+{"ns": "pluginManager", "key": "detailNetwork", "ru": "Источник подробностей недоступен."}
+{"ns": "pluginManager", "key": "detailInvalid", "ru": "Плагин объявляет недопустимый файл подробностей."}
+{"ns": "pluginManager", "key": "detailFailed", "ru": "Не удалось прочитать подробности."}
+{"ns": "pluginManager", "key": "detailFootnotes", "ru": "Сноски"}

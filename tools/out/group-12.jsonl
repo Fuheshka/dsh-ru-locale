@@ -1,0 +1,250 @@
+{"ns": "settings.agentPreset", "key": "builtInGroup", "ru": "Встроенный"}
+{"ns": "settings.agentPreset", "key": "customGroup", "ru": "Пользовательский"}
+{"ns": "settings.agentPreset", "key": "sectionIntro", "ru": "Выберите инструменты агента и то, как он работает. Стандартный режим подходит для повседневных задач, режим создания — для расширения возможностей DSH."}
+{"ns": "settings.agentPreset", "key": "seatHint", "ru": "Выберите пресет агента для новой задачи"}
+{"ns": "settings.agentPreset", "key": "headerHint", "ru": "Пресет агента, выбранный при запуске этой задачи"}
+{"ns": "settings.agentPreset", "key": "nav", "ru": "Пресеты агента"}
+{"ns": "settings.agentPreset", "key": "setDefault", "ru": "Сделать по умолчанию для новых задач"}
+{"ns": "settings.agentPreset", "key": "view", "ru": "Посмотреть конфигурацию"}
+{"ns": "settings.agentPreset", "key": "presetStandardName", "ru": "Стандартный режим"}
+{"ns": "settings.agentPreset", "key": "presetStandardDescription", "ru": "Работа с кодом, файлами и информацией. Подходит для большинства задач: поиск, редактирование, команды терминала и другие инструменты — по мере необходимости."}
+{"ns": "settings.agentPreset", "key": "presetPtcName", "ru": "Режим PTC"}
+{"ns": "settings.agentPreset", "key": "presetPtcDescription", "ru": "Включает все возможности стандартного режима. Лучше подходит для задач, где инструменты вызываются пакетами, а результаты нужно отфильтровать, упорядочить, убрать дубликаты, посчитать или обобщить."}
+{"ns": "settings.agentPreset", "key": "presetMinimalName", "ru": "Минимальный режим"}
+{"ns": "settings.agentPreset", "key": "presetMinimalDescription", "ru": "Агент использует терминал и чтение изображений, контекст сжимается. Полезно для тестирования и сравнения базовых возможностей."}
+{"ns": "settings.agentPreset", "key": "presetCordisName", "ru": "Режим создания"}
+{"ns": "settings.agentPreset", "key": "presetCordisDescription", "ru": "Настройте DSH в диалоге с агентом. Пусть агент пишет плагины, добавляющие функции и интерфейс, или комбинируйте инструменты и промпты, чтобы собрать свой режим."}
+{"ns": "settings.agentPreset", "key": "inUse", "ru": "По умолчанию для новых задач"}
+{"ns": "settings.agentPreset", "key": "noDescription", "ru": "Нет описания."}
+{"ns": "settings.agentPreset", "key": "brokenBadge", "ru": "Не удалось загрузить"}
+{"ns": "settings.agentPreset", "key": "switchRefused", "ru": "Не удалось переключиться на {name}: {reason}"}
+{"ns": "settings.agentPreset", "key": "standardUnavailable", "ru": "Стандартный режим недоступен. Восстановите его или выберите другой доступный режим."}
+{"ns": "settings.agentPreset", "key": "close", "ru": "Закрыть"}
+{"ns": "settings.agentPreset", "key": "creatorDraft", "ru": "Пусть агент поможет создать пресет"}
+{"ns": "settings.agentPreset", "key": "createPlugin", "ru": "Пусть агент создаст плагин"}
+{"ns": "settings.agentPreset", "key": "createPluginDescription", "ru": "Перейдите в режим создания и сделайте свой плагин DSH"}
+{"ns": "settings.agentPreset", "key": "createPluginChecking", "ru": "Проверка доступности режима создания"}
+{"ns": "settings.agentPreset", "key": "createPluginUnavailable", "ru": "Временно недоступен. Откройте меню снова, чтобы повторить"}
+{"ns": "settings.agentPreset", "key": "createPluginMissing", "ru": "Режим создания не входит в эту конфигурацию"}
+{"ns": "command", "key": "section.add", "ru": "Добавить"}
+{"ns": "command", "key": "section.commands", "ru": "Команды"}
+{"ns": "command", "key": "label.goal", "ru": "Цель"}
+{"ns": "command", "key": "label.plan", "ru": "План"}
+{"ns": "command", "key": "label.feedback", "ru": "Отзыв"}
+{"ns": "command", "key": "label.compact", "ru": "Сжатие"}
+{"ns": "command", "key": "label.permission", "ru": "Разрешения"}
+{"ns": "command", "key": "label.export", "ru": "Экспорт"}
+{"ns": "command", "key": "description.goal", "ru": "Задать или посмотреть цель длительной задачи"}
+{"ns": "command", "key": "description.plan", "ru": "Войти в режим плана или выйти из него"}
+{"ns": "command", "key": "description.feedback", "ru": "Оставить отзыв об этой сессии"}
+{"ns": "command", "key": "description.compact", "ru": "Сжать старую историю диалога"}
+{"ns": "command", "key": "description.permission", "ru": "Переключить пресет разрешений (режим песочницы и политика подтверждений)"}
+{"ns": "command", "key": "description.export", "ru": "Скачать журнал сессии в виде ZIP-архива"}
+{"ns": "command", "key": "token.goal", "ru": "цель"}
+{"ns": "command", "key": "token.plan", "ru": "план"}
+{"ns": "command", "key": "token.feedback", "ru": "отзыв"}
+{"ns": "command", "key": "token.compact", "ru": "сжатие"}
+{"ns": "command", "key": "token.permission", "ru": "разрешения"}
+{"ns": "command", "key": "token.export", "ru": "экспорт"}
+{"ns": "command", "key": "search.placeholder", "ru": "Поиск…"}
+{"ns": "command", "key": "search.aria", "ru": "Фильтр вариантов"}
+{"ns": "command", "key": "status.loading", "ru": "Загрузка вариантов…"}
+{"ns": "command", "key": "status.applying", "ru": "Применение…"}
+{"ns": "command", "key": "status.empty", "ru": "Нет вариантов"}
+{"ns": "command", "key": "overlay.aria", "ru": "Варианты /{command}"}
+{"ns": "command", "key": "listbox.aria", "ru": "Совпадения /{command}"}
+{"ns": "command", "key": "notice.attachmentsUnsupported", "ru": "/{command} не принимает вложения. Сначала удалите их"}
+{"ns": "sidebarTerminal", "key": "shortcut.noSession", "ru": "Сначала выберите сессию"}
+{"ns": "sidebarTerminal", "key": "recoveryFailed", "ru": "Не удалось восстановить терминал: {message}"}
+{"ns": "sidebarTerminal", "key": "retryRecovery", "ru": "Повторить восстановление терминала"}
+{"ns": "sidebarTerminal", "key": "shell", "ru": "Выбрать оболочку"}
+{"ns": "sidebarTerminal", "key": "shellLoading", "ru": "Загрузка оболочек…"}
+{"ns": "sidebarTerminal", "key": "shellEmpty", "ru": "Нет доступных оболочек"}
+{"ns": "sidebarTerminal", "key": "description", "ru": "Запуск команд в рабочей области сессии"}
+{"ns": "sidebarTerminal", "key": "title", "ru": "Терминал"}
+{"ns": "sidebarTerminal", "key": "new", "ru": "Новый терминал"}
+{"ns": "sidebarTerminal", "key": "loading", "ru": "Чтение среды терминала…"}
+{"ns": "sidebarTerminal", "key": "creating", "ru": "Запуск…"}
+{"ns": "sidebarTerminal", "key": "connecting", "ru": "Подключение…"}
+{"ns": "sidebarTerminal", "key": "disconnected", "ru": "Соединение прервано."}
+{"ns": "sidebarTerminal", "key": "reconnect", "ru": "Переподключиться"}
+{"ns": "sidebarTerminal", "key": "readonly", "ru": "Этот терминал доступен только для чтения."}
+{"ns": "sidebarTerminal", "key": "control", "ru": "Перехватить управление"}
+{"ns": "sidebarTerminal", "key": "closed", "ru": "Терминал закрыт."}
+{"ns": "sidebarTerminal", "key": "exited", "ru": "Процесс завершён ({code})"}
+{"ns": "sidebarTerminal", "key": "failed", "ru": "Ошибка терминала: {message}"}
+{"ns": "sidebarTerminal", "key": "rename", "ru": "Имя терминала"}
+{"ns": "sidebarTerminal", "key": "unavailable", "ru": "Недоступно"}
+{"ns": "sidebarTerminal", "key": "retry", "ru": "Повторить"}
+{"ns": "sidebarTerminal", "key": "cleanupFailed", "ru": "Терминал «{title}» не удалось завершить: {message}"}
+{"ns": "sidebarTerminal", "key": "missingTerminal", "ru": "Этот терминал больше не существует. Откройте новый терминал."}
+{"ns": "sidebarTerminal", "key": "inputFull", "ru": "Входной буфер заполнен. Переподключитесь и повторите попытку."}
+{"ns": "sidebarTerminal", "key": "attachmentEnded", "ru": "Соединение с терминалом прервано. Переподключитесь, чтобы продолжить."}
+{"ns": "sidebarTerminal", "key": "invalidOutput", "ru": "Не удалось получить экран терминала. Переподключитесь, чтобы восстановить его."}
+{"ns": "sidebarTerminal", "key": "terminalLimit", "ru": "Достигнут лимит терминалов. Закройте неиспользуемые терминалы и повторите попытку. Завершённые терминалы тоже считаются."}
+{"ns": "pluginRecommendations", "key": "heading", "ru": "Рекомендуемый плагин"}
+{"ns": "pluginRecommendations", "key": "official", "ru": "Официальный"}
+{"ns": "pluginRecommendations", "key": "detailsFor", "ru": "Подробнее: {title}"}
+{"ns": "pluginRecommendations", "key": "version-error", "ru": "Этот плагин несовместим с текущей версией DSH. Обновите DSH и повторите попытку."}
+{"ns": "pluginRecommendations", "key": "management-error", "ru": "Не удалось включить плагин. Откройте подробности, чтобы увидеть ошибку, и повторите попытку."}
+{"ns": "pluginRecommendations", "key": "enable", "ru": "Включить"}
+{"ns": "pluginRecommendations", "key": "dismiss", "ru": "Не сейчас"}
+{"ns": "pluginRecommendations", "key": "working", "ru": "Обработка…"}
+{"ns": "pluginRecommendations", "key": "scope", "ru": "После включения доступен во всех сессиях"}
+{"ns": "pluginRecommendations", "key": "enabled", "ru": "Включено"}
+{"ns": "pluginRecommendations", "key": "already-enabled", "ru": "Уже выбран в разделе «Плагины». Откройте подробности, чтобы увидеть его состояние."}
+{"ns": "pluginRecommendations", "key": "dismissed", "ru": "Отклонено"}
+{"ns": "pluginRecommendations", "key": "replaced", "ru": "Заменено"}
+{"ns": "pluginRecommendations", "key": "restart-required", "ru": "Сохранено. Перезапустите DSH, чтобы применить изменение."}
+{"ns": "pluginRecommendations", "key": "failed", "ru": "Не удалось включить. Повторите попытку или проверьте раздел «Плагины»."}
+{"ns": "pluginRecommendations", "key": "retry", "ru": "Повторить включение"}
+{"ns": "pluginRecommendations", "key": "unconfirmed", "ru": "Не удалось подтвердить, включён ли плагин. Повторите попытку, чтобы проверить."}
+{"ns": "pluginRecommendations", "key": "lookup-failed", "ru": "Не удалось загрузить сведения об этом плагине. Повторите попытку."}
+{"ns": "pluginRecommendations", "key": "retryLookup", "ru": "Повторить"}
+{"ns": "pluginRecommendations", "key": "unavailable", "ru": "Этот плагин сейчас нельзя включить. Проверьте раздел «Плагины»."}
+{"ns": "pluginRecommendations", "key": "unknown", "ru": "Эта рекомендация недоступна. Откройте сессию заново."}
+{"ns": "pluginRecommendations", "key": "access-denied", "ru": "У вас нет разрешения на изменение этого профиля."}
+{"ns": "pluginRecommendations", "key": "not-live-root", "ru": "Используйте эту рекомендацию в исходной сессии."}
+{"ns": "pluginRecommendations", "key": "closing", "ru": "Сервис перезагружается. Повторите попытку чуть позже."}
+{"ns": "pluginRecommendations", "key": "transport", "ru": "Не удалось подтвердить результат. Обновите страницу и повторите попытку."}
+{"ns": "model", "key": "provider.account", "ru": "Аккаунт DeepSeek"}
+{"ns": "model", "key": "command.label", "ru": "Модель"}
+{"ns": "model", "key": "command.description", "ru": "Выберите модель для этой сессии"}
+{"ns": "model", "key": "option.loadError", "ru": "Не удалось загрузить каталог: {message}"}
+{"ns": "model", "key": "trigger.fallback", "ru": "Выберите модель"}
+{"ns": "model", "key": "trigger.loading", "ru": "Загрузка моделей…"}
+{"ns": "model", "key": "trigger.selectAria", "ru": "Выберите модель"}
+{"ns": "model", "key": "trigger.aria", "ru": "Выбрать модель, текущая: {model}"}
+{"ns": "model", "key": "trigger.ariaEffort", "ru": "Выбрать модель, текущая: {model}, уровень рассуждений: {effort}"}
+{"ns": "model", "key": "menu.aria", "ru": "Модель и уровень рассуждений"}
+{"ns": "model", "key": "menu.model", "ru": "Модель"}
+{"ns": "model", "key": "menu.effort", "ru": "Уровень рассуждений"}
+{"ns": "model", "key": "effort.providerDefault", "ru": "По умолчанию"}
+{"ns": "model", "key": "status.loading", "ru": "Обновление списка моделей…"}
+{"ns": "model", "key": "error.action", "ru": "Не удалось выполнить операцию с моделью: {message}"}
+{"ns": "model", "key": "error.sessionInUse", "ru": "Эта сессия уже используется — возможно, другим запущенным экземпляром DSH (например, dsh web или настольным приложением). Завершите работу других экземпляров DSH и повторите попытку."}
+{"ns": "model", "key": "action.reload", "ru": "Перезагрузить"}
+{"ns": "model", "key": "warning.groupLoad", "ru": "Не удалось загрузить {name}: {message}"}
+{"ns": "model", "key": "search.placeholder", "ru": "Поиск моделей…"}
+{"ns": "model", "key": "search.clear", "ru": "Очистить поиск"}
+{"ns": "model", "key": "search.empty", "ru": "Нет подходящих моделей."}
+{"ns": "model", "key": "empty.models", "ru": "Нет доступных моделей."}
+{"ns": "model", "key": "empty.efforts", "ru": "У этой модели нет уровней рассуждений."}
+{"ns": "sidebarDocumentPreview", "key": "loading", "ru": "Рендеринг документа…"}
+{"ns": "sidebarDocumentPreview", "key": "loadMore", "ru": "Загрузить больше"}
+{"ns": "sidebarDocumentPreview", "key": "changed", "ru": "Файл изменился. Показано предыдущее содержимое."}
+{"ns": "sidebarDocumentPreview", "key": "reloadNow", "ru": "Перезагрузить"}
+{"ns": "sidebarDocumentPreview", "key": "reload", "ru": "Прочитать файл заново"}
+{"ns": "sidebarDocumentPreview", "key": "autoRefresh", "ru": "Автоматическое обновление"}
+{"ns": "sidebarDocumentPreview", "key": "autoRefresh.enable", "ru": "Включить автоматическое обновление"}
+{"ns": "sidebarDocumentPreview", "key": "autoRefresh.disable", "ru": "Отключить автоматическое обновление"}
+{"ns": "sidebarDocumentPreview", "key": "wrap.enable", "ru": "Включить перенос строк"}
+{"ns": "sidebarDocumentPreview", "key": "wrap.disable", "ru": "Отключить перенос строк"}
+{"ns": "sidebarDocumentPreview", "key": "wrap.aria", "ru": "Перенос строк"}
+{"ns": "sidebarDocumentPreview", "key": "openWith", "ru": "Открыть с помощью"}
+{"ns": "sidebarDocumentPreview", "key": "viewer.text", "ru": "Обычный текст"}
+{"ns": "sidebarDocumentPreview", "key": "resourceUnavailable", "ru": "Служба файловых ресурсов недоступна."}
+{"ns": "sidebarDocumentPreview", "key": "rendererUnavailable", "ru": "Предпросмотр {name} недоступен."}
+{"ns": "sidebarDocumentPreview", "key": "unsupportedFile", "ru": "Предпросмотр файлов этого типа пока недоступен."}
+{"ns": "sidebarDocumentPreview", "key": "error.notFound", "ru": "Файл не найден. Возможно, его переместили или удалили."}
+{"ns": "sidebarDocumentPreview", "key": "error.tooLarge", "ru": "Страница превышает лимит {limit} и не может быть прочитана."}
+{"ns": "sidebarDocumentPreview", "key": "error.notText", "ru": "Предпросмотр файлов этого типа пока недоступен."}
+{"ns": "sidebarDocumentPreview", "key": "error.notRegularFile", "ru": "Это не обычный файл, показывать нечего."}
+{"ns": "sidebarDocumentPreview", "key": "error.unavailable", "ru": "Не удалось прочитать: {message}"}
+{"ns": "sidebarDocumentPreview", "key": "retry", "ru": "Повторить"}
+{"ns": "sidebarFiles", "key": "shortcut.noSession", "ru": "Сначала выберите сессию"}
+{"ns": "sidebarFiles", "key": "type.label", "ru": "Файлы"}
+{"ns": "sidebarFiles", "key": "guide.title", "ru": "Файлы рабочей области"}
+{"ns": "sidebarFiles", "key": "guide.description", "ru": "Просмотр файлов в рабочей области этой сессии"}
+{"ns": "sidebarFiles", "key": "loading", "ru": "Чтение…"}
+{"ns": "sidebarFiles", "key": "empty", "ru": "Папка пуста"}
+{"ns": "sidebarFiles", "key": "truncated", "ru": "Слишком много записей — показана только часть."}
+{"ns": "sidebarFiles", "key": "noWorkspace", "ru": "В этой сессии нет папки рабочей области."}
+{"ns": "sidebarFiles", "key": "reload", "ru": "Обновить"}
+{"ns": "sidebarFiles", "key": "autoRefresh", "ru": "Автоматическое обновление"}
+{"ns": "sidebarFiles", "key": "autoRefresh.enable", "ru": "Включить автоматическое обновление"}
+{"ns": "sidebarFiles", "key": "autoRefresh.disable", "ru": "Отключить автоматическое обновление"}
+{"ns": "sidebarFiles", "key": "entry.other", "ru": "Это не файл и не папка, поэтому открыть его нельзя."}
+{"ns": "sidebarFiles", "key": "entry.noViewer", "ru": "Нет средства просмотра для этого файла."}
+{"ns": "sidebarFiles", "key": "navigator.show", "ru": "Показать дерево файлов"}
+{"ns": "sidebarFiles", "key": "navigator.hide", "ru": "Скрыть дерево файлов"}
+{"ns": "sidebarFiles", "key": "navigator.resize", "ru": "Изменить ширину дерева файлов"}
+{"ns": "sidebarFiles", "key": "error.notFound", "ru": "Эта папка исчезла. Возможно, её переместили или удалили."}
+{"ns": "sidebarFiles", "key": "error.outsideWorkspace", "ru": "Эта папка вне рабочей области, поэтому боковая панель её не читает."}
+{"ns": "sidebarFiles", "key": "error.notDirectory", "ru": "Это не папка."}
+{"ns": "sidebarFiles", "key": "error.unavailable", "ru": "Не удалось прочитать: {message}"}
+{"ns": "feedback", "key": "action.like", "ru": "Хороший ответ"}
+{"ns": "feedback", "key": "action.likeActive", "ru": "Удалить оценку"}
+{"ns": "feedback", "key": "action.dislike", "ru": "Плохой ответ"}
+{"ns": "feedback", "key": "action.dislikeActive", "ru": "Удалить оценку"}
+{"ns": "feedback", "key": "dialog.title", "ru": "Отправить отзыв"}
+{"ns": "feedback", "key": "dialog.categories", "ru": "Категория отзыва"}
+{"ns": "feedback", "key": "dialog.detail", "ru": "Подробности отзыва"}
+{"ns": "feedback", "key": "dialog.hint", "ru": "Добавьте подробности — так мы сможем улучшить продукт. К отзыву будет приложен журнал текущей сессии."}
+{"ns": "feedback", "key": "category.task-result", "ru": "Результат задачи"}
+{"ns": "feedback", "key": "category.instruction-following", "ru": "Понимание инструкций и их выполнение"}
+{"ns": "feedback", "key": "category.product-interaction", "ru": "Функции продукта и взаимодействие"}
+{"ns": "feedback", "key": "category.service-stability", "ru": "Стабильность и скорость"}
+{"ns": "feedback", "key": "category.resource-cost", "ru": "Расход ресурсов и стоимость"}
+{"ns": "feedback", "key": "category.security-privacy-permission", "ru": "Безопасность, конфиденциальность и разрешения"}
+{"ns": "feedback", "key": "category.other", "ru": "Другое"}
+{"ns": "feedback", "key": "toast.recorded", "ru": "Спасибо за отзыв"}
+{"ns": "feedback", "key": "error.conflict", "ru": "Отзыв изменён в другом месте — показано актуальное состояние."}
+{"ns": "feedback", "key": "error.load", "ru": "Не удалось загрузить отзыв"}
+{"ns": "feedback", "key": "error.generic", "ru": "Не удалось сохранить отзыв"}
+{"ns": "feedback", "key": "error.noteTooLarge", "ru": "Описание слишком длинное. Сократите его и отправьте снова."}
+{"ns": "schedule.catalog", "key": "trigger.label", "ru": "Задачи автоматизации"}
+{"ns": "schedule.catalog", "key": "list.loading", "ru": "Загрузка задач автоматизации…"}
+{"ns": "schedule.catalog", "key": "list.error", "ru": "Не удалось загрузить задачи автоматизации."}
+{"ns": "schedule.catalog", "key": "list.retry", "ru": "Повторить"}
+{"ns": "schedule.catalog", "key": "delete.action", "ru": "Удалить"}
+{"ns": "schedule.catalog", "key": "delete.pending", "ru": "Удаление…"}
+{"ns": "schedule.catalog", "key": "delete.label", "ru": "Удалить задачу автоматизации: {title}"}
+{"ns": "schedule.catalog", "key": "list.open", "ru": "Открыть подробности задачи автоматизации: {title}"}
+{"ns": "schedule.catalog", "key": "trigger.one", "ru": "Задач автоматизации: {count}"}
+{"ns": "schedule.catalog", "key": "trigger.other", "ru": "Задач автоматизации: {count}"}
+{"ns": "schedule.catalog", "key": "list.aria", "ru": "Включённые задачи автоматизации"}
+{"ns": "schedule.catalog", "key": "list.nextRun", "ru": "Следующий запуск"}
+{"ns": "schedule.catalog", "key": "frequency.once", "ru": "Один раз"}
+{"ns": "schedule.catalog", "key": "frequency.every", "ru": "Каждые {value} {unit}"}
+{"ns": "schedule.catalog", "key": "mark.aria", "ru": "Задач автоматизации: {count}"}
+{"ns": "schedule.catalog", "key": "hover.more", "ru": "Ещё задач: {count}"}
+{"ns": "reference", "key": "section.files", "ru": "Файлы и папки"}
+{"ns": "reference", "key": "section.subagents", "ru": "Субагенты"}
+{"ns": "reference", "key": "section.sessions", "ru": "Сессии"}
+{"ns": "reference", "key": "candidate.noCwd", "ru": "(без рабочей папки)"}
+{"ns": "reference", "key": "crumb.root", "ru": "Рабочая область"}
+{"ns": "reference", "key": "fileOpen.title", "ru": "Не удалось открыть файл"}
+{"ns": "reference", "key": "fileOpen.failed", "ru": "Не удалось открыть «{path}». Повторите попытку или закройте это сообщение."}
+{"ns": "reference", "key": "fileOpen.close", "ru": "Закрыть"}
+{"ns": "reference", "key": "fileOpen.retry", "ru": "Повторить"}
+{"ns": "reference", "key": "time.now", "ru": "сейчас"}
+{"ns": "reference", "key": "time.minutes", "ru": "{n} мин"}
+{"ns": "reference", "key": "time.hours", "ru": "{n} ч"}
+{"ns": "reference", "key": "time.days", "ru": "{n} д"}
+{"ns": "reference", "key": "time.months", "ru": "{n} мес"}
+{"ns": "reference", "key": "time.years", "ru": "{n} г"}
+{"ns": "sidebarExcel", "key": "title", "ru": "Таблица"}
+{"ns": "sidebarExcel", "key": "language", "ru": "en"}
+{"ns": "sidebarExcel", "key": "loading", "ru": "Рендеринг документа…"}
+{"ns": "sidebarExcel", "key": "invalid", "ru": "Не удалось открыть таблицу. Проверьте формат, содержимое и защиту паролем."}
+{"ns": "sidebarExcel", "key": "tooLarge", "ru": "Книга превышает лимит размера предпросмотра."}
+{"ns": "sidebarExcel", "key": "timeout", "ru": "Превышено время открытия книги. Выберите файл меньшего размера."}
+{"ns": "sidebarExcel", "key": "encoding", "ru": "Не удалось прочитать кодировку текста. Сохраните файл в UTF-8 или UTF-16 с BOM и повторите попытку."}
+{"ns": "sidebarExcel", "key": "formulaWarning", "ru": "В книге есть формулы. Показанные результаты могут отсутствовать или быть неточными."}
+{"ns": "sidebarExcel", "key": "unsupportedNotice", "ru": "Предпросмотр не поддерживает {features} в этой книге. Откройте её в системном приложении, чтобы увидеть всё."}
+{"ns": "sidebarExcel", "key": "charts", "ru": "графики"}
+{"ns": "sidebarExcel", "key": "images", "ru": "изображения"}
+{"ns": "sidebarExcel", "key": "shapes", "ru": "фигуры"}
+{"ns": "sidebarExcel", "key": "conditionalFormatting", "ru": "условное форматирование"}
+{"ns": "sidebarExcel", "key": "featureSeparator", "ru": ", "}
+{"ns": "sidebarExcel", "key": "retry", "ru": "Повторить"}
+{"ns": "slash.menu", "key": "command", "ru": "Команды"}
+{"ns": "slash.menu", "key": "skill", "ru": "Навыки"}
+{"ns": "slash.menu", "key": "subagent", "ru": "Субагенты"}
+{"ns": "slash.menu", "key": "loading", "ru": "Загрузка…"}
+{"ns": "slash.menu", "key": "drill.aria", "ru": "Открыть папку"}
+{"ns": "slash.menu", "key": "drill.hint", "ru": "Открыть папку"}
+{"ns": "slash.menu", "key": "drill.key", "ru": "Tab"}
+{"ns": "slash.menu", "key": "crumbs.aria", "ru": "Навигация по папкам"}
+{"ns": "slash.menu", "key": "suggestions.aria", "ru": "Подсказки для триггеров"}

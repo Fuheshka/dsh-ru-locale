@@ -1,0 +1,718 @@
+[
+ {
+  "group": "group-01",
+  "ok": true,
+  "expected": 389,
+  "got": 389,
+  "issues": [
+   "conversation/hint.plan: пустой текст",
+   "conversation/hint.goal.active: английский текст в ru: ['clear', 'edit', 'pause', 'resume']",
+   "conversation/placeholder.plan: пустой текст",
+   "conversation/image.dimensionTooLarge: английский текст в ru: ['px.']",
+   "conversation/detail.weekday.join: запрет: пробелы по краям",
+   "conversation/tool.title.ralph: английский текст в ru: ['ralph']",
+   "conversation/ask.pendingDetail: пунктуация: точка в конце расходится с en",
+   "conversation/row.imageSize: английский текст в ru: ['px']",
+   "conversation/row.imageSizeDownscaled: английский текст в ru: ['px']",
+   "conversation/tool.autoReviewRejected: английский текст в ru: ['review']",
+   "conversation/tool.autoReviewReasonFallback: английский текст в ru: ['review']",
+   "conversation/read.expandAria: пунктуация: точка в конце расходится с en",
+   "conversation/error.sessionInUse: английский текст в ru: ['dsh', 'web']"
+  ],
+  "samples": [
+   {
+    "ns": "conversation",
+    "key": "hint.plan",
+    "why": "пустой текст",
+    "en": null,
+    "ru": null
+   },
+   {
+    "ns": "conversation",
+    "key": "hint.goal.active",
+    "why": "английский текст в ru: ['clear', 'edit', 'pause', 'resume']",
+    "en": "goal active — edit / pause / resume / clear",
+    "ru": "цель активна — edit / pause / resume / clear"
+   },
+   {
+    "ns": "conversation",
+    "key": "placeholder.plan",
+    "why": "пустой текст",
+    "en": null,
+    "ru": null
+   },
+   {
+    "ns": "conversation",
+    "key": "image.dimensionTooLarge",
+    "why": "английский текст в ru: ['px.']",
+    "en": "Image sides must be at most {size}px; downscale it and try again",
+    "ru": "Стороны изображения не должны превышать {size}px. Уменьшите изображение и повторите попытку"
+   },
+   {
+    "ns": "conversation",
+    "key": "detail.weekday.join",
+    "why": "запрет: пробелы по краям",
+    "en": ", ",
+    "ru": ", "
+   },
+   {
+    "ns": "conversation",
+    "key": "tool.title.ralph",
+    "why": "английский текст в ru: ['ralph']",
+    "en": "Run ralph loop",
+    "ru": "Запустить цикл ralph"
+   }
+  ],
+  "problem_count": 13
+ },
+ {
+  "group": "group-02",
+  "ok": true,
+  "expected": 291,
+  "got": 291,
+  "issues": [
+   "pluginManager/installSpecPlaceholder: глоссарий: plugin → плагин",
+   "pluginManager/installSpecPlaceholder: английский текст в ru: ['dsh-plugin-whale-pet']",
+   "pluginManager/installGuideIdTitle: английский текст в ru: ['npm-']",
+   "pluginManager/installGuideIdExample: глоссарий: plugin → плагин",
+   "pluginManager/installGuideIdExample: не переведено",
+   "pluginManager/installGuideIdExample: английский текст в ru: ['dsh-plugin-whale-pet']",
+   "pluginManager/installGuideIdHint: английский текст в ru: ['add', 'author', 'dsh', 'dsh-xxx', 'npm-']",
+   "pluginManager/installGuideExampleLabel: запрет: пробелы по краям",
+   "pluginManager/registryLegend: глоссарий: download → скачивание",
+   "pluginManager/registryCustomPlaceholder: не переведено",
+   "pluginManager/registryCustomPlaceholder: английский текст в ru: ['https', 'npm.example.com']",
+   "pluginManager/registryCustomHint: английский текст в ru: ['http', 'https', 'npmrc']",
+   "pluginManager/registryCustomInvalid: английский текст в ru: ['http', 'https']",
+   "pluginManager/registryListSeparator: запрет: пробелы по краям",
+   "pluginManager/sentenceSeparator: пустой текст",
+   "pluginManager/installFailureNetworkHost: английский текст в ru: ['tgz']",
+   "pluginManager/installFailureBuildBlockedManual: глоссарий: workspace → рабочая область",
+   "pluginManager/installFailureBuildBlockedManual: английский текст в ru: ['pnpm-workspace.yaml']",
+   "pluginManager/installFailureIntegrity: глоссарий: download → скачивание",
+   "pluginManager/reasonStopProfile: глоссарий: plugin → плагин",
+   "pluginManager/reasonStopProfile: английский текст в ru: ['dsh', 'plugin.']"
+  ],
+  "samples": [
+   {
+    "ns": "pluginManager",
+    "key": "installSpecPlaceholder",
+    "why": "глоссарий: plugin → плагин",
+    "en": "for example dsh-plugin-whale-pet",
+    "ru": "например dsh-plugin-whale-pet"
+   },
+   {
+    "ns": "pluginManager",
+    "key": "installSpecPlaceholder",
+    "why": "английский текст в ru: ['dsh-plugin-whale-pet']",
+    "en": "for example dsh-plugin-whale-pet",
+    "ru": "например dsh-plugin-whale-pet"
+   },
+   {
+    "ns": "pluginManager",
+    "key": "installGuideIdTitle",
+    "why": "английский текст в ru: ['npm-']",
+    "en": "Enter the plugin's npm package name",
+    "ru": "Введите имя npm-пакета плагина"
+   },
+   {
+    "ns": "pluginManager",
+    "key": "installGuideIdExample",
+    "why": "глоссарий: plugin → плагин",
+    "en": "dsh-plugin-whale-pet",
+    "ru": "dsh-plugin-whale-pet"
+   },
+   {
+    "ns": "pluginManager",
+    "key": "installGuideIdExample",
+    "why": "не переведено",
+    "en": "dsh-plugin-whale-pet",
+    "ru": "dsh-plugin-whale-pet"
+   },
+   {
+    "ns": "pluginManager",
+    "key": "installGuideIdExample",
+    "why": "английский текст в ru: ['dsh-plugin-whale-pet']",
+    "en": "dsh-plugin-whale-pet",
+    "ru": "dsh-plugin-whale-pet"
+   }
+  ],
+  "problem_count": 21
+ },
+ {
+  "group": "group-03",
+  "ok": true,
+  "expected": 265,
+  "got": 265,
+  "issues": [],
+  "samples": [],
+  "problem_count": 0
+ },
+ {
+  "group": "group-04",
+  "ok": true,
+  "expected": 250,
+  "got": 250,
+  "issues": [
+   "liveshare/dialog.ptcSandboxWarning: английский текст в ru: ['code.', 'run']",
+   "liveshare/dialog.relayInvalid: английский текст в ru: ['http', 'https']",
+   "liveshare/viewer.brand: не переведено",
+   "liveshare/viewer.refused: английский текст в ru: ['liveshare']",
+   "liveshare/viewer.relayAnswered: английский текст в ru: ['liveshare']",
+   "liveshare/viewer.relaySilent: английский текст в ru: ['liveshare']",
+   "liveshare/viewer.unreachable: английский текст в ru: ['liveshare']"
+  ],
+  "samples": [
+   {
+    "ns": "liveshare",
+    "key": "dialog.ptcSandboxWarning",
+    "why": "английский текст в ru: ['code.', 'run']",
+    "en": "Note: LiveShare’s PTC sandbox is not yet complete - a viewer may read or write files outside the shared workspace through run_code. Share only with people you trust.",
+    "ru": "Внимание: песочница PTC в LiveShare пока не завершена — зритель может читать или записывать файлы за пределами общей рабочей области через run_code. Делитесь только с теми, кому доверяете."
+   },
+   {
+    "ns": "liveshare",
+    "key": "dialog.relayInvalid",
+    "why": "английский текст в ru: ['http', 'https']",
+    "en": "Enter a full address starting with http:// or https://.",
+    "ru": "Введите полный адрес, начинающийся с http:// или https://."
+   },
+   {
+    "ns": "liveshare",
+    "key": "viewer.brand",
+    "why": "не переведено",
+    "en": "LiveShare",
+    "ru": "LiveShare"
+   },
+   {
+    "ns": "liveshare",
+    "key": "viewer.refused",
+    "why": "английский текст в ru: ['liveshare']",
+    "en": "liveshare: {subject} was refused with {status}",
+    "ru": "liveshare: {subject} отклонён со статусом {status}"
+   },
+   {
+    "ns": "liveshare",
+    "key": "viewer.relayAnswered",
+    "why": "английский текст в ru: ['liveshare']",
+    "en": "liveshare: the Relay answered {status}",
+    "ru": "liveshare: Relay вернул {status}"
+   },
+   {
+    "ns": "liveshare",
+    "key": "viewer.relaySilent",
+    "why": "английский текст в ru: ['liveshare']",
+    "en": "liveshare: the Relay answered nothing for {subject}",
+    "ru": "liveshare: Relay ничего не ответил по {subject}"
+   }
+  ],
+  "problem_count": 7
+ },
+ {
+  "group": "group-05",
+  "ok": true,
+  "expected": 250,
+  "got": 250,
+  "issues": [
+   "trajectory/request.rowPrefix: запрет: пробелы по краям",
+   "trajectory/summary.toolCalls.one: глоссарий: tool → инструмент",
+   "trajectory/summary.toolCalls.other: глоссарий: tool → инструмент"
+  ],
+  "samples": [
+   {
+    "ns": "trajectory",
+    "key": "request.rowPrefix",
+    "why": "запрет: пробелы по краям",
+    "en": "Request {request}, ",
+    "ru": "Запрос {request}, "
+   },
+   {
+    "ns": "trajectory",
+    "key": "summary.toolCalls.one",
+    "why": "глоссарий: tool → инструмент",
+    "en": "{count} tool call",
+    "ru": "Вызовов: {count}"
+   },
+   {
+    "ns": "trajectory",
+    "key": "summary.toolCalls.other",
+    "why": "глоссарий: tool → инструмент",
+    "en": "{count} tool calls",
+    "ru": "Вызовов: {count}"
+   }
+  ],
+  "problem_count": 3
+ },
+ {
+  "group": "group-06",
+  "ok": true,
+  "expected": 250,
+  "got": 250,
+  "issues": [
+   "stats/column.context.title: английский текст в ru: ['usage']",
+   "stats/column.output.title: английский текст в ru: ['usage']",
+   "stats/column.tps.title: английский текст в ru: ['tok']",
+   "stats/partial: глоссарий: tool → инструмент",
+   "settings/desktop.channel.result.permission: глоссарий: permission → разрешение",
+   "settings/desktop.update.configuration.channel: английский текст в ru: ['channel', 'nightly', 'stable']",
+   "settings/desktop.update.downloadPermissionFailed: глоссарий: permission → разрешение"
+  ],
+  "samples": [
+   {
+    "ns": "stats",
+    "key": "column.context.title",
+    "why": "английский текст в ru: ['usage']",
+    "en": "usage input tokens + cache read + cache write",
+    "ru": "входные токены из usage + чтение кэша + запись кэша"
+   },
+   {
+    "ns": "stats",
+    "key": "column.output.title",
+    "why": "английский текст в ru: ['usage']",
+    "en": "usage output tokens of the step",
+    "ru": "выходные токены из usage за шаг"
+   },
+   {
+    "ns": "stats",
+    "key": "column.tps.title",
+    "why": "английский текст в ru: ['tok']",
+    "en": "output tokens ÷ generation seconds (TPS, tok/s)",
+    "ru": "выходные токены ÷ секунды генерации (TPS, tok/s)"
+   },
+   {
+    "ns": "stats",
+    "key": "partial",
+    "why": "глоссарий: tool → инструмент",
+    "en": "{count} tool calls have no result yet; this is the lower bound of known time",
+    "ru": "Вызовов без результата: {count}; это нижняя граница известного времени"
+   },
+   {
+    "ns": "settings",
+    "key": "desktop.channel.result.permission",
+    "why": "глоссарий: permission → разрешение",
+    "en": "Could not save: permission denied",
+    "ru": "Не удалось сохранить: нет прав на запись"
+   },
+   {
+    "ns": "settings",
+    "key": "desktop.update.configuration.channel",
+    "why": "английский текст в ru: ['channel', 'nightly', 'stable']",
+    "en": "Updates paused: channel must be nightly or stable",
+    "ru": "Обновления приостановлены: channel может быть только nightly или stable"
+   }
+  ],
+  "problem_count": 7
+ },
+ {
+  "group": "group-07",
+  "ok": true,
+  "expected": 250,
+  "got": 250,
+  "issues": [
+   "settings.models/keyFallbackDetected: пунктуация: точка в конце расходится с en",
+   "settings.models/keyHelp: английский текст в ru: ['cwd', 'env', 'env.']",
+   "settings.models/deepSeekBaseUrl: английский текст в ru: ['anthropic', 'api.deepseek.com', 'https']",
+   "settings.models/modelReasoningHelpText: английский текст в ru: ['effort', 'reasoning']",
+   "settings.models/advancedHint: английский текст в ru: ['cordis.patch.yml']",
+   "settings.models/protocolOpenAiCompletions: не переведено",
+   "settings.models/protocolOpenAiResponses: не переведено",
+   "settings.models/protocolAnthropicMessages: не переведено",
+   "settings.models/customBaseUrlPlaceholder: не переведено",
+   "settings.models/customBaseUrlPlaceholder: английский текст в ru: ['gateway.example', 'https']",
+   "settings.models/customAnthropicBaseUrlPlaceholder: не переведено",
+   "settings.models/customAnthropicBaseUrlPlaceholder: английский текст в ru: ['gateway.example', 'https']",
+   "pluginMarket/sourcePlaceholder: не переведено",
+   "pluginMarket/sourcePlaceholder: английский текст в ru: ['example.com', 'https', 'index.json']",
+   "pluginMarket/sourceInvalid: английский текст в ru: ['http', 'https']",
+   "pluginMarket/installTrust: глоссарий: permission → разрешение"
+  ],
+  "samples": [
+   {
+    "ns": "settings.models",
+    "key": "keyFallbackDetected",
+    "why": "пунктуация: точка в конце расходится с en",
+    "en": "Env var detected. ({hint})",
+    "ru": "Переменная окружения найдена ({hint})."
+   },
+   {
+    "ns": "settings.models",
+    "key": "keyHelp",
+    "why": "английский текст в ru: ['cwd', 'env', 'env.']",
+    "en": "Saved credentials are used first. Environment fallbacks shown here, in order: {env}. Sources are launch environment, $cwd/.env, then $DSH_HOME/.env.",
+    "ru": "Сначала используются сохранённые учётные данные. Резервные варианты из окружения перечислены по порядку: {env}. Источники: окружение запуска, $cwd/.env, затем $DSH_HOME/.env."
+   },
+   {
+    "ns": "settings.models",
+    "key": "deepSeekBaseUrl",
+    "why": "английский текст в ru: ['anthropic', 'api.deepseek.com', 'https']",
+    "en": "https://api.deepseek.com/anthropic (Default to use DEEPSEEK_BASE_URL)",
+    "ru": "https://api.deepseek.com/anthropic (по умолчанию используется DEEPSEEK_BASE_URL)"
+   },
+   {
+    "ns": "settings.models",
+    "key": "modelReasoningHelpText",
+    "why": "английский текст в ru: ['effort', 'reasoning']",
+    "en": "The API value is sent in the request's reasoning-effort field, such as OpenAI's reasoning_effort. It defaults to the level name; where the model provider's API documentation specifies a different value, follow it. Off turns reasoning off and needs no value; a value already written in the configuration is kept and sent.",
+    "ru": "Значение API уходит в поле reasoning effort запроса, например reasoning_effort у OpenAI. По умолчанию берётся название уровня; если документация API провайдера модели требует другого значения, следуйте ей. «Выкл.» отключает рассуждения и значения не требует; уже записанное в конфигурации значение сохраняется и отправляется."
+   },
+   {
+    "ns": "settings.models",
+    "key": "advancedHint",
+    "why": "английский текст в ru: ['cordis.patch.yml']",
+    "en": "Other fields live in cordis.patch.yml; edit that section directly.",
+    "ru": "Остальные поля — в cordis.patch.yml; правьте этот раздел напрямую."
+   },
+   {
+    "ns": "settings.models",
+    "key": "protocolOpenAiCompletions",
+    "why": "не переведено",
+    "en": "OpenAI Chat Completions",
+    "ru": "OpenAI Chat Completions"
+   }
+  ],
+  "problem_count": 16
+ },
+ {
+  "group": "group-08",
+  "ok": true,
+  "expected": 250,
+  "got": 250,
+  "issues": [
+   "workspace/toast.archived: запрет: пробелы по краям",
+   "workspace/toast.stoppedAndArchived: запрет: пробелы по краям",
+   "workspace/archive.confirm.listSeparator: запрет: пробелы по краям",
+   "workspace/toast.archivedOr: запрет: пробелы по краям",
+   "voice-input/setupPrompt.body: глоссарий: download → скачивание",
+   "voice-input/setup.local: глоссарий: download → скачивание",
+   "voice-input/prepare: глоссарий: download → скачивание",
+   "voice-input/download.certificate: глоссарий: download → скачивание",
+   "voice-input/download.storage: глоссарий: permission → разрешение",
+   "voice-input/downloadAdvice.storage: глоссарий: permission → разрешение",
+   "voice-input/downloadAdvice.unknown: глоссарий: permission → разрешение",
+   "voice-input/sourceHuggingFace: не переведено",
+   "voice-input/local: глоссарий: download → скачивание",
+   "plan/chip.on.title: английский текст в ru: ['off', 'plan']"
+  ],
+  "samples": [
+   {
+    "ns": "workspace",
+    "key": "toast.archived",
+    "why": "запрет: пробелы по краям",
+    "en": "Session archived. You can ",
+    "ru": "Сессия заархивирована. Можно "
+   },
+   {
+    "ns": "workspace",
+    "key": "toast.stoppedAndArchived",
+    "why": "запрет: пробелы по краям",
+    "en": "Session stopped and archived. You can ",
+    "ru": "Сессия остановлена и заархивирована. Можно "
+   },
+   {
+    "ns": "workspace",
+    "key": "archive.confirm.listSeparator",
+    "why": "запрет: пробелы по краям",
+    "en": ", ",
+    "ru": ", "
+   },
+   {
+    "ns": "workspace",
+    "key": "toast.archivedOr",
+    "why": "запрет: пробелы по краям",
+    "en": " or ",
+    "ru": " или "
+   },
+   {
+    "ns": "voice-input",
+    "key": "setupPrompt.body",
+    "why": "глоссарий: download → скачивание",
+    "en": "Voice input is enabled. First use requires downloading and preparing local recognition models. Open the plugin details to review disk space, memory and time estimates before starting setup.",
+    "ru": "Голосовой ввод включён. При первом использовании нужно скачать и подготовить локальные модели распознавания. Откройте сведения о плагине, чтобы оценить место на диске, память и время до начала настройки."
+   },
+   {
+    "ns": "voice-input",
+    "key": "setup.local",
+    "why": "глоссарий: download → скачивание",
+    "en": "Local models will be downloaded to the machine running DSH. No Python or compiler is required.",
+    "ru": "Локальные модели скачаются на компьютер, где работает DSH. Python и компилятор не нужны."
+   }
+  ],
+  "problem_count": 14
+ },
+ {
+  "group": "group-09",
+  "ok": true,
+  "expected": 250,
+  "got": 250,
+  "issues": [
+   "shortcuts/web-document: английский текст в ru: ['dsh.keybindings.v']",
+   "shortcuts/desktop-document: не переведено",
+   "shortcuts/desktop-document: английский текст в ru: ['keybindings.json']",
+   "settings.account/sessionExpired: запрет: «Вы» с большой буквы",
+   "settings.account/browserPrompt: запрет: пробелы по краям",
+   "settings.account/settingsSignedOutTitle: запрет: «Вы» с большой буквы",
+   "settings.account/settingsSignedOutDescription: пунктуация: точка в конце расходится с en",
+   "creationRecommendations/sourceRetained: глоссарий: plugin → плагин",
+   "creationRecommendations/sourceRetained: английский текст в ru: ['dsh-created-plugins']"
+  ],
+  "samples": [
+   {
+    "ns": "shortcuts",
+    "key": "web-document",
+    "why": "английский текст в ru: ['dsh.keybindings.v']",
+    "en": "this site’s localStorage entry dsh.keybindings.v1",
+    "ru": "запись dsh.keybindings.v1 в localStorage этого сайта"
+   },
+   {
+    "ns": "shortcuts",
+    "key": "desktop-document",
+    "why": "не переведено",
+    "en": "userData/keybindings.json",
+    "ru": "userData/keybindings.json"
+   },
+   {
+    "ns": "shortcuts",
+    "key": "desktop-document",
+    "why": "английский текст в ru: ['keybindings.json']",
+    "en": "userData/keybindings.json",
+    "ru": "userData/keybindings.json"
+   },
+   {
+    "ns": "settings.account",
+    "key": "sessionExpired",
+    "why": "запрет: «Вы» с большой буквы",
+    "en": "You have signed out of your account, please log in again.",
+    "ru": "Вы вышли из аккаунта. Войдите снова."
+   },
+   {
+    "ns": "settings.account",
+    "key": "browserPrompt",
+    "why": "запрет: пробелы по краям",
+    "en": "Page did not open automatically? ",
+    "ru": "Страница не открылась автоматически? "
+   },
+   {
+    "ns": "settings.account",
+    "key": "settingsSignedOutTitle",
+    "why": "запрет: «Вы» с большой буквы",
+    "en": "You are not signed in to DeepSeek Harness",
+    "ru": "Вы не вошли в DeepSeek Harness"
+   }
+  ],
+  "problem_count": 9
+ },
+ {
+  "group": "group-10",
+  "ok": true,
+  "expected": 250,
+  "got": 250,
+  "issues": [
+   "session-inspector/filter.placeholder: английский текст в ru: ['delta']",
+   "subagent/count.running.other: глоссарий: subagent → субагент"
+  ],
+  "samples": [
+   {
+    "ns": "session-inspector",
+    "key": "filter.placeholder",
+    "why": "английский текст в ru: ['delta']",
+    "en": "Type a fragment, e.g. delta",
+    "ru": "Введите фрагмент, например delta"
+   },
+   {
+    "ns": "subagent",
+    "key": "count.running.other",
+    "why": "глоссарий: subagent → субагент",
+    "en": "{count} subagents running",
+    "ru": "Выполняется: {count}"
+   }
+  ],
+  "problem_count": 2
+ },
+ {
+  "group": "group-11",
+  "ok": false,
+  "expected": 250,
+  "got": 250,
+  "issues": [
+   "sidebarRight/tab.unavailable: пунктуация: точка в конце расходится с en",
+   "settings.pluginInventory/clientSyncFailed: пунктуация: точка в конце расходится с en",
+   "settings.pluginInventory/matchesInOtherPresets: запрет: пробелы по краям",
+   "settings.subagent/readOnly: пунктуация: точка в конце расходится с en",
+   "settings.subagent/unavailable: пунктуация: точка в конце расходится с en",
+   "settings.subagent/saveFailed: пунктуация: точка в конце расходится с en",
+   "settings.subagent/subagentDescription: пунктуация: точка в конце расходится с en",
+   "settings.subagent/subagentCapacityHelp: пунктуация: точка в конце расходится с en",
+   "settings.subagent/subagentDepthInvalid: пунктуация: точка в конце расходится с en",
+   "settings.subagent/subagentCapacityInvalid: пунктуация: точка в конце расходится с en",
+   "settings.subagent/subagentModelSelectionChoose: пунктуация: точка в конце расходится с en",
+   "settings.subagent/subagentModelSelectionPartial: пунктуация: точка в конце расходится с en",
+   "settings.subagent/subagentModelSelectionEmpty: пунктуация: точка в конце расходится с en",
+   "settings.subagent/subagentModelSelectionRequired: пунктуация: точка в конце расходится с en",
+   "settings.subagent/subagentModelSelectionConflict: пунктуация: точка в конце расходится с en",
+   "settings.subagent/subagentModelSelectionOff: пунктуация: точка в конце расходится с en",
+   "settings.webSearch/description: пунктуация: точка в конце расходится с en",
+   "settings.webSearch/providerDeepSeek: не переведено",
+   "settings.webSearch/legacyKeyHint: пунктуация: точка в конце расходится с en",
+   "settings.webSearch/invalidMaxUses: пунктуация: точка в конце расходится с en",
+   "settings.webSearch/providerDeepSeekFetch: не переведено",
+   "settings.webSearch/providersFailed: пунктуация: точка в конце расходится с en",
+   "settings.webSearch/pluginProviderHint: глоссарий: provider → провайдер",
+   "settings.webSearch/pluginProviderHint: пунктуация: точка в конце расходится с en",
+   "settings.webSearch/baseUrlHint: пунктуация: точка в конце расходится с en",
+   "settings.webSearch/searchGuideUrl: не переведено",
+   "settings.webSearch/searchGuideUrl: английский текст в ru: ['api-docs.deepseek.com', 'guides', 'https', 'search']",
+   "settings.webSearch/countHint: пунктуация: точка в конце расходится с en",
+   "settings.webSearch/countHint: английский текст в ru: ['search', 'web']",
+   "settings.webSearch/readOnly: пунктуация: точка в конце расходится с en",
+   "settings.webSearch/unavailable: пунктуация: точка в конце расходится с en",
+   "settings.webSearch/saveFailed: пунктуация: точка в конце расходится с en",
+   "cotTranslation/providerUnavailable: пунктуация: точка в конце расходится с en",
+   "cotTranslation/paidNotice: пунктуация: точка в конце расходится с en",
+   "cotTranslation/anonymousNotice: пунктуация: точка в конце расходится с en",
+   "cotTranslation/targetLanguageHint: пунктуация: точка в конце расходится с en",
+   "cotTranslation/targetLanguageHint: английский текст в ru: ['auto', 'en', 'ja', 'zh']",
+   "cotTranslation/privacy: пунктуация: точка в конце расходится с en",
+   "cotTranslation/failed: пунктуация: точка в конце расходится с en",
+   "cotTranslation/invalidProvider: пунктуация: точка в конце расходится с en",
+   "cotTranslation/invalidLanguage: английский текст в ru: ['auto', 'en', 'ja.', 'zh']",
+   "cotTranslation/readOnly: пунктуация: точка в конце расходится с en",
+   "cotTranslation/saveFailed: пунктуация: точка в конце расходится с en",
+   "question/error.incomplete: пунктуация: точка в конце расходится с en",
+   "question/error.unanswered: пунктуация: точка в конце расходится с en",
+   "question/error.unavailable: пунктуация: точка в конце расходится с en",
+   "question/error.resubmit: пунктуация: точка в конце расходится с en",
+   "question/status.sent: пунктуация: точка в конце расходится с en",
+   "question/reply.answerLabel: запрет: пробелы по краям",
+   "agent-team/mode.description: пунктуация: точка в конце расходится с en",
+   "agent-team/disable.description: пунктуация: точка в конце расходится с en",
+   "agent-team/disable.warning: пунктуация: точка в конце расходится с en",
+   "agent-team/empty: пунктуация: точка в конце расходится с en",
+   "fileActions/menu.download: глоссарий: download → скачивание",
+   "fileActions/menu.saveFailed: пунктуация: точка в конце расходится с en",
+   "fileActions/path.revealError: пунктуация: точка в конце расходится с en"
+  ],
+  "samples": [
+   {
+    "ns": "sidebarRight",
+    "key": "tab.unavailable",
+    "why": "пунктуация: точка в конце расходится с en",
+    "en": "Nothing here can view this kind of content yet.",
+    "ru": "Такое содержимое пока нечем открыть"
+   },
+   {
+    "ns": "settings.pluginInventory",
+    "key": "clientSyncFailed",
+    "why": "пунктуация: точка в конце расходится с en",
+    "en": "Some plugins could not sync on this page. Host enablement is unchanged.",
+    "ru": "Часть плагинов не синхронизировалась на этой странице. Включение на хосте не изменилось"
+   },
+   {
+    "ns": "settings.pluginInventory",
+    "key": "matchesInOtherPresets",
+    "why": "запрет: пробелы по краям",
+    "en": "{count} more matches in other presets: ",
+    "ru": "Ещё совпадений в других пресетах ({count}): "
+   },
+   {
+    "ns": "settings.subagent",
+    "key": "readOnly",
+    "why": "пунктуация: точка в конце расходится с en",
+    "en": "This deployment stores settings read-only.",
+    "ru": "В этой установке настройки доступны только для чтения"
+   },
+   {
+    "ns": "settings.subagent",
+    "key": "unavailable",
+    "why": "пунктуация: точка в конце расходится с en",
+    "en": "This plugin is not loaded, so it cannot be configured right now.",
+    "ru": "Плагин не загружен, поэтому настройка сейчас недоступна"
+   },
+   {
+    "ns": "settings.subagent",
+    "key": "saveFailed",
+    "why": "пунктуация: точка в конце расходится с en",
+    "en": "The deployment did not accept these values; they were left for you to correct.",
+    "ru": "Установка не приняла эти значения; они остались на исправление"
+   }
+  ],
+  "problem_count": 56
+ },
+ {
+  "group": "group-12",
+  "ok": true,
+  "expected": 250,
+  "got": 250,
+  "issues": [
+   "command/description.export: глоссарий: download → скачивание",
+   "model/error.sessionInUse: английский текст в ru: ['dsh', 'web']",
+   "feedback/error.conflict: пунктуация: точка в конце расходится с en",
+   "feedback/error.noteTooLarge: пунктуация: точка в конце расходится с en",
+   "sidebarExcel/featureSeparator: запрет: пробелы по краям"
+  ],
+  "samples": [
+   {
+    "ns": "command",
+    "key": "description.export",
+    "why": "глоссарий: download → скачивание",
+    "en": "Download this Session log as a ZIP archive",
+    "ru": "Скачать журнал сессии в виде ZIP-архива"
+   },
+   {
+    "ns": "model",
+    "key": "error.sessionInUse",
+    "why": "английский текст в ru: ['dsh', 'web']",
+    "en": "This session is already in use, possibly by another running DSH instance (such as dsh web or the desktop app). Quit other running DSH instances and try again.",
+    "ru": "Эта сессия уже используется — возможно, другим запущенным экземпляром DSH (например, dsh web или настольным приложением). Завершите работу других экземпляров DSH и повторите попытку."
+   },
+   {
+    "ns": "feedback",
+    "key": "error.conflict",
+    "why": "пунктуация: точка в конце расходится с en",
+    "en": "This feedback changed elsewhere; the latest state is shown",
+    "ru": "Отзыв изменён в другом месте — показано актуальное состояние."
+   },
+   {
+    "ns": "feedback",
+    "key": "error.noteTooLarge",
+    "why": "пунктуация: точка в конце расходится с en",
+    "en": "The description is too long; shorten it and submit again",
+    "ru": "Описание слишком длинное. Сократите его и отправьте снова."
+   },
+   {
+    "ns": "sidebarExcel",
+    "key": "featureSeparator",
+    "why": "запрет: пробелы по краям",
+    "en": ", ",
+    "ru": ", "
+   }
+  ],
+  "problem_count": 5
+ },
+ {
+  "group": "group-13",
+  "ok": true,
+  "expected": 176,
+  "got": 176,
+  "issues": [
+   "session-log-download/menu.download: глоссарий: download → скачивание",
+   "claude-code-mods/press.stale: пунктуация: точка в конце расходится с en"
+  ],
+  "samples": [
+   {
+    "ns": "session-log-download",
+    "key": "menu.download",
+    "why": "глоссарий: download → скачивание",
+    "en": "Download session log",
+    "ru": "Скачать журнал сессии"
+   },
+   {
+    "ns": "claude-code-mods",
+    "key": "press.stale",
+    "why": "пунктуация: точка в конце расходится с en",
+    "en": "That button belonged to an earlier drawing; the band has refreshed",
+    "ru": "Эта кнопка осталась от прошлой отрисовки. Панель уже обновилась."
+   }
+  ],
+  "problem_count": 2
+ }
+]

@@ -1,0 +1,5 @@
+# Russian UI language pack: inserts one bundle row whose client half registers
+# the `ru-x-dsh` language and its reviewed dictionaries.
+- insert:
+    - id: ru-locale-pack
+      name: '@local/dsh-locale-ru'

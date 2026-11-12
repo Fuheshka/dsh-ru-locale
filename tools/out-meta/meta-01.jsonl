@@ -1,0 +1,209 @@
+{"ns": "packages/settings/settings", "key": "meta.title", "ru": "Настройки"}
+{"ns": "packages/experimental/cot-translation-bundle", "key": "meta.title", "ru": "Машинный перевод рассуждений"}
+{"ns": "packages/experimental/cot-translation-bundle", "key": "meta.description", "ru": "Переводит развёрнутые строки размышлений на выбранный язык по мере генерации, а «Посмотреть оригинал» возвращает исходный текст."}
+{"ns": "packages/experimental/cot-translation-bundle", "key": "meta.detail", "ru": "docs/DETAIL.md"}
+{"ns": "packages/experimental/webhook", "key": "meta.title", "ru": "Среда выполнения вебхуков"}
+{"ns": "packages/experimental/webhook", "key": "meta.description", "ru": "Создаёт сессии Harness в рабочей области по правилам вебхуков, не дожидаясь их завершения."}
+{"ns": "packages/experimental/computer-use-cua-driver-native", "key": "meta.title", "ru": "Computer Use (Cua Driver)"}
+{"ns": "packages/experimental/computer-use-cua-driver-native", "key": "meta.description", "ru": "Позволяет модели управлять рабочим столом через встроенную среду выполнения Cua Driver; приложению, которое запускает dsh, нужны разрешения на доступ к рабочему столу."}
+{"ns": "packages/experimental/webhook-github", "key": "meta.title", "ru": "Вебхуки GitHub"}
+{"ns": "packages/experimental/webhook-github", "key": "meta.description", "ru": "Проверяет подписанные HTTP-вебхуки GitHub и передаёт их в сервис вебхуков."}
+{"ns": "packages/experimental/forge-bundle", "key": "meta.title", "ru": "Запросы на изменение и рабочие деревья"}
+{"ns": "packages/experimental/forge-bundle", "key": "meta.description", "ru": "Связанные пул-реквесты GitHub видны рядом с беседой: следите за проверками и рецензиями, смотрите диффы и отправляйте замечания агенту. Просматривайте локальные изменения и изолируйте каждую задачу в отдельном рабочем дереве. Для функций GitHub нужен установленный и авторизованный gh CLI на хосте."}
+{"ns": "packages/experimental/forge-bundle", "key": "meta.detail", "ru": "docs/DETAIL.md"}
+{"ns": "packages/experimental/tool-session-query", "key": "meta.title", "ru": "Инструменты истории сессий"}
+{"ns": "packages/experimental/tool-session-query", "key": "meta.description", "ru": "Ищет по истории сессий и читает траектории и события в пределах разрешений рабочей области."}
+{"ns": "packages/experimental/speech-to-text", "key": "meta.title", "ru": "Распознавание речи"}
+{"ns": "packages/experimental/speech-to-text", "key": "meta.description", "ru": "Транскрипция речи и выбор службы распознавания."}
+{"ns": "packages/experimental/terminal-bundle", "key": "meta.title", "ru": "Постоянные терминалы"}
+{"ns": "packages/experimental/terminal-bundle", "key": "meta.description", "ru": "Даёт агенту терминалы, процессы которых продолжают работать в фоне между вызовами инструментов, так что можно запустить сервер разработки или REPL и позже вернуться, чтобы прочитать вывод или что-то ввести."}
+{"ns": "packages/experimental/terminal-bundle", "key": "meta.detail", "ru": "docs/DETAIL.md"}
+{"ns": "packages/experimental/session-inspector", "key": "meta.title", "ru": "Журнал сессии"}
+{"ns": "packages/experimental/session-inspector", "key": "meta.description", "ru": "Включает разбор необработанных данных текущей сессии и сгруппированных сообщений чата на боковой панели сессии."}
+{"ns": "packages/experimental/personalized-recommendations", "key": "meta.title", "ru": "Персональные рекомендации"}
+{"ns": "packages/experimental/personalized-recommendations", "key": "meta.description", "ru": "Показывает под ответом карточки рекомендаций: если нужна страница или небольшой инструмент, который останется под рукой, предлагает новую персональную страницу — она создаётся в фоне после нажатия «Создать»; если вы спрашиваете, как что-то сделать в приложении, или замечаете, что не хватает возможности, рекомендует встроенный плагин, который её даёт, и включает его после нажатия «Включить»."}
+{"ns": "packages/experimental/personalized-recommendations", "key": "meta.detail", "ru": "docs/DETAIL.md"}
+{"ns": "packages/experimental/session-title-all-prompts-llm", "key": "meta.title", "ru": "Заголовки сессий по всем сообщениям"}
+{"ns": "packages/experimental/session-title-all-prompts-llm", "key": "meta.description", "ru": "Генерирует заголовки сессий по всем сообщениям пользователя в сессии."}
+{"ns": "packages/experimental/plugin-market-bundle", "key": "meta.title", "ru": "Пользовательские индексы плагинов"}
+{"ns": "packages/experimental/plugin-market-bundle", "key": "meta.description", "ru": "Добавляет в «Плагины» вкладку «Обзор», где можно смотреть и устанавливать плагины из добавленных вами индексов."}
+{"ns": "packages/experimental/plugin-market-bundle", "key": "meta.detail", "ru": "docs/DETAIL.md"}
+{"ns": "packages/experimental/tool-subagent-oar", "key": "meta.title", "ru": "Инструмент субагента OAR"}
+{"ns": "packages/experimental/tool-subagent-oar", "key": "meta.description", "ru": "Выбор настроенного внешнего агента для каждой отдельной задачи."}
+{"ns": "packages/experimental/session-titles-bundle", "key": "meta.title", "ru": "Заголовки по ходу беседы"}
+{"ns": "packages/experimental/session-titles-bundle", "key": "meta.description", "ru": "Строит заголовок сессии по всем вашим сообщениям и обновляет его при смене основной задачи, а не только по первому сообщению."}
+{"ns": "packages/experimental/session-titles-bundle", "key": "meta.detail", "ru": "docs/DETAIL.md"}
+{"ns": "packages/experimental/cua-bundle", "key": "meta.title", "ru": "Computer Use"}
+{"ns": "packages/experimental/cua-bundle", "key": "meta.description", "ru": "Сейчас поддерживается только macOS; поддержка Windows в разработке. Подключает Computer Use к существующим и новым сессиям PTC. Чтобы воспользоваться, переключитесь в режим PTC и выдайте разрешения «Универсальный доступ» и «Запись экрана»."}
+{"ns": "packages/experimental/cua-bundle", "key": "meta.detail", "ru": "docs/DETAIL.md"}
+{"ns": "packages/experimental/client-ui-cot-translation", "key": "meta.title", "ru": "Машинный перевод рассуждений"}
+{"ns": "packages/experimental/client-ui-cot-translation", "key": "meta.description", "ru": "Показывает развёрнутые рассуждения на другом языке с помощью машинного перевода."}
+{"ns": "packages/experimental/client-ui-forge", "key": "meta.title", "ru": "Панель запросов на изменение"}
+{"ns": "packages/experimental/client-ui-forge", "key": "meta.description", "ru": "Показывает запросы на изменение сессии во вкладке боковой панели; новая сессия может начаться в рабочем дереве."}
+{"ns": "packages/experimental/browser-use-chrome-devtools-mcp", "key": "meta.title", "ru": "Использование браузера (Chrome DevTools)"}
+{"ns": "packages/experimental/browser-use-chrome-devtools-mcp", "key": "meta.description", "ru": "Позволяет модели изучать веб-страницы и управлять ими через Chrome DevTools MCP в запущенном Chrome."}
+{"ns": "packages/experimental/creation-recommendations", "key": "meta.title", "ru": "Персональные страницы"}
+{"ns": "packages/experimental/creation-recommendations", "key": "meta.description", "ru": "Предлагает под ответом страницу или небольшой инструмент, который останется под рукой; после нажатия «Создать» он собирается в фоне как страница-плагин, а сборку можно прервать, отменить и восстановить. Сборка занимает несколько минут и много токенов."}
+{"ns": "packages/experimental/inspector", "key": "meta.title", "ru": "Инспектор Node.js"}
+{"ns": "packages/experimental/inspector", "key": "meta.description", "ru": "Нажмите Ctrl/Cmd+Shift+., чтобы открыть Chrome DevTools в нижней панели для разработки и отладки."}
+{"ns": "packages/experimental/inspector-profile", "key": "meta.title", "ru": "Инструменты разработчика"}
+{"ns": "packages/experimental/inspector-profile", "key": "meta.description", "ru": "Для диагностики: смотрите, что DSH записал для сессии, в «Журнале сессии», изучайте статистику по ходам и шагам на вкладке «Статистика» и отлаживайте бэкенд DSH в Chrome DevTools."}
+{"ns": "packages/experimental/inspector-profile", "key": "meta.detail", "ru": "docs/DETAIL.md"}
+{"ns": "packages/experimental/liveshare", "key": "meta.title", "ru": "Совместный доступ к сессии LiveShare"}
+{"ns": "packages/experimental/liveshare", "key": "meta.description", "ru": "Поделитесь текущей сессией с коллегой: он сможет управлять ею в браузере, править файлы в предоставленной рабочей области, если доступ разрешает запись, или создать свою сессию от завершённой истории."}
+{"ns": "packages/experimental/forge-session", "key": "meta.title", "ru": "Запросы на изменение сессии"}
+{"ns": "packages/experimental/forge-session", "key": "meta.description", "ru": "Привязывает запросы на изменение к сессии, которая их создала, отправила или отслеживала, и следит за их статусом."}
+{"ns": "packages/experimental/skill-badge", "key": "meta.title", "ru": "DSH"}
+{"ns": "packages/experimental/skill-badge", "key": "meta.description", "ru": "Официальный навык для значка «powered by DSH»."}
+{"ns": "packages/experimental/browser-use-stagehand-native", "key": "meta.title", "ru": "Инструменты браузера Stagehand"}
+{"ns": "packages/experimental/browser-use-stagehand-native", "key": "meta.description", "ru": "Экспериментальные инструменты браузера Stagehand с отдельно настроенной нативной моделью."}
+{"ns": "packages/experimental/worktree", "key": "meta.title", "ru": "Сервис рабочих деревьев"}
+{"ns": "packages/experimental/worktree", "key": "meta.description", "ru": "Создаёт именованные рабочие деревья Git и меняет рабочий каталог текущей сессии."}
+{"ns": "packages/experimental/computer-use-cua-driver-mcp", "key": "meta.title", "ru": "Computer Use (Cua Driver MCP)"}
+{"ns": "packages/experimental/computer-use-cua-driver-mcp", "key": "meta.description", "ru": "Позволяет модели управлять рабочим столом через отдельно установленный исполняемый файл cua-driver."}
+{"ns": "packages/experimental/ptc-runtime-python", "key": "meta.title", "ru": "Среда выполнения PTC для Python"}
+{"ns": "packages/experimental/ptc-runtime-python", "key": "meta.description", "ru": "Запускает код программного вызова инструментов в подпроцессах CPython."}
+{"ns": "packages/experimental/badge-skill-bundle", "key": "meta.title", "ru": "Навык для значка DSH"}
+{"ns": "packages/experimental/badge-skill-bundle", "key": "meta.description", "ru": "Даёт агентам добавлять значок «powered by dsh» в документы, пул-реквесты и другие результаты."}
+{"ns": "packages/experimental/badge-skill-bundle", "key": "meta.detail", "ru": "docs/DETAIL.md"}
+{"ns": "packages/experimental/client-ui-voice-input", "key": "meta.title", "ru": "Запись речи"}
+{"ns": "packages/experimental/client-ui-voice-input", "key": "meta.description", "ru": "Записывает речь и вставляет редактируемый текст в черновик беседы."}
+{"ns": "packages/experimental/client-ui-stats", "key": "meta.title", "ru": "Статистика"}
+{"ns": "packages/experimental/client-ui-stats", "key": "meta.description", "ru": "Показывает рядом с чатом контекст, время, кэш и стоимость инструментов по ходам и шагам."}
+{"ns": "packages/experimental/subagent-oar", "key": "meta.title", "ru": "Субагенты OAR"}
+{"ns": "packages/experimental/subagent-oar", "key": "meta.description", "ru": "Делегирует задачи установленным агентам для кодинга через OAR; есть конфигурации Codex и Claude Code."}
+{"ns": "packages/experimental/ralph-bundle", "key": "meta.title", "ru": "Циклы Ralph"}
+{"ns": "packages/experimental/ralph-bundle", "key": "meta.description", "ru": "Попросите цикл Ralph с целью — и агент раунд за раундом будет запускать для неё нового агента, пока цель не достигнута, не сообщено о препятствии или не исчерпан лимит раундов."}
+{"ns": "packages/experimental/ralph-bundle", "key": "meta.detail", "ru": "docs/DETAIL.md"}
+{"ns": "packages/experimental/tool-ralph", "key": "meta.title", "ru": "Инструмент Ralph"}
+{"ns": "packages/experimental/translator", "key": "meta.title", "ru": "Сервис перевода"}
+{"ns": "packages/experimental/translator", "key": "meta.description", "ru": "Переводит текст и повторно использует переводы, сохранённые в сессии."}
+{"ns": "packages/experimental/claude-code-mods", "key": "meta.title", "ru": "Моды Claude Code"}
+{"ns": "packages/experimental/claude-code-mods", "key": "meta.description", "ru": "Загружает расширения Claude Code и запускает их хуки через точки расширения Harness."}
+{"ns": "packages/experimental/client-ui-plugin-recommendations", "key": "meta.title", "ru": "Карточки рекомендаций плагинов"}
+{"ns": "packages/experimental/client-ui-plugin-recommendations", "key": "meta.description", "ru": "Показывает под ответом карточку «Включить» для рекомендованного официального плагина — с подробностями и вашим выбором."}
+{"ns": "packages/experimental/plugin-recommendations", "key": "meta.title", "ru": "Рекомендации плагинов"}
+{"ns": "packages/experimental/plugin-recommendations", "key": "meta.description", "ru": "Если вы спрашиваете, как что-то сделать в приложении, или замечаете, что не хватает возможности, рекомендует под ответом встроенный плагин, который её даёт; «Включить» включает его для всех бесед, а отключить можно на странице «Плагины»."}
+{"ns": "packages/experimental/hooks-claude-code", "key": "meta.title", "ru": "Хуки Claude Code"}
+{"ns": "packages/experimental/hooks-claude-code", "key": "meta.description", "ru": "Запускает хуки из hooks.json или настроек Claude Code в точках перехвата Harness."}
+{"ns": "packages/experimental/auto-review", "key": "meta.title", "ru": "Автоматическая проверка доступа"}
+{"ns": "packages/experimental/auto-review", "key": "meta.description", "ru": "Добавляет режим доступа «Автопроверка»: перед каждым вызовом инструмента модель сверяет его с вашей просьбой; разрешённые вызовы выполняются сразу, а отклонённые ждут вашего подтверждения."}
+{"ns": "packages/experimental/auto-review", "key": "meta.detail", "ru": "docs/DETAIL.md"}
+{"ns": "packages/experimental/cua", "key": "meta.title", "ru": "Сервис Computer Use"}
+{"ns": "packages/experimental/cua", "key": "meta.description", "ru": "Управляет доступом к приложениям, разрешениями и протоколированием вызовов инструментов для Computer Use."}
+{"ns": "packages/experimental/forge", "key": "meta.title", "ru": "Запросы на изменение"}
+{"ns": "packages/experimental/forge", "key": "meta.description", "ru": "Регистрирует провайдеров хостинга кода и опрашивает статусы запросов на изменение через единый сервис, не зависящий от провайдера."}
+{"ns": "packages/experimental/speech-to-text-sensevoice", "key": "meta.title", "ru": "Локальное распознавание SenseVoice"}
+{"ns": "packages/experimental/speech-to-text-sensevoice", "key": "meta.description", "ru": "Распознаёт записи в текст локально с помощью SenseVoice."}
+{"ns": "packages/experimental/client-ui-claude-code-mods", "key": "meta.title", "ru": "Интерфейс модов Claude Code"}
+{"ns": "packages/experimental/client-ui-claude-code-mods", "key": "meta.description", "ru": "Показывает дерево расширений каждой сессии над полем ввода и передаёт действия кнопок в сервис расширений."}
+{"ns": "packages/experimental/hooks-codex", "key": "meta.title", "ru": "Хуки Codex"}
+{"ns": "packages/experimental/hooks-codex", "key": "meta.description", "ru": "Запускает хуки из hooks.json Codex в точках перехвата Harness."}
+{"ns": "packages/experimental/voice-input-bundle", "key": "meta.title", "ru": "Голосовой ввод"}
+{"ns": "packages/experimental/voice-input-bundle", "key": "meta.description", "ru": "Распознаёт записи локально с помощью SenseVoice; при первом запуске нужно установить зависимости."}
+{"ns": "packages/experimental/voice-input-bundle", "key": "meta.detail", "ru": "docs/DETAIL.md"}
+{"ns": "packages/experimental/session-search", "key": "meta.title", "ru": "Поиск по сессиям"}
+{"ns": "packages/experimental/session-search", "key": "meta.description", "ru": "Спросите о прошлой работе — например, „Как мы исправили утечку в пуле на прошлой неделе?“ — и агент поищет ответ в ваших прошлых сессиях в той же рабочей области."}
+{"ns": "packages/experimental/session-search", "key": "meta.detail", "ru": "docs/DETAIL.md"}
+{"ns": "packages/experimental/tool-worktree", "key": "meta.title", "ru": "Рабочие деревья Git"}
+{"ns": "packages/experimental/tool-worktree", "key": "meta.description", "ru": "Попросите поработать в новой ветке — и агент создаст отдельное рабочее дерево Git и продолжит там, не трогая вашу текущую рабочую копию."}
+{"ns": "packages/experimental/tool-worktree", "key": "meta.detail", "ru": "docs/DETAIL.md"}
+{"ns": "packages/experimental/api-speech-to-text", "key": "meta.title", "ru": "API транскрипции речи"}
+{"ns": "packages/experimental/api-speech-to-text", "key": "meta.description", "ru": "Транскрипция речи для браузерных клиентов."}
+{"ns": "packages/experimental/browser-use-playwright-mcp", "key": "meta.title", "ru": "Использование браузера (Playwright)"}
+{"ns": "packages/experimental/browser-use-playwright-mcp", "key": "meta.description", "ru": "Позволяет модели просматривать веб-страницы и управлять ими через Playwright MCP в запущенном Chromium."}
+{"ns": "packages/experimental/client-ui-action-cards", "key": "meta.title", "ru": "Отображение карточек действий"}
+{"ns": "packages/experimental/client-ui-action-cards", "key": "meta.description", "ru": "Показывает под ответами необязательные карточки действий с элементами управления каждого эксперимента."}
+{"ns": "packages/experimental/action-cards", "key": "meta.title", "ru": "Карточки действий"}
+{"ns": "packages/experimental/action-cards", "key": "meta.description", "ru": "Показывает под ответами необязательные карточки действий для включённых экспериментов и передаёт выбор пользователя обратно в беседу."}
+{"ns": "packages/experimental/cua-macos", "key": "meta.title", "ru": "Провайдер Computer Use для macOS"}
+{"ns": "packages/experimental/cua-macos", "key": "meta.description", "ru": "Даёт общему сервису Computer Use нативные приложения и окна macOS."}
+{"ns": "packages/experimental/tool-terminal", "key": "meta.title", "ru": "Постоянные инструменты терминала"}
+{"ns": "packages/experimental/tool-terminal", "key": "meta.description", "ru": "Шесть постоянных инструментов PTY: у каждого своя сессия, есть интеграция с фоновыми задачами."}
+{"ns": "packages/experimental/client-ui-creation-recommendations", "key": "meta.title", "ru": "Карточки персональных страниц"}
+{"ns": "packages/experimental/client-ui-creation-recommendations", "key": "meta.description", "ru": "Показывает после ответа карточку предложения: выбор места, ход создания, отмена и восстановление."}
+{"ns": "packages/experimental/forge-github", "key": "meta.title", "ru": "Запросы на изменение GitHub"}
+{"ns": "packages/experimental/forge-github", "key": "meta.description", "ru": "Читает запросы на изменение GitHub для реестра Forge через GitHub CLI на хосте."}
+{"ns": "packages/schedule/schedule", "key": "meta.title", "ru": "Планирование задач"}
+{"ns": "packages/schedule/schedule", "key": "meta.description", "ru": "Хранит задачи автоматизации, запускает каждую в исходной сессии, когда подходит срок, и даёт агенту инструменты для управления ими."}
+{"ns": "packages/schedule/tool-schedule", "key": "meta.title", "ru": "Инструменты планирования"}
+{"ns": "packages/schedule/tool-schedule", "key": "meta.description", "ru": "Создаёт, просматривает, изменяет и удаляет задачи автоматизации."}
+{"ns": "packages/llm/llm", "key": "meta.title", "ru": "LLM"}
+{"ns": "packages/llm/deepseek-llm-api-extensions", "key": "meta.title", "ru": "Расширения DeepSeek API"}
+{"ns": "packages/llm/llm-retry", "key": "meta.title", "ru": "Повторы запросов к модели"}
+{"ns": "packages/llm/llm-deepseek-account", "key": "meta.title", "ru": "Аккаунт DeepSeek"}
+{"ns": "packages/llm/token-meter", "key": "meta.title", "ru": "Счётчик токенов"}
+{"ns": "packages/llm/llm-pi-ai", "key": "meta.title", "ru": "Провайдер Pi AI"}
+{"ns": "packages/llm/plugin-package-inventory-deepseek", "key": "meta.title", "ru": "Инвентарь пакетов плагинов DeepSeek"}
+{"ns": "packages/llm/llm-deepseek-api-key", "key": "meta.title", "ru": "Ключ API DeepSeek"}
+{"ns": "packages/context/harness-dev-context", "key": "meta.title", "ru": "Контекст разработки Harness"}
+{"ns": "packages/context/harness-dev-context", "key": "meta.description", "ru": "Даёт модели каталог с исходниками Harness и URL веб-интерфейса, не меняя её системный промпт."}
+{"ns": "packages/context/tmux-context", "key": "meta.title", "ru": "Контекст tmux"}
+{"ns": "packages/context/tmux-context", "key": "meta.description", "ru": "При необходимости сохраняет расположение панелей и окон tmux для каждого шага."}
+{"ns": "packages/context/agent-instructions", "key": "meta.title", "ru": "Инструкции агента"}
+{"ns": "packages/context/file-reference-local", "key": "meta.title", "ru": "Ссылки на локальные файлы"}
+{"ns": "packages/context/time-context", "key": "meta.title", "ru": "Ориентация во времени"}
+{"ns": "packages/context/time-context", "key": "meta.description", "ru": "На каждом шаге сообщает модели текущее время, часовой пояс браузера и время с момента предыдущего сообщения."}
+{"ns": "packages/context/session-reference", "key": "meta.title", "ru": "Ссылки на сессии"}
+{"ns": "packages/core/agent-loop", "key": "meta.title", "ru": "Цикл агента"}
+{"ns": "packages/core/tools", "key": "meta.title", "ru": "Инструменты"}
+{"ns": "packages/core/tool-executor-ptc", "key": "meta.title", "ru": "Выполнение инструментов PTC"}
+{"ns": "packages/core/tool-executor-ptc", "key": "meta.description", "ru": "Выполняет инструменты через программы run_code и генерирует привязки SDK."}
+{"ns": "packages/core/system-prompt", "key": "meta.title", "ru": "Системный промпт"}
+{"ns": "packages/core/agent-tool-presentation", "key": "meta.title", "ru": "Отображение вызовов инструментов"}
+{"ns": "packages/core/agent", "key": "meta.title", "ru": "Агент"}
+{"ns": "packages/core/tool-executor-native", "key": "meta.title", "ru": "Нативное выполнение инструментов"}
+{"ns": "packages/core/tool-executor-native", "key": "meta.description", "ru": "Выполняет вызовы инструментов модели напрямую."}
+{"ns": "packages/core/agent-default-model", "key": "meta.title", "ru": "Модель по умолчанию"}
+{"ns": "packages/core/session", "key": "meta.title", "ru": "Сессия"}
+{"ns": "packages/host/directory-picker-native", "key": "meta.title", "ru": "Системный выбор каталога"}
+{"ns": "packages/host/plugin-inventory", "key": "meta.title", "ru": "Инвентарь плагинов"}
+{"ns": "packages/host/product-telemetry-otel", "key": "meta.title", "ru": "Телеметрия продукта (OTel)"}
+{"ns": "packages/host/frontend-static", "key": "meta.title", "ru": "Сервер статических файлов"}
+{"ns": "packages/host/frontend-static", "key": "meta.description", "ru": "Отдаёт входную страницу веб-приложения и статические файлы, отклоняет пути за пределами их каталога и возвращает 404 для отсутствующих ресурсов."}
+{"ns": "packages/host/webserver", "key": "meta.title", "ru": "Веб-сервер"}
+{"ns": "packages/host/open-in-app", "key": "meta.title", "ru": "Открытие в приложении"}
+{"ns": "packages/host/directory-picker-auto", "key": "meta.title", "ru": "Автоматический выбор каталога"}
+{"ns": "packages/host/directory-picker-browse", "key": "meta.title", "ru": "Просмотр каталогов"}
+{"ns": "packages/boot/plugin-manager", "key": "meta.title", "ru": "Менеджер плагинов"}
+{"ns": "packages/boot/plugin-manager/locale", "key": "meta.title", "ru": "Инструменты менеджера плагинов"}
+{"ns": "packages/boot/config-editor", "key": "meta.title", "ru": "Редактор конфигурации"}
+{"ns": "packages/boot/hmr", "key": "meta.title", "ru": "HMR"}
+{"ns": "packages/boot/plugin-market", "key": "meta.title", "ru": "Индексы плагинов"}
+{"ns": "packages/boot/plugin-market", "key": "meta.description", "ru": "Управляет настроенными индексами плагинов для поиска плагинов и работы инструмента plugin_market."}
+{"ns": "packages/skill/skill-filesystem", "key": "meta.title", "ru": "Навыки из файловой системы"}
+{"ns": "packages/skill/tool-skill", "key": "meta.title", "ru": "Инструмент навыков"}
+{"ns": "packages/skill/skill", "key": "meta.title", "ru": "Навык"}
+{"ns": "packages/skill/skill-office", "key": "meta.title", "ru": "Навыки Office"}
+{"ns": "packages/skill/skill-office", "key": "meta.description", "ru": "Встроенные сценарии работы с Word, PowerPoint и Excel, а также операции LibreOffice Kit."}
+{"ns": "packages/skill/tool-workspace-dependencies", "key": "meta.title", "ru": "Зависимости рабочей области"}
+{"ns": "packages/skill/tool-workspace-dependencies", "key": "meta.description", "ru": "Абсолютные пути к встроенным средам выполнения Python, Node.js и pnpm."}
+{"ns": "packages/preset/agent-preset", "key": "meta.title", "ru": "Пресет агента"}
+{"ns": "packages/preset/agent-preset/skills/cordis-plugin-development/templates/decoration", "key": "meta.title", "ru": "Украшение поля ввода"}
+{"ns": "packages/preset/agent-preset/skills/cordis-plugin-development/templates/decoration", "key": "meta.description", "ru": "Показывает синий кружок под полем ввода сообщения."}
+{"ns": "packages/preset/agent-preset/skills/cordis-plugin-development/templates/mcp", "key": "meta.title", "ru": "Демо-подключение MCP"}
+{"ns": "packages/preset/agent-preset/skills/cordis-plugin-development/templates/mcp", "key": "meta.description", "ru": "Подключает удалённый MCP server, чтобы его инструменты стали доступны агенту."}
+{"ns": "packages/preset/persona", "key": "meta.title", "ru": "Персона"}
+{"ns": "packages/preset/agent-preset-registry", "key": "meta.title", "ru": "Реестр пресетов агента"}
+{"ns": "packages/shell/shell-env", "key": "meta.title", "ru": "Окружение оболочки"}
+{"ns": "packages/shell/pwsh-sandbox", "key": "meta.title", "ru": "Песочница PowerShell"}
+{"ns": "packages/shell/bash-sandbox", "key": "meta.title", "ru": "Песочница Bash"}
+{"ns": "packages/shell/tool-bash-persistent", "key": "meta.title", "ru": "Постоянный инструмент Bash"}
+{"ns": "packages/shell/tool-bash", "key": "meta.title", "ru": "Инструмент Bash"}
+{"ns": "packages/shell/pwsh-local", "key": "meta.title", "ru": "Локальный PowerShell"}
+{"ns": "packages/shell/pwsh-local", "key": "meta.description", "ru": "Запускает команды через локальный PowerShell."}
+{"ns": "packages/shell/bash-local", "key": "meta.title", "ru": "Локальный Bash"}
+{"ns": "packages/shell/bash-local", "key": "meta.description", "ru": "Запускает команды Bash в локальных подпроцессах."}
+{"ns": "packages/shell/tool-pwsh", "key": "meta.title", "ru": "Инструмент PowerShell"}
+{"ns": "packages/shell/tool-pwsh-persistent", "key": "meta.title", "ru": "Постоянный инструмент PowerShell"}
+{"ns": "packages/plan/plan-mode", "key": "meta.title", "ru": "Режим планирования"}
+{"ns": "packages/web/web-deepseek-api", "key": "meta.title", "ru": "Веб-API DeepSeek"}
+{"ns": "packages/web/web", "key": "meta.title", "ru": "Веб"}
+{"ns": "packages/web/web-search-deepseek", "key": "meta.title", "ru": "Веб-поиск DeepSeek"}
+{"ns": "packages/web/web-fetch-http", "key": "meta.title", "ru": "Загрузка веб-страниц по HTTP"}
+{"ns": "packages/web/tool-web", "key": "meta.title", "ru": "Инструменты веб-поиска и чтения"}
+{"ns": "packages/typert/loader", "key": "meta.title", "ru": "Загрузчик Typert"}
+{"ns": "packages/typert/registry", "key": "meta.title", "ru": "Реестр Typert"}
+{"ns": "packages/attachment/attachment-local", "key": "meta.title", "ru": "Локальные вложения"}
+{"ns": "packages/workspace/workspace", "key": "meta.title", "ru": "Рабочая область"}
+{"ns": "packages/terminal/terminal-bash", "key": "meta.title", "ru": "Терминал Bash"}

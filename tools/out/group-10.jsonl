@@ -1,0 +1,250 @@
+{"ns": "cuaPermissions", "key": "approvalRisks", "ru": "Риски"}
+{"ns": "cuaPermissions", "key": "approvalRiskTitle", "ru": "Риски Computer Use"}
+{"ns": "cuaPermissions", "key": "approvalRiskNotice", "ru": "Агент получает доступ только к приложениям, которые вы разрешили, и может читать их содержимое и управлять ими в фоновом режиме.\n\nВ онлайн-играх, мессенджерах и других приложениях могут действовать ограничения на автоматизацию. Нарушение их правил может привести к приостановке или блокировке аккаунта в этом приложении.\n\nПродолжайте на свой страх и риск. Чтобы в любой момент остановить автоматизированное управление, нажмите «Остановить» в DeepSeek Harness."}
+{"ns": "cuaPermissions", "key": "title", "ru": "Разрешить Computer Use"}
+{"ns": "cuaPermissions", "key": "applicationsTitle", "ru": "Управление приложениями, доступными Computer Use"}
+{"ns": "cuaPermissions", "key": "setupTitle", "ru": "Настройте Computer Use перед началом работы"}
+{"ns": "cuaPermissions", "key": "setupBody", "ru": "Computer Use включён. Переключитесь в режим PTC и предоставьте разрешения «Универсальный доступ» и «Запись экрана». Откройте сведения о плагине, чтобы завершить настройку."}
+{"ns": "cuaPermissions", "key": "setupQueryFailed", "ru": "Computer Use включён, но проверить системные разрешения не удалось. Откройте сведения о плагине, чтобы увидеть ошибку, и повторите попытку."}
+{"ns": "cuaPermissions", "key": "defaultTitle", "ru": "Режим по умолчанию для новых сессий"}
+{"ns": "cuaPermissions", "key": "defaultBody", "ru": "Computer Use работает только в режиме PTC."}
+{"ns": "cuaPermissions", "key": "defaultConfirm", "ru": "Сделать PTC по умолчанию"}
+{"ns": "cuaPermissions", "key": "defaultSet", "ru": "PTC — режим по умолчанию"}
+{"ns": "cuaPermissions", "key": "defaultUnavailable", "ru": "Не удалось прочитать режим по умолчанию. Проверьте его в настройках."}
+{"ns": "cuaPermissions", "key": "defaultReadOnly", "ru": "Настройки режима по умолчанию доступны только для чтения."}
+{"ns": "cuaPermissions", "key": "defaultNotSaved", "ru": "Режим по умолчанию не сохранён. Попробуйте ещё раз."}
+{"ns": "cuaPermissions", "key": "defaultFailed", "ru": "Не удалось изменить режим по умолчанию: {message}"}
+{"ns": "cuaPermissions", "key": "persistentTitle", "ru": "Режим выполнения PTC"}
+{"ns": "cuaPermissions", "key": "persistentBody", "ru": "Переменные и объекты приложения сохраняются между вызовами инструментов. Переключение перезапускает среду выполнения PTC."}
+{"ns": "cuaPermissions", "key": "persistentConfirm", "ru": "Включить постоянный режим"}
+{"ns": "cuaPermissions", "key": "persistentSet", "ru": "Постоянный режим включён"}
+{"ns": "cuaPermissions", "key": "persistentUnavailable", "ru": "Не удалось прочитать режим выполнения PTC. Проверьте его в настройках."}
+{"ns": "cuaPermissions", "key": "persistentReadOnly", "ru": "Настройки выполнения PTC доступны только для чтения."}
+{"ns": "cuaPermissions", "key": "persistentNotSaved", "ru": "Режим выполнения PTC не сохранён. Попробуйте ещё раз."}
+{"ns": "cuaPermissions", "key": "persistentFailed", "ru": "Не удалось изменить режим выполнения PTC: {message}"}
+{"ns": "cuaPermissions", "key": "openSetup", "ru": "Открыть настройки"}
+{"ns": "cuaPermissions", "key": "later", "ru": "Позже"}
+{"ns": "cuaPermissions", "key": "close", "ru": "Закрыть"}
+{"ns": "cuaPermissions", "key": "accessibility", "ru": "Универсальный доступ"}
+{"ns": "cuaPermissions", "key": "screenRecording", "ru": "Запись экрана"}
+{"ns": "cuaPermissions", "key": "accessibilityUse", "ru": "Читать элементы управления интерфейса, нажимать и вводить текст."}
+{"ns": "cuaPermissions", "key": "screenRecordingUse", "ru": "Захватывать выбранное окно приложения."}
+{"ns": "cuaPermissions", "key": "accessibilityPermission", "ru": "В системных настройках разрешите {application} читать элементы управления интерфейса, нажимать и вводить текст."}
+{"ns": "cuaPermissions", "key": "screenRecordingPermission", "ru": "В системных настройках разрешите {application} захватывать окна приложений."}
+{"ns": "cuaPermissions", "key": "permissionHint", "ru": "Разрешения «Универсальный доступ» и «Запись экрана» настраиваются в системных настройках."}
+{"ns": "cuaPermissions", "key": "granted", "ru": "Разрешено"}
+{"ns": "cuaPermissions", "key": "unknown", "ru": "Неизвестно"}
+{"ns": "cuaPermissions", "key": "request", "ru": "Запросить разрешение"}
+{"ns": "cuaPermissions", "key": "settings", "ru": "Открыть системные настройки"}
+{"ns": "cuaPermissions", "key": "retry", "ru": "Повторить"}
+{"ns": "cuaPermissions", "key": "allowedApps", "ru": "Всегда разрешённые приложения"}
+{"ns": "cuaPermissions", "key": "blockedApps", "ru": "Запрещённые приложения"}
+{"ns": "cuaPermissions", "key": "retryApproval", "ru": "Разрешить повторный запрос"}
+{"ns": "cuaPermissions", "key": "retryAllowed", "ru": "При следующем выборе приложения запрос появится снова; доступ не предоставлен"}
+{"ns": "cuaPermissions", "key": "noApps", "ru": "Нет всегда разрешённых или запрещённых приложений."}
+{"ns": "cuaPermissions", "key": "revoke", "ru": "Отозвать"}
+{"ns": "cuaPermissions", "key": "revoked", "ru": "Доступ к приложению отозван"}
+{"ns": "cuaPermissions", "key": "requested", "ru": "Следуйте инструкциям внизу окна «Системные настройки»"}
+{"ns": "cuaPermissions", "key": "opened", "ru": "Системные настройки открыты"}
+{"ns": "cuaPermissions", "key": "applicationsFailed", "ru": "Не удалось загрузить доступ к приложению: {message}"}
+{"ns": "cuaPermissions", "key": "iconsFailed", "ru": "Не удалось загрузить значки приложений: {message}"}
+{"ns": "cuaPermissions", "key": "failed", "ru": "Не удалось обновить разрешения: {message}"}
+{"ns": "cuaPermissions", "key": "queryFailed", "ru": "Не удалось проверить разрешения: {message}"}
+{"ns": "session-inspector", "key": "tab.title", "ru": "Журнал сессии"}
+{"ns": "session-inspector", "key": "tab.description", "ru": "Анализ необработанных журналов и сгруппированных сообщений чата текущей сессии на боковой панели."}
+{"ns": "session-inspector", "key": "view.presentation", "ru": "Представление"}
+{"ns": "session-inspector", "key": "view.sessionLog", "ru": "Необработанный журнал"}
+{"ns": "session-inspector", "key": "view.chatNode", "ru": "Группа чата"}
+{"ns": "session-inspector", "key": "picker.pick", "ru": "Выберите элемент в представлении чата"}
+{"ns": "session-inspector", "key": "picker.cancel", "ru": "Отменить выбор (Esc)"}
+{"ns": "session-inspector", "key": "picker.instructions", "ru": "Наведите указатель в основном чате, чтобы увидеть предпросмотр, затем нажмите, чтобы выбрать. Esc отменяет."}
+{"ns": "session-inspector", "key": "picker.noMatch", "ru": "В этой таблице нет соответствующей записи. Выберите другой элемент или нажмите Esc для отмены."}
+{"ns": "session-inspector", "key": "picker.noChat", "ru": "Сначала откройте эту сессию в основном чате."}
+{"ns": "session-inspector", "key": "table.id", "ru": "Индекс"}
+{"ns": "session-inspector", "key": "table.type", "ru": "Тип"}
+{"ns": "session-inspector", "key": "filter.title", "ru": "Фильтр по типу"}
+{"ns": "session-inspector", "key": "filter.input", "ru": "Ключевое слово типа"}
+{"ns": "session-inspector", "key": "filter.placeholder", "ru": "Введите фрагмент, например delta"}
+{"ns": "session-inspector", "key": "filter.help", "ru": "Содержит совпадение (*ключевое слово*). Enter подтверждает; Esc отменяет."}
+{"ns": "session-inspector", "key": "filter.candidates", "ru": "Подсказки типов"}
+{"ns": "session-inspector", "key": "filter.loading", "ru": "Поиск подсказок…"}
+{"ns": "session-inspector", "key": "filter.failed", "ru": "Не удалось загрузить подсказки типов."}
+{"ns": "session-inspector", "key": "filter.noCandidates", "ru": "Подсказок нет. Ключевое слово всё равно можно применить."}
+{"ns": "session-inspector", "key": "filter.clear", "ru": "Очистить"}
+{"ns": "session-inspector", "key": "filter.cancel", "ru": "Отмена"}
+{"ns": "session-inspector", "key": "filter.apply", "ru": "Применить фильтр"}
+{"ns": "session-inspector", "key": "filter.context", "ru": "Родительский контекст совпавшей записи"}
+{"ns": "session-inspector", "key": "table.location", "ru": "T/S"}
+{"ns": "session-inspector", "key": "table.time", "ru": "Время (UTC)"}
+{"ns": "session-inspector", "key": "table.data", "ru": "Данные"}
+{"ns": "session-inspector", "key": "table.older", "ru": "Загрузить предыдущие"}
+{"ns": "session-inspector", "key": "table.loading", "ru": "Загрузка…"}
+{"ns": "session-inspector", "key": "table.latest", "ru": "Следить за последними"}
+{"ns": "session-inspector", "key": "table.empty", "ru": "Нет записей"}
+{"ns": "session-inspector", "key": "table.raw", "ru": "Необработанные данные"}
+{"ns": "session-inspector", "key": "table.rawError", "ru": "Эту запись не удалось сериализовать. Выберите другую запись, чтобы продолжить."}
+{"ns": "session-inspector", "key": "table.resizeDetails", "ru": "Изменить размер панели необработанных данных"}
+{"ns": "session-inspector", "key": "table.close", "ru": "Закрыть"}
+{"ns": "session-inspector", "key": "table.expand", "ru": "Развернуть дочерние строки"}
+{"ns": "session-inspector", "key": "table.collapse", "ru": "Свернуть дочерние строки"}
+{"ns": "session-inspector", "key": "table.removed", "ru": "Запись удалена или уже завершена. Выберите актуальную запись."}
+{"ns": "session-inspector", "key": "object.node", "ru": "Узел"}
+{"ns": "session-inspector", "key": "object.nodeData", "ru": "Данные узла"}
+{"ns": "session-inspector", "key": "object.group", "ru": "Группа"}
+{"ns": "session-inspector", "key": "object.groupData", "ru": "Данные группы"}
+{"ns": "session-inspector", "key": "object.turn", "ru": "Ход"}
+{"ns": "session-inspector", "key": "object.turnData", "ru": "Данные хода"}
+{"ns": "session-inspector", "key": "object.step", "ru": "Шаг"}
+{"ns": "session-inspector", "key": "object.stepData", "ru": "Данные шага"}
+{"ns": "session-inspector", "key": "object.accessor", "ru": "[Геттер / сеттер, не вычислено]"}
+{"ns": "session-inspector", "key": "object.empty", "ru": "Пустой"}
+{"ns": "session-inspector", "key": "object.absent", "ru": "[Пустой слот]"}
+{"ns": "session-inspector", "key": "object.properties", "ru": "Другие свойства"}
+{"ns": "session-inspector", "key": "object.more", "ru": "Показать больше"}
+{"ns": "session-inspector", "key": "object.navigation", "ru": "Навигация по необработанным данным"}
+{"ns": "subagent", "key": "section.title", "ru": "Субагенты"}
+{"ns": "subagent", "key": "section.empty", "ru": "Нет субагентов"}
+{"ns": "subagent", "key": "progress.completed", "ru": "Завершено: {count}"}
+{"ns": "subagent", "key": "progress.active", "ru": "Выполняется: {count}"}
+{"ns": "subagent", "key": "progress.inactive", "ru": "Не выполняется: {count}"}
+{"ns": "subagent", "key": "progress.external", "ru": "Внешних: {count}"}
+{"ns": "subagent", "key": "duration.seconds", "ru": "{seconds}s"}
+{"ns": "subagent", "key": "duration.minutes", "ru": "{minutes}m {seconds}s"}
+{"ns": "subagent", "key": "duration.hours", "ru": "{hours}h {minutes}m {seconds}s"}
+{"ns": "subagent", "key": "duration.days", "ru": "{days}d"}
+{"ns": "subagent", "key": "duration.daysHours", "ru": "{days}d {hours}h"}
+{"ns": "subagent", "key": "duration.months", "ru": "~{months}mo"}
+{"ns": "subagent", "key": "duration.monthsDays", "ru": "~{months}mo {days}d"}
+{"ns": "subagent", "key": "duration.years", "ru": "~{years}y"}
+{"ns": "subagent", "key": "duration.yearsMonths", "ru": "~{years}y {months}mo"}
+{"ns": "subagent", "key": "duration.exactDays", "ru": "{days}d {hours}h {minutes}m {seconds}s"}
+{"ns": "subagent", "key": "duration.exactTitle", "ru": "Общее активное время: {duration}"}
+{"ns": "subagent", "key": "tokens.thousand", "ru": "{value}K"}
+{"ns": "subagent", "key": "tokens.million", "ru": "{value}M"}
+{"ns": "subagent", "key": "tokens.total", "ru": "Токенов: {value}"}
+{"ns": "subagent", "key": "loading.label", "ru": "Загрузка субагентов…"}
+{"ns": "subagent", "key": "load.error", "ru": "Не удалось загрузить субагентов"}
+{"ns": "subagent", "key": "catalog.migrationRequired", "ru": "Требуется миграция"}
+{"ns": "subagent", "key": "retry", "ru": "Повторить"}
+{"ns": "subagent", "key": "mode.external", "ru": "Внешняя задача"}
+{"ns": "subagent", "key": "mode.oneShot", "ru": "одноразовый"}
+{"ns": "subagent", "key": "mode.continuable", "ru": "продолжаемый"}
+{"ns": "subagent", "key": "mode.unknown", "ru": "неизвестный режим"}
+{"ns": "subagent", "key": "readonly.unknown.body", "ru": "Прочтите дочернюю сессию, чтобы понять, можно ли её продолжить."}
+{"ns": "subagent", "key": "activity.running", "ru": "выполняется"}
+{"ns": "subagent", "key": "activity.completed", "ru": "завершено"}
+{"ns": "subagent", "key": "activity.inactive", "ru": "не выполняется"}
+{"ns": "subagent", "key": "branch.collapse", "ru": "Свернуть потомков {label}"}
+{"ns": "subagent", "key": "branch.expand", "ru": "Развернуть потомков {label}"}
+{"ns": "subagent", "key": "count.total.one", "ru": "{count} субагент"}
+{"ns": "subagent", "key": "count.total.other", "ru": "Субагентов: {count}"}
+{"ns": "subagent", "key": "count.running.one", "ru": "{count} субагент выполняется"}
+{"ns": "subagent", "key": "count.running.other", "ru": "Выполняется: {count}"}
+{"ns": "subagent", "key": "switcher.aria", "ru": "Переключиться на субагента: {title}"}
+{"ns": "subagent", "key": "tree.aria", "ru": "Сессии субагентов"}
+{"ns": "subagent", "key": "open.sidebar", "ru": "Открыть в боковой панели"}
+{"ns": "subagent", "key": "open.floatWindow", "ru": "Открыть в плавающей панели"}
+{"ns": "subagent", "key": "open.sidebar.aria", "ru": "Открыть {label} в боковой панели"}
+{"ns": "subagent", "key": "sidebar.chat", "ru": "Чат"}
+{"ns": "subagent", "key": "readonly.oneShot.title", "ru": "Запись одноразового субагента"}
+{"ns": "subagent", "key": "readonly.title", "ru": "Этот субагент пока доступен только для чтения"}
+{"ns": "subagent", "key": "readonly.oneShot.body", "ru": "Одноразовые задачи не принимают новые сообщения; полная запись выполнения доступна здесь."}
+{"ns": "common", "key": "ok", "ru": "OK"}
+{"ns": "common", "key": "cancel", "ru": "Отмена"}
+{"ns": "common", "key": "close", "ru": "Закрыть"}
+{"ns": "common", "key": "copy", "ru": "Копировать"}
+{"ns": "common", "key": "copied", "ru": "Скопировано"}
+{"ns": "common", "key": "codeBlock.title", "ru": "Блок кода"}
+{"ns": "common", "key": "codeBlock.wrap", "ru": "Переносить строки"}
+{"ns": "common", "key": "codeBlock.unwrap", "ru": "Не переносить строки"}
+{"ns": "common", "key": "copy.failed", "ru": "Не удалось скопировать"}
+{"ns": "common", "key": "copy.value", "ru": "Копировать значение"}
+{"ns": "common", "key": "copy.json", "ru": "Копировать JSON"}
+{"ns": "common", "key": "copy.path", "ru": "Копировать путь к свойству"}
+{"ns": "common", "key": "copy.prettyJson", "ru": "Копировать форматированный JSON"}
+{"ns": "common", "key": "copy.compactJson", "ru": "Копировать компактный JSON"}
+{"ns": "common", "key": "copy.optionsHint", "ru": "{action}; правый клик — варианты копирования"}
+{"ns": "common", "key": "retry", "ru": "Повторить"}
+{"ns": "common", "key": "loading", "ru": "Загрузка…"}
+{"ns": "common", "key": "load.failed", "ru": "Не удалось загрузить"}
+{"ns": "common", "key": "submit", "ru": "Отправить"}
+{"ns": "common", "key": "submitting", "ru": "Отправка…"}
+{"ns": "common", "key": "next", "ru": "Далее"}
+{"ns": "common", "key": "previous", "ru": "Назад"}
+{"ns": "common", "key": "skip", "ru": "Пропустить"}
+{"ns": "common", "key": "delete", "ru": "Удалить"}
+{"ns": "common", "key": "edit", "ru": "Редактировать"}
+{"ns": "common", "key": "save", "ru": "Сохранить"}
+{"ns": "common", "key": "search", "ru": "Поиск"}
+{"ns": "common", "key": "more", "ru": "Ещё"}
+{"ns": "common", "key": "collapse", "ru": "Свернуть"}
+{"ns": "common", "key": "expand", "ru": "Развернуть"}
+{"ns": "common", "key": "subtitle.expand", "ru": "Развернуть описание {name}"}
+{"ns": "common", "key": "subtitle.collapse", "ru": "Свернуть описание {name}"}
+{"ns": "common", "key": "back", "ru": "Назад"}
+{"ns": "common", "key": "brand.localBuild", "ru": "Локальная сборка DSH"}
+{"ns": "common", "key": "workspace.defaultName", "ru": "Рабочая область по умолчанию"}
+{"ns": "common", "key": "unknown", "ru": "Неизвестно"}
+{"ns": "common", "key": "none", "ru": "Нет"}
+{"ns": "common", "key": "truncated", "ru": "Усечено"}
+{"ns": "common", "key": "json.label", "ru": "JSON"}
+{"ns": "common", "key": "markdown.footnotes", "ru": "Сноски"}
+{"ns": "common", "key": "markdown.truncatedCharacters", "ru": "… обрезано до {total} символов"}
+{"ns": "common", "key": "number.thousand", "ru": "{value}K"}
+{"ns": "common", "key": "number.million", "ru": "{value}M"}
+{"ns": "job", "key": "count.idle.one", "ru": "Фоновые задачи: {count}"}
+{"ns": "job", "key": "count.idle.other", "ru": "Фоновые задачи: {count}"}
+{"ns": "job", "key": "list.aria", "ru": "Фоновые задачи"}
+{"ns": "job", "key": "section.live", "ru": "Выполняются"}
+{"ns": "job", "key": "section.settledCount", "ru": "Завершено: {count}"}
+{"ns": "job", "key": "section.clear", "ru": "Очистить"}
+{"ns": "job", "key": "row.expandAria", "ru": "Показать вывод {label} в реальном времени"}
+{"ns": "job", "key": "row.collapseAria", "ru": "Скрыть вывод {label} в реальном времени"}
+{"ns": "job", "key": "kill.stop", "ru": "Остановить задачу {label}"}
+{"ns": "job", "key": "kill.confirm", "ru": "Нажмите ещё раз для подтверждения"}
+{"ns": "job", "key": "kill.confirmAction", "ru": "Подтвердить остановку"}
+{"ns": "job", "key": "kill.failed", "ru": "Не удалось остановить"}
+{"ns": "job", "key": "status.running", "ru": "выполняется"}
+{"ns": "job", "key": "status.stopping", "ru": "останавливается"}
+{"ns": "job", "key": "status.completed", "ru": "завершено"}
+{"ns": "job", "key": "status.killed", "ru": "отменено"}
+{"ns": "job", "key": "status.failed", "ru": "не удалось"}
+{"ns": "job", "key": "duration.seconds", "ru": "{seconds}s"}
+{"ns": "job", "key": "duration.minutes", "ru": "{minutes}m {seconds}s"}
+{"ns": "job", "key": "duration.hours", "ru": "{hours}h {minutes}m"}
+{"ns": "job", "key": "duration.title.live", "ru": "Выполняется {duration}"}
+{"ns": "job", "key": "duration.title.done", "ru": "Заняло {duration}"}
+{"ns": "job", "key": "output.gap", "ru": "… более ранний вывод отброшен …"}
+{"ns": "job", "key": "output.error", "ru": "поток вывода в реальном времени прерван: {error}"}
+{"ns": "job", "key": "terminal.signal", "ru": "сигнал {signal}"}
+{"ns": "job", "key": "terminal.exitCode", "ru": "код выхода {code}"}
+{"ns": "job", "key": "terminal.noExitCode", "ru": "нет кода выхода"}
+{"ns": "job", "key": "terminal.commandLine", "ru": "Командная строка {n}"}
+{"ns": "job", "key": "terminal.running", "ru": "выполняется"}
+{"ns": "job", "key": "terminal.failed", "ru": "не удалось"}
+{"ns": "job", "key": "terminal.done", "ru": "готово"}
+{"ns": "job", "key": "terminal.copy", "ru": "Копировать"}
+{"ns": "job", "key": "terminal.copied", "ru": "Скопировано"}
+{"ns": "job", "key": "terminal.noOutput", "ru": "(нет вывода)"}
+{"ns": "job", "key": "terminal.collapse", "ru": "Свернуть"}
+{"ns": "job", "key": "terminal.collapseAria", "ru": "Свернуть вывод"}
+{"ns": "job", "key": "terminal.expand", "ru": "Показать ещё строки ({n})"}
+{"ns": "job", "key": "terminal.expandAria", "ru": "Развернуть свёрнутые строки вывода ({n})"}
+{"ns": "workflowRun", "key": "run.title", "ru": "{name}"}
+{"ns": "workflowRun", "key": "run.members.one", "ru": "{count} участник"}
+{"ns": "workflowRun", "key": "run.members.other", "ru": "Участников: {count}"}
+{"ns": "workflowRun", "key": "run.empty", "ru": "Участники не запущены"}
+{"ns": "workflowRun", "key": "phase.unassigned", "ru": "Без фазы"}
+{"ns": "workflowRun", "key": "phase.empty", "ru": "Пустое название фазы"}
+{"ns": "workflowRun", "key": "statusCount.running", "ru": "Выполняется: {count}"}
+{"ns": "workflowRun", "key": "statusCount.completed", "ru": "Завершено: {count}"}
+{"ns": "workflowRun", "key": "statusCount.failed", "ru": "Ошибка: {count}"}
+{"ns": "workflowRun", "key": "statusCount.cancelled", "ru": "Отменено: {count}"}
+{"ns": "workflowRun", "key": "statusCount.interrupted", "ru": "Прервано: {count}"}
+{"ns": "workflowRun", "key": "member.empty", "ru": "Пустое название участника"}
+{"ns": "workflowRun", "key": "member.open", "ru": "Открыть {name}"}
+{"ns": "workflowRun", "key": "status.running", "ru": "Выполняется"}
+{"ns": "workflowRun", "key": "status.completed", "ru": "Завершено"}
+{"ns": "workflowRun", "key": "status.failed", "ru": "Не удалось"}
+{"ns": "workflowRun", "key": "status.cancelled", "ru": "Отменено"}
+{"ns": "workflowRun", "key": "status.interrupted", "ru": "Прервано"}

@@ -1,0 +1,18 @@
+{"ns":"conversation","key":"hint.plan","ru":"опишите задачу, чтобы построить план"}
+{"ns":"conversation","key":"placeholder.plan","ru":"опишите задачу, чтобы построить план"}
+{"ns":"conversation","key":"hint.goal.active","ru":"цель активна — изменить / пауза / продолжить / очистить"}
+{"ns":"settings","key":"desktop.update.configuration.channel","ru":"Обновления приостановлены: канал должен быть nightly или stable"}
+{"ns":"pluginManager","key":"registryLegend","ru":"Реестр npm, из которого скачивается плагин"}
+{"ns":"subagent","key":"duration.seconds","ru":"{seconds} с"}
+{"ns":"subagent","key":"duration.minutes","ru":"{minutes} мин {seconds} с"}
+{"ns":"subagent","key":"duration.hours","ru":"{hours} ч {minutes} мин {seconds} с"}
+{"ns":"subagent","key":"duration.days","ru":"{days} д"}
+{"ns":"subagent","key":"duration.daysHours","ru":"{days} д {hours} ч"}
+{"ns":"subagent","key":"duration.months","ru":"~{months} мес"}
+{"ns":"subagent","key":"duration.monthsDays","ru":"~{months} мес {days} д"}
+{"ns":"subagent","key":"duration.years","ru":"~{years} г"}
+{"ns":"subagent","key":"duration.yearsMonths","ru":"~{years} г {months} мес"}
+{"ns":"subagent","key":"duration.exactDays","ru":"{days} д {hours} ч {minutes} мин {seconds} с"}
+{"ns":"job","key":"duration.seconds","ru":"{seconds} с"}
+{"ns":"job","key":"duration.minutes","ru":"{minutes} мин {seconds} с"}
+{"ns":"job","key":"duration.hours","ru":"{hours} ч {minutes} мин"}

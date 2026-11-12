@@ -1,0 +1,250 @@
+{"ns": "stats", "key": "view.stats", "ru": "Статистика"}
+{"ns": "stats", "key": "column.scope", "ru": "Ход / шаг"}
+{"ns": "stats", "key": "column.scope.title", "ru": "В строке хода — итог по этому ходу; нажмите на строку, чтобы развернуть или свернуть шаги"}
+{"ns": "stats", "key": "column.prompt", "ru": "Триггер"}
+{"ns": "stats", "key": "column.prompt.title", "ru": "Что запустило этот ход: у промпта от человека виден текст, у автоматического запуска — метка источника"}
+{"ns": "stats", "key": "trigger.agent-message", "ru": "Сообщение агента"}
+{"ns": "stats", "key": "trigger.team-message", "ru": "Сообщение команды"}
+{"ns": "stats", "key": "trigger.schedule", "ru": "По расписанию"}
+{"ns": "stats", "key": "trigger.webhook", "ru": "Вебхук"}
+{"ns": "stats", "key": "trigger.tool-jobs", "ru": "Фоновая задача"}
+{"ns": "stats", "key": "trigger.cordis-host-runner", "ru": "Запуск плагина"}
+{"ns": "stats", "key": "trigger.subagent-settled", "ru": "Субагент завершился"}
+{"ns": "stats", "key": "trigger.goal", "ru": "Раунд цели"}
+{"ns": "stats", "key": "trigger.context", "ru": "Пробуждение по контексту"}
+{"ns": "stats", "key": "trigger.other", "ru": "Автоматический ход"}
+{"ns": "stats", "key": "column.did", "ru": "Выполнение"}
+{"ns": "stats", "key": "column.did.title", "ru": "Какие инструменты вызывались на шаге и сколько раз; если вызовов нет, показывается начало ответа"}
+{"ns": "stats", "key": "column.context", "ru": "Контекст"}
+{"ns": "stats", "key": "column.context.title", "ru": "входные токены из usage + чтение кэша + запись кэша"}
+{"ns": "stats", "key": "column.output", "ru": "Вывод"}
+{"ns": "stats", "key": "column.output.title", "ru": "выходные токены из usage за шаг"}
+{"ns": "stats", "key": "column.cache", "ru": "Попадание в кэш"}
+{"ns": "stats", "key": "column.cache.title", "ru": "чтение кэша ÷ (вход + чтение кэша + запись кэша): доля промпта, прочитанная из кэша"}
+{"ns": "stats", "key": "cache.detail", "ru": "чтение кэша {read} · вход {input} · запись кэша {write}"}
+{"ns": "stats", "key": "column.ttft", "ru": "Первый токен"}
+{"ns": "stats", "key": "column.ttft.title", "ru": "от начала шага до первого фрагмента вывода (TTFT)"}
+{"ns": "stats", "key": "column.model", "ru": "Время модели"}
+{"ns": "stats", "key": "column.model.title", "ru": "от начала шага до готового ответа (включая задержку первого токена)"}
+{"ns": "stats", "key": "column.tps", "ru": "Скорость вывода"}
+{"ns": "stats", "key": "column.tps.title", "ru": "выходные токены ÷ секунды генерации (TPS, tok/s)"}
+{"ns": "stats", "key": "column.tool", "ru": "Время инструментов"}
+{"ns": "stats", "key": "column.tool.title", "ru": "сумма времени от вызова инструмента до его результата внутри шага; вызовы без результата не учитываются"}
+{"ns": "stats", "key": "column.time", "ru": "Общее время"}
+{"ns": "stats", "key": "column.time.title", "ru": "разбивка общего времени: голубой — первый токен, синий — генерация, оранжевый — вызовы инструментов, серый — остальное. Длина полосы в масштабе квадратного корня; шаги сравниваются только с шагами своего хода, ходы — с ходами"}
+{"ns": "stats", "key": "turn.label", "ru": "Ход {turn}"}
+{"ns": "stats", "key": "step.label", "ru": "Шаг {step}"}
+{"ns": "stats", "key": "step.toggle.aria", "ru": "Развернуть или свернуть подробности инструментов шага {step}"}
+{"ns": "stats", "key": "step.partial", "ru": "начало неизвестно"}
+{"ns": "stats", "key": "step.started.title", "ru": "Шаг начался в {time}"}
+{"ns": "stats", "key": "compaction.label", "ru": "Сжатие"}
+{"ns": "stats", "key": "compaction.running", "ru": "Сжатие…"}
+{"ns": "stats", "key": "compaction.shadowed", "ru": "Сжато {tokens} токенов истории"}
+{"ns": "stats", "key": "compaction.summary", "ru": "Сводка {chars} символов"}
+{"ns": "stats", "key": "compaction.title", "ru": "Вызовы сжатия показываются отдельно и не входят в итоги шагов хода"}
+{"ns": "stats", "key": "event.show", "ru": "Показывать строки событий (включая сжатие)"}
+{"ns": "stats", "key": "context.delta.show", "ru": "Показывать прирост контекста"}
+{"ns": "stats", "key": "context.delta.title", "ru": "Прирост промпта относительно предыдущего измеренного шага в этом ходе; отрицательное значение означает, что контекст уменьшился (например, после сжатия)"}
+{"ns": "stats", "key": "event.request-header", "ru": "Заголовок запроса"}
+{"ns": "stats", "key": "event.system-prompt", "ru": "Системный промпт"}
+{"ns": "stats", "key": "event.tool-set", "ru": "Изменение набора инструментов"}
+{"ns": "stats", "key": "event.context-prune", "ru": "Обрезка контекста"}
+{"ns": "stats", "key": "event.request-context", "ru": "Контекст запроса"}
+{"ns": "stats", "key": "event.model-retry", "ru": "Повтор запроса к модели"}
+{"ns": "stats", "key": "event.model-attempt", "ru": "Попытка запроса к модели"}
+{"ns": "stats", "key": "event.context-refresh", "ru": "Обновление контекста"}
+{"ns": "stats", "key": "event.approval", "ru": "Подтверждение"}
+{"ns": "stats", "key": "event.context.detail", "ru": "{provider} / {model} · режим промпта {mode}"}
+{"ns": "stats", "key": "event.retry.detail", "ru": "повтор {retry} · ожидание {delay}"}
+{"ns": "stats", "key": "event.attempt.detail", "ru": "Попытка запроса к модели без зафиксированного сообщения"}
+{"ns": "stats", "key": "event.refresh.detail", "ru": "{source} · {chars} символов"}
+{"ns": "stats", "key": "event.approval.detail", "ru": "{tool} · {status}"}
+{"ns": "stats", "key": "event.source.runtime", "ru": "контекст среды выполнения"}
+{"ns": "stats", "key": "event.source.time", "ru": "временной контекст"}
+{"ns": "stats", "key": "event.approval.asked", "ru": "ожидание"}
+{"ns": "stats", "key": "event.approval.allowed", "ru": "разрешено один раз"}
+{"ns": "stats", "key": "event.approval.rejected", "ru": "отклонено"}
+{"ns": "stats", "key": "event.approval.cancelled", "ru": "отменено"}
+{"ns": "stats", "key": "event.approval.unavailable", "ru": "недоступно"}
+{"ns": "stats", "key": "event.title", "ru": "Строки событий вне шагов: изменения запроса, промпта, набора инструментов, повторов, обновления контекста, подтверждений и обрезки — не входят в итоги шагов хода"}
+{"ns": "stats", "key": "event.reason.initial", "ru": "начальный"}
+{"ns": "stats", "key": "event.reason.resume", "ru": "возобновление"}
+{"ns": "stats", "key": "event.reason.change", "ru": "изменение"}
+{"ns": "stats", "key": "event.reason.series", "ru": "новая серия"}
+{"ns": "stats", "key": "event.header.detail", "ru": "{reason} · инструментов: {tools}"}
+{"ns": "stats", "key": "event.series", "ru": "новая серия"}
+{"ns": "stats", "key": "event.system.append", "ru": "дополнение"}
+{"ns": "stats", "key": "event.system.replace", "ru": "замена"}
+{"ns": "stats", "key": "event.system.clear", "ru": "очистка"}
+{"ns": "stats", "key": "event.system.detail", "ru": "{action} · {chars} символов"}
+{"ns": "stats", "key": "event.tools.added", "ru": "добавлено {tools}"}
+{"ns": "stats", "key": "event.tools.removed", "ru": "удалено {tools}"}
+{"ns": "stats", "key": "event.prune.detail", "ru": "обрезано {tokens} токенов"}
+{"ns": "stats", "key": "step.partial.title", "ru": "События начала и конца этого шага не попали в текущее окно событий (обрезаны при переподключении вкладки или пересборке окна), поэтому для первого токена, времени модели и общего времени нет точки отсчёта; перезагрузка вкладки соберёт данные заново из полного окна"}
+{"ns": "stats", "key": "state.running", "ru": "выполняется"}
+{"ns": "stats", "key": "state.interrupted", "ru": "прервано"}
+{"ns": "stats", "key": "state.cacheMiss", "ru": "промах кэша"}
+{"ns": "stats", "key": "state.cacheMiss.title", "ru": "Промпт этого шага почти не попал в кэш: так обычно бывает у первого запроса после перезапуска или возобновления сессии; вход тарифицируется по полной цене"}
+{"ns": "stats", "key": "state.aborted", "ru": "не завершено"}
+{"ns": "stats", "key": "state.aborted.title", "ru": "Шаг закрылся без готового ответа (обычно отменён или завершился ошибкой)"}
+{"ns": "stats", "key": "unknown", "ru": "не записано"}
+{"ns": "stats", "key": "partial", "ru": "Вызовов без результата: {count}; это нижняя граница известного времени"}
+{"ns": "stats", "key": "empty", "ru": "В текущем окне нет шагов, которые можно измерить."}
+{"ns": "stats", "key": "loadOlder", "ru": "Загрузить ранние ходы"}
+{"ns": "stats", "key": "loadOlder.loading", "ru": "Загрузка более ранних ходов…"}
+{"ns": "stats", "key": "loadOlder.done", "ru": "Это начало истории"}
+{"ns": "stats", "key": "loadOlder.failed", "ru": "Не удалось загрузить. Повторите попытку"}
+{"ns": "stats", "key": "summary", "ru": "Ходов: {turns} · шагов: {steps}"}
+{"ns": "stats", "key": "table.showTotals", "ru": "Показывать строку итогов"}
+{"ns": "stats", "key": "contextMode.label", "ru": "Учёт контекста"}
+{"ns": "stats", "key": "contextMode.latest", "ru": "Последний"}
+{"ns": "stats", "key": "contextMode.latest.title", "ru": "Строки ходов показывают размер промпта последнего измеренного шага (итоговый контекст); строка итогов всегда накопительная"}
+{"ns": "stats", "key": "contextMode.cumulative", "ru": "Накопительный"}
+{"ns": "stats", "key": "contextMode.cumulative.title", "ru": "Строки ходов показывают сумму размеров промптов по шагам хода (накопительная обработка); строка итогов всегда накопительная"}
+{"ns": "stats", "key": "totals.full", "ru": "Итог по всей сессии"}
+{"ns": "stats", "key": "totals.full.title", "ru": "Итоги по всей сессии; общее время — время модели + время инструментов (без промежутков между ходами)"}
+{"ns": "stats", "key": "totals.window", "ru": "Итог окна"}
+{"ns": "stats", "key": "totals.window.title", "ru": "Итоги по ходам, загруженным в это окно; контекст — накопительно по шагам"}
+{"ns": "stats", "key": "expand.all", "ru": "Развернуть все"}
+{"ns": "stats", "key": "collapse.all", "ru": "Свернуть все"}
+{"ns": "stats", "key": "turn.expand", "ru": "Показать"}
+{"ns": "stats", "key": "turn.collapse", "ru": "Скрыть"}
+{"ns": "stats", "key": "turn.toggle.title", "ru": "Развернуть или свернуть шаги этого хода"}
+{"ns": "stats", "key": "turn.toggle.aria", "ru": "Развернуть или свернуть ход {turn}"}
+{"ns": "stats", "key": "did.answer", "ru": "ответ"}
+{"ns": "stats", "key": "did.working", "ru": "генерация"}
+{"ns": "stats", "key": "did.aborted", "ru": "без ответа"}
+{"ns": "stats", "key": "did.more", "ru": "ещё {count}"}
+{"ns": "stats", "key": "did.rest", "ru": "ещё вызовов: {count}"}
+{"ns": "stats", "key": "did.title", "ru": "Вызовов: {calls} · {tools}"}
+{"ns": "stats", "key": "did.retry", "ru": "повторов: {count}"}
+{"ns": "stats", "key": "did.lines", "ru": "{lines} стр."}
+{"ns": "stats", "key": "did.lines.unit", "ru": "стр."}
+{"ns": "stats", "key": "did.chars", "ru": "{chars} симв."}
+{"ns": "stats", "key": "did.output", "ru": "→ {chars} симв."}
+{"ns": "stats", "key": "did.total", "ru": "Вывод инструментов на этом шаге — {chars} символов; он войдёт в следующий промпт"}
+{"ns": "stats", "key": "detail.show", "ru": "подробности"}
+{"ns": "stats", "key": "detail.hide", "ru": "скрыть"}
+{"ns": "stats", "key": "detail.title", "ru": "Нажмите на строку, чтобы развернуть или свернуть подробности инструментов"}
+{"ns": "stats", "key": "detail.calls", "ru": "вызовов инструментов: {count}"}
+{"ns": "stats", "key": "detail.answer", "ru": "Ответ"}
+{"ns": "stats", "key": "detail.answer.truncated", "ru": "Ответ слишком длинный; сохранены только первые 16 000 символов"}
+{"ns": "stats", "key": "detail.code.title", "ru": "Блок кода"}
+{"ns": "stats", "key": "detail.code.wrap", "ru": "Переносить строки"}
+{"ns": "stats", "key": "detail.code.unwrap", "ru": "Не переносить"}
+{"ns": "stats", "key": "detail.footnotes", "ru": "Сноски"}
+{"ns": "stats", "key": "detail.copy", "ru": "Копировать"}
+{"ns": "stats", "key": "detail.copy.title", "ru": "Скопировать этот текст"}
+{"ns": "stats", "key": "detail.copied", "ru": "Скопировано"}
+{"ns": "stats", "key": "detail.copyFailed", "ru": "Не удалось скопировать"}
+{"ns": "stats", "key": "detail.chars", "ru": "{chars} симв."}
+{"ns": "stats", "key": "detail.lines", "ru": "{lines} стр."}
+{"ns": "stats", "key": "detail.file", "ru": "файл"}
+{"ns": "stats", "key": "detail.diff", "ru": "изменение"}
+{"ns": "stats", "key": "detail.emptyBody", "ru": "У этого вызова нет текста"}
+{"ns": "stats", "key": "detail.hidden", "ru": "Не показано вызовов: {count} (не более {limit} на шаг)"}
+{"ns": "stats", "key": "detail.args", "ru": "исходные аргументы"}
+{"ns": "stats", "key": "detail.wrap", "ru": "Перенос"}
+{"ns": "stats", "key": "detail.wrap.title", "ru": "Переносить длинные строки вместо горизонтальной прокрутки"}
+{"ns": "stats", "key": "detail.raw.title", "ru": "Показать исходные аргументы JSON"}
+{"ns": "stats", "key": "detail.lineCap", "ru": "Показаны первые {shown} из {total} строк"}
+{"ns": "stats", "key": "detail.truncated", "ru": "Слишком длинно: сохранены только первые {chars} символов"}
+{"ns": "stats", "key": "tool.failed", "ru": "ошибок: {count}"}
+{"ns": "stats", "key": "tool.failed.title", "ru": "На этом шаге вызовов инструментов с ошибкой: {count}"}
+{"ns": "stats", "key": "bar.ttft", "ru": "первый токен {value}"}
+{"ns": "stats", "key": "bar.gen", "ru": "генерация {value}"}
+{"ns": "stats", "key": "bar.tool", "ru": "вызовы инструментов {value}"}
+{"ns": "stats", "key": "bar.rest", "ru": "остальное {value}"}
+{"ns": "stats", "key": "bar.wall", "ru": "всего {value}"}
+{"ns": "stats", "key": "bar.running", "ru": "ещё не завершено: это время, прошедшее с начала"}
+{"ns": "stats", "key": "bar.gap", "ru": "промежуток от предыдущего шага {value}"}
+{"ns": "stats", "key": "bar.start", "ru": "начало в {clock}"}
+{"ns": "stats", "key": "turn.started", "ru": "этот ход начался в {time}"}
+{"ns": "stats", "key": "turn.images", "ru": "Изображений: {count}"}
+{"ns": "stats", "key": "imagePreview.hint", "ru": "Наведите курсор или поставьте фокус, чтобы посмотреть изображения этого хода; нажмите, чтобы открыть изображение целиком"}
+{"ns": "stats", "key": "imagePreview.dialog", "ru": "Просмотр изображения"}
+{"ns": "stats", "key": "imagePreview.open", "ru": "Открыть изображение {index} из {count}"}
+{"ns": "stats", "key": "imagePreview.alt", "ru": "Изображение {index}"}
+{"ns": "stats", "key": "imagePreview.loading", "ru": "Загрузка изображения…"}
+{"ns": "stats", "key": "imagePreview.failed", "ru": "Не удалось загрузить изображение"}
+{"ns": "stats", "key": "imagePreview.retry", "ru": "Повторить"}
+{"ns": "stats", "key": "imagePreview.close", "ru": "Закрыть просмотр изображения"}
+{"ns": "stats", "key": "steps.total", "ru": "Шагов: {total}"}
+{"ns": "stats", "key": "steps.tail", "ru": "Только последние шаги ({limit})"}
+{"ns": "stats", "key": "steps.all", "ru": "Показать все шаги ({total})"}
+{"ns": "stats", "key": "steps.filter", "ru": "Только {tool}"}
+{"ns": "stats", "key": "steps.clear", "ru": "Сбросить фильтр"}
+{"ns": "stats", "key": "steps.matched", "ru": "Шагов с {tool}: {count}"}
+{"ns": "settings", "key": "desktop.channel.title", "ru": "Канал обновлений"}
+{"ns": "settings", "key": "desktop.channel.description", "ru": "Стабильный канал подходит для повседневного использования. Канал разработки даёт ранний доступ к новым функциям, но может быть нестабильным."}
+{"ns": "settings", "key": "desktop.channel.stable", "ru": "Стабильный"}
+{"ns": "settings", "key": "desktop.channel.nightly", "ru": "Разработка"}
+{"ns": "settings", "key": "desktop.channel.unavailable", "ru": "Настройки недоступны"}
+{"ns": "settings", "key": "desktop.channel.error", "ru": "Не удалось применить настройки обновления. Откройте индикатор обновления для подробностей."}
+{"ns": "settings", "key": "desktop.channel.readError", "ru": "Не удалось прочитать канал обновлений. Перезапустите приложение."}
+{"ns": "settings", "key": "desktop.update.configurationFailed", "ru": "Не удалось применить настройки обновления. Откройте индикатор обновления для подробностей."}
+{"ns": "settings", "key": "desktop.channel.result.applied", "ru": "Канал обновлений изменён"}
+{"ns": "settings", "key": "desktop.channel.result.configuration", "ru": "Ошибка файла настроек; обновления приостановлены"}
+{"ns": "settings", "key": "desktop.channel.details", "ru": "Подробнее"}
+{"ns": "settings", "key": "desktop.channel.result.save", "ru": "Не удалось сохранить"}
+{"ns": "settings", "key": "desktop.channel.result.uncertain", "ru": "Ошибка при сохранении настроек"}
+{"ns": "settings", "key": "desktop.channel.result.format", "ru": "Не удалось сохранить: неверный формат файла настроек"}
+{"ns": "settings", "key": "desktop.channel.result.permission", "ru": "Не удалось сохранить: нет прав на запись"}
+{"ns": "settings", "key": "desktop.channel.result.apply", "ru": "Ошибка при сохранении настроек"}
+{"ns": "settings", "key": "desktop.update.configuration.read", "ru": "Обновления приостановлены: не удалось прочитать файл настроек"}
+{"ns": "settings", "key": "desktop.update.configuration.format", "ru": "Обновления приостановлены: неверный формат файла настроек"}
+{"ns": "settings", "key": "desktop.update.configuration.channel", "ru": "Обновления приостановлены: channel может быть только nightly или stable"}
+{"ns": "settings", "key": "desktop.update.configuration.cleanup", "ru": "Обновления приостановлены: не удалось удалить предыдущее обновление; перезапустите приложение"}
+{"ns": "settings", "key": "trigger", "ru": "Настройки"}
+{"ns": "settings", "key": "shortcut.open", "ru": "Открыть настройки"}
+{"ns": "settings", "key": "desktop.update.available", "ru": "Обновить"}
+{"ns": "settings", "key": "desktop.update.checking", "ru": "Проверка обновлений…"}
+{"ns": "settings", "key": "desktop.update.progress", "ru": "{percent}%"}
+{"ns": "settings", "key": "desktop.update.verifying", "ru": "Проверка файлов обновления…"}
+{"ns": "settings", "key": "desktop.update.installing", "ru": "Подготовка к перезапуску…"}
+{"ns": "settings", "key": "desktop.update.ready", "ru": "Установить и перезапустить"}
+{"ns": "settings", "key": "desktop.update.retry", "ru": "Повторить обновление"}
+{"ns": "settings", "key": "desktop.update.versionDetail", "ru": "{label}: {version}"}
+{"ns": "settings", "key": "desktop.update.downloadDetail", "ru": "Загрузка обновления: {percent}%\nЦелевая версия: {version}"}
+{"ns": "settings", "key": "desktop.update.checkFailed", "ru": "Не удалось проверить наличие обновлений. Повторите попытку позже."}
+{"ns": "settings", "key": "desktop.update.downloadFailed", "ru": "Не удалось загрузить обновление. Повторите попытку."}
+{"ns": "settings", "key": "desktop.update.downloadSpaceFailed", "ru": "Недостаточно места на диске для загрузки обновления. Освободите место и повторите попытку."}
+{"ns": "settings", "key": "desktop.update.downloadPermissionFailed", "ru": "Не удалось записать файлы обновления. Проверьте права доступа к папке и повторите попытку."}
+{"ns": "settings", "key": "desktop.update.downloadBusyFailed", "ru": "Файл обновления занят. Закройте программу, которая его использует, и повторите попытку."}
+{"ns": "settings", "key": "desktop.update.installFailed", "ru": "Не удалось установить обновление. Повторите попытку позже."}
+{"ns": "settings", "key": "desktop.update.checkNetworkFailed", "ru": "Не удалось проверить наличие обновлений. Проверьте подключение и повторите попытку."}
+{"ns": "settings", "key": "desktop.update.downloadNetworkFailed", "ru": "Не удалось загрузить обновление. Проверьте подключение и повторите попытку."}
+{"ns": "settings", "key": "desktop.update.installNetworkFailed", "ru": "Не удалось установить обновление. Проверьте подключение и повторите попытку."}
+{"ns": "settings", "key": "desktop.update.fullscreenTimeout", "ru": "Не удалось выйти из полноэкранного режима. Выйдите из него и повторите обновление."}
+{"ns": "settings", "key": "desktop.update.stopFailed", "ru": "Не удалось безопасно остановить задачи. Обновление не установлено. Повторите попытку позже."}
+{"ns": "settings", "key": "desktop.update.tasksChanged", "ru": "Запустились новые задачи. Подтвердите ещё раз, чтобы остановить их и установить обновление."}
+{"ns": "settings", "key": "desktop.update.tasksUnavailable", "ru": "Статус задач недоступен. Повторите обновление, когда рабочая область будет готова."}
+{"ns": "settings", "key": "title", "ru": "Настройки"}
+{"ns": "settings", "key": "close", "ru": "Закрыть"}
+{"ns": "settings", "key": "openDocument", "ru": "Открыть файл конфигурации"}
+{"ns": "settings", "key": "openDocument.error", "ru": "Не удалось открыть файл конфигурации"}
+{"ns": "settings", "key": "general.nav", "ru": "Общие"}
+{"ns": "settings", "key": "general.currentVersion", "ru": "Текущая версия: {version}"}
+{"ns": "settings", "key": "developerTools.title", "ru": "Показывать режим кода"}
+{"ns": "settings", "key": "developerTools.error", "ru": "Не удалось сохранить. Повторите попытку."}
+{"ns": "settings", "key": "developerTools.description", "ru": "Показывает траекторию, изменения в коде и все пресеты агента"}
+{"ns": "settings", "key": "connection.error", "ru": "Отключено"}
+{"ns": "settings", "key": "connection.connecting", "ru": "Повторное подключение"}
+{"ns": "settings", "key": "connection.connected", "ru": "Подключено"}
+{"ns": "settings", "key": "connection.reconnect", "ru": "Отключено. Подключиться заново"}
+{"ns": "settings", "key": "connection.restart", "ru": "Переподключение. Подключиться сейчас"}
+{"ns": "settings", "key": "hostRelease.title", "ru": "Версия сервиса изменена"}
+{"ns": "settings", "key": "hostRelease.description", "ru": "Версия сервиса изменилась. На этой странице приостановлены живые обновления; перезагрузите её, чтобы загрузить новую версию."}
+{"ns": "settings", "key": "hostRelease.service", "ru": "Сервис"}
+{"ns": "settings", "key": "hostRelease.page", "ru": "Страница"}
+{"ns": "settings", "key": "hostRelease.unknown", "ru": "Неизвестно"}
+{"ns": "settings", "key": "hostRelease.reload", "ru": "Перезагрузить страницу, чтобы загрузить новую версию"}
+{"ns": "settings", "key": "hostRelease.later", "ru": "Не сейчас"}
+{"ns": "skill", "key": "row.title", "ru": "Навык"}
+{"ns": "skill", "key": "row.running", "ru": "Загрузка навыка"}
+{"ns": "skill", "key": "row.preparing", "ru": "Подготовка к загрузке навыка"}
+{"ns": "skill", "key": "row.failed", "ru": "Не удалось загрузить навык"}
+{"ns": "skill", "key": "row.stopped", "ru": "Загрузка навыка остановлена"}
+{"ns": "skill", "key": "row.instructions", "ru": "Инструкции"}
+{"ns": "skill", "key": "row.inspect", "ru": "Открыть"}
+{"ns": "skill", "key": "menu.userOnly", "ru": "только для пользователя"}

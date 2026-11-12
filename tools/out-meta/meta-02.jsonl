@@ -1,0 +1,209 @@
+{"ns": "packages/terminal/terminal", "key": "meta.title", "ru": "Терминал"}
+{"ns": "packages/compaction/command-compact", "key": "meta.title", "ru": "Команда сжатия контекста"}
+{"ns": "packages/compaction/compaction-tool-result-pruner", "key": "meta.title", "ru": "Очистка результатов инструментов"}
+{"ns": "packages/compaction/compaction-image-offload", "key": "meta.title", "ru": "Выгрузка изображений из контекста"}
+{"ns": "packages/compaction/compaction-basic", "key": "meta.title", "ru": "Сжатие контекста"}
+{"ns": "packages/bundle/web-app", "key": "meta.title", "ru": "Веб-приложение"}
+{"ns": "packages/bundle/web-app/locale", "key": "meta.title", "ru": "Запуск веб-приложения"}
+{"ns": "packages/bundle/headless", "key": "meta.title", "ru": "Профиль без интерфейса"}
+{"ns": "packages/bundle/headless", "key": "meta.description", "ru": "Запускает одну задачу напрямую через базовый механизм запуска агента и сессии поверх dsh-base, без хоста, HTTP и браузера."}
+{"ns": "packages/bundle/sdk-app", "key": "meta.title", "ru": "Профиль SDK"}
+{"ns": "packages/bundle/sdk-app", "key": "meta.description", "ru": "Работает по JSON-RPC через стандартный ввод и вывод и управляет жизненным циклом процесса поверх dsh-base."}
+{"ns": "packages/bundle/acp-app", "key": "meta.title", "ru": "Профиль ACP"}
+{"ns": "packages/bundle/acp-app", "key": "meta.description", "ru": "Обеспечивает связь по ACP только для автоматизации и управляет жизненным циклом процесса поверх dsh-base."}
+{"ns": "packages/lsp/lsp-stdio", "key": "meta.title", "ru": "Провайдер языковых серверов через stdio"}
+{"ns": "packages/lsp/lsp-stdio", "key": "meta.description", "ru": "Подключается к языковым серверам через подпроцессы и JSON-RPC, открывает файлы по мере необходимости и выполняет запросы к коду."}
+{"ns": "packages/lsp/lsp", "key": "meta.title", "ru": "Служба языковых серверов"}
+{"ns": "packages/lsp/lsp", "key": "meta.description", "ru": "Регистрирует языковые серверы для запросов определения, ссылок, реализаций и подсказок при наведении, с единообразными ошибками."}
+{"ns": "packages/lsp/tool-lsp", "key": "meta.title", "ru": "Инструменты языковых серверов"}
+{"ns": "packages/lsp/tool-lsp", "key": "meta.description", "ru": "Ищет определения, ссылки, реализации и информацию при наведении по позициям курсора UTF-16 с нумерацией от 1, ограничивая объём результатов."}
+{"ns": "packages/mcp/mcp-resources", "key": "meta.title", "ru": "Ресурсы MCP"}
+{"ns": "packages/mcp/mcp-manager", "key": "meta.title", "ru": "Менеджер MCP-серверов"}
+{"ns": "packages/mcp/mcp-manager", "key": "meta.description", "ru": "Управляет MCP-серверами из настроек и зарегистрированными плагинами, показывает состояние их подключения."}
+{"ns": "packages/mcp/mcp-client", "key": "meta.title", "ru": "MCP-клиент"}
+{"ns": "packages/mcp/mcp-client", "key": "meta.description", "ru": "Подключается к MCP-серверам и делает их инструменты доступными в Harness."}
+{"ns": "packages/document/office-to-pdf", "key": "meta.title", "ru": "Конвертация Office в PDF"}
+{"ns": "packages/feedback/command-feedback", "key": "meta.title", "ru": "Команда обратной связи"}
+{"ns": "packages/feedback/message-feedback", "key": "meta.title", "ru": "Обратная связь по сообщению"}
+{"ns": "packages/storage/storage-domain", "key": "meta.title", "ru": "Хранилище структурированных данных"}
+{"ns": "packages/storage/storage", "key": "meta.title", "ru": "Хранилище"}
+{"ns": "packages/storage/storage-sqlite", "key": "meta.title", "ru": "Хранилище SQLite"}
+{"ns": "packages/storage/storage-sqlite", "key": "meta.description", "ru": "Хранит данные Harness в формате «ключ — значение» в SQLite."}
+{"ns": "packages/storage/storage-json", "key": "meta.title", "ru": "Файловое хранилище JSON"}
+{"ns": "packages/extensions/cordis-host-runner", "key": "meta.title", "ru": "Динамические плагины Cordis на хосте"}
+{"ns": "packages/extensions/tool-cordis", "key": "meta.title", "ru": "Инструменты Cordis"}
+{"ns": "packages/extensions/tool-cordis/locale", "key": "meta.title", "ru": "Инспекция Cordis на хосте"}
+{"ns": "packages/extensions/cordis-client-runner", "key": "meta.title", "ru": "Динамические плагины Cordis в браузере"}
+{"ns": "packages/extensions/ui-cordis", "key": "meta.title", "ru": "Интерфейс динамических плагинов"}
+{"ns": "packages/todo/tool-todo", "key": "meta.title", "ru": "Инструмент списка задач"}
+{"ns": "packages/subprocess/subprocess-local", "key": "meta.title", "ru": "Локальные подпроцессы"}
+{"ns": "packages/deliverables/workspace-changes", "key": "meta.title", "ru": "Изменения рабочей области"}
+{"ns": "packages/deliverables/tool-present", "key": "meta.title", "ru": "Инструмент показа результатов"}
+{"ns": "packages/deliverables/deliverable-file-references", "key": "meta.title", "ru": "Ссылки на файлы результатов"}
+{"ns": "packages/deliverables/deliverable-file-references", "key": "meta.description", "ru": "Задаёт модели общие правила оформления ссылок на файлы и результатов работы во всех средах приложения."}
+{"ns": "packages/ssh/fs-ssh", "key": "meta.title", "ru": "Файловая система по SSH"}
+{"ns": "packages/ssh/fs-ssh", "key": "meta.description", "ru": "Открывает доступ к удалённым файлам через общий помощник POSIX SSH."}
+{"ns": "packages/ssh/subprocess-ssh", "key": "meta.title", "ru": "Подпроцессы по SSH"}
+{"ns": "packages/ssh/subprocess-ssh", "key": "meta.description", "ru": "Запускает подпроцессы и терминалы через общий помощник POSIX SSH."}
+{"ns": "packages/ssh/sandbox-ssh", "key": "meta.title", "ru": "Песочница процессов по SSH"}
+{"ns": "packages/ssh/sandbox-ssh", "key": "meta.description", "ru": "Собирает команды песочницы для удалённых процессов POSIX через общий помощник SSH."}
+{"ns": "packages/ssh/ssh", "key": "meta.title", "ru": "Подключения по SSH"}
+{"ns": "packages/ssh/ssh", "key": "meta.description", "ru": "Даёт общий доступ к подключениям OpenSSH и версионированным удалённым помощникам POSIX."}
+{"ns": "packages/team/agent-team", "key": "meta.title", "ru": "Командная работа"}
+{"ns": "packages/team/agent-team", "key": "meta.description", "ru": "Управляет общей доской задач для дерева субагентов."}
+{"ns": "packages/team/tool-agent-team", "key": "meta.title", "ru": "Инструменты команды"}
+{"ns": "packages/team/tool-agent-team", "key": "meta.description", "ru": "Даёт агентам инструменты для работы с общей доской задач."}
+{"ns": "packages/sandbox/sandbox-policy", "key": "meta.title", "ru": "Политика песочницы"}
+{"ns": "packages/sandbox/sandbox-local", "key": "meta.title", "ru": "Локальная песочница"}
+{"ns": "packages/session-query/session-log-export", "key": "meta.title", "ru": "Экспорт журнала сессии"}
+{"ns": "packages/session-query/session-query-sqlite", "key": "meta.title", "ru": "Поиск по сессиям в SQLite"}
+{"ns": "packages/sdk/server", "key": "meta.title", "ru": "Сервер SDK"}
+{"ns": "packages/sdk/server", "key": "meta.description", "ru": "Обслуживает клиентов SDK в отдельных процессах по JSON-RPC через стандартный ввод и вывод."}
+{"ns": "packages/workflow/tool-workflow", "key": "meta.title", "ru": "Инструмент рабочих процессов"}
+{"ns": "packages/workflow/workflow-ptc", "key": "meta.title", "ru": "Движок рабочих процессов"}
+{"ns": "packages/ptc-runtime/ptc-runtime-node", "key": "meta.title", "ru": "Среда выполнения PTC для Node.js"}
+{"ns": "packages/api/session-controller", "key": "meta.title", "ru": "Контроллер сессий"}
+{"ns": "packages/api/job-controller", "key": "meta.title", "ru": "Контроллер фоновых задач"}
+{"ns": "packages/api/remote-access", "key": "meta.title", "ru": "Управление удалённым доступом"}
+{"ns": "packages/api/remote-access", "key": "meta.description", "ru": "Определяет, какие методы доступны подключениям без прав владельца, и хранит снимки разрешений для каждого подключения."}
+{"ns": "packages/api/remotes", "key": "meta.title", "ru": "Удалённые клиенты API"}
+{"ns": "packages/api/workspace-files", "key": "meta.title", "ru": "Файлы рабочей области"}
+{"ns": "packages/api/terminal-controller", "key": "meta.title", "ru": "Контроллер терминалов"}
+{"ns": "packages/api/workspace-controller", "key": "meta.title", "ru": "Контроллер рабочей области"}
+{"ns": "packages/api/settings-controller", "key": "meta.title", "ru": "Контроллер настроек"}
+{"ns": "packages/api/gateway", "key": "meta.title", "ru": "Шлюз API"}
+{"ns": "packages/api/account-controller", "key": "meta.title", "ru": "Контроллер аккаунта"}
+{"ns": "packages/telemetry/otel", "key": "meta.title", "ru": "Телеметрия OpenTelemetry"}
+{"ns": "packages/jobs/jobs-local", "key": "meta.title", "ru": "Локальные фоновые задачи"}
+{"ns": "packages/jobs/tool-jobs", "key": "meta.title", "ru": "Инструмент фоновых задач"}
+{"ns": "packages/guard/timeout-policy", "key": "meta.title", "ru": "Тайм-ауты вызовов инструментов"}
+{"ns": "packages/guard/repeat-tool-reminder", "key": "meta.title", "ru": "Напоминание о повторном вызове инструмента"}
+{"ns": "packages/computer-use/computer-use", "key": "meta.title", "ru": "Реестр провайдеров Computer Use"}
+{"ns": "packages/computer-use/computer-use", "key": "meta.description", "ru": "Регистрирует провайдеров Computer Use по имени: один провайдер на имя."}
+{"ns": "packages/browser-use/browser-use", "key": "meta.title", "ru": "Реестр провайдеров браузера"}
+{"ns": "packages/browser-use/browser-use", "key": "meta.description", "ru": "Регистрирует провайдеров автоматизации браузера по имени: один провайдер на имя."}
+{"ns": "packages/spill/spill-policy", "key": "meta.title", "ru": "Политика выгрузки длинных результатов"}
+{"ns": "packages/spill/spill-local", "key": "meta.title", "ru": "Локальная выгрузка длинных результатов"}
+{"ns": "packages/fs/fs-observation-policy", "key": "meta.title", "ru": "Политика наблюдения за файлами"}
+{"ns": "packages/fs/tool-fs", "key": "meta.title", "ru": "Инструменты файловой системы"}
+{"ns": "packages/fs/fs-sandbox", "key": "meta.title", "ru": "Песочница файловой системы"}
+{"ns": "packages/fs/tool-fs-search", "key": "meta.title", "ru": "Инструмент поиска файлов"}
+{"ns": "packages/fs/fs-local", "key": "meta.title", "ru": "Локальная файловая система"}
+{"ns": "packages/fs/fs-local", "key": "meta.description", "ru": "Даёт доступ к файлам через локальную файловую систему."}
+{"ns": "packages/fs/tool-str-replace-editor", "key": "meta.title", "ru": "Инструменты текстового редактора"}
+{"ns": "packages/fs/tool-str-replace-editor", "key": "meta.description", "ru": "Просматривает, создаёт, заменяет и вставляет текст через службу файловой системы."}
+{"ns": "packages/acp/acp", "key": "meta.title", "ru": "Сервер ACP"}
+{"ns": "packages/acp/acp", "key": "meta.description", "ru": "Запускает агентов по JSON-RPC через стандартный ввод и вывод для автоматизации."}
+{"ns": "packages/client/ui-sidebar-documentpreview", "key": "meta.title", "ru": "Предпросмотр документа в боковой панели"}
+{"ns": "packages/client/ui-open-in-app", "key": "meta.title", "ru": "Открытие во внешнем приложении"}
+{"ns": "packages/client/ui-session", "key": "meta.title", "ru": "Интерфейс сессии"}
+{"ns": "packages/client/ui-sidebar-terminal", "key": "meta.title", "ru": "Терминал в боковой панели"}
+{"ns": "packages/client/ui-settings-account", "key": "meta.title", "ru": "Настройки аккаунта"}
+{"ns": "packages/client/ui-theme", "key": "meta.title", "ru": "Тема"}
+{"ns": "packages/client/locale", "key": "meta.title", "ru": "Локализация"}
+{"ns": "packages/client/ui-reference", "key": "meta.title", "ru": "Ссылки на файлы и сессии"}
+{"ns": "packages/client/connection", "key": "meta.title", "ru": "Подключение"}
+{"ns": "packages/client/ui-settings-shell", "key": "meta.title", "ru": "Оболочка настроек"}
+{"ns": "packages/client/ui-chat", "key": "meta.title", "ru": "Чат"}
+{"ns": "packages/client/ui-directory-picker-browse", "key": "meta.title", "ru": "Выбор папки в приложении"}
+{"ns": "packages/client/ui-model-selection", "key": "meta.title", "ru": "Выбор модели"}
+{"ns": "packages/client/ui-plan", "key": "meta.title", "ru": "План"}
+{"ns": "packages/client/ui-layout", "key": "meta.title", "ru": "Макет интерфейса"}
+{"ns": "packages/client/hmr", "key": "meta.title", "ru": "Горячая замена модулей"}
+{"ns": "packages/client/ui-sidebar-files", "key": "meta.title", "ru": "Файлы в боковой панели"}
+{"ns": "packages/client/ui-secret-mask", "key": "meta.title", "ru": "Маскирование секретов"}
+{"ns": "packages/client/ui-secret-mask", "key": "meta.description", "ru": "Маскирует распознанные ключи, токены и пароли в отправленных сообщениях."}
+{"ns": "packages/client/resources", "key": "meta.title", "ru": "Ресурсы"}
+{"ns": "packages/client/ui-trajectory", "key": "meta.title", "ru": "Траектория"}
+{"ns": "packages/client/ui-input-trigger", "key": "meta.title", "ru": "Триггеры ввода"}
+{"ns": "packages/client/ui-shortcuts", "key": "meta.title", "ru": "Сочетания клавиш"}
+{"ns": "packages/client/ui-settings", "key": "meta.title", "ru": "Настройки"}
+{"ns": "packages/client/ui-renderer", "key": "meta.title", "ru": "Рендеринг интерфейса"}
+{"ns": "packages/client/product-analytics", "key": "meta.title", "ru": "Продуктовая аналитика"}
+{"ns": "packages/client/ui-file-drag", "key": "meta.title", "ru": "Перетаскивание файлов"}
+{"ns": "packages/client/ui-file-drag", "key": "meta.description", "ru": "Позволяет перетаскивать исходные файлы в поле ввода и в другие приложения, а сообщения об ошибках показывает на языке интерфейса."}
+{"ns": "packages/client/ui-settings-agent-loop", "key": "meta.title", "ru": "Настройки цикла агента"}
+{"ns": "packages/client/ui-schedule", "key": "meta.title", "ru": "Задачи автоматизации"}
+{"ns": "packages/client/ui-schedule", "key": "meta.description", "ru": "Страница задач автоматизации в боковой панели, а также карточки задач и отметки напоминаний в сессиях."}
+{"ns": "packages/client/ui-attachment", "key": "meta.title", "ru": "Вложения"}
+{"ns": "packages/client/ui-subagent", "key": "meta.title", "ru": "Интерфейс субагента"}
+{"ns": "packages/client/ui-workspace", "key": "meta.title", "ru": "Рабочая область"}
+{"ns": "packages/client/ui-settings-plugins", "key": "meta.title", "ru": "Настройки плагинов"}
+{"ns": "packages/client/ui-settings-general", "key": "meta.title", "ru": "Общие настройки"}
+{"ns": "packages/client/ui-settings-subagent", "key": "meta.title", "ru": "Настройки субагента"}
+{"ns": "packages/client/ui-settings-plugin-inventory", "key": "meta.title", "ru": "Инвентарь плагинов"}
+{"ns": "packages/client/ui-file-actions", "key": "meta.title", "ru": "Действия с файлами"}
+{"ns": "packages/client/ui-plugin-market", "key": "meta.title", "ru": "Каталог плагинов"}
+{"ns": "packages/client/ui-plugin-market", "key": "meta.description", "ru": "Просматривает настроенные индексы плагинов и устанавливает из них пакеты."}
+{"ns": "packages/client/ui-approval", "key": "meta.title", "ru": "Подтверждения"}
+{"ns": "packages/client/ui-conversation", "key": "meta.title", "ru": "Диалог"}
+{"ns": "packages/client/ui-commands", "key": "meta.title", "ru": "Команды"}
+{"ns": "packages/client/ui-permission-presets", "key": "meta.title", "ru": "Пресеты разрешений"}
+{"ns": "packages/client/file-upload", "key": "meta.title", "ru": "Загрузка файлов"}
+{"ns": "packages/client/ui-plugin-manager", "key": "meta.title", "ru": "Менеджер плагинов"}
+{"ns": "packages/client/shortcuts", "key": "meta.title", "ru": "Сочетания клавиш"}
+{"ns": "packages/client/ui-skill", "key": "meta.title", "ru": "Навыки"}
+{"ns": "packages/client/ui-entry-customization", "key": "meta.title", "ru": "Настройка интерфейса"}
+{"ns": "packages/client/ui-entry-customization", "key": "meta.description", "ru": "Настраивает элементы плагинов на левой и правой боковых панелях и в представлениях диалога, а также помогает быстро создавать новые плагины."}
+{"ns": "packages/client/ui-agent-team", "key": "meta.title", "ru": "Доска задач"}
+{"ns": "packages/client/ui-agent-team", "key": "meta.description", "ru": "Показывает общие задачи дерева субагентов."}
+{"ns": "packages/client/ui-settings-web-search", "key": "meta.title", "ru": "Настройки веб-поиска"}
+{"ns": "packages/client/ui-directory-picker-native", "key": "meta.title", "ru": "Выбор папки в системном диалоге"}
+{"ns": "packages/client/ui-agent-preset", "key": "meta.title", "ru": "Пресеты агента"}
+{"ns": "packages/client/ui-workflow-run", "key": "meta.title", "ru": "Выполнение рабочего процесса"}
+{"ns": "packages/client/ui-settings-models", "key": "meta.title", "ru": "Настройки моделей"}
+{"ns": "packages/client/modules", "key": "meta.title", "ru": "Модули"}
+{"ns": "packages/client/ui-jobs", "key": "meta.title", "ru": "Фоновые задачи"}
+{"ns": "packages/client/ui-sidebar", "key": "meta.title", "ru": "Боковая панель"}
+{"ns": "packages/client/ui-user-questions", "key": "meta.title", "ru": "Вопросы пользователю"}
+{"ns": "packages/client/ui-context-menu", "key": "meta.title", "ru": "Контекстные меню"}
+{"ns": "packages/client/ui-sidebar-right", "key": "meta.title", "ru": "Правая боковая панель"}
+{"ns": "packages/client/ui-brand-official", "key": "meta.title", "ru": "Брендинг DeepSeek"}
+{"ns": "packages/client/ui-sidebar-browser", "key": "meta.title", "ru": "Браузер в боковой панели"}
+{"ns": "packages/client/ui-message-feedback", "key": "meta.title", "ru": "Обратная связь по сообщениям"}
+{"ns": "packages/client/ui-settings-session-log", "key": "meta.title", "ru": "Настройки журнала сессии"}
+{"ns": "packages/client/ui-deliverables", "key": "meta.title", "ru": "Результаты"}
+{"ns": "packages/client/ui-tool", "key": "meta.title", "ru": "Вызовы инструментов"}
+{"ns": "packages/client/ui-goal", "key": "meta.title", "ru": "Цель сессии"}
+{"ns": "packages/interaction/permission-presets", "key": "meta.title", "ru": "Служба пресетов разрешений"}
+{"ns": "packages/interaction/user-questions", "key": "meta.title", "ru": "Служба вопросов пользователю"}
+{"ns": "packages/interaction/commands", "key": "meta.title", "ru": "Служба команд"}
+{"ns": "packages/interaction/user-approval", "key": "meta.title", "ru": "Служба подтверждений"}
+{"ns": "packages/interaction/tool-ask-user", "key": "meta.title", "ru": "Инструмент вопросов пользователю"}
+{"ns": "packages/subagent/subagent-acp", "key": "meta.title", "ru": "Бэкенд субагента ACP"}
+{"ns": "packages/subagent/subagent-acp", "key": "meta.description", "ru": "Запускает внешних агентов в подпроцессах через ACP."}
+{"ns": "packages/subagent/subagent-fork-in-process", "key": "meta.title", "ru": "Форк субагента в текущем процессе"}
+{"ns": "packages/subagent/tool-subagent-control", "key": "meta.title", "ru": "Инструменты управления субагентами"}
+{"ns": "packages/subagent/subagent-spawn-in-process", "key": "meta.title", "ru": "Запуск субагента в текущем процессе"}
+{"ns": "packages/subagent/tool-subagent", "key": "meta.title", "ru": "Инструмент субагентов"}
+{"ns": "packages/subagent/tool-subagent/locale", "key": "meta.title", "ru": "Выбор модели для субагентов"}
+{"ns": "packages/subagent/subagent-claude-code", "key": "meta.title", "ru": "Субагент Claude Code"}
+{"ns": "packages/subagent/subagent-claude-code", "key": "meta.description", "ru": "Делегирует одну задачу Claude Code и использует его собственные аутентификацию и настройки."}
+{"ns": "packages/subagent/subagent", "key": "meta.title", "ru": "Субагент"}
+{"ns": "packages/subagent/subagent-codex", "key": "meta.title", "ru": "Субагент Codex"}
+{"ns": "packages/subagent/subagent-codex", "key": "meta.description", "ru": "Делегирует одну задачу Codex и использует его собственные аутентификацию и настройки."}
+{"ns": "packages/subagent/subagent-dsh-sdk", "key": "meta.title", "ru": "Бэкенд субагента DSH SDK"}
+{"ns": "packages/subagent/subagent-dsh-sdk", "key": "meta.description", "ru": "Запускает Harness в подпроцессе по TypeScript SDK и JSON-RPC через стандартный ввод и вывод."}
+{"ns": "packages/goal/tool-goal", "key": "meta.title", "ru": "Инструмент управления целями"}
+{"ns": "packages/goal/goal-round-driver", "key": "meta.title", "ru": "Автопродолжение цели"}
+{"ns": "packages/goal/command-goal", "key": "meta.title", "ru": "Команда цели"}
+{"ns": "packages/goal/goal", "key": "meta.title", "ru": "Цель"}
+{"ns": "packages/credentials/credentials-local", "key": "meta.title", "ru": "Локальное хранилище учётных данных"}
+{"ns": "packages/credentials/deepseek-account-platform", "key": "meta.title", "ru": "Вход в аккаунт DeepSeek"}
+{"ns": "packages/credentials/authorization", "key": "meta.title", "ru": "Авторизация"}
+{"ns": "packages/session/tool-working-directory", "key": "meta.title", "ru": "Инструменты рабочего каталога"}
+{"ns": "packages/session/tool-working-directory", "key": "meta.description", "ru": "Читает и меняет рабочий каталог текущей сессии."}
+{"ns": "packages/session/message-quotes", "key": "meta.title", "ru": "Цитаты сообщений"}
+{"ns": "packages/session/message-quotes", "key": "meta.description", "ru": "Цитирует выделенный текст и показывает его как блочную цитату Markdown."}
+{"ns": "packages/session/session-title", "key": "meta.title", "ru": "Заголовок сессии"}
+{"ns": "packages/session/session-projection-cache", "key": "meta.title", "ru": "Кэш состояния сессии"}
+{"ns": "packages/session/working-directory", "key": "meta.title", "ru": "Рабочие каталоги сессий"}
+{"ns": "packages/session/working-directory", "key": "meta.description", "ru": "Управляет рабочими каталогами сессий, сохраняет изменения каталогов и передаёт модели контекст рабочего каталога."}
+{"ns": "packages/session/session-checkpoint-policy", "key": "meta.title", "ru": "Контрольные точки сессии"}
+{"ns": "packages/session/session-log-deepseek", "key": "meta.title", "ru": "Журнал сессий DeepSeek"}
+{"ns": "packages/session/session-projection", "key": "meta.title", "ru": "Состояние сессии"}
+{"ns": "packages/session/session-stats", "key": "meta.title", "ru": "Статистика сессии"}
+{"ns": "packages/session/session-telemetry-otel", "key": "meta.title", "ru": "Телеметрия сессий через OpenTelemetry"}
+{"ns": "packages/session/session-title-first-prompt-llm", "key": "meta.title", "ru": "Заголовок по первому промпту"}
+{"ns": "packages/session/session-persistence-jsonl", "key": "meta.title", "ru": "Хранение сессий в JSONL"}
+{"ns": "packages/session/session-turn-outline", "key": "meta.title", "ru": "Структура ходов сессии"}

@@ -1,0 +1,250 @@
+{"ns": "cuaPermissions", "key": "approvalRisks", "en": "Risks", "ru": "Риски", "zh": "风险提示", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "approvalRiskTitle", "en": "Computer use risks", "ru": "Риски управления компьютером", "zh": "Computer Use 风险提示", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "approvalRiskNotice", "en": "The agent can access only apps you approve, and can read and control them in the background.\n\nOnline games, messaging apps, and other apps may restrict automation. Violating their rules could result in your account with that app being suspended or banned.\n\nProceed at your own risk. To stop automated control at any time, press Stop in DeepSeek Harness.", "ru": "Агент получает доступ только к приложениям, которые вы разрешили, и может читать их содержимое и управлять ими в фоновом режиме.\n\nВ онлайн-играх, мессенджерах и других приложениях могут действовать ограничения на автоматизацию. Нарушение их правил может привести к временной или постоянной блокировке вашей учётной записи в соответствующем приложении.\n\nВы пользуетесь этой возможностью на свой страх и риск. Чтобы в любой момент остановить автоматизированное управление, нажмите «Остановить» в DeepSeek Harness.", "zh": "智能体只能访问你已授权的应用，并可在后台读取应用内容、操作应用。\n\n网络游戏、即时通讯等应用可能对自动化操作有所限制。违反相关规则可能导致你在该应用中的账号被暂停使用或封禁。\n\n请自行承担使用风险。如需停止自动化操作，可随时点击 DeepSeek Harness 中的停止按钮。", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "title", "en": "Authorize computer use", "ru": "Разрешить использование компьютера", "zh": "给 Computer Use 授权", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "applicationsTitle", "en": "Manage applications computer use can access", "ru": "Управление приложениями, к которым может иметь доступ компьютер", "zh": "管理 Computer Use 可访问的应用", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "setupTitle", "en": "Set up computer use before use", "ru": "Настройте использование компьютера перед использованием", "zh": "使用 Computer Use 前需要设置", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "setupBody", "en": "Computer use is enabled. Before using it, switch to PTC mode and grant Accessibility and Screen Recording permissions. Open the plugin details to complete setup.", "ru": "Использование компьютера разрешено. Прежде чем использовать его, переключитесь в режим PTC и предоставьте разрешения на доступность и запись экрана. Откройте сведения о плагине, чтобы завершить настройку.", "zh": "Computer Use 插件已开启。使用前请切换到 PTC 模式，并授予辅助功能和屏幕录制权限。请前往插件详情页完成设置。", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "setupQueryFailed", "en": "Computer use is enabled, but system permissions could not be checked. Open the plugin details to see the error and retry.", "ru": "Использование компьютера разрешено, но системные разрешения проверить не удалось. Откройте сведения о плагине, чтобы увидеть ошибку, и повторите попытку.", "zh": "Computer Use 插件已开启，但暂时无法检测系统权限。请前往插件详情页查看原因并重试。", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "defaultTitle", "en": "Default mode for new sessions", "ru": "Режим по умолчанию для новых сеансов", "zh": "新会话默认模式", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "defaultBody", "en": "Computer use is available only in PTC mode.", "ru": "Использование компьютера доступно только в режиме PTC.", "zh": "Computer Use 仅在 PTC 模式中可用。", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "defaultConfirm", "en": "Set to PTC", "ru": "Установить на PTC", "zh": "设为 PTC", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "defaultSet", "en": "PTC is the default", "ru": "PTC — значение по умолчанию.", "zh": "已设为 PTC", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "defaultUnavailable", "en": "Could not read the default mode. Check it in Settings.", "ru": "Не удалось прочитать режим по умолчанию. Проверьте это в настройках.", "zh": "无法读取默认模式，请在设置中检查", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "defaultReadOnly", "en": "Default-mode settings are read-only.", "ru": "Настройки режима по умолчанию доступны только для чтения.", "zh": "默认模式设置为只读", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "defaultNotSaved", "en": "The default mode was not saved. Try again.", "ru": "Режим по умолчанию не сохранился. Попробуйте еще раз.", "zh": "默认模式未保存，请重试", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "defaultFailed", "en": "Could not change the default mode: {message}", "ru": "Не удалось изменить режим по умолчанию: {message}.", "zh": "无法切换默认模式：{message}", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "persistentTitle", "en": "PTC execution mode", "ru": "Режим выполнения PTC", "zh": "PTC 执行方式", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "persistentBody", "en": "Keep variables and application objects across tool calls. Switching restarts the PTC runtime.", "ru": "Сохраняйте переменные и объекты приложения при вызовах инструментов. Переключение перезапускает среду выполнения PTC.", "zh": "跨工具调用保留变量和应用对象。切换会重启 PTC 执行器。", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "persistentConfirm", "en": "Use persistent mode", "ru": "Использовать постоянный режим", "zh": "设为持久化", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "persistentSet", "en": "Persistent mode enabled", "ru": "Постоянный режим включен", "zh": "已设为持久化", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "persistentUnavailable", "en": "Could not read the PTC execution mode. Check it in Settings.", "ru": "Не удалось прочитать режим выполнения PTC. Проверьте это в настройках.", "zh": "无法读取 PTC 执行方式，请在设置中检查", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "persistentReadOnly", "en": "PTC execution settings are read-only.", "ru": "Настройки выполнения PTC доступны только для чтения.", "zh": "PTC 执行方式设置为只读", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "persistentNotSaved", "en": "The PTC execution mode was not saved. Try again.", "ru": "Режим выполнения PTC не был сохранен. Попробуйте еще раз.", "zh": "PTC 执行方式未保存，请重试", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "persistentFailed", "en": "Could not change the PTC execution mode: {message}", "ru": "Не удалось изменить режим выполнения PTC: {message}.", "zh": "无法切换 PTC 执行方式：{message}", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "openSetup", "en": "Open settings", "ru": "Открыть настройки", "zh": "前往设置", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "later", "en": "Later", "ru": "Позже", "zh": "稍后", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "close", "en": "Close", "ru": "Закрыть", "zh": "关闭", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "accessibility", "en": "Accessibility", "ru": "Доступность", "zh": "辅助功能", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "screenRecording", "en": "Screen Recording", "ru": "Запись экрана", "zh": "屏幕录制", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "accessibilityUse", "en": "Read interface controls, click, and type.", "ru": "Прочтите элементы управления интерфейсом, щелкните и введите текст.", "zh": "读取界面控件、点击和输入文字", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "screenRecordingUse", "en": "Capture the selected application window.", "ru": "Захват выбранного окна приложения.", "zh": "截取所选应用的窗口", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "accessibilityPermission", "en": "In System Settings, allow {application} to read interface controls, click, and type.", "ru": "В настройках системы разрешите {application} читать элементы управления интерфейсом, щелкать и печатать.", "zh": "在系统设置中允许 {application} 读取界面、点击和输入。", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "screenRecordingPermission", "en": "In System Settings, allow {application} to capture application windows.", "ru": "В настройках системы разрешите {application} захватывать окна приложений.", "zh": "在系统设置中允许 {application} 截取应用窗口。", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "permissionHint", "en": "Manage Accessibility and Screen Recording permissions in System Settings.", "ru": "Управляйте разрешениями на универсальный доступ и запись экрана в системных настройках.", "zh": "在系统设置中管理辅助功能和屏幕录制权限", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "granted", "en": "Allowed", "ru": "Разрешено", "zh": "已允许", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "unknown", "en": "Unknown", "ru": "Неизвестно", "zh": "未确认", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "request", "en": "Request permission", "ru": "Запросить разрешение", "zh": "申请权限", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "settings", "en": "Open System Settings", "ru": "Открыть настройки системы", "zh": "打开系统设置", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "retry", "en": "Retry", "ru": "Повторить", "zh": "重试", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "allowedApps", "en": "Always-allowed applications", "ru": "Всегда разрешенные приложения", "zh": "始终允许的应用", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "blockedApps", "en": "Applications not allowed", "ru": "Приложения не разрешены", "zh": "不允许访问的应用", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "retryApproval", "en": "Allow asking again", "ru": "Разрешить спросить еще раз", "zh": "允许再次询问", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "retryAllowed", "en": "The next application selection will ask again; access has not been granted", "ru": "При следующем выборе приложения запрос будет повторен; доступ не предоставлен", "zh": "下次选择此应用时将重新询问，当前尚未授权", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "noApps", "en": "No always-allowed or blocked applications.", "ru": "Никаких всегда разрешенных или заблокированных приложений.", "zh": "暂无始终允许或不允许访问的应用。", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "revoke", "en": "Revoke", "ru": "Отозвать", "zh": "撤销", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "revoked", "en": "Application access revoked", "ru": "Доступ к приложению отозван", "zh": "已撤销应用访问权限", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "requested", "en": "Follow the guide at the bottom of System Settings", "ru": "Следуйте инструкциям внизу окна «Системные настройки».", "zh": "请按系统设置底部的引导完成授权", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "opened", "en": "System Settings opened", "ru": "Системные настройки открыты", "zh": "已打开系统设置", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "applicationsFailed", "en": "Could not load application access: {message}", "ru": "Не удалось загрузить доступ к приложению: {message}.", "zh": "无法读取应用授权：{message}", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "iconsFailed", "en": "Could not load application icons: {message}", "ru": "Не удалось загрузить значки приложений: {message}.", "zh": "无法读取应用图标：{message}", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "failed", "en": "Could not update permissions: {message}", "ru": "Не удалось обновить разрешения: {message}.", "zh": "无法更新权限：{message}", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "cuaPermissions", "key": "queryFailed", "en": "Could not check permissions: {message}", "ru": "Не удалось проверить разрешения: {message}", "zh": "无法检测权限：{message}", "file": "packages/experimental/cua/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "tab.title", "en": "Session log", "ru": "Журнал сеанса", "zh": "会话数据诊断", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "tab.description", "en": "Analyze raw logs and grouped chat messages for the current session in the sidebar.", "ru": "Анализируйте необработанные журналы и сгруппированные сообщения чата для текущего сеанса на боковой панели.", "zh": "在侧边栏分析当前会话原始日志和聊天分组数据", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "view.presentation", "en": "Presentation", "ru": "Презентация", "zh": "展示形式", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "view.sessionLog", "en": "Raw log", "ru": "Необработанный журнал", "zh": "原始数据", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "view.chatNode", "en": "Chat group", "ru": "Группа чата", "zh": "对话分组", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "picker.pick", "en": "Pick an element in the chat view", "ru": "Выберите элемент в представлении чата", "zh": "在对话面板中选取元素", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "picker.cancel", "en": "Cancel picking (Esc)", "ru": "Отменить выбор (Esc)", "zh": "取消选取 (Esc)", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "picker.instructions", "en": "Hover in the main chat to preview, then click to select. Esc cancels.", "ru": "Наведите указатель мыши на главный чат, чтобы просмотреть его, затем нажмите, чтобы выбрать. Esc отменяет.", "zh": "在左侧 Chat 中悬停预览，点击选取；Esc 取消。", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "picker.noMatch", "en": "No matching record in this table. Pick another element or press Esc to cancel.", "ru": "В этой таблице нет соответствующей записи. Выберите другой элемент или нажмите Esc для отмены.", "zh": "当前表格没有匹配记录，请选择其他元素或按 Esc 取消。", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "picker.noChat", "en": "Open this session in the main chat before picking.", "ru": "Прежде чем выбирать, откройте эту сессию в главном чате.", "zh": "请先在主区域打开当前 Session 的 Chat。", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "table.id", "en": "Index", "ru": "Индекс", "zh": "序号", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "table.type", "en": "Type", "ru": "Тип", "zh": "类型", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "filter.title", "en": "Filter types", "ru": "Типы фильтров", "zh": "筛选类型", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "filter.input", "en": "Type keyword", "ru": "Введите ключевое слово", "zh": "类型关键词", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "filter.placeholder", "en": "Type a fragment, e.g. delta", "ru": "Введите фрагмент, например. дельта", "zh": "输入类型片段，如 delta", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "filter.help", "en": "Contains matching (*keyword*). Enter confirms; Esc cancels.", "ru": "Содержит совпадение (*ключевое слово*). Enter подтверждает; Esc отменяет.", "zh": "默认包含匹配（*关键词*）；Enter 确认，Esc 取消。", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "filter.candidates", "en": "Type suggestions", "ru": "Введите предложения", "zh": "类型候选", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "filter.loading", "en": "Finding suggestions…", "ru": "Поиск предложений…", "zh": "正在查找候选…", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "filter.failed", "en": "Type suggestions could not be loaded.", "ru": "Не удалось загрузить предлагаемые типы.", "zh": "无法获取类型候选。", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "filter.noCandidates", "en": "No suggestions. You can still apply this keyword.", "ru": "Никаких предложений. Вы все еще можете применить это ключевое слово.", "zh": "没有匹配候选，仍可确认当前关键词。", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "filter.clear", "en": "Clear", "ru": "Очистить", "zh": "清空", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "filter.cancel", "en": "Cancel", "ru": "Отмена", "zh": "取消", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "filter.apply", "en": "Apply filter", "ru": "Применить фильтр", "zh": "确认筛选", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "filter.context", "en": "Parent context of a matching record", "ru": "Родительский контекст соответствующей записи", "zh": "匹配记录的父级上下文", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "table.location", "en": "T/S", "ru": "T/S", "zh": "T/S", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "table.time", "en": "Time (UTC)", "ru": "Время (UTC)", "zh": "时间 (UTC)", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "table.data", "en": "Data", "ru": "Данные", "zh": "数据", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "table.older", "en": "Load earlier", "ru": "Загрузить раньше", "zh": "加载更早", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "table.loading", "en": "Loading…", "ru": "Загрузка…", "zh": "加载中…", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "table.latest", "en": "Follow latest", "ru": "Следите за последними", "zh": "跟踪最新", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "table.empty", "en": "No records", "ru": "Нет записей", "zh": "暂无记录", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "table.raw", "en": "Raw data", "ru": "Необработанные данные", "zh": "原始数据", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "table.rawError", "en": "This record could not be serialized. Select another record to continue.", "ru": "Эту запись не удалось сериализовать. Выберите другую запись, чтобы продолжить.", "zh": "无法序列化这条记录，可以选择其他记录继续查看。", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "table.resizeDetails", "en": "Resize raw data panel", "ru": "Изменение размера панели необработанных данных", "zh": "调整原始数据面板高度", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "table.close", "en": "Close", "ru": "Закрыть", "zh": "关闭", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "table.expand", "en": "Expand children", "ru": "Развернуть детей", "zh": "展开子行", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "table.collapse", "en": "Collapse children", "ru": "Свернуть детей", "zh": "收起子行", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "table.removed", "en": "This record was removed or settled. Select a current record.", "ru": "Этот рекорд был удален или погашен. Выберите текущую запись.", "zh": "该记录已移除或结算，请选择当前记录。", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "object.node", "en": "Node", "ru": "Узел", "zh": "Node", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "object.nodeData", "en": "Node data", "ru": "Данные узла", "zh": "Node Data", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "object.group", "en": "Group", "ru": "Группа", "zh": "Group", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "object.groupData", "en": "Group data", "ru": "Групповые данные", "zh": "Group Data", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "object.turn", "en": "Turn", "ru": "Ход", "zh": "Turn", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "object.turnData", "en": "Turn data", "ru": "Данные хода", "zh": "Turn Data", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "object.step", "en": "Step", "ru": "Шаг", "zh": "Step", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "object.stepData", "en": "Step data", "ru": "Данные шага", "zh": "Step Data", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "object.accessor", "en": "[Getter / setter, not evaluated]", "ru": "[Получатель/сеттер, не оценивается]", "zh": "[Getter / Setter，未执行]", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "object.empty", "en": "Empty", "ru": "Пустой", "zh": "空", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "object.absent", "en": "[Empty slot]", "ru": "[Пустой слот]", "zh": "[空槽]", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "object.properties", "en": "Other properties", "ru": "Другие объекты недвижимости", "zh": "其他属性", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "object.more", "en": "Show more", "ru": "Показать больше", "zh": "显示更多", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "session-inspector", "key": "object.navigation", "en": "Raw data navigation", "ru": "Навигация по необработанным данным", "zh": "原始数据导航", "file": "packages/experimental/session-inspector/src/client/locales.ts"}
+{"ns": "subagent", "key": "section.title", "en": "Subagents", "ru": "Субагенты", "zh": "子智能体", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "section.empty", "en": "No subagents", "ru": "Нет субагентов", "zh": "暂无子智能体", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "progress.completed", "en": "{count} completed", "ru": "{count} завершено", "zh": "{count} 已完成", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "progress.active", "en": "{count} in progress", "ru": "{count} в процессе", "zh": "{count} 进行中", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "progress.inactive", "en": "{count} not running", "ru": "{count} не выполняются", "zh": "{count} 未运行", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "progress.external", "en": "{count} external", "ru": "{count} внешних", "zh": "{count} 外部任务", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "duration.seconds", "en": "{seconds}s", "ru": "{seconds}s", "zh": "{seconds}秒", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "duration.minutes", "en": "{minutes}m {seconds}s", "ru": "{minutes}m {seconds}s", "zh": "{minutes}分{seconds}秒", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "duration.hours", "en": "{hours}h {minutes}m {seconds}s", "ru": "{hours}h {minutes}m {seconds}s", "zh": "{hours}小时{minutes}分{seconds}秒", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "duration.days", "en": "{days}d", "ru": "{days}d", "zh": "{days}天", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "duration.daysHours", "en": "{days}d {hours}h", "ru": "{days}d {hours}h", "zh": "{days}天{hours}小时", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "duration.months", "en": "~{months}mo", "ru": "~{months}mo", "zh": "约{months}个月", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "duration.monthsDays", "en": "~{months}mo {days}d", "ru": "~{months}mo {days}d", "zh": "约{months}个月{days}天", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "duration.years", "en": "~{years}y", "ru": "~{years}y", "zh": "约{years}年", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "duration.yearsMonths", "en": "~{years}y {months}mo", "ru": "~{years}y {months}mo", "zh": "约{years}年{months}个月", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "duration.exactDays", "en": "{days}d {hours}h {minutes}m {seconds}s", "ru": "{days}d {hours}h {minutes}m {seconds}s", "zh": "{days}天{hours}小时{minutes}分{seconds}秒", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "duration.exactTitle", "en": "Total active duration: {duration}", "ru": "Общая активная продолжительность: {duration}", "zh": "总活跃耗时：{duration}", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "tokens.thousand", "en": "{value}K", "ru": "{value}K", "zh": "{value}K", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "tokens.million", "en": "{value}M", "ru": "{value}M", "zh": "{value}M", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "tokens.total", "en": "{value} tok", "ru": "{value} ток", "zh": "{value} tok", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "loading.label", "en": "Loading subagents…", "ru": "Загрузка субагентов…", "zh": "正在加载子智能体…", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "load.error", "en": "Unable to load subagents", "ru": "Невозможно загрузить субагенты", "zh": "无法加载子智能体", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "catalog.migrationRequired", "en": "Migration required", "ru": "Требуется миграция", "zh": "需要迁移", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "retry", "en": "Retry", "ru": "Повторить", "zh": "重试", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "mode.external", "en": "External task", "ru": "Внешняя задача", "zh": "外部任务", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "mode.oneShot", "en": "one-shot", "ru": "одноразовый", "zh": "一次性", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "mode.continuable", "en": "continuable", "ru": "продолжаемый", "zh": "可继续", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "mode.unknown", "en": "unknown mode", "ru": "неизвестный режим", "zh": "模式未知", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "readonly.unknown.body", "en": "Read the child session to determine whether it can be continued.", "ru": "Прочтите дочерний сеанс, чтобы определить, можно ли его продолжить.", "zh": "读取子会话后才能确定是否可继续。", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "activity.running", "en": "running", "ru": "бег", "zh": "正在运行", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "activity.completed", "en": "completed", "ru": "завершено", "zh": "已完成", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "activity.inactive", "en": "not running", "ru": "не работает", "zh": "当前未运行", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "branch.collapse", "en": "Collapse {label} descendants", "ru": "Свернуть потомков {label}", "zh": "收起 {label} 的下级子智能体", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "branch.expand", "en": "Expand {label} descendants", "ru": "Развернуть потомков {label}", "zh": "展开 {label} 的下级子智能体", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "count.total.one", "en": "{count} subagent", "ru": "Субагент {count}", "zh": "{count} 个子智能体", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "count.total.other", "en": "{count} subagents", "ru": "Субагенты {count}", "zh": "{count} 个子智能体", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "count.running.one", "en": "{count} subagent running", "ru": "Субагент {count} работает", "zh": "{count} 个子智能体，正在运行", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "count.running.other", "en": "{count} subagents running", "ru": "Субагенты {count} работают", "zh": "{count} 个子智能体，正在运行", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "switcher.aria", "en": "Switch subagent: {title}", "ru": "Переключить субагент: {title}", "zh": "切换子智能体：{title}", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "tree.aria", "en": "Subagent sessions", "ru": "Сеансы субагента", "zh": "子智能体会话", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "open.sidebar", "en": "Open in sidebar", "ru": "Открыть в боковой панели", "zh": "在侧边栏打开", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "open.floatWindow", "en": "Open in floating panel", "ru": "Открыть на плавающей панели", "zh": "在浮窗中打开", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "open.sidebar.aria", "en": "Open {label} in sidebar", "ru": "Откройте {label} на боковой панели.", "zh": "在侧边栏打开 {label}", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "sidebar.chat", "en": "Chat", "ru": "Чат", "zh": "聊天", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "readonly.oneShot.title", "en": "One-shot subagent record", "ru": "Разовая запись субагента", "zh": "一次性子智能体记录", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "readonly.title", "en": "This subagent is read-only for now", "ru": "Этот субагент пока доступен только для чтения.", "zh": "此子智能体暂时只读", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "subagent", "key": "readonly.oneShot.body", "en": "One-shot tasks do not accept follow-ups; review the full execution record here.", "ru": "Одноразовые задачи не допускают последующих действий; просмотреть полную запись выполнения можно здесь.", "zh": "一次性任务不支持后续消息，可在这里查看完整执行记录。", "file": "packages/client/ui-subagent/src/client/locales.ts"}
+{"ns": "common", "key": "ok", "en": "OK", "ru": "OK", "zh": "确定"}
+{"ns": "common", "key": "cancel", "en": "Cancel", "ru": "Отмена", "zh": "取消"}
+{"ns": "common", "key": "close", "en": "Close", "ru": "Закрыть", "zh": "关闭"}
+{"ns": "common", "key": "copy", "en": "Copy", "ru": "Копировать", "zh": "复制"}
+{"ns": "common", "key": "copied", "en": "Copied", "ru": "Скопировано", "zh": "复制成功"}
+{"ns": "common", "key": "codeBlock.title", "en": "Code block", "ru": "Блок кода", "zh": "代码块"}
+{"ns": "common", "key": "codeBlock.wrap", "en": "Wrap lines", "ru": "Переносить строки", "zh": "自动换行"}
+{"ns": "common", "key": "codeBlock.unwrap", "en": "Do not wrap lines", "ru": "Не переносить строки", "zh": "取消自动换行"}
+{"ns": "common", "key": "copy.failed", "en": "Copy failed", "ru": "Не удалось скопировать", "zh": "复制失败"}
+{"ns": "common", "key": "copy.value", "en": "Copy value", "ru": "Копировать значение", "zh": "复制值"}
+{"ns": "common", "key": "copy.json", "en": "Copy JSON", "ru": "Копировать JSON", "zh": "复制 JSON"}
+{"ns": "common", "key": "copy.path", "en": "Copy property path", "ru": "Копировать путь к свойству", "zh": "复制属性路径"}
+{"ns": "common", "key": "copy.prettyJson", "en": "Copy pretty JSON", "ru": "Копировать форматированный JSON", "zh": "复制格式化 JSON"}
+{"ns": "common", "key": "copy.compactJson", "en": "Copy compact JSON", "ru": "Копировать компактный JSON", "zh": "复制紧凑 JSON"}
+{"ns": "common", "key": "copy.optionsHint", "en": "{action}; right-click for copy options", "ru": "{action}; щелкните правой кнопкой мыши, чтобы просмотреть параметры копирования", "zh": "{action}；右键点击可选择复制方式"}
+{"ns": "common", "key": "retry", "en": "Retry", "ru": "Повторить", "zh": "重试"}
+{"ns": "common", "key": "loading", "en": "Loading…", "ru": "Загрузка…", "zh": "加载中…"}
+{"ns": "common", "key": "load.failed", "en": "Failed to load", "ru": "Не удалось загрузить", "zh": "加载失败"}
+{"ns": "common", "key": "submit", "en": "Submit", "ru": "Отправить", "zh": "提交"}
+{"ns": "common", "key": "submitting", "en": "Submitting…", "ru": "Отправка…", "zh": "正在提交…"}
+{"ns": "common", "key": "next", "en": "Next", "ru": "Далее", "zh": "下一步"}
+{"ns": "common", "key": "previous", "en": "Previous", "ru": "Назад", "zh": "上一步"}
+{"ns": "common", "key": "skip", "en": "Skip", "ru": "Пропустить", "zh": "跳过"}
+{"ns": "common", "key": "delete", "en": "Delete", "ru": "Удалить", "zh": "删除"}
+{"ns": "common", "key": "edit", "en": "Edit", "ru": "Редактировать", "zh": "编辑"}
+{"ns": "common", "key": "save", "en": "Save", "ru": "Сохранить", "zh": "保存"}
+{"ns": "common", "key": "search", "en": "Search", "ru": "Поиск", "zh": "搜索"}
+{"ns": "common", "key": "more", "en": "More", "ru": "Ещё", "zh": "更多"}
+{"ns": "common", "key": "collapse", "en": "Collapse", "ru": "Свернуть", "zh": "收起"}
+{"ns": "common", "key": "expand", "en": "Expand", "ru": "Развернуть", "zh": "展开"}
+{"ns": "common", "key": "subtitle.expand", "en": "Expand description for {name}", "ru": "Развернуть описание {name}", "zh": "展开{name}的描述"}
+{"ns": "common", "key": "subtitle.collapse", "en": "Collapse description for {name}", "ru": "Свернуть описание {name}", "zh": "收起{name}的描述"}
+{"ns": "common", "key": "back", "en": "Back", "ru": "Назад", "zh": "返回"}
+{"ns": "common", "key": "brand.localBuild", "en": "DSH Local Build", "ru": "Локальная сборка DSH", "zh": "DSH 本地构建"}
+{"ns": "common", "key": "workspace.defaultName", "en": "Default workspace", "ru": "Рабочая область по умолчанию", "zh": "默认工作区"}
+{"ns": "common", "key": "unknown", "en": "Unknown", "ru": "Неизвестно", "zh": "未知"}
+{"ns": "common", "key": "none", "en": "None", "ru": "Нет", "zh": "无"}
+{"ns": "common", "key": "truncated", "en": "Truncated", "ru": "Усечено", "zh": "已截断"}
+{"ns": "common", "key": "json.label", "en": "JSON", "ru": "JSON", "zh": "JSON"}
+{"ns": "common", "key": "markdown.footnotes", "en": "Footnotes", "ru": "Сноски", "zh": "脚注"}
+{"ns": "common", "key": "markdown.truncatedCharacters", "en": "… truncated at {total} characters", "ru": "… обрезано до {total} символов", "zh": "… 已截断，共 {total} 字符"}
+{"ns": "common", "key": "number.thousand", "en": "{value}K", "ru": "{value}K", "zh": "{value}K"}
+{"ns": "common", "key": "number.million", "en": "{value}M", "ru": "{value}M", "zh": "{value}M"}
+{"ns": "job", "key": "count.idle.one", "en": "{count} background job", "ru": "Фоновые задачи: {count}", "zh": "{count} 个后台任务", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "count.idle.other", "en": "{count} background jobs", "ru": "Фоновые задачи: {count}", "zh": "{count} 个后台任务", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "list.aria", "en": "Background jobs", "ru": "Фоновые задания", "zh": "后台任务", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "section.live", "en": "Running", "ru": "Бег", "zh": "进行中", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "section.settledCount", "en": "Finished {count}", "ru": "Закончено {count}", "zh": "已结束 {count}", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "section.clear", "en": "Clear", "ru": "Очистить", "zh": "清空", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "row.expandAria", "en": "Show live output of {label}", "ru": "Показать живой вывод {label}", "zh": "展开 {label} 的实时输出", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "row.collapseAria", "en": "Hide live output of {label}", "ru": "Скрыть прямой вывод {label}", "zh": "收起 {label} 的实时输出", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "kill.stop", "en": "Stop task {label}", "ru": "Остановить задачу {label}", "zh": "停止任务 {label}", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "kill.confirm", "en": "Click again to confirm", "ru": "Нажмите еще раз, чтобы подтвердить", "zh": "再次点击确认停止", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "kill.confirmAction", "en": "Confirm stop", "ru": "Подтвердить остановку", "zh": "确认停止", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "kill.failed", "en": "Stop failed", "ru": "Остановить не удалось", "zh": "停止失败", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "status.running", "en": "running", "ru": "бег", "zh": "运行中", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "status.stopping", "en": "stopping", "ru": "остановка", "zh": "正在停止", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "status.completed", "en": "completed", "ru": "завершено", "zh": "已完成", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "status.killed", "en": "cancelled", "ru": "отменен", "zh": "已取消", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "status.failed", "en": "failed", "ru": "не удалось", "zh": "已失败", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "duration.seconds", "en": "{seconds}s", "ru": "{seconds}s", "zh": "{seconds}秒", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "duration.minutes", "en": "{minutes}m {seconds}s", "ru": "{minutes}m {seconds}s", "zh": "{minutes}分{seconds}秒", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "duration.hours", "en": "{hours}h {minutes}m", "ru": "{hours}h {minutes}m", "zh": "{hours}小时{minutes}分", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "duration.title.live", "en": "Running for {duration}", "ru": "Бегу за {duration}", "zh": "已运行 {duration}", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "duration.title.done", "en": "Took {duration}", "ru": "Взял {duration}", "zh": "耗时 {duration}", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "output.gap", "en": "… earlier output dropped …", "ru": "… ранее объемы производства упали …", "zh": "……较早的输出已丢弃……", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "output.error", "en": "live output stream interrupted: {error}", "ru": "поток вывода в реальном времени прерван: {error}", "zh": "实时输出流中断：{error}", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "terminal.signal", "en": "signal {signal}", "ru": "сигнал {signal}", "zh": "信号 {signal}", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "terminal.exitCode", "en": "exit {code}", "ru": "выход {code}", "zh": "退出码 {code}", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "terminal.noExitCode", "en": "no exit code", "ru": "нет кода выхода", "zh": "未正常退出", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "terminal.commandLine", "en": "Command line {n}", "ru": "Командная строка {n}", "zh": "命令第 {n} 行", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "terminal.running", "en": "running", "ru": "бег", "zh": "运行中", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "terminal.failed", "en": "failed", "ru": "не удалось", "zh": "已失败", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "terminal.done", "en": "done", "ru": "сделано", "zh": "已完成", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "terminal.copy", "en": "Copy", "ru": "Копировать", "zh": "复制", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "terminal.copied", "en": "Copied", "ru": "Скопировано", "zh": "已复制", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "terminal.noOutput", "en": "(no output)", "ru": "(нет вывода)", "zh": "（无输出）", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "terminal.collapse", "en": "Collapse", "ru": "Свернуть", "zh": "收起", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "terminal.collapseAria", "en": "Collapse output", "ru": "Свернуть вывод", "zh": "收起输出", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "terminal.expand", "en": "Show {n} more lines", "ru": "Показать {n} больше строк", "zh": "展开其余 {n} 行", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "job", "key": "terminal.expandAria", "en": "Expand {n} collapsed output lines", "ru": "Развернуть свернутые выходные строки {n}", "zh": "展开被折叠的 {n} 行输出", "file": "packages/client/ui-jobs/src/client/locales.ts"}
+{"ns": "workflowRun", "key": "run.title", "en": "{name}", "ru": "{name}", "zh": "{name}", "file": "packages/client/ui-workflow-run/src/client/locales.ts"}
+{"ns": "workflowRun", "key": "run.members.one", "en": "{count} member", "ru": "Участник {count}", "zh": "{count} 个成员", "file": "packages/client/ui-workflow-run/src/client/locales.ts"}
+{"ns": "workflowRun", "key": "run.members.other", "en": "{count} members", "ru": "Участники {count}", "zh": "{count} 个成员", "file": "packages/client/ui-workflow-run/src/client/locales.ts"}
+{"ns": "workflowRun", "key": "run.empty", "en": "No members started", "ru": "Ни один из участников не стартовал", "zh": "没有启动成员", "file": "packages/client/ui-workflow-run/src/client/locales.ts"}
+{"ns": "workflowRun", "key": "phase.unassigned", "en": "Unphased", "ru": "Нефазированный", "zh": "未分阶段", "file": "packages/client/ui-workflow-run/src/client/locales.ts"}
+{"ns": "workflowRun", "key": "phase.empty", "en": "Empty phase name", "ru": "Пустое имя фазы", "zh": "空阶段名", "file": "packages/client/ui-workflow-run/src/client/locales.ts"}
+{"ns": "workflowRun", "key": "statusCount.running", "en": "Running {count}", "ru": "Запуск {count}", "zh": "运行中 {count}", "file": "packages/client/ui-workflow-run/src/client/locales.ts"}
+{"ns": "workflowRun", "key": "statusCount.completed", "en": "Completed {count}", "ru": "Завершено {count}", "zh": "已完成 {count}", "file": "packages/client/ui-workflow-run/src/client/locales.ts"}
+{"ns": "workflowRun", "key": "statusCount.failed", "en": "Failed {count}", "ru": "Ошибка {count}", "zh": "失败 {count}", "file": "packages/client/ui-workflow-run/src/client/locales.ts"}
+{"ns": "workflowRun", "key": "statusCount.cancelled", "en": "Cancelled {count}", "ru": "Отменено {count}", "zh": "已取消 {count}", "file": "packages/client/ui-workflow-run/src/client/locales.ts"}
+{"ns": "workflowRun", "key": "statusCount.interrupted", "en": "Interrupted {count}", "ru": "Прервано {count}", "zh": "已中断 {count}", "file": "packages/client/ui-workflow-run/src/client/locales.ts"}
+{"ns": "workflowRun", "key": "member.empty", "en": "Empty member name", "ru": "Пустое имя участника", "zh": "空成员名", "file": "packages/client/ui-workflow-run/src/client/locales.ts"}
+{"ns": "workflowRun", "key": "member.open", "en": "Open {name}", "ru": "Открыть {name}", "zh": "打开 {name}", "file": "packages/client/ui-workflow-run/src/client/locales.ts"}
+{"ns": "workflowRun", "key": "status.running", "en": "Running", "ru": "Бег", "zh": "运行中", "file": "packages/client/ui-workflow-run/src/client/locales.ts"}
+{"ns": "workflowRun", "key": "status.completed", "en": "Completed", "ru": "Завершено", "zh": "已完成", "file": "packages/client/ui-workflow-run/src/client/locales.ts"}
+{"ns": "workflowRun", "key": "status.failed", "en": "Failed", "ru": "Не удалось", "zh": "失败", "file": "packages/client/ui-workflow-run/src/client/locales.ts"}
+{"ns": "workflowRun", "key": "status.cancelled", "en": "Cancelled", "ru": "Отменено", "zh": "已取消", "file": "packages/client/ui-workflow-run/src/client/locales.ts"}
+{"ns": "workflowRun", "key": "status.interrupted", "en": "Interrupted", "ru": "Прерванный", "zh": "已中断", "file": "packages/client/ui-workflow-run/src/client/locales.ts"}

@@ -1,0 +1,187 @@
+{"ns": "desktop-shell", "key": "cliCommandMenu", "ru": "Управление командой dsh…"}
+{"ns": "desktop-shell", "key": "cliCommandTitle", "ru": "Управление командой dsh"}
+{"ns": "desktop-shell", "key": "cliCommandLocation", "ru": "Команда «Desktop»: {path}"}
+{"ns": "desktop-shell", "key": "cliCommandSelected", "ru": "Текущая команда dsh: {path}"}
+{"ns": "desktop-shell", "key": "cliCommandTarget", "ru": "Текущая цель лаунчера: {path}"}
+{"ns": "desktop-shell", "key": "cliCommandShadowed", "ru": "Другой dsh имеет приоритет. Удалите ту установку или измените её порядок, чтобы по умолчанию работала команда «Desktop». Команду «Desktop» можно также запустить по полному пути."}
+{"ns": "desktop-shell", "key": "cliCommandSelectionUnknown", "ru": "Не удалось проверить команду оболочки. Приоритет может иметь псевдоним или другая установка dsh."}
+{"ns": "desktop-shell", "key": "cliCommandInstalled", "ru": "Команда «Desktop» установлена."}
+{"ns": "desktop-shell", "key": "cliCommandNotInstalled", "ru": "Добавьте команду «Desktop» в терминал."}
+{"ns": "desktop-shell", "key": "cliCommandBroken", "ru": "Команду «Desktop» нужно восстановить."}
+{"ns": "desktop-shell", "key": "cliCommandInstall", "ru": "Установить"}
+{"ns": "desktop-shell", "key": "cliCommandRepair", "ru": "Исправить"}
+{"ns": "desktop-shell", "key": "cliCommandRemove", "ru": "Удалить"}
+{"ns": "desktop-shell", "key": "cliCommandClose", "ru": "Закрыть"}
+{"ns": "desktop-shell", "key": "cliCommandSwitch", "ru": "Продолжить работу с командой «Desktop»?"}
+{"ns": "desktop-shell", "key": "cliCommandPreserve", "ru": "Существующая команда будет сохранена. Другие установки и файлы запуска оболочки не изменятся."}
+{"ns": "desktop-shell", "key": "cliCommandContinue", "ru": "Продолжить"}
+{"ns": "desktop-shell", "key": "cliCommandInstallApp", "ru": "Установите Desktop в папку «Приложения», прежде чем управлять командой dsh."}
+{"ns": "desktop-shell", "key": "cliCommandUpdating", "ru": "Идёт установка обновления. Управлять командой можно после завершения установки."}
+{"ns": "desktop-shell", "key": "cliCommandNewTerminal", "ru": "Откройте новый терминал и запустите dsh --version."}
+{"ns": "desktop-shell", "key": "cliCommandRemoved", "ru": "Регистрация команды «Desktop» удалена."}
+{"ns": "desktop-shell", "key": "cliCommandPreviousRestored", "ru": "Предыдущий лаунчер восстановлен."}
+{"ns": "desktop-shell", "key": "cliCommandOtherKept", "ru": "Другие установки команды оставлены на месте."}
+{"ns": "desktop-shell", "key": "cliCommandBackupKept", "ru": "Предыдущий лаунчер сохранён: {path}"}
+{"ns": "desktop-shell", "key": "cliCommandChanged", "ru": "Команда или PATH изменились, пока окно было открыто. Откройте «Управление командой dsh» ещё раз, чтобы увидеть текущее состояние."}
+{"ns": "desktop-shell", "key": "cliCommandOwnershipError", "ru": "Регистрация команды или резервная копия изменились. Посторонние команды не удалялись."}
+{"ns": "desktop-shell", "key": "cliCommandFailed", "ru": "Не удалось обновить команду. Убедитесь, что приложение установлено и папка назначения доступна для записи, затем повторите попытку."}
+{"ns": "desktop-shell", "key": "application", "ru": "Приложение"}
+{"ns": "desktop-shell", "key": "fileMenu", "ru": "Файл"}
+{"ns": "desktop-shell", "key": "closePage", "ru": "Закрыть страницу или окно"}
+{"ns": "desktop-shell", "key": "aboutMenu", "ru": "О программе DeepSeek Harness"}
+{"ns": "desktop-shell", "key": "aboutProduct", "ru": "DeepSeek Harness"}
+{"ns": "desktop-shell", "key": "aboutVersion", "ru": "Версия {version}"}
+{"ns": "desktop-shell", "key": "hideApplication", "ru": "Скрыть DeepSeek Harness"}
+{"ns": "desktop-shell", "key": "hideOtherApplications", "ru": "Скрыть остальные"}
+{"ns": "desktop-shell", "key": "showAllApplications", "ru": "Показать все"}
+{"ns": "desktop-shell", "key": "substitutionsMenu", "ru": "Замены"}
+{"ns": "desktop-shell", "key": "speechMenu", "ru": "Речь"}
+{"ns": "desktop-shell", "key": "quitApplication", "ru": "Завершить DeepSeek Harness"}
+{"ns": "desktop-shell", "key": "openApplication", "ru": "Открыть DeepSeek Harness"}
+{"ns": "desktop-shell", "key": "quit", "ru": "Завершить"}
+{"ns": "desktop-shell", "key": "cancel", "ru": "Отмена"}
+{"ns": "desktop-shell", "key": "quitTitle", "ru": "Завершить DeepSeek Harness?"}
+{"ns": "desktop-shell", "key": "quitActiveTasks", "ru": "Выполняющиеся задачи будут прерваны."}
+{"ns": "desktop-shell", "key": "quitScheduledTasks", "ru": "Задачи по расписанию не будут выполняться, пока приложение закрыто."}
+{"ns": "desktop-shell", "key": "quitActiveAndScheduledTasks", "ru": "Выполняющиеся задачи будут прерваны, а задачи по расписанию не будут выполняться, пока приложение закрыто."}
+{"ns": "desktop-shell", "key": "backgroundNoticeBody", "ru": "Выполняющиеся задачи продолжатся. Окно можно снова открыть из системного трея."}
+{"ns": "desktop-shell", "key": "backgroundNoticeConfirm", "ru": "Подтвердить"}
+{"ns": "desktop-shell", "key": "edit", "ru": "Правка"}
+{"ns": "desktop-shell", "key": "menuBar", "ru": "Меню приложения"}
+{"ns": "desktop-shell", "key": "delete", "ru": "Удалить"}
+{"ns": "desktop-shell", "key": "undo", "ru": "Отменить"}
+{"ns": "desktop-shell", "key": "redo", "ru": "Повторить"}
+{"ns": "desktop-shell", "key": "cut", "ru": "Вырезать"}
+{"ns": "desktop-shell", "key": "copy", "ru": "Копировать"}
+{"ns": "desktop-shell", "key": "paste", "ru": "Вставить"}
+{"ns": "desktop-shell", "key": "selectAll", "ru": "Выбрать все"}
+{"ns": "desktop-shell", "key": "startupFailed", "ru": "DeepSeek Harness недоступен"}
+{"ns": "desktop-shell", "key": "fatalSummary", "ru": "Приложение не запустилось или неожиданно остановилось."}
+{"ns": "desktop-shell", "key": "startupAddressInUse", "ru": "Другой экземпляр DSH (например, dsh web или настольное приложение) уже запущен. Они не могут работать одновременно. Завершите другой экземпляр DSH и перезапустите."}
+{"ns": "desktop-shell", "key": "diagnosticTruncated", "ru": "… Подробности ошибки сокращены."}
+{"ns": "desktop-shell", "key": "reportWrittenTo", "ru": "Диагностический отчёт: {path}"}
+{"ns": "desktop-shell", "key": "getDiagnosticReport", "ru": "Получить диагностический отчёт"}
+{"ns": "desktop-shell", "key": "reportPending", "ru": "Диагностический отчёт ещё сохраняется. Выберите «Получить диагностический отчёт», чтобы проверить ещё раз."}
+{"ns": "desktop-shell", "key": "reportUnavailable", "ru": "Не удалось сохранить диагностический отчёт. При обращении в поддержку можно приложить снимок этого окна."}
+{"ns": "desktop-shell", "key": "reportShareHint", "ru": "Открыта папка с отчётом. Прикрепите выбранный файл к обращению в поддержку."}
+{"ns": "desktop-shell", "key": "reportRevealFailed", "ru": "Не удалось открыть папку с отчётом. Найдите файл по указанному ниже пути."}
+{"ns": "desktop-shell", "key": "startupReinstallAdvice", "ru": "Если файлы приложения отсутствуют или повреждены, закройте приложение и переустановите его. Задачи хранятся отдельно."}
+{"ns": "desktop-shell", "key": "exitApplication", "ru": "Выход"}
+{"ns": "desktop-shell", "key": "restartApplication", "ru": "Перезапустить"}
+{"ns": "desktop-shell", "key": "recoveryOperationFailed", "ru": "Не удалось восстановить"}
+{"ns": "desktop-shell", "key": "disableThirdPartyPlugins", "ru": "Отключите сторонние плагины, создайте резервную копию патча профиля и перезапустите"}
+{"ns": "desktop-shell", "key": "welcomeTitle", "ru": "DeepSeek Harness"}
+{"ns": "desktop-shell", "key": "welcomeBrand", "ru": "DeepSeek Harness"}
+{"ns": "desktop-shell", "key": "welcomeTaglineBefore", "ru": "Добро пожаловать в "}
+{"ns": "desktop-shell", "key": "welcomeTaglineBrand", "ru": "DeepSeek Harness"}
+{"ns": "desktop-shell", "key": "welcomeTaglineAfter", "ru": ""}
+{"ns": "desktop-shell", "key": "welcomeDescription", "ru": "Раскройте потенциал. Исследуйте интеллект."}
+{"ns": "desktop-shell", "key": "welcomeAuthStarting", "ru": "Открытие входа…"}
+{"ns": "desktop-shell", "key": "welcomeAuthWaiting", "ru": "Браузер не открылся автоматически?"}
+{"ns": "desktop-shell", "key": "welcomeAuthWaitingDescription", "ru": "Скопируйте ссылку для входа и откройте её в браузере, чтобы войти."}
+{"ns": "desktop-shell", "key": "welcomeAuthExchanging", "ru": "Завершение входа…"}
+{"ns": "desktop-shell", "key": "welcomeAuthExpired", "ru": "Время входа истекло"}
+{"ns": "desktop-shell", "key": "welcomeAuthExpiredDescription", "ru": "Войдите ещё раз, чтобы продолжить"}
+{"ns": "desktop-shell", "key": "welcomeAuthFailed", "ru": "Не удалось завершить вход. Повторите попытку."}
+{"ns": "desktop-shell", "key": "welcomeAuthCopyLink", "ru": "Скопировать ссылку для входа"}
+{"ns": "desktop-shell", "key": "welcomeAuthCopied", "ru": "Скопировано"}
+{"ns": "desktop-shell", "key": "welcomeAuthCopyFailed", "ru": "Не удалось скопировать. Повторите попытку."}
+{"ns": "desktop-shell", "key": "welcomeAuthCancel", "ru": "Отмена"}
+{"ns": "desktop-shell", "key": "welcomeAuthRetry", "ru": "Войти снова"}
+{"ns": "desktop-shell", "key": "welcomeSignIn", "ru": "Войти"}
+{"ns": "desktop-shell", "key": "welcomeApiKey", "ru": "Добавить ключ API"}
+{"ns": "desktop-shell", "key": "welcomeKeyTitle", "ru": "Добавьте ключ API, чтобы начать работу"}
+{"ns": "desktop-shell", "key": "welcomeKeyDescription", "ru": "Настройте официальные модели DeepSeek, чтобы начать использовать Harness"}
+{"ns": "desktop-shell", "key": "welcomeKeyPlaceholder", "ru": "Введите ключ API"}
+{"ns": "desktop-shell", "key": "welcomeKeySave", "ru": "Сохранить и продолжить"}
+{"ns": "desktop-shell", "key": "welcomeKeyLater", "ru": "Настроить позже"}
+{"ns": "desktop-shell", "key": "welcomeKeyBack", "ru": "Вернуться ко входу"}
+{"ns": "desktop-shell", "key": "welcomeSessionExpired", "ru": "Вы вышли из аккаунта. Войдите снова."}
+{"ns": "desktop-shell", "key": "welcomeKeyBlank", "ru": "Введите ключ API."}
+{"ns": "desktop-shell", "key": "welcomeKeyInvalid", "ru": "Введите сам ключ API без кавычек, пробелов и присвоения переменной среды."}
+{"ns": "desktop-shell", "key": "welcomeKeyFailed", "ru": "Не удалось сохранить ключ API. Повторите попытку."}
+{"ns": "desktop-shell", "key": "welcomeContinueFailed", "ru": "Не удалось открыть рабочую область. Повторите попытку."}
+{"ns": "desktop-shell", "key": "checkUpdatesMenu", "ru": "Проверить обновления…"}
+{"ns": "desktop-shell", "key": "reloadPageMenu", "ru": "Обновить страницу"}
+{"ns": "desktop-shell", "key": "toggleDevToolsMenu", "ru": "Инструменты разработчика"}
+{"ns": "desktop-shell", "key": "restartAppHostMenu", "ru": "Перезапустить приложение и хост"}
+{"ns": "desktop-shell", "key": "updateConfigurationFailed", "ru": "Не удалось применить настройки обновления. Исправьте файл конфигурации и перезапустите приложение или выберите канал в настройках."}
+{"ns": "desktop-shell", "key": "updateConfigurationRead", "ru": "Ошибка файла настроек; обновления приостановлены"}
+{"ns": "desktop-shell", "key": "updateConfigurationFormat", "ru": "Ошибка файла настроек; обновления приостановлены"}
+{"ns": "desktop-shell", "key": "updateConfigurationChannel", "ru": "Ошибка файла настроек; обновления приостановлены"}
+{"ns": "desktop-shell", "key": "updateConfigurationCleanup", "ru": "Обновления приостановлены: не удалось удалить предыдущее обновление; перезапустите приложение"}
+{"ns": "desktop-shell", "key": "updateReloadSettings", "ru": "Перечитать настройки"}
+{"ns": "desktop-shell", "key": "updateConfigurationDetails", "ru": "Проверить настройки"}
+{"ns": "desktop-shell", "key": "updateShowSettingsFile", "ru": "Показать файл настроек"}
+{"ns": "desktop-shell", "key": "updateCheckFailedTitle", "ru": "Не удалось проверить обновления"}
+{"ns": "desktop-shell", "key": "updateCheckFailed", "ru": "Не удалось проверить обновления. Повторите попытку позже."}
+{"ns": "desktop-shell", "key": "updateDownloadFailed", "ru": "Не удалось скачать обновление. Повторите попытку."}
+{"ns": "desktop-shell", "key": "updateDownloadSpaceFailed", "ru": "Недостаточно места на диске для скачивания обновления. Освободите место и повторите попытку."}
+{"ns": "desktop-shell", "key": "updateDownloadPermissionFailed", "ru": "Не удалось записать файлы обновления. Проверьте права доступа к папке и повторите попытку."}
+{"ns": "desktop-shell", "key": "updateDownloadBusyFailed", "ru": "Файл обновления занят. Закройте использующую его программу и повторите попытку."}
+{"ns": "desktop-shell", "key": "updateInstallFailed", "ru": "Не удалось установить обновление. Повторите попытку позже."}
+{"ns": "desktop-shell", "key": "updateCheckNetworkFailed", "ru": "Не удалось проверить обновления. Проверьте подключение и повторите попытку."}
+{"ns": "desktop-shell", "key": "updateDownloadNetworkFailed", "ru": "Не удалось скачать обновление. Проверьте подключение и повторите попытку."}
+{"ns": "desktop-shell", "key": "updateInstallNetworkFailed", "ru": "Не удалось установить обновление. Проверьте подключение и повторите попытку."}
+{"ns": "desktop-shell", "key": "unknownError", "ru": "Неизвестная ошибка"}
+{"ns": "desktop-shell", "key": "updateCheckTitle", "ru": "Проверка обновлений"}
+{"ns": "desktop-shell", "key": "updateCurrentDetail", "ru": "Текущая версия: {version}"}
+{"ns": "desktop-shell", "key": "updateCurrent", "ru": "У вас последняя версия."}
+{"ns": "desktop-shell", "key": "updateChecking", "ru": "Проверка обновлений…"}
+{"ns": "desktop-shell", "key": "updateDownload", "ru": "Скачать обновление"}
+{"ns": "desktop-shell", "key": "updateDownloadedTitle", "ru": "Версия {version} готова к установке"}
+{"ns": "desktop-shell", "key": "updateDownloadedDetail", "ru": "Приложение закроется во время обновления и автоматически откроется после его завершения."}
+{"ns": "desktop-shell", "key": "updateDownloadedDetailWindows", "ru": "Приложение временно закроется во время обновления и автоматически откроется после его завершения.\n\nОбновление может занять некоторое время. Дождитесь его завершения и не запускайте приложение снова во время установки."}
+{"ns": "desktop-shell", "key": "updateClose", "ru": "Закрыть"}
+{"ns": "desktop-shell", "key": "updateAcknowledge", "ru": "OK"}
+{"ns": "desktop-shell", "key": "updateLater", "ru": "Обновить позже"}
+{"ns": "desktop-shell", "key": "updateDownloading", "ru": "Скачивание {percent}%…"}
+{"ns": "desktop-shell", "key": "updateVerifying", "ru": "Проверка файлов обновления…"}
+{"ns": "desktop-shell", "key": "updateInstalling", "ru": "Подготовка к перезапуску…"}
+{"ns": "desktop-shell", "key": "updateRetry", "ru": "Повторить обновление"}
+{"ns": "desktop-shell", "key": "updateActiveTasks", "ru": "Задачи ещё выполняются"}
+{"ns": "desktop-shell", "key": "updateActiveTasksDetail", "ru": "Обновление остановит выполняемые задачи и перезапустит приложение. Продолжить?"}
+{"ns": "desktop-shell", "key": "updateStopTasks", "ru": "Остановить задачи и обновить"}
+{"ns": "desktop-shell", "key": "updateTasksChanged", "ru": "Появились новые задачи. Подтвердите ещё раз, чтобы остановить их и обновить приложение."}
+{"ns": "desktop-shell", "key": "updateTasksUnavailable", "ru": "Статус задач недоступен. Повторите обновление, когда рабочая область будет готова."}
+{"ns": "desktop-shell", "key": "updateFullscreenTimeout", "ru": "Не удалось выйти из полноэкранного режима. Выйдите из него и повторите попытку обновления."}
+{"ns": "desktop-shell", "key": "updateStopFailed", "ru": "Не удалось безопасно остановить задачи. Обновление не установлено. Повторите попытку позже."}
+{"ns": "desktop-shell", "key": "updateTechnicalDetails", "ru": "Посмотреть технические подробности"}
+{"ns": "desktop-shell", "key": "updateTitle", "ru": "Обновление DeepSeek Harness"}
+{"ns": "desktop-shell", "key": "updateAvailable", "ru": "Доступна новая версия: {version}"}
+{"ns": "desktop-shell", "key": "updateDetail", "ru": "После скачивания можно установить обновление и перезапустить приложение."}
+{"ns": "desktop-shell", "key": "installAndRestart", "ru": "Установить и перезапустить"}
+{"ns": "desktop-shell", "key": "later", "ru": "Позже"}
+{"ns": "desktop-shell", "key": "updateFailedTitle", "ru": "Не удалось обновить"}
+{"ns": "desktop-shell", "key": "mandatoryTitle", "ru": "Обновите, чтобы продолжить"}
+{"ns": "desktop-shell", "key": "mandatoryDetail", "ru": "Эта версия больше не поддерживается. Обновите, чтобы продолжить. Выполняемые задачи будут выполняться, пока вы не подтвердите установку и не перезапустите приложение."}
+{"ns": "desktop-shell", "key": "mandatoryUnavailable", "ru": "Не удалось проверить требования к обновлению. Повторите попытку позже."}
+{"ns": "desktop-shell", "key": "policyLoginTitle", "ru": "Войдите в тестовую среду"}
+{"ns": "desktop-shell", "key": "policyLoginRequired", "ru": "Войдите через Feishu, чтобы проверить требования к обновлению для этой тестовой сборки. Вход не скачивает и не устанавливает обновление."}
+{"ns": "desktop-shell", "key": "policyLogin", "ru": "Войти через Feishu"}
+{"ns": "desktop-shell", "key": "policyLoginFailed", "ru": "Вход через Feishu не завершён. Повторите попытку."}
+{"ns": "desktop-shell", "key": "policyLoginLoading", "ru": "Загрузка страницы входа…"}
+{"ns": "desktop-shell", "key": "mandatoryNoRelease", "ru": "Совместимое обновление не найдено. Проверьте ещё раз или обратитесь в поддержку."}
+{"ns": "desktop-shell", "key": "mandatoryRefresh", "ru": "Проверить ещё раз"}
+{"ns": "desktop-shell", "key": "mandatoryPage", "ru": "Скачать с официального сайта"}
+{"ns": "desktop-shell", "key": "mandatoryCopy", "ru": "Скопировать ссылку для скачивания"}
+{"ns": "desktop-shell", "key": "mandatoryPageFailed", "ru": "Не удалось открыть официальную страницу загрузки. Скопируйте ссылку и откройте её в браузере."}
+{"ns": "desktop-shell", "key": "mandatoryViewDownload", "ru": "Открыть страницу загрузки"}
+{"ns": "desktop-shell", "key": "mandatoryViewPageFailed", "ru": "Не удалось открыть страницу загрузки. Повторите попытку."}
+{"ns": "desktop-shell", "key": "mandatoryActionFailed", "ru": "Не удалось выполнить действие. Повторите попытку. Приложение снова станет доступно после завершения обновления."}
+{"ns": "desktop-shell", "key": "mandatoryReady", "ru": "Обновление готово"}
+{"ns": "desktop-shell", "key": "mandatoryVersion", "ru": "Новая версия: {version}"}
+{"ns": "desktop-shell", "key": "mandatoryReadyDetail", "ru": "Приложение закроется во время обновления и автоматически откроется после его завершения."}
+{"ns": "desktop-shell", "key": "mandatoryDeferred", "ru": "Выполняемые задачи продолжат работу. Завершите обновление, прежде чем снова пользоваться приложением."}
+{"ns": "desktop-shell", "key": "mandatoryContinue", "ru": "Продолжить обновление"}
+{"ns": "desktop-shell", "key": "mandatoryInspecting", "ru": "Проверка задач…"}
+{"ns": "desktop-shell", "key": "mandatoryStopping", "ru": "Остановка задач…"}
+{"ns": "desktop-shell", "key": "mandatoryRestarting", "ru": "Приложение вскоре перезапустится. Подождите."}
+{"ns": "desktop-shell", "key": "mandatoryDownloadFailed", "ru": "Не удалось скачать или подготовить файлы обновления. Повторите попытку."}
+{"ns": "desktop-shell", "key": "mandatoryInstallFailed", "ru": "Обновление не установлено. Проверьте задачи ещё раз и повторите попытку."}
+{"ns": "desktop-shell", "key": "mandatoryOpenHelp", "ru": "Страница не открылась?"}
+{"ns": "desktop-shell", "key": "mandatoryReopen", "ru": "Открыть официальную страницу загрузки ещё раз"}
+{"ns": "desktop-shell", "key": "mandatoryCopied", "ru": "Ссылка скопирована"}
+{"ns": "desktop-shell", "key": "mandatoryCopyFailed", "ru": "Не удалось скопировать ссылку. Выделите и скопируйте её ниже."}
+{"ns": "desktop-shell", "key": "mandatoryAddress", "ru": "Ссылка для скачивания"}
+{"ns": "desktop-shell", "key": "mandatoryNotification", "ru": "Вернитесь в приложение, чтобы подтвердить установку и перезапустить."}

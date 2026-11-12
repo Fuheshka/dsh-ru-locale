@@ -1,0 +1,111 @@
+#!/usr/bin/env python3
+"""Assemble the translated corpus into the client half of the language pack.
+
+Reads corpus.jsonl (authoritative ns/key order) and out/group-*.jsonl (final
+Russian text), then writes pkg/client.js with the dictionary embedded.
+"""
+import json
+import os
+import sys
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+CORPUS = os.path.join(HERE, "corpus.jsonl")
+OUT = os.path.join(HERE, "out")
+CLIENT = os.path.normpath(os.path.join(HERE, "..", "pkg", "client.js"))
+LOCALE_ID = "ru-x-dsh"
+LABEL = "Русский (улучшенный)"
+
+
+def load(path):
+    with open(path, encoding="utf-8") as fh:
+        for line in fh:
+            line = line.strip()
+            if line:
+                yield json.loads(line)
+
+
+def main():
+    corpus = list(load(CORPUS))
+    translated = {}
+    for name in sorted(os.listdir(OUT)):
+        if not name.endswith(".jsonl"):
+            continue
+        for row in load(os.path.join(OUT, name)):
+            translated[(row["ns"], row["key"])] = row["ru"]
+
+    overrides_path = os.path.join(HERE, "overrides.jsonl")
+    if os.path.exists(overrides_path):
+        for row in load(overrides_path):
+            translated[(row["ns"], row["key"])] = row["ru"]
+
+    missing = [r for r in corpus if (r["ns"], r["key"]) not in translated]
+    if missing:
+        print(f"missing {len(missing)} keys, e.g. {[(m['ns'], m['key']) for m in missing[:5]]}")
+        return 1
+
+    tree = {}
+    order = []
+    for row in corpus:
+        ns = row["ns"]
+        if ns not in tree:
+            tree[ns] = {}
+            order.append(ns)
+        tree[ns][row["key"]] = translated[(row["ns"], row["key"])]
+
+    payload = {ns: tree[ns] for ns in order}
+    body = json.dumps(payload, ensure_ascii=False, indent=0, separators=(",", ":"))
+    body = body.replace("\n", "")
+
+    js = f"""/**
+ * Reviewed Russian UI language pack: registers the `{LOCALE_ID}` language with
+ * `ru` as its fallback, so every string this pack does not override still comes
+ * from the shipped Russian dictionary, and anything missing there falls to English.
+ *
+ * Generated from the translation corpus; edit the corpus, not this file.
+ */
+window.__ModuleLoader__.load({{
+  id: '@local/dsh-locale-ru',
+  factory() {{
+    const LOCALE_ID = '{LOCALE_ID}';
+    const DICT = {body};
+    return {{
+      inject: ['locale'],
+      apply(ctx) {{
+        ctx.effect(
+          () => ctx.locale.addLanguage({{ id: LOCALE_ID, label: '{LABEL}', fallback: 'ru' }}),
+          'ru-locale: language definition',
+        );
+        for (const [ns, dict] of Object.entries(DICT)) {{
+          ctx.effect(
+            () => ctx.locale.register(ns, LOCALE_ID, dict),
+            `ru-locale: ${{ns}} dictionary`,
+          );
+        }}
+        // One-time adoption: a reader already on the shipped Russian dictionary
+        // gets the reviewed pack without hunting for a switch. The marker keeps
+        // a deliberate choice of the shipped Russian from being overridden again.
+        try {{
+          const marker = 'dsh-ru-locale-pack:adopted';
+          let adopted = false;
+          try {{ adopted = globalThis.localStorage?.getItem(marker) === '1'; }} catch {{}}
+          if (!adopted && ctx.locale.getSnapshot().active === 'ru') {{
+            ctx.locale.setLocale(LOCALE_ID);
+            try {{ globalThis.localStorage?.setItem(marker, '1'); }} catch {{}}
+          }}
+        }} catch (error) {{
+          console.warn('[ru-locale] could not adopt the review pack:', error);
+        }}
+      }},
+    }};
+  }},
+}});
+"""
+    with open(CLIENT, "w", encoding="utf-8") as fh:
+        fh.write(js)
+    size = os.path.getsize(CLIENT)
+    print(f"wrote {CLIENT}: {len(order)} namespaces, {len(corpus)} strings, {size // 1024} KiB")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

@@ -1,0 +1,176 @@
+{"ns": "sidebarOffice", "key": "title", "ru": "Документ Office"}
+{"ns": "sidebarOffice", "key": "loading", "ru": "Рендеринг документа…"}
+{"ns": "sidebarOffice", "key": "retry", "ru": "Повторить"}
+{"ns": "sidebarOffice", "key": "viewMissingFonts", "ru": "Недостающие шрифты ({count}). Нажмите, чтобы посмотреть."}
+{"ns": "sidebarOffice", "key": "missingFontsTitle", "ru": "Недостающие шрифты"}
+{"ns": "sidebarOffice", "key": "missingFontsDescription", "ru": "Эти шрифты недоступны в этом предпросмотре. Текст и вёрстка могут отличаться от исходного документа."}
+{"ns": "sidebarOffice", "key": "missingFontsCount", "ru": "Шрифты: {count}"}
+{"ns": "sidebarOffice", "key": "closeDetails", "ru": "Закрыть сведения о шрифтах"}
+{"ns": "sidebarOffice", "key": "unavailable", "ru": "Предпросмотр Office недоступен. Включите службу предпросмотра документов на компьютере, где запущен DeepSeek Harness."}
+{"ns": "sidebarOffice", "key": "invalid", "ru": "Этот файл Office нельзя просмотреть. Возможно, он повреждён, защищён паролем или у него неверное расширение."}
+{"ns": "sidebarOffice", "key": "tooLarge", "ru": "Файл Office или преобразованный PDF превышает предельный размер для предпросмотра. Уменьшите файл или измените настройки предпросмотра."}
+{"ns": "sidebarOffice", "key": "failed", "ru": "Преобразование Office не дало пригодного PDF. Проверьте файл и повторите попытку."}
+{"ns": "sidebarOffice", "key": "timeout", "ru": "Время преобразования Office истекло. Повторите попытку."}
+{"ns": "sidebarOffice", "key": "busy", "ru": "Предпросмотр Office занят. Повторите попытку чуть позже."}
+{"ns": "sidebarOffice", "key": "changed", "ru": "Файл изменился во время чтения. Откройте предпросмотр заново."}
+{"ns": "sidebarPdf", "key": "zoomControls", "ru": "Управление масштабом"}
+{"ns": "sidebarPdf", "key": "zoomMenu", "ru": "Выберите масштаб"}
+{"ns": "sidebarPdf", "key": "zoomOut", "ru": "Уменьшить масштаб"}
+{"ns": "sidebarPdf", "key": "zoomIn", "ru": "Увеличить масштаб"}
+{"ns": "sidebarPdf", "key": "zoomFitWidth", "ru": "Вписать в ширину"}
+{"ns": "sidebarPdf", "key": "zoomValue", "ru": "{percent}%"}
+{"ns": "sidebarPdf", "key": "title", "ru": "PDF"}
+{"ns": "sidebarPdf", "key": "pageImage", "ru": "PDF, страница {page}"}
+{"ns": "sidebarPdf", "key": "loading", "ru": "Рендеринг документа…"}
+{"ns": "sidebarPdf", "key": "rendering", "ru": "Рендеринг страницы…"}
+{"ns": "sidebarPdf", "key": "failed", "ru": "Не удалось отобразить PDF: {message}"}
+{"ns": "sidebarPdf", "key": "password", "ru": "Для этого PDF нужен пароль. Предпросмотр файлов под паролем не поддерживается."}
+{"ns": "sidebarPdf", "key": "workerFailed", "ru": "Процесс рендеринга PDF прерван. Повторите попытку."}
+{"ns": "sidebarPdf", "key": "unsupported", "ru": "Для предпросмотра PDF нужен файл целиком."}
+{"ns": "sidebarPdf", "key": "retry", "ru": "Повторить"}
+{"ns": "settings.shell", "key": "title", "ru": "Оболочка"}
+{"ns": "settings.shell", "key": "description", "ru": "Ограничьте время работы команды и объём вывода."}
+{"ns": "settings.shell", "key": "timeoutMs", "ru": "Таймаут команды (мс)"}
+{"ns": "settings.shell", "key": "timeoutMsHint", "ru": "Сколько времени команда может работать, прежде чем её прервут."}
+{"ns": "settings.shell", "key": "maxOutputBytes", "ru": "Ограничение вывода на поток (байты)"}
+{"ns": "settings.shell", "key": "maxOutputBytesHint", "ru": "Всё сверх этого уходит во временный файл, а не теряется."}
+{"ns": "settings.shell", "key": "overridden", "ru": "Переопределено"}
+{"ns": "settings.shell", "key": "reset", "ru": "Сбросить по умолчанию"}
+{"ns": "settings.shell", "key": "readOnly", "ru": "В этой установке настройки доступны только для чтения."}
+{"ns": "settings.shell", "key": "unavailable", "ru": "Плагин не загружен, поэтому настроить его сейчас нельзя."}
+{"ns": "settings.shell", "key": "save", "ru": "Сохранить"}
+{"ns": "settings.shell", "key": "saving", "ru": "Сохранение…"}
+{"ns": "settings.shell", "key": "saveFailed", "ru": "Установка не приняла эти значения — их можно исправить."}
+{"ns": "settings.shell", "key": "invalidNumber", "ru": "Введите число или оставьте поле пустым — будет значение по умолчанию."}
+{"ns": "actionCards", "key": "expandBrief", "ru": "Показать больше"}
+{"ns": "actionCards", "key": "collapseBrief", "ru": "Показать меньше"}
+{"ns": "actionCards", "key": "dismiss", "ru": "Не сейчас"}
+{"ns": "actionCards", "key": "dismissed", "ru": "Отклонено"}
+{"ns": "actionCards", "key": "replaced", "ru": "Заменено"}
+{"ns": "actionCards", "key": "unavailable", "ru": "Это действие недоступно. Проверьте плагин в разделе «Плагины»."}
+{"ns": "actionCards", "key": "transport", "ru": "Не удалось подтвердить результат. Переподключитесь и проверьте карточку перед повтором."}
+{"ns": "actionCards", "key": "row.title", "ru": "Карточка действия"}
+{"ns": "actionCards", "key": "row.preparing", "ru": "Подготовка карточки"}
+{"ns": "actionCards", "key": "row.running", "ru": "Предлагается"}
+{"ns": "actionCards", "key": "row.ok", "ru": "Предложено"}
+{"ns": "actionCards", "key": "row.error", "ru": "Не показано"}
+{"ns": "actionCards", "key": "row.stopped", "ru": "Прервано"}
+{"ns": "actionCards", "key": "row.inspect", "ru": "Проверить вызов"}
+{"ns": "session-log-download", "key": "menu.copyMarkdown", "ru": "Скопировать сессию как Markdown"}
+{"ns": "session-log-download", "key": "menu.download", "ru": "Скачать журнал сессии"}
+{"ns": "session-log-download", "key": "menu.feedback", "ru": "Обратная связь"}
+{"ns": "session-log-download", "key": "toast.copied", "ru": "Сессия скопирована как Markdown."}
+{"ns": "session-log-download", "key": "toast.preparationFailed", "ru": "Не удалось прочитать сессию для копирования. Повторите попытку."}
+{"ns": "session-log-download", "key": "toast.clipboardFailed", "ru": "Не удалось записать в буфер обмена. Проверьте разрешение на доступ к буферу и повторите попытку."}
+{"ns": "session-log-download", "key": "dialog.session", "ru": "Сессия: {sessionId}"}
+{"ns": "session-log-download", "key": "dialog.preparingTitle", "ru": "Экспорт сессии"}
+{"ns": "session-log-download", "key": "dialog.preparingDescription", "ru": "Подготовка ZIP-архива с выбранной сессией, её подсессиями и вложениями."}
+{"ns": "session-log-download", "key": "dialog.successTitle", "ru": "Началось скачивание сессии"}
+{"ns": "session-log-download", "key": "dialog.successDescription", "ru": "Браузер скачивает ZIP-архив сессии."}
+{"ns": "session-log-download", "key": "dialog.errorTitle", "ru": "Не удалось экспортировать сессию"}
+{"ns": "session-log-download", "key": "dialog.close", "ru": "Закрыть"}
+{"ns": "session-log-download", "key": "dialog.commandFailed", "ru": "Не удалось запустить экспорт сессии."}
+{"ns": "goal", "key": "phase.active", "ru": "Активная цель"}
+{"ns": "goal", "key": "phase.active.disarmed", "ru": "Неактивная цель"}
+{"ns": "goal", "key": "phase.paused", "ru": "Приостановленная цель"}
+{"ns": "goal", "key": "phase.blocked", "ru": "Заблокированная цель"}
+{"ns": "goal", "key": "objective.aria", "ru": "Формулировка цели"}
+{"ns": "goal", "key": "commandInput.aria", "ru": "Ввод команды"}
+{"ns": "goal", "key": "action.save", "ru": "Сохранить цель"}
+{"ns": "goal", "key": "action.cancel", "ru": "Отменить редактирование"}
+{"ns": "goal", "key": "action.pause", "ru": "Приостановить цель"}
+{"ns": "goal", "key": "action.resume", "ru": "Возобновить цель"}
+{"ns": "goal", "key": "action.edit", "ru": "Редактировать цель"}
+{"ns": "goal", "key": "action.clear", "ru": "Очистить цель"}
+{"ns": "settings.permission", "key": "title", "ru": "Разрешения"}
+{"ns": "settings.permission", "key": "description", "ru": "Выберите режим разрешений по умолчанию для новых сессий"}
+{"ns": "settings.permission", "key": "loading", "ru": "Загрузка"}
+{"ns": "settings.permission", "key": "unavailable", "ru": "Недоступно"}
+{"ns": "settings.permission", "key": "preset.readOnly", "ru": "Только чтение"}
+{"ns": "settings.permission", "key": "preset.workspaceWrite", "ru": "Запись в рабочей области"}
+{"ns": "settings.permission", "key": "preset.fullAccess", "ru": "Полный доступ"}
+{"ns": "settings.permission", "key": "confirm.title", "ru": "Включить полный доступ?"}
+{"ns": "settings.permission", "key": "confirm.description", "ru": "Полный доступ позволяет новым сессиям сокращать число подтверждений и напрямую выполнять больше действий — в том числе чувствительные операции, изменение файлов и внешние команды. Включайте его, только если доверяете дальнейшим задачам."}
+{"ns": "settings.permission", "key": "confirm.acknowledge", "ru": "Понимаю риски и хочу продолжить"}
+{"ns": "settings.permission", "key": "confirm.cancel", "ru": "Отмена"}
+{"ns": "settings.permission", "key": "confirm.enable", "ru": "Включить полный доступ"}
+{"ns": "settings.agentLoop", "key": "title", "ru": "Цикл агента"}
+{"ns": "settings.agentLoop", "key": "description", "ru": "Управляйте тем, как агент запускает вызовы инструментов."}
+{"ns": "settings.agentLoop", "key": "maxParallel", "ru": "Параллельные вызовы инструментов"}
+{"ns": "settings.agentLoop", "key": "maxParallelHint", "ru": "Сколько безопасных вызовов может выполняться параллельно в одном шаге."}
+{"ns": "settings.agentLoop", "key": "overridden", "ru": "Переопределено"}
+{"ns": "settings.agentLoop", "key": "reset", "ru": "Сбросить по умолчанию"}
+{"ns": "settings.agentLoop", "key": "readOnly", "ru": "В этой установке настройки доступны только для чтения."}
+{"ns": "settings.agentLoop", "key": "unavailable", "ru": "Плагин не загружен, поэтому настроить его сейчас нельзя."}
+{"ns": "settings.agentLoop", "key": "save", "ru": "Сохранить"}
+{"ns": "settings.agentLoop", "key": "saving", "ru": "Сохранение…"}
+{"ns": "settings.agentLoop", "key": "saveFailed", "ru": "Установка не приняла эти значения — их можно исправить."}
+{"ns": "settings.agentLoop", "key": "invalidNumber", "ru": "Введите число или оставьте поле пустым — будет значение по умолчанию."}
+{"ns": "sidebarImage", "key": "zoomControls", "ru": "Управление масштабом"}
+{"ns": "sidebarImage", "key": "zoomMenu", "ru": "Выберите масштаб"}
+{"ns": "sidebarImage", "key": "zoomOut", "ru": "Уменьшить масштаб"}
+{"ns": "sidebarImage", "key": "zoomIn", "ru": "Увеличить масштаб"}
+{"ns": "sidebarImage", "key": "zoomFitWidth", "ru": "Вписать в ширину"}
+{"ns": "sidebarImage", "key": "zoomValue", "ru": "{percent}%"}
+{"ns": "sidebarImage", "key": "title", "ru": "Изображение"}
+{"ns": "sidebarImage", "key": "preview", "ru": "Предпросмотр изображения: {name}"}
+{"ns": "sidebarImage", "key": "loading", "ru": "Рендеринг документа…"}
+{"ns": "sidebarImage", "key": "failed", "ru": "Не удалось показать изображение."}
+{"ns": "sidebarImage", "key": "unsupported", "ru": "Для предпросмотра изображения нужен файл целиком."}
+{"ns": "sidebar", "key": "panels.unpinTooltip", "ru": "Открепить от левой боковой панели"}
+{"ns": "sidebar", "key": "panels.unpin", "ru": "Открепить {name} от боковой панели"}
+{"ns": "sidebar", "key": "session.new", "ru": "Новая сессия"}
+{"ns": "sidebar", "key": "session.new.label", "ru": "Новая сессия"}
+{"ns": "sidebar", "key": "toggle.open", "ru": "Открыть боковую панель"}
+{"ns": "sidebar", "key": "toggle.collapse", "ru": "Свернуть боковую панель"}
+{"ns": "sidebar", "key": "panels.label", "ru": "Глобальные панели"}
+{"ns": "sidebar", "key": "navigation.label", "ru": "Навигация"}
+{"ns": "sidebar", "key": "panels.more", "ru": "Ещё"}
+{"ns": "sidebar", "key": "version.copied", "ru": "Версия скопирована"}
+{"ns": "approval", "key": "waiting", "ru": "Ожидание подтверждения"}
+{"ns": "approval", "key": "detail.aria", "ru": "Детали подтверждения"}
+{"ns": "approval", "key": "escalation", "ru": "Инструмент {toolName} запрашивает выполнение с повышенными правами"}
+{"ns": "approval", "key": "reject", "ru": "Отклонить"}
+{"ns": "approval", "key": "allow", "ru": "Разрешить"}
+{"ns": "approval", "key": "allowOnce", "ru": "Разрешить один раз"}
+{"ns": "approval", "key": "allowAlways", "ru": "Всегда разрешать"}
+{"ns": "entryCustomization", "key": "pinTooltip", "ru": "Закрепить на левой боковой панели"}
+{"ns": "entryCustomization", "key": "pin", "ru": "Закрепить {name} на боковой панели"}
+{"ns": "entryCustomization", "key": "install", "ru": "Посмотреть другие плагины"}
+{"ns": "entryCustomization", "key": "create", "ru": "Создать свой плагин"}
+{"ns": "entryCustomization", "key": "createPrompt.sidebar", "ru": "Создайте плагин DSH с пунктом на левой боковой панели."}
+{"ns": "entryCustomization", "key": "createPrompt.conversation", "ru": "Создайте плагин DSH с представлением диалога."}
+{"ns": "entryCustomization", "key": "createPrompt.rightbar", "ru": "Создайте плагин DSH с пунктом на правой боковой панели."}
+{"ns": "settings.plugins", "key": "nav", "ru": "Встроенные плагины"}
+{"ns": "settings.plugins", "key": "title", "ru": "Встроенные плагины"}
+{"ns": "settings.plugins", "key": "intro", "ru": "Посмотрите плагины, которые входят в эту установку."}
+{"ns": "settings.plugins", "key": "tabs", "ru": "Представления плагинов"}
+{"ns": "settings.plugins", "key": "empty", "ru": "В этой установке нет представлений плагинов."}
+{"ns": "inspectorPanel", "key": "title", "ru": "Инспектор NodeJS"}
+{"ns": "inspectorPanel", "key": "toggle", "ru": "Переключить инспектор NodeJS"}
+{"ns": "inspectorPanel", "key": "close", "ru": "Свернуть"}
+{"ns": "inspectorPanel", "key": "resize", "ru": "Изменить размер панели инспектора NodeJS"}
+{"ns": "inspectorPanel", "key": "frameTitle", "ru": "Инспектор NodeJS"}
+{"ns": "settings.sessionLog", "key": "title", "ru": "Загружать журнал сессий при использовании официального API моделей"}
+{"ns": "settings.sessionLog", "key": "description", "ru": "Помогите улучшить модели и продукты DeepSeek."}
+{"ns": "settings.sessionLog", "key": "saved", "ru": "Настройка сохранена"}
+{"ns": "settings.sessionLog", "key": "failed", "ru": "Не удалось сохранить настройку"}
+{"ns": "documentHtml", "key": "title", "ru": "HTML"}
+{"ns": "documentHtml", "key": "frame", "ru": "Предпросмотр HTML-документа"}
+{"ns": "documentHtml", "key": "loading", "ru": "Рендеринг документа…"}
+{"ns": "documentHtml", "key": "failed", "ru": "Не удалось открыть предпросмотр HTML-документа."}
+{"ns": "documentMarkdown", "key": "viewer.label", "ru": "Markdown"}
+{"ns": "documentMarkdown", "key": "code.copy", "ru": "Копировать"}
+{"ns": "documentMarkdown", "key": "code.copied", "ru": "Скопировано"}
+{"ns": "documentMarkdown", "key": "footnotes", "ru": "Сноски"}
+{"ns": "claude-code-mods", "key": "band", "ru": "Моды Claude Code"}
+{"ns": "claude-code-mods", "key": "pressing", "ru": "Выполняется…"}
+{"ns": "claude-code-mods", "key": "press.failed", "ru": "Кнопка не сработала: {message}"}
+{"ns": "claude-code-mods", "key": "press.stale", "ru": "Эта кнопка осталась от прошлой отрисовки. Панель уже обновилась."}
+{"ns": "sidebarCodePreview", "key": "title", "ru": "Код"}
+{"ns": "sidebarCodePreview", "key": "copy", "ru": "Копировать"}
+{"ns": "sidebarCodePreview", "key": "copied", "ru": "Скопировано"}
+{"ns": "contextMenu", "key": "back", "ru": "Назад"}
+{"ns": "contextMenu", "key": "failed", "ru": "Не удалось выполнить действие. Повторите попытку."}
+{"ns": "secretMask", "key": "secret.reveal", "ru": "Показать значение"}
+{"ns": "secretMask", "key": "secret.hide", "ru": "Скрыть значение"}

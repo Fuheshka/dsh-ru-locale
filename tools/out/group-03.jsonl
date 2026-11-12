@@ -1,0 +1,265 @@
+{"ns": "forgePanel", "key": "review.startReview", "ru": "Начать ревью"}
+{"ns": "forgePanel", "key": "review.githubActions", "ru": "Действия с комментарием GitHub"}
+{"ns": "forgePanel", "key": "review.publishing", "ru": "Публикация…"}
+{"ns": "forgePanel", "key": "review.submitting", "ru": "Отправка…"}
+{"ns": "forgePanel", "key": "review.close", "ru": "Закрыть"}
+{"ns": "forgePanel", "key": "review.pending", "ru": "Ожидает отправки"}
+{"ns": "forgePanel", "key": "review.quoted", "ru": "Добавлено в поле ввода"}
+{"ns": "forgePanel", "key": "review.yourComment", "ru": "Ваш комментарий"}
+{"ns": "forgePanel", "key": "review.outdated", "ru": "Код обновлён"}
+{"ns": "forgePanel", "key": "review.done", "ru": "Готово"}
+{"ns": "forgePanel", "key": "review.addComment", "ru": "Добавить комментарий"}
+{"ns": "forgePanel", "key": "diff.resizeFileTree", "ru": "Изменить ширину дерева файлов"}
+{"ns": "forgePanel", "key": "diff.fileTree", "ru": "Дерево файлов"}
+{"ns": "forgePanel", "key": "diff.showFileTreeLeft", "ru": "Показать дерево файлов слева"}
+{"ns": "forgePanel", "key": "diff.moveFileTreeRight", "ru": "Переместить дерево файлов вправо"}
+{"ns": "forgePanel", "key": "guide.title", "ru": "Ревью кода и изменения"}
+{"ns": "forgePanel", "key": "guide.description", "ru": "Ревью изменений кода и запросов на изменение в этой сессии"}
+{"ns": "forgePanel", "key": "diff.hideFileTree", "ru": "Скрыть дерево файлов"}
+{"ns": "forgePanel", "key": "review.range", "ru": "Комментарий к {range}"}
+{"ns": "forgePanel", "key": "review.comment", "ru": "Оставьте комментарий…"}
+{"ns": "forgePanel", "key": "review.cancel", "ru": "Отмена"}
+{"ns": "forgePanel", "key": "review.addToInput", "ru": "Добавить в поле ввода"}
+{"ns": "forgePanel", "key": "review.publish", "ru": "Опубликовать отдельный комментарий"}
+{"ns": "forgePanel", "key": "review.queue", "ru": "Добавить в ревью"}
+{"ns": "forgePanel", "key": "review.selectLine", "ru": "Выбрать строку {line}"}
+{"ns": "forgePanel", "key": "review.inputFailed", "ru": "Поле ввода пока не принимает ссылки. Повторите попытку позже."}
+{"ns": "forgePanel", "key": "review.saveFailed", "ru": "Не удалось сохранить черновик ревью. Проверьте хранилище браузера и повторите попытку."}
+{"ns": "forgePanel", "key": "review.unknown", "ru": "Результат отправки неизвестен. Проверьте GitHub перед повторной публикацией."}
+{"ns": "forgePanel", "key": "review.submit", "ru": "Отправить ревью"}
+{"ns": "forgePanel", "key": "review.summary", "ru": "Итог ревью…"}
+{"ns": "forgePanel", "key": "review.approve", "ru": "Одобрить"}
+{"ns": "forgePanel", "key": "review.requestChanges", "ru": "Запросить изменения"}
+{"ns": "forgePanel", "key": "review.summaryRequired", "ru": "Чтобы запросить изменения, добавьте итог ревью."}
+{"ns": "forgePanel", "key": "review.commentOnly", "ru": "Прокомментировать"}
+{"ns": "forgePanel", "key": "review.drafts", "ru": "Неотправленные комментарии ({count})"}
+{"ns": "forgePanel", "key": "review.edit", "ru": "Изменить"}
+{"ns": "forgePanel", "key": "review.remove", "ru": "Удалить"}
+{"ns": "forgePanel", "key": "review.stale", "ru": "В PR появились новые коммиты. Обновите и снова выберите строки для комментария."}
+{"ns": "forgePanel", "key": "review.published", "ru": "Опубликовано на GitHub"}
+{"ns": "forgePanel", "key": "review.submitted", "ru": "Ревью отправлено"}
+{"ns": "forgePanel", "key": "review.failed", "ru": "Ошибка отправки: {message}"}
+{"ns": "forgePanel", "key": "review.unsupported", "ru": "Этот хостинг кода не поддерживает отправку ревью."}
+{"ns": "forgePanel", "key": "review.loadFailed", "ru": "Не удалось прочитать черновики ревью. Проверьте хранилище браузера."}
+{"ns": "forgePanel", "key": "review.recheck", "ru": "Открыть на GitHub"}
+{"ns": "forgePanel", "key": "review.confirmRetry", "ru": "Проверено; разрешить повторную отправку"}
+{"ns": "forgePanel", "key": "tab.title", "ru": "Запросы на изменение"}
+{"ns": "forgePanel", "key": "header.label", "ru": "Запросы на изменение этой сессии"}
+{"ns": "forgePanel", "key": "header.attention", "ru": "Запросы на изменение этой сессии требуют внимания"}
+{"ns": "forgePanel", "key": "checkout.worktree", "ru": "Рабочее дерево"}
+{"ns": "forgePanel", "key": "checkout.worktreeFrom", "ru": "Рабочее дерево · на основе {base}"}
+{"ns": "forgePanel", "key": "checkout.project", "ru": "Каталог проекта"}
+{"ns": "forgePanel", "key": "checkout.detached", "ru": "Вне ветки"}
+{"ns": "forgePanel", "key": "checkout.restore", "ru": "Восстановить"}
+{"ns": "forgePanel", "key": "checkout.copyWorktreePath", "ru": "Копировать путь к рабочему дереву"}
+{"ns": "forgePanel", "key": "checkout.copyProjectPath", "ru": "Копировать путь к каталогу проекта"}
+{"ns": "forgePanel", "key": "checkout.none", "ru": "Этот каталог — не репозиторий Git"}
+{"ns": "forgePanel", "key": "checkout.failed", "ru": "Не удалось прочитать сведения Git"}
+{"ns": "forgePanel", "key": "changes.title", "ru": "Запросы на изменение этой сессии · {count}"}
+{"ns": "forgePanel", "key": "changes.empty", "ru": "В этой сессии пока нет запросов на изменение"}
+{"ns": "forgePanel", "key": "changes.emptyHint", "ru": "Здесь отображаются запросы на изменение, связанные с этой сессией: созданные, просмотренные, изменённые или извлечённые, а также открытые в текущей или отправленной ветке"}
+{"ns": "forgePanel", "key": "changes.local.title", "ru": "Локальные изменения"}
+{"ns": "forgePanel", "key": "changes.local.refs", "ru": "{head} → {base}"}
+{"ns": "forgePanel", "key": "changes.local.files", "ru": "Файлов: {count}"}
+{"ns": "forgePanel", "key": "changes.local.viewAria", "ru": "Просмотреть изменения этой сессии: файлов — {count}, добавлено строк — {added}, удалено — {deleted}"}
+{"ns": "forgePanel", "key": "changes.local.create", "ru": "Создать запрос на изменение"}
+{"ns": "forgePanel", "key": "changes.local.prompt", "ru": "Создать запрос на изменение по итогам этой сессии"}
+{"ns": "forgePanel", "key": "signin.title", "ru": "Войдите на {host}, чтобы видеть состояние запросов на изменение"}
+{"ns": "forgePanel", "key": "signin.copy", "ru": "Копировать команду входа"}
+{"ns": "forgePanel", "key": "signin.unavailable", "ru": "Не удалось прочитать запросы на изменение с {host}: {message}"}
+{"ns": "forgePanel", "key": "refresh", "ru": "Обновить состояние"}
+{"ns": "forgePanel", "key": "retry", "ru": "Повторить"}
+{"ns": "forgePanel", "key": "stream.failed", "ru": "Не удалось загрузить панель запросов на изменение"}
+{"ns": "forgePanel", "key": "change.number", "ru": "#{number}"}
+{"ns": "forgePanel", "key": "change.stateAria", "ru": "Состояние запроса: {state}"}
+{"ns": "forgePanel", "key": "change.state.open", "ru": "Открыт"}
+{"ns": "forgePanel", "key": "change.state.blocked", "ru": "Требует внимания"}
+{"ns": "forgePanel", "key": "change.state.draft", "ru": "Черновик"}
+{"ns": "forgePanel", "key": "change.state.merged", "ru": "Объединён"}
+{"ns": "forgePanel", "key": "change.state.closed", "ru": "Закрыт"}
+{"ns": "forgePanel", "key": "change.state.unknown", "ru": "Неизвестен"}
+{"ns": "forgePanel", "key": "list.worktree", "ru": "В собственном рабочем дереве"}
+{"ns": "forgePanel", "key": "list.stateChecks", "ru": "{state} · {checks}"}
+{"ns": "forgePanel", "key": "list.more", "ru": "Ещё запросов на изменение: {count}"}
+{"ns": "forgePanel", "key": "change.expand", "ru": "Развернуть {name}"}
+{"ns": "forgePanel", "key": "change.collapse", "ru": "Свернуть {name}"}
+{"ns": "forgePanel", "key": "change.ci.none", "ru": "Нет проверок"}
+{"ns": "forgePanel", "key": "change.ci.running", "ru": "Проверки выполняются"}
+{"ns": "forgePanel", "key": "change.ci.passed", "ru": "Проверки пройдены"}
+{"ns": "forgePanel", "key": "change.ci.failed", "ru": "Не пройдено проверок: {count}"}
+{"ns": "forgePanel", "key": "change.ci.cancelled", "ru": "Проверок отменено: {count}"}
+{"ns": "forgePanel", "key": "change.ci.failedUnlisted", "ru": "Проверки не пройдены"}
+{"ns": "forgePanel", "key": "change.checks.failed", "ru": "Не пройдено: {count}"}
+{"ns": "forgePanel", "key": "change.checks.running", "ru": "Выполняется: {count}"}
+{"ns": "forgePanel", "key": "change.checks.passed", "ru": "Пройдено: {count}"}
+{"ns": "forgePanel", "key": "change.checks.cancelled", "ru": "Отменено: {count}"}
+{"ns": "forgePanel", "key": "change.checks.other", "ru": "Других: {count}"}
+{"ns": "forgePanel", "key": "change.checks.truncated", "ru": "Загружено проверок: {count}; доступны другие"}
+{"ns": "forgePanel", "key": "change.checks.loading", "ru": "Загрузка остальных проверок"}
+{"ns": "forgePanel", "key": "change.checks.loadFailed", "ru": "Не удалось загрузить остальные проверки: {message}"}
+{"ns": "forgePanel", "key": "change.checks.retry", "ru": "Повторить загрузку проверок"}
+{"ns": "forgePanel", "key": "change.check.running", "ru": "Выполняется"}
+{"ns": "forgePanel", "key": "change.check.queued", "ru": "В очереди"}
+{"ns": "forgePanel", "key": "change.flag.changesRequested", "ru": "Запрошены изменения"}
+{"ns": "forgePanel", "key": "change.flag.conflicting", "ru": "Конфликты"}
+{"ns": "forgePanel", "key": "change.flag.draft", "ru": "Черновик"}
+{"ns": "forgePanel", "key": "change.failure.unavailable", "ru": "Не удалось прочитать состояние запроса"}
+{"ns": "forgePanel", "key": "change.failure.notFound", "ru": "Запрос на изменение не найден или недоступен"}
+{"ns": "forgePanel", "key": "change.failure.unauthenticated", "ru": "Войдите, чтобы увидеть состояние"}
+{"ns": "forgePanel", "key": "change.unserved", "ru": "Для этого хостинга кода состояние запросов пока не поддерживается"}
+{"ns": "forgePanel", "key": "change.view", "ru": "Открыть в браузере"}
+{"ns": "forgePanel", "key": "change.copy", "ru": "Копировать ссылку на запрос"}
+{"ns": "forgePanel", "key": "change.viewChangesAria", "ru": "Просмотреть изменения {name}: добавлено строк — {added}, удалено — {deleted}"}
+{"ns": "forgePanel", "key": "change.remove", "ru": "Удалить из этой сессии"}
+{"ns": "forgePanel", "key": "change.removeAria", "ru": "Удалить {name} из этой сессии"}
+{"ns": "forgePanel", "key": "change.row.checks", "ru": "Проверки"}
+{"ns": "forgePanel", "key": "change.row.review", "ru": "Ревью"}
+{"ns": "forgePanel", "key": "change.row.merge", "ru": "Объединить"}
+{"ns": "forgePanel", "key": "change.row.changes", "ru": "Изменения"}
+{"ns": "forgePanel", "key": "change.review.approved", "ru": "Одобрен"}
+{"ns": "forgePanel", "key": "change.review.changesRequested", "ru": "Запрошены изменения"}
+{"ns": "forgePanel", "key": "change.review.required", "ru": "Требуется ревью"}
+{"ns": "forgePanel", "key": "change.review.none", "ru": "Ревью не запрошено"}
+{"ns": "forgePanel", "key": "change.review.threads", "ru": "{review} · не решено: {count}"}
+{"ns": "forgePanel", "key": "change.merge.mergeable", "ru": "Нет конфликтов"}
+{"ns": "forgePanel", "key": "change.merge.conflicting", "ru": "Конфликты с {base}"}
+{"ns": "forgePanel", "key": "change.merge.unknown", "ru": "Проверка конфликтов"}
+{"ns": "forgePanel", "key": "change.mergedTo", "ru": "Объединён с {base}"}
+{"ns": "forgePanel", "key": "change.markReady", "ru": "Готов к ревью"}
+{"ns": "forgePanel", "key": "change.merge", "ru": "Объединить"}
+{"ns": "forgePanel", "key": "change.mergeTitle", "ru": "Объединить {name} с {base}"}
+{"ns": "forgePanel", "key": "change.mergeMethod.squash", "ru": "Сжать и объединить"}
+{"ns": "forgePanel", "key": "change.mergeMethod.merge", "ru": "Создать коммит слияния"}
+{"ns": "forgePanel", "key": "change.mergeMethod.rebase", "ru": "Перебазировать и объединить"}
+{"ns": "forgePanel", "key": "change.mergeNote.squash", "ru": "Объединить все коммиты в один"}
+{"ns": "forgePanel", "key": "change.mergeNote.merge", "ru": "Сохранить все коммиты и добавить коммит слияния"}
+{"ns": "forgePanel", "key": "change.mergeNote.rebase", "ru": "Перенести каждый коммит на {base}"}
+{"ns": "forgePanel", "key": "change.mergeConfirm", "ru": "Подтвердить объединение"}
+{"ns": "forgePanel", "key": "change.mergeChanged", "ru": "Появились новые коммиты. Проверьте их, прежде чем снова открыть меню объединения."}
+{"ns": "forgePanel", "key": "diff.tab", "ru": "Изменения"}
+{"ns": "forgePanel", "key": "diff.tabNumbered", "ru": "Изменения в #{number}"}
+{"ns": "forgePanel", "key": "diff.scope.branch", "ru": "Ветка"}
+{"ns": "forgePanel", "key": "diff.scope.uncommitted", "ru": "Без коммита"}
+{"ns": "forgePanel", "key": "diff.scope.unstaged", "ru": "Не в индексе"}
+{"ns": "forgePanel", "key": "diff.scope.staged", "ru": "В индексе"}
+{"ns": "forgePanel", "key": "diff.scopeNote.uncommitted", "ru": "Сравнение с HEAD, включая неотслеживаемые файлы"}
+{"ns": "forgePanel", "key": "diff.scopeNote.unstaged", "ru": "Сравнение с индексом, включая неотслеживаемые файлы"}
+{"ns": "forgePanel", "key": "diff.scopeNote.staged", "ru": "Сравнение индекса с HEAD"}
+{"ns": "forgePanel", "key": "diff.base.aria", "ru": "Базовая ветка: {base}"}
+{"ns": "forgePanel", "key": "diff.base.uncommitted", "ru": "Включая изменения без коммита"}
+{"ns": "forgePanel", "key": "diff.base.search", "ru": "Поиск веток"}
+{"ns": "forgePanel", "key": "diff.base.loading", "ru": "Чтение веток…"}
+{"ns": "forgePanel", "key": "diff.base.empty", "ru": "Нет подходящих веток"}
+{"ns": "forgePanel", "key": "diff.base.automatic", "ru": "По умолчанию"}
+{"ns": "forgePanel", "key": "diff.base.worktree", "ru": "Начальная точка рабочего дерева"}
+{"ns": "forgePanel", "key": "diff.base.remote", "ru": "Удалённые ветки"}
+{"ns": "forgePanel", "key": "diff.base.local", "ru": "Локальные ветки"}
+{"ns": "forgePanel", "key": "diff.base.note", "ru": "Сравнение с базой слияния HEAD и выбранной ветки, включая изменения без коммита"}
+{"ns": "forgePanel", "key": "diff.baseMissing", "ru": "Базовая ветка {base} не найдена; возможно, она удалена"}
+{"ns": "forgePanel", "key": "diff.baseUnrelated", "ru": "У {base} нет общей истории с HEAD"}
+{"ns": "forgePanel", "key": "diff.useAutomaticBase", "ru": "Использовать базовую ветку по умолчанию"}
+{"ns": "forgePanel", "key": "diff.allFiles", "ru": "Все файлы: {count}"}
+{"ns": "forgePanel", "key": "diff.filterFiles", "ru": "Фильтр файлов…"}
+{"ns": "forgePanel", "key": "diff.noMatchingFiles", "ru": "Нет подходящих файлов"}
+{"ns": "forgePanel", "key": "diff.refresh", "ru": "Обновить изменения"}
+{"ns": "forgePanel", "key": "diff.expandAll", "ru": "Развернуть все файлы"}
+{"ns": "forgePanel", "key": "diff.collapseAll", "ru": "Свернуть все файлы"}
+{"ns": "forgePanel", "key": "diff.split", "ru": "Показать в две колонки"}
+{"ns": "forgePanel", "key": "diff.unified", "ru": "Показать в один столбец"}
+{"ns": "forgePanel", "key": "diff.splitAria", "ru": "Две колонки"}
+{"ns": "forgePanel", "key": "diff.wrap", "ru": "Переносить длинные строки"}
+{"ns": "forgePanel", "key": "diff.nowrap", "ru": "Не переносить длинные строки"}
+{"ns": "forgePanel", "key": "diff.wrapAria", "ru": "Переносить строки"}
+{"ns": "forgePanel", "key": "diff.unchanged", "ru": "Неизменённых строк: {count}"}
+{"ns": "forgePanel", "key": "diff.unchangedRest", "ru": "Остальные неизменённые строки"}
+{"ns": "forgePanel", "key": "diff.newFile", "ru": "Новый файл"}
+{"ns": "forgePanel", "key": "diff.deletedFile", "ru": "Удалён"}
+{"ns": "forgePanel", "key": "diff.renamed", "ru": "Переименован из {from}"}
+{"ns": "forgePanel", "key": "diff.renamedPath", "ru": "{from} → {path}"}
+{"ns": "forgePanel", "key": "diff.badgeUncommitted", "ru": "Без коммита"}
+{"ns": "forgePanel", "key": "diff.binary", "ru": "Двоичный файл; невозможно показать изменения"}
+{"ns": "forgePanel", "key": "diff.binaryLabel", "ru": "Двоичный"}
+{"ns": "forgePanel", "key": "diff.largeCollapsed", "ru": "Большой файл: свёрнуто изменённых строк — {count}"}
+{"ns": "forgePanel", "key": "diff.fileTooLarge", "ru": "Файл слишком большой для отображения"}
+{"ns": "forgePanel", "key": "diff.error", "ru": "Не удалось прочитать изменения"}
+{"ns": "forgePanel", "key": "diff.tooLarge", "ru": "Изменения слишком велики, чтобы показать их здесь"}
+{"ns": "forgePanel", "key": "diff.filterConfigFailed", "ru": "Не удалось полностью прочитать настройки фильтров Git. Сравнение не выполнено. Проверьте настройки Git и ограничение вывода, затем повторите попытку."}
+{"ns": "forgePanel", "key": "diff.viewInBrowser", "ru": "Посмотреть в браузере"}
+{"ns": "forgePanel", "key": "diff.noForkPoint", "ru": "Не найдена точка ветвления этой ветки; выберите базовую ветку или другую область"}
+{"ns": "forgePanel", "key": "diff.empty", "ru": "Нет изменений"}
+{"ns": "forgePanel", "key": "diff.omitted", "ru": "Неотслеживаемых файлов не показано: {count}"}
+{"ns": "forgePanel", "key": "diff.stale", "ru": "Неотправленных коммитов в локальной ветке: {count}; показаны изменения самого запроса"}
+{"ns": "forgePanel", "key": "diff.moreActions", "ru": "Другие действия для {name}"}
+{"ns": "forgePanel", "key": "diff.copyPath", "ru": "Копировать путь"}
+{"ns": "forgePanel", "key": "diff.openFileInBrowser", "ru": "Посмотреть файл в браузере"}
+{"ns": "forgePanel", "key": "diff.openFileInSidebar", "ru": "Открыть весь файл в боковой панели"}
+{"ns": "forgePanel", "key": "time.now", "ru": "только что"}
+{"ns": "forgePanel", "key": "time.minutes", "ru": "{n} мин назад"}
+{"ns": "forgePanel", "key": "time.hours", "ru": "{n} ч назад"}
+{"ns": "forgePanel", "key": "time.days", "ru": "{n} дн назад"}
+{"ns": "forgePanel", "key": "time.months", "ru": "{n} мес назад"}
+{"ns": "forgePanel", "key": "time.years", "ru": "{n} г назад"}
+{"ns": "forgePanel", "key": "time.finished", "ru": "{state} · {time}"}
+{"ns": "forgePanel", "key": "duration.seconds", "ru": "{seconds} с"}
+{"ns": "forgePanel", "key": "duration.minutes", "ru": "{minutes} мин {seconds} с"}
+{"ns": "forgePanel", "key": "duration.hours", "ru": "{hours} ч {minutes} мин"}
+{"ns": "forgePanel", "key": "worktree.label", "ru": "Новое рабочее дерево"}
+{"ns": "forgePanel", "key": "worktree.hint", "ru": "Запустить эту сессию в отдельном рабочем дереве: при отправке будет создана ветка на основе выбранной, а изменения и коммиты не затронут каталог проекта"}
+{"ns": "forgePanel", "key": "worktree.blocked.outside-writable-root", "ru": "Данные Git этой рабочей области находятся вне каталогов, доступных для записи (например, когда рабочая область сама является рабочим деревом), поэтому рабочее дерево пока использовать нельзя"}
+{"ns": "forgePanel", "key": "worktree.blocked.read-only", "ru": "Сессия только для чтения не может использовать рабочее дерево"}
+{"ns": "forgePanel", "key": "worktree.base", "ru": "На основе {branch}"}
+{"ns": "forgePanel", "key": "worktree.baseHead", "ru": "На основе текущего HEAD"}
+{"ns": "forgePanel", "key": "worktree.baseMenu", "ru": "Базовая ветка"}
+{"ns": "forgePanel", "key": "worktree.currentBranch", "ru": "Текущая"}
+{"ns": "forgePanel", "key": "worktree.currentBranchTip", "ru": "Текущая ветка: {branch}"}
+{"ns": "forgePanel", "key": "worktree.detachedTip", "ru": "Вне ветки · {commit}"}
+{"ns": "forgePanel", "key": "creation.title", "ru": "Создание рабочего дерева"}
+{"ns": "forgePanel", "key": "creation.failed", "ru": "Не удалось создать рабочее дерево"}
+{"ns": "forgePanel", "key": "creation.prepare", "ru": "Создать ветку"}
+{"ns": "forgePanel", "key": "creation.checkout", "ru": "Извлечь файлы"}
+{"ns": "forgePanel", "key": "creation.details", "ru": "Подробнее"}
+{"ns": "forgePanel", "key": "creation.branch", "ru": "Ветка"}
+{"ns": "forgePanel", "key": "creation.base", "ru": "От ветки"}
+{"ns": "forgePanel", "key": "creation.head", "ru": "Текущий HEAD"}
+{"ns": "forgePanel", "key": "creation.error", "ru": "Причина"}
+{"ns": "forgePanel", "key": "creation.skip", "ru": "Продолжить без рабочего дерева"}
+{"ns": "forgePanel", "key": "creation.cancel", "ru": "Отмена"}
+{"ns": "forgePanel", "key": "creation.stopped", "ru": "Создание рабочего дерева остановлено"}
+{"ns": "forgePanel", "key": "creation.retry", "ru": "Повторить"}
+{"ns": "forgePanel", "key": "creation.waiting", "ru": "Сообщение будет отправлено после создания рабочего дерева"}
+{"ns": "forgePanel", "key": "missing.title", "ru": "Рабочее дерево недоступно"}
+{"ns": "forgePanel", "key": "missing.unknown", "ru": "Восстановление не завершено, поэтому состояние ветки {branch} проверить нельзя. Устраните ошибку восстановления и повторите попытку или продолжите в проекте."}
+{"ns": "forgePanel", "key": "missing.kept", "ru": "Рабочее дерево ветки {branch} можно восстановить на прежнем месте. Изменения без коммита, сделанные до удаления, восстановить нельзя"}
+{"ns": "forgePanel", "key": "missing.recreated", "ru": "Ветка {branch} тоже удалена. При восстановлении она будет создана заново на коммите, с которого началось рабочее дерево; последующие коммиты и изменения без коммита не сохранятся"}
+{"ns": "forgePanel", "key": "missing.restore", "ru": "Восстановить рабочее дерево"}
+{"ns": "forgePanel", "key": "missing.leave", "ru": "Продолжить в проекте"}
+{"ns": "forgePanel", "key": "missing.waiting", "ru": "Сообщение будет отправлено после восстановления рабочего дерева или продолжения в проекте"}
+{"ns": "forgePanel", "key": "restoration.title", "ru": "Восстановление рабочего дерева"}
+{"ns": "forgePanel", "key": "restoration.prepare", "ru": "Подготовить рабочее дерево"}
+{"ns": "forgePanel", "key": "branch.worktree", "ru": "Рабочее дерево (на основе {base}): {path}"}
+{"ns": "forgePanel", "key": "branch.linked", "ru": "Рабочее дерево: {path}"}
+{"ns": "forgePanel", "key": "branch.project", "ru": "Каталог проекта: {path}"}
+{"ns": "forgePanel", "key": "branch.missing", "ru": "Рабочее дерево недоступно: {path}"}
+{"ns": "forgePanel", "key": "toast.removed", "ru": "{name} удалён из этой сессии"}
+{"ns": "forgePanel", "key": "toast.undo", "ru": "Отменить"}
+{"ns": "forgePanel", "key": "toast.undoFailed", "ru": "Не удалось отменить"}
+{"ns": "forgePanel", "key": "toast.removeFailed", "ru": "Не удалось удалить"}
+{"ns": "forgePanel", "key": "toast.refreshFailed", "ru": "Не удалось обновить"}
+{"ns": "forgePanel", "key": "toast.copied", "ru": "Ссылка скопирована"}
+{"ns": "forgePanel", "key": "toast.copyFailed", "ru": "Не удалось скопировать"}
+{"ns": "forgePanel", "key": "toast.branchesFailed", "ru": "Не удалось прочитать ветки"}
+{"ns": "forgePanel", "key": "toast.worktreeFailed", "ru": "Не удалось изменить настройку рабочего дерева"}
+{"ns": "forgePanel", "key": "toast.worktreeStarted", "ru": "Сессия уже началась, поэтому рабочее дерево ей больше недоступно"}
+{"ns": "forgePanel", "key": "toast.restored", "ru": "Рабочее дерево восстановлено"}
+{"ns": "forgePanel", "key": "toast.restoreFailed", "ru": "Не удалось восстановить рабочее дерево: {message}"}
+{"ns": "forgePanel", "key": "toast.leaveFailed", "ru": "Не удалось перейти в каталог проекта; повторите попытку"}
+{"ns": "forgePanel", "key": "toast.markedReady", "ru": "{name} отмечен как готовый к ревью"}
+{"ns": "forgePanel", "key": "toast.markReadyFailed", "ru": "Не удалось отметить как готовый к ревью: {message}"}
+{"ns": "forgePanel", "key": "toast.merged", "ru": "{name} объединён"}
+{"ns": "forgePanel", "key": "toast.mergeFailed", "ru": "Не удалось объединить: {message}"}
+{"ns": "forgePanel", "key": "toast.mergeStale", "ru": "В {name} есть новые коммиты; проверьте их перед объединением"}
+{"ns": "forgePanel", "key": "toast.pathCopied", "ru": "Путь скопирован"}
+{"ns": "forgePanel", "key": "toast.expandFailed", "ru": "Не удалось показать неизменённые строки: {message}"}
+{"ns": "forgePanel", "key": "toast.expandStale", "ru": "Файл изменился после чтения изменений; обновите и разверните заново"}
+{"ns": "forgePanel", "key": "toast.prompted", "ru": "Отправлено: {text}"}
+{"ns": "forgePanel", "key": "toast.promptFailed", "ru": "Не удалось отправить сообщение"}

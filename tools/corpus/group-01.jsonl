@@ -1,0 +1,389 @@
+{"ns": "conversation", "key": "quote.remove", "en": "Remove quote", "ru": "Удалить цитату", "zh": "移除引用", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "shortcut.newline", "en": "New line", "ru": "Новая линия", "zh": "换行", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "shortcut.complementary", "en": "Use the complementary Queue / Steer action", "ru": "Использовать альтернативное действие: поставить в очередь или направить", "zh": "使用互补的 Queue／Steer 方式", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "shortcut.slash", "en": "Open command menu", "ru": "Открыть командное меню", "zh": "打开命令菜单", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "shortcut.mention", "en": "Open reference menu", "ru": "Открыть справочное меню", "zh": "打开引用菜单", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "hint.plan", "en": null, "ru": null, "zh": null, "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "hint.goal", "en": "describe the objective for a long-running task", "ru": "описать цель долгосрочной задачи", "zh": "输入目标，智能体将持续执行", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "hint.goal.active", "en": "goal active — edit / pause / resume / clear", "ru": "цель активна — изменить/приостановить/возобновить/очистить", "zh": "当前目标进行中。可输入 edit 修改 / pause 暂停 / resume 继续 / clear 清除", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "placeholder.plan", "en": null, "ru": null, "zh": null, "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "placeholder.default", "en": "Message or run a task, / commands, @ files or sessions", "ru": "Отправьте сообщение или запустите задачу, /команды, @файлы или сеансы", "zh": "发消息或创建任务, / 调用指令, @ 文件或对话", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "placeholder.unavailable", "en": "Session unavailable", "ru": "Сеанс недоступен", "zh": "会话不可用", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "placeholder.hero", "en": "Describe what you want to build, / commands, @ files or sessions", "ru": "Опишите, что вы хотите построить: /команды, @файлы или сеансы.", "zh": "描述你想要构建的内容, / 调用指令, @ 文件或对话", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "placeholder.workspace", "en": "Choose a workspace to start", "ru": "Выберите рабочее пространство для начала", "zh": "选择一个工作区开始", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "placeholder.steerQueue", "en": "Cmd/Ctrl+Enter steers all queued messages", "ru": "Cmd/Ctrl+Enter управляет всеми сообщениями в очереди.", "zh": "Cmd/Ctrl+Enter 插话发送全部排队消息", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "input.commands", "en": "Add files or run commands", "ru": "Добавляйте файлы или запускайте команды", "zh": "添加文件或调用指令", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "input.file", "en": "File", "ru": "Файл", "zh": "文件", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "input.stop", "en": "Stop generating", "ru": "Остановить генерацию", "zh": "停止生成", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "input.send", "en": "Send message", "ru": "Отправить сообщение", "zh": "发送消息", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "input.continue", "en": "Continue generating", "ru": "Продолжить генерацию", "zh": "继续生成", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "input.sending", "en": "Sending message", "ru": "Отправка сообщения", "zh": "正在发送消息", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "input.send.queue", "en": "Queue message", "ru": "Сообщение в очереди", "zh": "排队发送", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "input.send.steer", "en": "Steer message", "ru": "Направить сообщение", "zh": "插话发送", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "attachment.pending", "en": "Pending attachments", "ru": "Ожидающие вложения", "zh": "待发送附件", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "attachment.scrollLeft", "en": "Scroll attachments left", "ru": "Прокрутить вложения влево", "zh": "向左滚动附件", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "attachment.scrollRight", "en": "Scroll attachments right", "ru": "Прокрутить вложения вправо", "zh": "向右滚动附件", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "attachment.dropTitle", "en": "Drag files or images here to add them", "ru": "Перетащите файлы или изображения сюда, чтобы добавить их.", "zh": "文件或图片拖动到此处即可添加", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "attachment.dropDesc", "en": "Image limit: up to {count} images, {size} each", "ru": "Ограничение изображений: до изображений {count}, по {size} каждое.", "zh": "图片限制：最多 {count} 张，每张 {size}", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "attachment.dropBlocked", "en": "Files and images cannot be added right now", "ru": "Файлы и изображения не могут быть добавлены прямо сейчас.", "zh": "当前无法添加文件或图片", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "attachment.directoryDesktopOnly", "en": "Folders can only be added in the desktop app; add individual files in the browser", "ru": "Папки можно добавлять только в настольном приложении; добавлять отдельные файлы в браузере", "zh": "只有桌面端支持添加文件夹，浏览器里请添加单个文件", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "attachment.pathUnavailable", "en": "Could not obtain the folder path; drag it in again", "ru": "Не удалось получить путь к папке; перетащите это снова", "zh": "无法获取文件夹路径，请重新拖入", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "attachment.pathUnsupported", "en": "The path contains characters a reference cannot carry; rename it and try again", "ru": "Путь содержит символы, которые не может содержать ссылка; переименуй его и попробуй еще раз", "zh": "路径含有无法引用的字符，请改名后再试", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "image.pending", "en": "Pending images", "ru": "Ожидающие изображения", "zh": "待发送图片", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "image.openOriginal", "en": "View original", "ru": "Посмотреть оригинал", "zh": "查看原图", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "image.openOriginalLabel", "en": "{label}, click to view original", "ru": "{label}, нажмите, чтобы посмотреть оригинал", "zh": "{label}，点击查看原图", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "image.remove", "en": "Remove image {name}", "ru": "Удалить изображение {name}", "zh": "移除图片 {name}", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "image.original", "en": "Original image", "ru": "Исходное изображение", "zh": "原图", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "image.label", "en": "Image", "ru": "Изображение", "zh": "图片", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "image.loadFailed", "en": "Image failed to load; click to retry", "ru": "Изображение не удалось загрузить; нажмите, чтобы повторить попытку", "zh": "图片加载失败，点击重试", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "image.loading", "en": "Loading image…", "ru": "Загрузка изображения…", "zh": "图片加载中…", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "image.preview", "en": "Original image preview", "ru": "Предварительный просмотр исходного изображения", "zh": "原图预览", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "image.closePreview", "en": "Close original image preview", "ru": "Закрыть предварительный просмотр исходного изображения", "zh": "关闭原图预览", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "image.unsupportedType", "en": "Only PNG, JPG, WebP, and GIF images are supported", "ru": "Поддерживаются только изображения PNG, JPG, WebP и GIF.", "zh": "仅支持 PNG、JPG、WebP、GIF 格式的图片", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "image.tooMany", "en": "A message can include up to {count} images", "ru": "Сообщение может содержать до {count} изображений.", "zh": "一条消息最多添加 {count} 张图片", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "image.fileTooLarge", "en": "Each image must be smaller than {size}", "ru": "Каждое изображение должно быть меньше {size}.", "zh": "单张图片不能超过 {size}", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "image.totalTooLarge", "en": "Images exceed {size} in total; remove some and try again", "ru": "Общее количество изображений превышает {size}; удалите некоторые и попробуйте еще раз", "zh": "图片总大小超过 {size}，请移除部分图片", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "image.tooManyPixels", "en": "Image resolution is too high; compress it and try again", "ru": "Разрешение изображения слишком высокое; сожми его и попробуй еще раз", "zh": "图片分辨率过大，请压缩后重试", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "image.dimensionTooLarge", "en": "Image sides must be at most {size}px; downscale it and try again", "ru": "Стороны изображения должны быть не более {size}px; уменьшите масштаб и попробуйте еще раз", "zh": "图片宽高不能超过 {size}px，请缩小后重试", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "image.modelUnsupported", "en": "The current model does not support images; switch to a model that does", "ru": "Текущая модель не поддерживает изображения; переключиться на модель, которая делает", "zh": "当前模型不支持图片，请切换支持图片的模型", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "image.sendFailed", "en": "Sending images failed ({reason}); re-add them and try again", "ru": "Отправка изображений не удалась ({reason}); добавьте их повторно и попробуйте еще раз", "zh": "图片发送失败（{reason}），请重新添加图片后再试", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "file.pending", "en": "Pending files", "ru": "Ожидающие файлы", "zh": "待发送文件", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "file.remove", "en": "Remove file {name}", "ru": "Удалить файл {name}", "zh": "移除文件 {name}", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "file.uploading", "en": "Uploading…", "ru": "Загрузка…", "zh": "上传中…", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "file.uploadFailed", "en": "Upload failed; click to retry", "ru": "Загрузка не удалась; нажмите, чтобы повторить попытку", "zh": "上传失败，点击重试", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "file.retry", "en": "Retry uploading {name}", "ru": "Повторите загрузку {name}.", "zh": "重试上传 {name}", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "file.stillUploading", "en": "Files are still uploading; send after they finish", "ru": "Файлы все еще загружаются; отправить после того, как они закончат", "zh": "文件还在上传，请等待上传完成后发送", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "file.sessionUnavailable", "en": "Session unavailable; files cannot be uploaded", "ru": "Сессия недоступна; файлы не могут быть загружены", "zh": "会话不可用，无法上传文件", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "file.notStaged", "en": "The file has not finished uploading; re-add it and try again", "ru": "Загрузка файла не завершена; добавьте его еще раз и попробуйте еще раз", "zh": "文件尚未上传成功，请重新添加后再试", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "file.label", "en": "File", "ru": "Файл", "zh": "文件", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "context.aria", "en": "{percent} of context used", "ru": "{percent} используемого контекста", "zh": "上下文已用 {percent}", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "context.used", "en": "of context used", "ru": "используемого контекста", "zh": "上下文已用", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "context.system", "en": "System prompt", "ru": "Системная подсказка", "zh": "系统提示词", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "context.tools", "en": "Tool definitions", "ru": "Определения инструментов", "zh": "工具定义", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "context.messages", "en": "Messages", "ru": "Сообщения", "zh": "对话消息", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "settings.enter.title", "en": "Send behavior while busy", "ru": "Отправлять поведение во время занятости", "zh": "繁忙时的发送行为", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "settings.enter.description", "en": "What Enter and the Send button do while the agent is running; Cmd/Ctrl+Enter uses the other behavior", "ru": "Что делают кнопки «Ввод» и «Отправить» во время работы агента; Cmd/Ctrl+Enter использует другое поведение.", "zh": "智能体运行时 Enter 键和发送按钮的行为；Cmd/Ctrl+Enter 使用另一行为", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "settings.enter.queue", "en": "Queue", "ru": "Очередь", "zh": "排队发送", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "settings.enter.steer", "en": "Steer", "ru": "Направить", "zh": "插话发送", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "hero.headline", "en": "Into the Unknown", "ru": "В неизвестность", "zh": "探索未至之境", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "hero.preview", "en": "Preview", "ru": "Предварительный просмотр", "zh": "预览版", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "hero.chooseWorkspace", "en": "Choose workspace", "ru": "Выберите рабочее пространство", "zh": "选择工作区", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "header.more", "en": "More actions", "ru": "Другие действия", "zh": "更多操作", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "session.hierarchy", "en": "Session hierarchy", "ru": "Иерархия сеансов", "zh": "会话层级", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "session.moreViews", "en": "More conversation views", "ru": "Больше просмотров беседы", "zh": "更多会话视图", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "todo.title", "en": "To-dos", "ru": "Дела", "zh": "任务", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "todo.progress.done", "en": "{done} completed", "ru": "{done} завершено", "zh": "{done} 已完成", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "todo.progress.active", "en": "{active} in progress", "ru": "{active} в процессе", "zh": "{active} 进行中", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "todo.progress.pending", "en": "{pending} pending", "ru": "{pending} в ожидании", "zh": "{pending} 待处理", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "todo.status.completed", "en": "Completed", "ru": "Завершено", "zh": "已完成", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "todo.status.inProgress", "en": "In progress", "ru": "В процессе", "zh": "进行中", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "todo.status.pending", "en": "Pending", "ru": "Ожидается", "zh": "待处理", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "todo.rowTitle", "en": "Update to-do list", "ru": "Обновить список дел", "zh": "更新任务清单", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.createGoal", "en": "Create goal", "ru": "Создать цель", "zh": "创建目标", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.getGoal", "en": "View goal", "ru": "Посмотреть цель", "zh": "查看目标", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.updateGoal", "en": "Update goal", "ru": "Обновить цель", "zh": "更新目标", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.preparing.content", "en": "{kilobytes}KB", "ru": "{kilobytes}KB", "zh": "{kilobytes}KB", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.createSchedule", "en": "Create automation task", "ru": "Создать задачу автоматизации", "zh": "创建自动化任务", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.listSchedules", "en": "List automation tasks", "ru": "Показать задачи автоматизации", "zh": "查看自动化任务", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.viewSchedule", "en": "View automation task", "ru": "Посмотреть задачу автоматизации", "zh": "查看自动化任务详情", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.editSchedule", "en": "Edit automation task", "ru": "Изменить задачу автоматизации", "zh": "编辑自动化任务", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.deleteSchedule", "en": "Delete automation task", "ru": "Удалить задачу автоматизации", "zh": "删除自动化任务", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.updateSchedule", "en": "Update automation task", "ru": "Обновить задачу автоматизации", "zh": "修改自动化任务", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.state", "en": "Status", "ru": "Статус", "zh": "状态", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.todo.completed", "en": "Completed", "ru": "Завершено", "zh": "已完成", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.todo.in_progress", "en": "In progress", "ru": "В процессе", "zh": "进行中", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.todo.pending", "en": "Pending", "ru": "Ожидается", "zh": "待处理", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.todo.empty", "en": "The to-do list is empty", "ru": "Список дел пуст", "zh": "任务清单为空", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "todo.diff.initial", "en": "Initial list", "ru": "Первоначальный список", "zh": "首次记录", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "todo.diff.compare", "en": "Changes since the previous list", "ru": "Изменения по сравнению с предыдущим списком", "zh": "与上次清单相比", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "todo.diff.unavailable", "en": "Previous list unavailable", "ru": "Предыдущий список недоступен", "zh": "旧清单不可用", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "todo.diff.noChanges", "en": "No changes to the list", "ru": "Никаких изменений в списке", "zh": "清单没有变化", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "todo.diff.added", "en": "{count} added", "ru": "{count} добавлен", "zh": "新增 {count}", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "todo.diff.updated", "en": "{count} updated", "ru": "{count} обновлен", "zh": "更新 {count}", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "todo.diff.removed", "en": "{count} removed", "ru": "{count} удален.", "zh": "移除 {count}", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "todo.diff.unchanged", "en": "{count} unchanged", "ru": "{count} без изменений", "zh": "{count} 项未变化", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "todo.diff.addedItem", "en": "Added", "ru": "Добавлено", "zh": "新增", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "todo.diff.updatedItem", "en": "Status changed", "ru": "Статус изменен", "zh": "状态变化", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "todo.diff.movedItem", "en": "Reordered", "ru": "Переупорядочен", "zh": "顺序调整", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "todo.diff.removedItem", "en": "Removed", "ru": "Удален", "zh": "移除", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.goal.empty", "en": "No goal", "ru": "Нет цели", "zh": "没有目标", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.goal.active", "en": "Active", "ru": "Активный", "zh": "进行中", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.goal.disarmed", "en": "Awaiting continuation", "ru": "Ожидание продолжения", "zh": "等待继续", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.goal.paused", "en": "Paused", "ru": "Приостановлено", "zh": "已暂停", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.goal.blocked", "en": "Blocked", "ru": "Заблокировано", "zh": "受阻", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.goal.complete", "en": "Completed", "ru": "Завершено", "zh": "已完成", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.goal.rounds", "en": "Rounds", "ru": "Раунды", "zh": "执行轮次", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.goal.reason", "en": "Blocker", "ru": "Блокатор", "zh": "受阻原因", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.days", "en": "{count} d", "ru": "{count} д", "zh": "{count} 天", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.hours", "en": "{count} h", "ru": "{count} ч", "zh": "{count} 小时", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.minutes", "en": "{count} min", "ru": "{count} мин.", "zh": "{count} 分钟", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.seconds", "en": "{count} s", "ru": "{count} с", "zh": "{count} 秒", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.schedule.once", "en": "Once", "ru": "Однажды", "zh": "单次", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.schedule.every", "en": "Every {interval}", "ru": "Каждый {interval}", "zh": "每 {interval}", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.schedule.when", "en": "Scheduled for", "ru": "Запланировано на", "zh": "计划时间", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.schedule.frequency", "en": "Repeat", "ru": "Повторить", "zh": "重复", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.schedule.scheduled", "en": "Scheduled", "ru": "Запланировано", "zh": "等待触发", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.schedule.overdue", "en": "Overdue, awaiting session resume", "ru": "Просрочено, ждём возобновления сеанса", "zh": "已到期，等待会话恢复", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.schedule.active", "en": "Enabled", "ru": "Включено", "zh": "已开启", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.schedule.paused", "en": "Paused", "ru": "Приостановлена", "zh": "已暂停", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.schedule.ended", "en": "Ended", "ru": "Завершена", "zh": "已结束", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.schedule.empty", "en": "No automation tasks", "ru": "Нет задач автоматизации", "zh": "没有自动化任务", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.schedule.deleted", "en": "Deleted", "ru": "Удалено", "zh": "已删除", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.schedule.count", "en": "{count} automation tasks", "ru": "{count} задачи автоматизации", "zh": "{count} 个自动化任务", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.schedule.daily", "en": "Every day at {time} ({zone})", "ru": "Каждый день в {time} ({zone})", "zh": "每天 {time}（{zone}）", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.schedule.weekly", "en": "Weekly on {days} at {time} ({zone})", "ru": "Еженедельно на {days} по адресу {time} ({zone})", "zh": "每周 {days} {time}（{zone}）", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.schedule.cron", "en": "Cron {expression} ({zone})", "ru": "Крон {expression} ({zone})", "zh": "Cron {expression}（{zone}）", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.schedule.custom", "en": "Custom", "ru": "Произвольно", "zh": "自定义", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.weekday.1", "en": "Mon", "ru": "Пн.", "zh": "周一", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.weekday.2", "en": "Tue", "ru": "Вт", "zh": "周二", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.weekday.3", "en": "Wed", "ru": "ср.", "zh": "周三", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.weekday.4", "en": "Thu", "ru": "Чт", "zh": "周四", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.weekday.5", "en": "Fri", "ru": "Пт", "zh": "周五", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.weekday.6", "en": "Sat", "ru": "Суббота", "zh": "周六", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.weekday.7", "en": "Sun", "ru": "Солнце", "zh": "周日", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.weekday.join", "en": ", ", "ru": ", ", "zh": "、", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.inspectProviders", "en": "Inspect providers", "ru": "Проверка поставщиков", "zh": "检查提供方", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.queryRuntime", "en": "Query runtime", "ru": "Время выполнения запроса", "zh": "查询运行时", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.inspectPlugins", "en": "Inspect plugins", "ru": "Проверьте плагины", "zh": "检查动态插件", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.workflow", "en": "Run workflow", "ru": "Запустить рабочий процесс", "zh": "运行工作流", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.ralph", "en": "Run ralph loop", "ru": "Запустить цикл Ральфа", "zh": "运行循环工作流", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.readEvent", "en": "Read event", "ru": "Чтение события", "zh": "读取事件", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.searchEvents", "en": "Search events", "ru": "Поиск событий", "zh": "搜索事件", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.traceEvent", "en": "Trace event", "ru": "Отследить событие", "zh": "追踪事件", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.searchSessions", "en": "Search sessions", "ru": "Поиск сеансов", "zh": "搜索会话", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.traceSession", "en": "Trace session", "ru": "Трассировка сеанса", "zh": "追踪会话", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.listModels", "en": "List models", "ru": "Список моделей", "zh": "查看可用模型", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.subagent", "en": "Create subagent", "ru": "Создать субагент", "zh": "创建子智能体", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.subagentFork", "en": "Fork subagent", "ru": "Создать субагент (наследовать контекст)", "zh": "派生子智能体", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.listAgents", "en": "List subagents", "ru": "Список субагентов", "zh": "查看子智能体", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.sendMessage", "en": "Send message", "ru": "Отправить сообщение", "zh": "发送消息", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.interruptAgent", "en": "Interrupt agent", "ru": "Агент прерываний", "zh": "中断智能体", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.listJobs", "en": "List background jobs", "ru": "Список фоновых заданий", "zh": "查看后台任务", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.readJob", "en": "Read job output", "ru": "Чтение результатов задания", "zh": "读取任务输出", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.killJob", "en": "Cancel background job", "ru": "Отменить фоновое задание", "zh": "取消后台任务", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.openTerminal", "en": "Open terminal", "ru": "Открыть терминал", "zh": "创建终端", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.readTerminal", "en": "Read terminal", "ru": "Чтение терминала", "zh": "读取终端", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.listTerminals", "en": "List terminals", "ru": "Список терминалов", "zh": "查看终端", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.signalTerminal", "en": "Signal terminal", "ru": "Сигнальный терминал", "zh": "发送终端信号", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.closeTerminal", "en": "Close terminal", "ru": "Закрыть терминал", "zh": "关闭终端", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.lsp", "en": "Query code symbols", "ru": "Символы кода запроса", "zh": "查询代码符号", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.findDefinition", "en": "Find definition", "ru": "Найти определение", "zh": "查找定义", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.findReferences", "en": "Find references", "ru": "Найдите ссылки", "zh": "查找引用", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.findImplementation", "en": "Find implementation", "ru": "Найти реализацию", "zh": "查找实现", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.hoverSymbol", "en": "Inspect symbol", "ru": "Символ проверки", "zh": "查看符号信息", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.spawnTeammate", "en": "Create teammate", "ru": "Создать товарища по команде", "zh": "创建队友", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.createTeamTask", "en": "Create team task", "ru": "Создать командную задачу", "zh": "创建团队任务", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.getTeamTask", "en": "Read team task", "ru": "Прочитать командное задание", "zh": "读取团队任务", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.updateTeamTask", "en": "Update team task", "ru": "Обновить групповую задачу", "zh": "更新团队任务", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.listTeamTasks", "en": "List team tasks", "ru": "Перечислить командные задачи", "zh": "查看团队任务", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.waitAgent", "en": "Waiting for messages…", "ru": "Ожидание сообщений…", "zh": "等待消息…", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.recordedResult", "en": "Recorded result", "ru": "Записанный результат", "zh": "调用结果", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.empty", "en": "No results", "ru": "Нет результатов", "zh": "暂无结果", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.none", "en": "None", "ru": "Нет", "zh": "无", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.yes", "en": "Yes", "ru": "Да", "zh": "是", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.no", "en": "No", "ru": "Нет", "zh": "否", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.moreInInspect", "en": "{count} more items available in Inspect", "ru": "{count} больше элементов доступно в Inspect", "zh": "另有 {count} 项，可在「查看」中读取", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.status.running", "en": "Running", "ru": "Бег", "zh": "运行中", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.status.idle", "en": "Idle", "ru": "Простой", "zh": "空闲", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.status.ready", "en": "Ready", "ru": "Готово", "zh": "就绪", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.status.inactive", "en": "Inactive", "ru": "Неактивный", "zh": "未运行", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.status.provisioning", "en": "Provisioning", "ru": "обеспечение", "zh": "准备中", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.status.failed", "en": "Failed", "ru": "Не удалось", "zh": "失败", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.status.corrupt", "en": "Corrupt", "ru": "Повреждено", "zh": "已损坏", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.status.unsupported", "en": "Unsupported", "ru": "Не поддерживается", "zh": "不支持", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.status.unavailable", "en": "Unavailable", "ru": "Недоступно", "zh": "不可用", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.status.completed", "en": "Completed", "ru": "Завершено", "zh": "已完成", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.status.deleted", "en": "Deleted", "ru": "Удалено", "zh": "已删除", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.status.killed", "en": "Cancelled", "ru": "Отменено", "zh": "已取消", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.status.accepted", "en": "Accepted", "ru": "Принято", "zh": "已接收", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.status.queued", "en": "Queued", "ru": "В очереди", "zh": "已入队", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.status.exited", "en": "Exited", "ru": "Вышел", "zh": "已退出", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.id", "en": "ID", "ru": "ID", "zh": "ID", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.revision", "en": "Revision", "ru": "Редакция", "zh": "版本", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.platform", "en": "Platform", "ru": "Платформа", "zh": "平台", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.provider", "en": "Provider", "ru": "Поставщик", "zh": "提供方", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.model", "en": "Model", "ru": "Модель", "zh": "模型", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.role", "en": "Role", "ru": "Роль", "zh": "角色", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.context", "en": "Context", "ru": "Контекст", "zh": "上下文", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.owner", "en": "Owner", "ru": "Владелец", "zh": "负责人", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.ready", "en": "Ready", "ru": "Готово", "zh": "可开始", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.dependencies", "en": "Dependencies", "ru": "Зависимости", "zh": "前置任务", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.writeScopes", "en": "Write scopes", "ru": "Запись областей", "zh": "文件范围", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.warnings", "en": "Warnings", "ru": "Предупреждения", "zh": "提示", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.diagnostics", "en": "Diagnostics", "ru": "Диагностика", "zh": "诊断", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.methods", "en": "Methods", "ru": "Методы", "zh": "方法", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.inputSchema", "en": "Input schema", "ru": "Входная схема", "zh": "输入 Schema", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.outputSchema", "en": "Output schema", "ru": "Выходная схема", "zh": "输出 Schema", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.currentPackage", "en": "Current package", "ru": "Текущий пакет", "zh": "当前包", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.nextPackage", "en": "Next package", "ru": "Следующий пакет", "zh": "待运行的包", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.latestRun", "en": "Latest run", "ru": "Последний запуск", "zh": "最近运行", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.packages", "en": "Packages", "ru": "Пакеты", "zh": "版本包", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.registrations", "en": "Registrations", "ru": "Регистрации", "zh": "注册项", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.props", "en": "Props", "ru": "Реквизит", "zh": "属性", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.data", "en": "Data", "ru": "Данные", "zh": "数据", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.source", "en": "Source", "ru": "Источник", "zh": "来源", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.content", "en": "Content", "ru": "Содержание", "zh": "内容", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.message", "en": "Message", "ru": "Сообщение", "zh": "消息", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.messageId", "en": "Message ID", "ru": "Идентификатор сообщения", "zh": "消息 ID", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.root", "en": "Root", "ru": "Корень", "zh": "根节点", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.pid", "en": "Process ID", "ru": "Идентификатор процесса", "zh": "进程 ID", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.type", "en": "Type", "ru": "Тип", "zh": "类型", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.time", "en": "Time", "ru": "Время", "zh": "时间", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.seq", "en": "Event sequence", "ru": "Последовательность событий", "zh": "事件序号", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.turn", "en": "Turn", "ru": "Ход", "zh": "轮次", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.step", "en": "Step", "ru": "Шаг", "zh": "步骤", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.callId", "en": "Call ID", "ru": "Идентификатор вызова", "zh": "调用 ID", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.agents", "en": "Agents started", "ru": "Агенты запущены", "zh": "启动智能体数", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.result", "en": "Result", "ru": "Результат", "zh": "结果", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.parent", "en": "Parent", "ru": "Родитель", "zh": "父级", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.exitCode", "en": "Exit code", "ru": "Код выхода", "zh": "退出码", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.signal", "en": "Signal", "ru": "Сигнал", "zh": "信号", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.previousStatus", "en": "Previous status", "ru": "Предыдущий статус", "zh": "中断前状态", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.agent", "en": "Agent ID", "ru": "Идентификатор агента", "zh": "智能体 ID", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.agentName", "en": "Agent name", "ru": "Имя агента", "zh": "智能体名称", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.agentDescription", "en": "Agent task description", "ru": "Описание задачи агента", "zh": "智能体任务描述", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.job", "en": "Job ID", "ru": "Идентификатор вакансии", "zh": "任务 ID", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.task", "en": "Task", "ru": "Задача", "zh": "任务内容", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.processGroup", "en": "Process group", "ru": "Группа процессов", "zh": "进程组", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.availability", "en": "Availability", "ru": "Доступность", "zh": "可用状态", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.bestMatch", "en": "Best match", "ru": "Лучший матч", "zh": "最相关事件", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.target", "en": "Target event", "ru": "Целевое событие", "zh": "目标事件", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.field.surface", "en": "Record status", "ru": "Статус записи", "zh": "记录状态", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.agents.count", "en": "{count} agents", "ru": "{count} агенты", "zh": "{count} 个智能体", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.jobs.count", "en": "{count} background jobs", "ru": "{count} фоновые задания", "zh": "{count} 个后台任务", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.terminals.count", "en": "{count} terminals", "ru": "Клеммы {count}", "zh": "{count} 个终端", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.tasks.count", "en": "{count} team tasks", "ru": "{count} командные задачи", "zh": "{count} 个团队任务", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.tasks.nextPage", "en": "More tasks available; next cursor is {cursor}", "ru": "Доступно больше задач; следующий курсор — {cursor}", "zh": "后面还有任务；下一页位置为 {cursor}", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.locations.count", "en": "{count} locations", "ru": "{count} локации", "zh": "{count} 个位置", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.location", "en": "Line {line}, column {column}", "ru": "Строка {line}, столбец {column}", "zh": "第 {line} 行，第 {column} 列", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.receipt.delivered", "en": "Message delivered", "ru": "Сообщение доставлено", "zh": "消息已送达", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.receipt.interrupt", "en": "Interrupt requested", "ru": "Запрошено прерывание", "zh": "已请求中断", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.receipt.started", "en": "Started", "ru": "Началось", "zh": "已启动", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.receipt.cancel", "en": "Cancellation requested", "ru": "Запрос на отмену", "zh": "已请求取消", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.receipt.alreadyFinished", "en": "Already finished", "ru": "Уже закончено", "zh": "任务已结束", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.receipt.signal", "en": "Signal delivered", "ru": "Сигнал доставлен", "zh": "信号已发送", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.receipt.closed", "en": "Closed", "ru": "Закрыто", "zh": "已关闭", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.receipt.closing", "en": "Closing", "ru": "Закрытие", "zh": "关闭中", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.wait.noProgress", "en": "No active subagents", "ru": "Нет активных субагентов", "zh": "没有正在运行的子智能体", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.wait.title", "en": "Wait result", "ru": "Субагентская деятельность", "zh": "等待结果", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.wait.timeout", "en": "Wait timed out", "ru": "Время ожидания истекло", "zh": "等待已超时", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.wait.ended", "en": "Wait ended", "ru": "Ожидание завершено", "zh": "等待已结束", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.agent.reply", "en": "Agent response", "ru": "Ответ агента", "zh": "智能体回复", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.models.title", "en": "Available models", "ru": "Доступные модели", "zh": "可用模型", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.output.lines", "en": "Lines {begin}–{end} of {total}", "ru": "Линии {begin} – {end} из {total}", "zh": "第 {begin}–{end} 行，共 {total} 行", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.output.truncated", "en": "Output truncated", "ru": "Вывод усечен", "zh": "输出已截断", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.providers.count", "en": "{count} inspect providers", "ru": "{count} проверяет поставщиков", "zh": "{count} 个检查提供方", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.plugins.count", "en": "{count} dynamic plugins", "ru": "Динамические плагины {count}", "zh": "{count} 个动态插件", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.workflow.script", "en": "Workflow script", "ru": "Сценарий рабочего процесса", "zh": "工作流脚本", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.ralph.reportedComplete", "en": "Worker reported completion", "ru": "Работник сообщил о завершении", "zh": "智能体报告完成", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.ralph.reportedBlocker", "en": "Worker reported a blocker", "ru": "Работник сообщил о блокировщике", "zh": "智能体报告受阻", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.ralph.limit", "en": "Round limit reached", "ru": "Достигнут лимит раундов", "zh": "已达到轮次上限", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.report.nextSteps", "en": "Remaining work", "ru": "Оставшаяся работа", "zh": "待完成事项", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.trace.replacedBy", "en": "Replaced by", "ru": "Заменено на", "zh": "被替换为", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.trace.replacementChain", "en": "Replacement chain", "ru": "Замена цепи", "zh": "替换链", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.trace.replaces", "en": "Replaced events", "ru": "Замененные события", "zh": "替换的事件", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.trace.sources", "en": "Source events", "ru": "Исходные события", "zh": "引用来源", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.trace.derived", "en": "Derived events", "ru": "Производные события", "zh": "派生事件", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.trace.ancestors", "en": "Ancestor sessions", "ru": "Сеансы предков", "zh": "祖先会话", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.trace.descendants", "en": "Descendant sessions", "ru": "Потомки сеансов", "zh": "后代会话", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.matches.count", "en": "{count} matches", "ru": "{count} совпадений", "zh": "{count} 条匹配", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.matches.capped", "en": "Result limit reached; narrow the search for more", "ru": "Достигнут предел результатов; сузить поиск для большего", "zh": "已达到结果上限，可缩小搜索范围", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "detail.event.neighbors", "en": "Surrounding events", "ru": "Сопутствующие события", "zh": "前后事件", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "todo.completed", "en": "{done}/{total} completed", "ru": "{done}/{total} завершено", "zh": "{done}/{total} 已完成", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "command.attachmentsUnsupported", "en": "/{command} does not accept attachments; remove them first", "ru": "/{command} не принимает вложения; сначала удали их", "zh": "/{command} 不接受附件，请先移除附件", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "ask.rowTitle", "en": "Ask question", "ru": "Задать вопрос", "zh": "提问", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "ask.waiting", "en": "waiting", "ru": "ожидание", "zh": "等待回答", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "ask.pending", "en": "continued; answer still available", "ru": "продолжение; ответ еще доступен", "zh": "已继续工作，仍可回答", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "ask.pendingDetail", "en": "These pending questions remain answerable from the composer.", "ru": "На эти нерешенные вопросы остается ответ композитора.", "zh": "等待中的问题仍可在输入框中回答", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "ask.reopen", "en": "Answer", "ru": "Ответ", "zh": "回答", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "ask.review", "en": "View answers", "ru": "Посмотреть ответы", "zh": "查看回答", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "ask.closed", "en": "closed", "ru": "закрыто", "zh": "已结束", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "ask.closedDetail", "en": "This question is closed; its outcome is in the conversation below.", "ru": "Этот вопрос закрыт; его результат в разговоре ниже.", "zh": "该问题已结束，结果见下方对话", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "ask.cancelled", "en": "cancelled", "ru": "отменен", "zh": "已取消", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "ask.cancelledDetail", "en": "This question set was cancelled before answers were submitted.", "ru": "Этот набор вопросов был отменен до того, как были отправлены ответы.", "zh": "本轮已取消，未提交回答", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "ask.interrupted", "en": "interrupted", "ru": "прерванный", "zh": "已中断", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "ask.interruptedDetail", "en": "This question set was interrupted before answers were submitted.", "ru": "Этот набор вопросов был прерван до того, как были представлены ответы.", "zh": "本轮已中断，未提交回答", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "ask.answered", "en": "{answered}/{total} answered", "ru": "{answered}/{total} ответил", "zh": "{answered}/{total} 已回答", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "ask.skipped", "en": "Not answered", "ru": "Не ответил", "zh": "未回答", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "bash.running", "en": "Running", "ru": "Бег", "zh": "运行中", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "bash.failed", "en": "Failed", "ru": "Не удалось", "zh": "失败", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "bash.stopped", "en": "Stopped", "ru": "Остановлено", "zh": "已停止", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "row.running", "en": "Running", "ru": "Бег", "zh": "运行中", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "row.preparing", "en": "Preparing tool call", "ru": "Подготовка вызова инструмента", "zh": "正在准备调用", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "row.failed", "en": "Failed", "ru": "Не удалось", "zh": "失败", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "row.stopped", "en": "Stopped", "ru": "Остановлено", "zh": "已停止", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "row.commandArguments", "en": "Command arguments", "ru": "Аргументы команды", "zh": "命令参数", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "row.input", "en": "IN", "ru": "IN", "zh": "输入", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "row.output", "en": "OUT", "ru": "OUT", "zh": "输出", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "row.inspect", "en": "Inspect", "ru": "Осмотреть", "zh": "查看", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "row.imageSize", "en": "{width}x{height}px, {bytes} bytes", "ru": "{width}x{height}px, {bytes} байт", "zh": "{width}x{height}px，{bytes} 字节", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "row.imageSizeDownscaled", "en": "{width}x{height}px (downscaled from {originalWidth}x{originalHeight}px), {bytes} bytes", "ru": "{width}x{height}px (уменьшено с {originalWidth}x{originalHeight}px), {bytes} байт", "zh": "{width}x{height}px（由 {originalWidth}x{originalHeight}px 缩小），{bytes} 字节", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.search", "en": "Search", "ru": "Поиск", "zh": "搜索", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.read", "en": "Read", "ru": "Читать", "zh": "读取", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.bash", "en": "Bash", "ru": "Баш", "zh": "运行命令", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.write", "en": "Write", "ru": "Написать", "zh": "写入", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.edit", "en": "Edit", "ru": "Редактировать", "zh": "编辑", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.applyPatch", "en": "Edit", "ru": "Редактировать", "zh": "编辑", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.code", "en": "Code", "ru": "Код", "zh": "代码", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.generic", "en": "Tool call", "ru": "Вызов инструмента", "zh": "工具调用", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.inspect", "en": "Query Cordis environment", "ru": "Запрос среды Cordis", "zh": "查询 Cordis 环境", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.runCordis", "en": "Run Cordis Plugin", "ru": "Запустите плагин Cordis", "zh": "运行 Cordis 插件", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.stopCordis", "en": "Stop Cordis Plugin", "ru": "Остановить плагин Cordis", "zh": "停止 Cordis 插件", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.removeCordis", "en": "Remove Cordis Plugin", "ru": "Удалить плагин Cordis", "zh": "移除 Cordis 插件", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.pwsh", "en": "Pwsh", "ru": "Пшш", "zh": "运行命令", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.readImage", "en": "Read image", "ru": "Читать изображение", "zh": "读取图片", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.grep", "en": "Grep", "ru": "Греп", "zh": "搜索文件内容", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.glob", "en": "Glob", "ru": "Глоб", "zh": "查找文件", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.webSearch", "en": "Search", "ru": "Поиск", "zh": "网页搜索", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.title.webFetch", "en": "Fetch", "ru": "Получить", "zh": "网页获取", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.autoReviewRejected", "en": "Rejected by Auto review", "ru": "Отклонено Auto review", "zh": "Auto review 已拒绝", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.autoReviewNotExecuted", "en": "Tool was not executed. Reason: {reason}", "ru": "Инструмент не был выполнен. Причина: {reason}", "zh": "工具未执行。原因：{reason}", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "tool.autoReviewReasonFallback", "en": "Auto review did not authorize this action", "ru": "Auto review не санкционировал это действие", "zh": "Auto review 未授权此次操作", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "diff.collapseAria", "en": "Collapse diff", "ru": "Свернуть разницу", "zh": "收起差异", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "diff.expandAria", "en": "Expand {count} more diff lines", "ru": "Разверните {count} больше строк различий", "zh": "展开其余 {count} 行差异", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "diff.expandRest", "en": "… {count} more lines", "ru": "… {count} еще строки", "zh": "… 其余 {count} 行", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "read.window", "en": "Showing {shown} of {total} lines", "ru": "Показаны линии {shown} {total}.", "zh": "显示 {shown} / {total} 行", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "read.collapseAria", "en": "Collapse content", "ru": "Свернуть содержимое", "zh": "收起内容", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "read.expandAria", "en": "Expand {count} more lines", "ru": "Разверните {count} еще строки", "zh": "展开其余 {count} 行", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "read.expandRest", "en": "… {count} more lines", "ru": "… {count} еще строки", "zh": "… 其余 {count} 行", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "search.paths", "en": "{shown} paths", "ru": "{shown} пути", "zh": "{shown} 个路径", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "search.paths.truncated", "en": "Showing {shown} of {total} paths", "ru": "Отображение путей {shown} из {total}", "zh": "显示 {shown} / 共 {total} 个路径", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "search.matches", "en": "{shown} matches · {files} files", "ru": "{shown} соответствует · файлам {files}", "zh": "{shown} 处匹配 · {files} 个文件", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "search.matches.truncated", "en": "Showing {shown} of {total} matches · {files} files", "ru": "Отображение {shown} совпадений {total} · Файлы {files}", "zh": "显示 {shown} / 共 {total} 处匹配 · {files} 个文件", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "search.noResults", "en": "No results", "ru": "Нет результатов", "zh": "无结果", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "search.collapseAria", "en": "Collapse results", "ru": "Свернуть результаты", "zh": "收起结果", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "search.expandAria", "en": "Expand {count} more result lines", "ru": "Разверните {count} больше строк результатов", "zh": "展开其余 {count} 行结果", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "search.expandRest", "en": "… {count} more lines", "ru": "… {count} еще строки", "zh": "… 其余 {count} 行", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "web.noResults", "en": "No results found", "ru": "Результаты не найдены", "zh": "未找到结果", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "web.sourcesTruncated", "en": "Source list truncated", "ru": "Список источников сокращен", "zh": "来源列表已截断", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "web.http", "en": "HTTP", "ru": "HTTP", "zh": "HTTP", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "web.contentTruncated", "en": "Content truncated", "ru": "Содержание усечено", "zh": "内容已截断", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "details.running", "en": "Running…", "ru": "Бег…", "zh": "运行中…", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "queue.count", "en": "{n} queued messages", "ru": "Сообщения в очереди {n}", "zh": "{n} 条排队消息", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "queue.sending", "en": "Sending…", "ru": "Отправка…", "zh": "发送中…", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "queue.image", "en": "Queued message image", "ru": "Изображение сообщения в очереди", "zh": "排队消息图片", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "queue.file", "en": "Queued file {name}", "ru": "Файл в очереди {name}", "zh": "排队文件 {name}", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "queue.edit", "en": "Edit queued message", "ru": "Изменить сообщение в очереди", "zh": "编辑排队消息", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "queue.edit.unsupported", "en": "Contains non-text content; editing is not supported yet", "ru": "Содержит нетекстовый контент; редактирование пока не поддерживается", "zh": "包含非文本内容，暂不支持编辑", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "queue.save", "en": "Save queued message", "ru": "Сохранить сообщение в очереди", "zh": "保存排队消息", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "queue.cancelEdit", "en": "Cancel editing", "ru": "Отменить редактирование", "zh": "取消编辑", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "queue.remove", "en": "Remove queued message", "ru": "Удалить сообщение из очереди", "zh": "删除排队消息", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "queue.steer", "en": "Steer queued message", "ru": "Направить сообщение из очереди", "zh": "插话发送", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "queue.steer.unavailable", "en": "Steering is available only while the agent is running", "ru": "Управление доступно только во время работы агента.", "zh": "仅运行中可插话发送", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "error.sessionInUse", "en": "This session is already in use, possibly by another running DSH instance (such as dsh web or the desktop app). Quit other running DSH instances and try again.", "ru": "Этот сеанс уже используется, возможно, другим работающим экземпляром DSH (например, веб-сайтом dsh или настольным приложением). Закройте другие работающие экземпляры DSH и повторите попытку.", "zh": "当前会话已被占用，可能是其他正在运行的 DSH 导致的（如其他 dsh web、桌面端），请退出其他正在运行的 DSH 后重试。", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "queue.editFailed", "en": "Edit failed: this message may have already started sending.", "ru": "Не удалось изменить: возможно, это сообщение уже начало отправляться.", "zh": "编辑失败：这条消息可能已经开始发送。", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "queue.removeFailed", "en": "Removal failed: this message may have already started sending.", "ru": "Удаление не удалось: возможно, это сообщение уже начало отправляться.", "zh": "删除失败：这条消息可能已经开始发送。", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "queue.steerFailed", "en": "Steering failed. Try again.", "ru": "Рулевое управление не удалось. Попробуйте еще раз.", "zh": "插话发送失败，请重试。", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "terminal.signal", "en": "signal {signal}", "ru": "сигнал {signal}", "zh": "信号 {signal}", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "terminal.exitCode", "en": "exit code {code}", "ru": "код выхода {code}", "zh": "退出码 {code}", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "terminal.noExitCode", "en": "no exit code", "ru": "нет кода выхода", "zh": "未正常退出", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "terminal.commandLine", "en": "Command line {n}", "ru": "Командная строка {n}", "zh": "命令第 {n} 行", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "terminal.running", "en": "Running", "ru": "Бег", "zh": "运行中", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "terminal.failed", "en": "Failed", "ru": "Не удалось", "zh": "失败", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "terminal.done", "en": "Done", "ru": "Готово", "zh": "已完成", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "terminal.noOutput", "en": "No output", "ru": "Нет вывода", "zh": "无输出", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "terminal.collapseAria", "en": "Collapse output", "ru": "Свернуть вывод", "zh": "收起输出", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "terminal.expandAria", "en": "Expand the remaining {n} output lines", "ru": "Разверните оставшиеся выходные строки {n}.", "zh": "展开其余 {n} 行输出", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "terminal.expandRest", "en": "… {n} more lines", "ru": "… {n} еще строки", "zh": "… 其余 {n} 行", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "terminal.sendInput", "en": "(send input)", "ru": "(отправить ввод)", "zh": "（发送输入）", "file": "packages/client/ui-conversation/src/client/locales.ts"}
+{"ns": "conversation", "key": "terminal.session", "en": "Terminal {sessionId}", "ru": "Терминал {sessionId}", "zh": "终端 {sessionId}", "file": "packages/client/ui-conversation/src/client/locales.ts"}

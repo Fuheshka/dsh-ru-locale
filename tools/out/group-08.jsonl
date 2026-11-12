@@ -1,0 +1,250 @@
+{"ns": "workspace", "key": "defaultWorkspace.failed", "ru": "Не удалось создать рабочую область по умолчанию. Нажмите «Выбрать рабочую область» и укажите папку."}
+{"ns": "workspace", "key": "draft.workspaceRequired", "ru": "Сначала выберите рабочую область."}
+{"ns": "workspace", "key": "draft.initializationFailed", "ru": "Не удалось заполнить черновик. Повторите попытку чуть позже."}
+{"ns": "workspace", "key": "group.ungrouped", "ru": "Без группы"}
+{"ns": "workspace", "key": "session.new", "ru": "Новая сессия"}
+{"ns": "workspace", "key": "session.untitled", "ru": "Без названия"}
+{"ns": "workspace", "key": "shortcut.noSession", "ru": "Сначала выберите сессию"}
+{"ns": "workspace", "key": "shortcut.noPicker", "ru": "Выбор папки недоступен"}
+{"ns": "workspace", "key": "shortcut.directoryBusy", "ru": "Выбор или добавление рабочей области"}
+{"ns": "workspace", "key": "shortcut.noCompletedTurn", "ru": "В этой сессии нет завершённых ходов"}
+{"ns": "workspace", "key": "shortcut.forkFailed", "ru": "Не удалось ответвить сессию. Повторите попытку."}
+{"ns": "workspace", "key": "section.workspaces", "ru": "Рабочие области"}
+{"ns": "workspace", "key": "section.sessions", "ru": "Сессии"}
+{"ns": "workspace", "key": "viewOptions.label", "ru": "Параметры вида"}
+{"ns": "workspace", "key": "groupBy.label", "ru": "Группировать по"}
+{"ns": "workspace", "key": "groupBy.workspace", "ru": "Рабочая область"}
+{"ns": "workspace", "key": "groupBy.workspaceTree", "ru": "Дерево рабочих областей"}
+{"ns": "workspace", "key": "groupBy.flat", "ru": "В одном списке"}
+{"ns": "workspace", "key": "orderBy.label", "ru": "Сортировать по"}
+{"ns": "workspace", "key": "orderBy.manual", "ru": "Вручную"}
+{"ns": "workspace", "key": "orderBy.updated", "ru": "Последнее обновление"}
+{"ns": "workspace", "key": "filterBy.label", "ru": "Фильтровать сессии"}
+{"ns": "workspace", "key": "viewOptions.hideArchived", "ru": "Скрыть архивные"}
+{"ns": "workspace", "key": "viewOptions.showArchived", "ru": "Все разговоры (показать архивные)"}
+{"ns": "workspace", "key": "viewOptions.onlyArchived", "ru": "Только архивные"}
+{"ns": "workspace", "key": "sessions.expand", "ru": "Показать ещё сессии ({n})"}
+{"ns": "workspace", "key": "sessions.collapse", "ru": "Показать меньше"}
+{"ns": "workspace", "key": "empty.none", "ru": "Сессий пока нет"}
+{"ns": "workspace", "key": "empty.noneArchived", "ru": "Архивных сессий пока нет"}
+{"ns": "workspace", "key": "empty.viewOthers", "ru": "Посмотреть другие сессии"}
+{"ns": "workspace", "key": "empty.noMatches", "ru": "Нет совпадений"}
+{"ns": "workspace", "key": "workspace.add", "ru": "Добавить рабочую область"}
+{"ns": "workspace", "key": "search.sessions.aria", "ru": "Поиск сессий"}
+{"ns": "workspace", "key": "search.placeholder", "ru": "Поиск по названиям сессий"}
+{"ns": "workspace", "key": "search.clear", "ru": "Очистить поиск"}
+{"ns": "workspace", "key": "search.results.aria", "ru": "Результаты поиска"}
+{"ns": "workspace", "key": "search.pending", "ru": "Поиск по истории сессий…"}
+{"ns": "workspace", "key": "search.noMatches", "ru": "Нет подходящих сессий"}
+{"ns": "workspace", "key": "search.hasMore", "ru": "Показаны первые результаты ({n}). Уточните запрос."}
+{"ns": "workspace", "key": "menu.addWorkspace", "ru": "Добавить рабочую область…"}
+{"ns": "workspace", "key": "picker.loading", "ru": "Загрузка рабочих областей…"}
+{"ns": "workspace", "key": "conflict.named", "ru": "Рабочая область с именем «{name}» уже существует."}
+{"ns": "workspace", "key": "folderError.title", "ru": "Не удалось открыть папку"}
+{"ns": "workspace", "key": "folderError.retry", "ru": "Выбрать ещё раз"}
+{"ns": "workspace", "key": "rename", "ru": "Переименовать"}
+{"ns": "workspace", "key": "rename.workspace.title", "ru": "Переименовать рабочую область"}
+{"ns": "workspace", "key": "rename.session.title", "ru": "Переименовать сессию"}
+{"ns": "workspace", "key": "field.workspaceName", "ru": "Имя рабочей области"}
+{"ns": "workspace", "key": "field.sessionName", "ru": "Имя сессии"}
+{"ns": "workspace", "key": "delete.workspace", "ru": "Удалить рабочую область"}
+{"ns": "workspace", "key": "delete.desc", "ru": "«{name}» исчезнет из списка рабочих областей. Папка и журналы сессий сохранятся. Сессии перейдут в раздел «Без группы»."}
+{"ns": "workspace", "key": "delete.pending", "ru": "Удаление рабочей области…"}
+{"ns": "workspace", "key": "menu.fork", "ru": "Ответвить сессию"}
+{"ns": "workspace", "key": "menu.archiveSession", "ru": "Заархивировать сессию"}
+{"ns": "workspace", "key": "menu.unarchiveSession", "ru": "Разархивировать сессию"}
+{"ns": "workspace", "key": "menu.pinSession", "ru": "Закрепить сессию"}
+{"ns": "workspace", "key": "menu.unpinSession", "ru": "Открепить сессию"}
+{"ns": "workspace", "key": "menu.sessionId", "ru": "Копировать ID сессии"}
+{"ns": "workspace", "key": "toast.sessionIdCopied", "ru": "ID сессии скопирован"}
+{"ns": "workspace", "key": "toast.sessionIdCopyFailed", "ru": "Не удалось скопировать. Повторите попытку."}
+{"ns": "workspace", "key": "row.archived", "ru": "В архиве"}
+{"ns": "workspace", "key": "row.pinned", "ru": "Закреплено"}
+{"ns": "workspace", "key": "toast.archivedNotOpenable", "ru": "Архивные сессии нельзя открыть. Разархивируйте, чтобы посмотреть."}
+{"ns": "workspace", "key": "toast.archived", "ru": "Сессия заархивирована. Можно "}
+{"ns": "workspace", "key": "toast.stoppedAndArchived", "ru": "Сессия остановлена и заархивирована. Можно "}
+{"ns": "workspace", "key": "archive.confirm.title", "ru": "Остановить и заархивировать эту сессию?"}
+{"ns": "workspace", "key": "archive.confirm.desc", "ru": "В «{title}» ещё идёт работа. При архивировании она сначала остановится; сессию можно будет восстановить из фильтра «Все разговоры (показать архивные)» в боковой панели, а остановленная работа сама не возобновится."}
+{"ns": "workspace", "key": "archive.confirm.activity", "ru": "Работа, которая будет остановлена"}
+{"ns": "workspace", "key": "archive.confirm.turn", "ru": "Текущий ход"}
+{"ns": "workspace", "key": "archive.confirm.subagents.one", "ru": "Субагенты в работе ({n}): {names}"}
+{"ns": "workspace", "key": "archive.confirm.subagents.other", "ru": "Субагенты в работе ({n}): {names}"}
+{"ns": "workspace", "key": "archive.confirm.jobs.one", "ru": "Фоновые задачи ({n}): {names}"}
+{"ns": "workspace", "key": "archive.confirm.jobs.other", "ru": "Фоновые задачи ({n}): {names}"}
+{"ns": "workspace", "key": "archive.confirm.schedules.one", "ru": "Напоминания по расписанию ({n}): {names}"}
+{"ns": "workspace", "key": "archive.confirm.schedules.other", "ru": "Напоминания по расписанию ({n}): {names}"}
+{"ns": "workspace", "key": "archive.confirm.other.one", "ru": "Ещё {n} элемент работы ({kind})"}
+{"ns": "workspace", "key": "archive.confirm.other.other", "ru": "Ещё {n} элементов работы ({kind})"}
+{"ns": "workspace", "key": "archive.confirm.listSeparator", "ru": ", "}
+{"ns": "workspace", "key": "archive.confirm.action", "ru": "Остановить и заархивировать"}
+{"ns": "workspace", "key": "archive.confirm.pending", "ru": "Остановка и архивирование…"}
+{"ns": "workspace", "key": "toast.archivedUndo", "ru": "отменить"}
+{"ns": "workspace", "key": "toast.archivedOr", "ru": " или "}
+{"ns": "workspace", "key": "toast.archivedFilter", "ru": "фильтр архивных сессий"}
+{"ns": "workspace", "key": "toast.pinFailed", "ru": "Не удалось закрепить. Повторите попытку позже."}
+{"ns": "workspace", "key": "toast.unpinFailed", "ru": "Не удалось открепить. Повторите попытку позже."}
+{"ns": "workspace", "key": "toast.createFailed", "ru": "Не удалось создать сессию: {message}"}
+{"ns": "workspace", "key": "toast.forkRequiresOpen", "ru": "Откройте исходную сессию и завершите миграцию, прежде чем создавать ответвление."}
+{"ns": "workspace", "key": "toast.openForkSource", "ru": "Открыть исходную сессию"}
+{"ns": "workspace", "key": "sessions.count.one", "ru": "Сессий: {n}"}
+{"ns": "workspace", "key": "sessions.count.other", "ru": "Сессий: {n}"}
+{"ns": "workspace", "key": "actions.workspace.aria", "ru": "Действия с рабочей областью {name}"}
+{"ns": "workspace", "key": "actions.session.aria", "ru": "Действия с сессией {name}"}
+{"ns": "workspace", "key": "actions.archive", "ru": "Заархивировать"}
+{"ns": "workspace", "key": "actions.unarchive", "ru": "Разархивировать"}
+{"ns": "workspace", "key": "actions.pin", "ru": "Закрепить"}
+{"ns": "workspace", "key": "actions.unpin", "ru": "Открепить"}
+{"ns": "workspace", "key": "actions.newSession", "ru": "Новая сессия"}
+{"ns": "workspace", "key": "actions.newSession.aria", "ru": "Новая сессия в {name}"}
+{"ns": "workspace", "key": "status.running", "ru": "Выполняется"}
+{"ns": "workspace", "key": "status.subagentsRunning.one", "ru": "Субагентов в работе: {n}"}
+{"ns": "workspace", "key": "status.subagentsRunning.other", "ru": "Субагентов в работе: {n}"}
+{"ns": "workspace", "key": "status.idle", "ru": "Не активна"}
+{"ns": "workspace", "key": "status.waitingApproval", "ru": "Ожидает подтверждения"}
+{"ns": "workspace", "key": "status.planReview", "ru": "План ждёт проверки"}
+{"ns": "workspace", "key": "status.waitingAnswer", "ru": "Ожидание ответа"}
+{"ns": "workspace", "key": "status.compact.approval", "ru": "Подтверждение"}
+{"ns": "workspace", "key": "status.compact.planReview", "ru": "Проверка плана"}
+{"ns": "workspace", "key": "status.compact.answer", "ru": "Ответ"}
+{"ns": "workspace", "key": "status.completed", "ru": "Завершено"}
+{"ns": "workspace", "key": "hover.created", "ru": "Создано {time}"}
+{"ns": "workspace", "key": "hover.copied", "ru": "Скопировано"}
+{"ns": "workspace", "key": "date.ymd", "ru": "{y}-{m}-{d}"}
+{"ns": "workspace", "key": "time.now", "ru": "сейчас"}
+{"ns": "workspace", "key": "time.minutes", "ru": "{n} мин"}
+{"ns": "workspace", "key": "time.hours", "ru": "{n} ч"}
+{"ns": "workspace", "key": "time.days", "ru": "{n} дн."}
+{"ns": "workspace", "key": "time.months", "ru": "{n} мес."}
+{"ns": "workspace", "key": "time.years", "ru": "{n} г."}
+{"ns": "workspace", "key": "time.ago", "ru": "{t} назад"}
+{"ns": "voice-input", "key": "dictate", "ru": "Диктовать"}
+{"ns": "voice-input", "key": "setupPrompt.title", "ru": "Настройте голосовой ввод перед записью"}
+{"ns": "voice-input", "key": "setupPrompt.body", "ru": "Голосовой ввод включён. При первом использовании нужно скачать и подготовить локальные модели распознавания. Откройте сведения о плагине, чтобы оценить место на диске, память и время до начала настройки."}
+{"ns": "voice-input", "key": "setupPrompt.later", "ru": "Позже"}
+{"ns": "voice-input", "key": "setupPrompt.open", "ru": "Перейти к настройке"}
+{"ns": "voice-input", "key": "setupPrompt.trigger", "ru": "Открыть настройку голосового ввода"}
+{"ns": "voice-input", "key": "setupPrompt.details", "ru": "Открыть настройки плагина голосового ввода"}
+{"ns": "voice-input", "key": "setupPrompt.unavailableTitle", "ru": "Распознавание речи не готово"}
+{"ns": "voice-input", "key": "setupPrompt.unavailableBody", "ru": "Откройте сведения о плагине голосового ввода, чтобы проверить статус распознавания, ход подготовки или ошибки."}
+{"ns": "voice-input", "key": "setup.local", "ru": "Локальные модели скачаются на компьютер, где работает DSH. Python и компилятор не нужны."}
+{"ns": "voice-input", "key": "setup.disk", "ru": "Место на диске"}
+{"ns": "voice-input", "key": "setup.diskValue", "ru": "Заложите около {gb} GB на модели, среду выполнения и кеш скачивания"}
+{"ns": "voice-input", "key": "setup.memory", "ru": "Память"}
+{"ns": "voice-input", "key": "setup.memoryValue", "ru": "Около {gb} GB с загруженной моделью; при распознавании может понадобиться больше"}
+{"ns": "voice-input", "key": "setup.time", "ru": "Первая настройка"}
+{"ns": "voice-input", "key": "setup.timeValue", "ru": "Рассчитывайте примерно на {min}–{max} минут — в зависимости от сети и компьютера"}
+{"ns": "voice-input", "key": "setup.estimateNote", "ru": "Это оценки; на медленной сети может занять больше времени. Скачанное используется повторно; неактивные модели по умолчанию освобождают память."}
+{"ns": "voice-input", "key": "step.check", "ru": "Проверка локальных ресурсов"}
+{"ns": "voice-input", "key": "step.model", "ru": "Подготовка модели распознавания"}
+{"ns": "voice-input", "key": "step.vad", "ru": "Подготовка модели определения голоса"}
+{"ns": "voice-input", "key": "step.verify", "ru": "Проверка файлов модели"}
+{"ns": "voice-input", "key": "step.load", "ru": "Загрузка {name}"}
+{"ns": "voice-input", "key": "stepStatus.pending", "ru": "Не запущено"}
+{"ns": "voice-input", "key": "stepStatus.running", "ru": "Выполняется"}
+{"ns": "voice-input", "key": "stepStatus.complete", "ru": "Завершено"}
+{"ns": "voice-input", "key": "stepStatus.failed", "ru": "Не удалось"}
+{"ns": "voice-input", "key": "stepStatus.cancelled", "ru": "Отменено"}
+{"ns": "voice-input", "key": "short.downloading", "ru": "Скачивание"}
+{"ns": "voice-input", "key": "short.failed", "ru": "Настройка не удалась"}
+{"ns": "voice-input", "key": "retryRecording", "ru": "Записать ещё раз"}
+{"ns": "voice-input", "key": "preparationSteps", "ru": "Этапы подготовки"}
+{"ns": "voice-input", "key": "prepare", "ru": "Скачать и подготовить"}
+{"ns": "voice-input", "key": "retryPrepare", "ru": "Повторить подготовку"}
+{"ns": "voice-input", "key": "cancelPrepare", "ru": "Отменить подготовку"}
+{"ns": "voice-input", "key": "downloadProgress", "ru": "Прогресс скачивания"}
+{"ns": "voice-input", "key": "downloadBytes", "ru": "Скачано: {completed} / {total} MB, {percent}%"}
+{"ns": "voice-input", "key": "downloadUnknown", "ru": "Скачано {completed} MB"}
+{"ns": "voice-input", "key": "elapsed", "ru": "Ожидание: {seconds} с"}
+{"ns": "voice-input", "key": "preparationFailed", "ru": "Подготовка не удалась: {message}"}
+{"ns": "voice-input", "key": "download.network", "ru": "Не удалось скачать {resource}: соединение с сервисом скачивания не установлено."}
+{"ns": "voice-input", "key": "download.dns", "ru": "Не удалось скачать {resource}: адрес скачивания не разрешился."}
+{"ns": "voice-input", "key": "download.timeout", "ru": "Скачивание {resource} превысило время ожидания."}
+{"ns": "voice-input", "key": "download.certificate", "ru": "Не удалось скачать {resource}: проверка сертификата не прошла."}
+{"ns": "voice-input", "key": "download.http", "ru": "Не удалось скачать {resource}: сервис скачивания вернул HTTP {status}."}
+{"ns": "voice-input", "key": "download.integrity", "ru": "Скачивание {resource} не завершено или не прошло проверку."}
+{"ns": "voice-input", "key": "download.storage", "ru": "Не удалось сохранить {resource}: мало места на диске или нет прав на запись."}
+{"ns": "voice-input", "key": "download.unknown", "ru": "Не удалось подготовить {resource}."}
+{"ns": "voice-input", "key": "downloadAdvice.network", "ru": "Проверьте, что компьютер, где работает DSH, может достучаться до источника скачивания и его файловых сервисов. При необходимости настройте прокси на этом компьютере и повторите попытку."}
+{"ns": "voice-input", "key": "downloadAdvice.dns", "ru": "Проверьте настройки DNS и прокси на компьютере, где работает DSH. Убедитесь, что домен источника скачивания разрешается, и повторите попытку."}
+{"ns": "voice-input", "key": "downloadAdvice.timeout", "ru": "Проверьте подключение к сети и прокси на компьютере, где работает DSH, и повторите попытку позже. Проверенные скачанные файлы сохранятся."}
+{"ns": "voice-input", "key": "downloadAdvice.certificate", "ru": "Проверьте системные часы, доверенные сертификаты и настройки прокси на компьютере, где работает DSH, и повторите попытку."}
+{"ns": "voice-input", "key": "downloadAdvice.http", "ru": "Убедитесь, что адрес скачивания доступен, а прокси пропускает запросы к сервису скачивания, или повторите попытку позже."}
+{"ns": "voice-input", "key": "downloadAdvice.integrity", "ru": "Повторите скачивание. Остальные файлы скачаны и проверены — они сохранятся."}
+{"ns": "voice-input", "key": "downloadAdvice.storage", "ru": "Проверьте свободное место на диске и права на запись в папку модели на компьютере, где работает DSH, и повторите попытку."}
+{"ns": "voice-input", "key": "downloadAdvice.unknown", "ru": "Проверьте сеть, место на диске и права на папку модели на компьютере, где работает DSH, и повторите попытку."}
+{"ns": "voice-input", "key": "downloadSource", "ru": "Источник скачивания: {source}"}
+{"ns": "voice-input", "key": "sourceChoice", "ru": "Источник скачивания моделей"}
+{"ns": "voice-input", "key": "sourceAuto", "ru": "Автоматически (рекомендуется)"}
+{"ns": "voice-input", "key": "sourceHuggingFace", "ru": "Hugging Face"}
+{"ns": "voice-input", "key": "sourceMirror", "ru": "HF-Mirror (зеркало для Китая)"}
+{"ns": "voice-input", "key": "sourceAutoHelp", "ru": "Используется первый ответивший источник; если скачивание не удалось, пробуется другой."}
+{"ns": "voice-input", "key": "sourceManualHelp", "ru": "Скачивание только из выбранного источника. Уже скачанные и проверенные файлы используются повторно."}
+{"ns": "voice-input", "key": "downloadCode", "ru": "Код ошибки: {code}"}
+{"ns": "voice-input", "key": "reconnecting", "ru": "Подключение к сервису распознавания речи…"}
+{"ns": "voice-input", "key": "preparation.unprepared", "ru": "При первом использовании скачиваются локальные модели распознавания."}
+{"ns": "voice-input", "key": "preparation.checking", "ru": "Проверка локальных ресурсов…"}
+{"ns": "voice-input", "key": "preparation.loading", "ru": "Загрузка {name}…"}
+{"ns": "voice-input", "key": "preparation.waking", "ru": "Запуск локального распознавания речи…"}
+{"ns": "voice-input", "key": "preparation.ready", "ru": "Локальное распознавание речи готово."}
+{"ns": "voice-input", "key": "preparation.standby", "ru": "Локальные ресурсы подготовлены. Запись запускает распознавание."}
+{"ns": "voice-input", "key": "preparation.cancelled", "ru": "Подготовка отменена. Завершённые скачивания сохраняются."}
+{"ns": "voice-input", "key": "preparation.cancelling", "ru": "Отмена подготовки…"}
+{"ns": "voice-input", "key": "cloudReady", "ru": "Облачное распознавание речи готово."}
+{"ns": "voice-input", "key": "discard", "ru": "Удалить расшифровку"}
+{"ns": "voice-input", "key": "transcribingShort", "ru": "Распознавание…"}
+{"ns": "voice-input", "key": "wakingShort", "ru": "Запуск…"}
+{"ns": "voice-input", "key": "provider", "ru": "Сервис распознавания"}
+{"ns": "voice-input", "key": "language", "ru": "Язык распознавания"}
+{"ns": "voice-input", "key": "inputDevice", "ru": "Устройство ввода"}
+{"ns": "voice-input", "key": "systemMicrophone", "ru": "По умолчанию в системе"}
+{"ns": "voice-input", "key": "systemMicrophoneNamed", "ru": "По умолчанию в системе ({name})"}
+{"ns": "voice-input", "key": "unnamedSelectedMicrophone", "ru": "Микрофон"}
+{"ns": "voice-input", "key": "unnamedMicrophone", "ru": "Микрофон {number}"}
+{"ns": "voice-input", "key": "inputLevel", "ru": "Уровень сигнала микрофона"}
+{"ns": "voice-input", "key": "deviceUnavailable", "ru": "Недоступно"}
+{"ns": "voice-input", "key": "deviceMissing", "ru": "Микрофон недоступен. Выберите другое устройство ввода."}
+{"ns": "voice-input", "key": "auto", "ru": "Определять автоматически"}
+{"ns": "voice-input", "key": "zh", "ru": "Китайский"}
+{"ns": "voice-input", "key": "en", "ru": "Английский"}
+{"ns": "voice-input", "key": "yue", "ru": "Кантонский диалект"}
+{"ns": "voice-input", "key": "ja", "ru": "Японский"}
+{"ns": "voice-input", "key": "es", "ru": "Испанский"}
+{"ns": "voice-input", "key": "fr", "ru": "Французский"}
+{"ns": "voice-input", "key": "de", "ru": "Немецкий"}
+{"ns": "voice-input", "key": "ru", "ru": "Русский"}
+{"ns": "voice-input", "key": "pt", "ru": "Португальский"}
+{"ns": "voice-input", "key": "ko", "ru": "Корейский"}
+{"ns": "voice-input", "key": "start", "ru": "Начать запись"}
+{"ns": "voice-input", "key": "stop", "ru": "Остановить и распознать"}
+{"ns": "voice-input", "key": "cancel", "ru": "Отмена"}
+{"ns": "voice-input", "key": "insert", "ru": "Вставить текст"}
+{"ns": "voice-input", "key": "loading", "ru": "Загрузка сервисов распознавания…"}
+{"ns": "voice-input", "key": "requesting", "ru": "Разрешите доступ к микрофону, чтобы продолжить…"}
+{"ns": "voice-input", "key": "recording", "ru": "Запись…"}
+{"ns": "voice-input", "key": "interrupted", "ru": "Запись прервана. Повторите попытку."}
+{"ns": "voice-input", "key": "local", "ru": "Звук распознаётся на компьютере, где работает DSH. Если модели нужно скачать, этот компьютер должен иметь доступ к выбранному источнику и его файловым сервисам. При необходимости настройте прокси на этом компьютере."}
+{"ns": "voice-input", "key": "cloud", "ru": "Аудио будет отправлено в выбранный облачный сервис."}
+{"ns": "voice-input", "key": "empty", "ru": "Речь не распознана"}
+{"ns": "voice-input", "key": "cancelled", "ru": "Голосовой ввод отменён."}
+{"ns": "voice-input", "key": "conflict", "ru": "Черновик изменился. Распознанный текст сохранён, его можно вставить в текущую позицию курсора."}
+{"ns": "voice-input", "key": "failed", "ru": "Не удалось распознать речь: {message}"}
+{"ns": "voice-input", "key": "unavailable", "ru": "Этот браузер не может записывать звук. Используйте браузер с поддержкой микрофона."}
+{"ns": "voice-input", "key": "permission", "ru": "Доступ к микрофону запрещён. Разрешите его в настройках браузера и системы."}
+{"ns": "voice-input", "key": "tooLarge", "ru": "Запись превышает лимит сервиса. Сделайте запись короче."}
+{"ns": "plan", "key": "chip.label", "ru": "План"}
+{"ns": "plan", "key": "preview.title", "ru": "План"}
+{"ns": "plan", "key": "preview.document", "ru": "План · Markdown"}
+{"ns": "plan", "key": "preview.action", "ru": "Открыть"}
+{"ns": "plan", "key": "preview.open", "ru": "Открыть план в боковой панели"}
+{"ns": "plan", "key": "preview.full", "ru": "Посмотреть план целиком"}
+{"ns": "plan", "key": "preview.openNamed", "ru": "Открыть план: {title}"}
+{"ns": "plan", "key": "preview.loading", "ru": "Загрузка плана…"}
+{"ns": "plan", "key": "preview.failed", "ru": "Не удалось загрузить план"}
+{"ns": "plan", "key": "preview.invalidAddress", "ru": "Неверный адрес плана"}
+{"ns": "plan", "key": "preview.notFound", "ru": "Этот план не найден"}
+{"ns": "plan", "key": "preview.unavailable", "ru": "Предпросмотр плана недоступен"}
+{"ns": "plan", "key": "preview.expired", "ru": "Срок действия временного предпросмотра плана истёк. Откройте его заново из карточки, которая ждёт проверки."}
+{"ns": "plan", "key": "chip.on.aria", "ru": "Режим плана включён, нажмите, чтобы выключить"}
+{"ns": "plan", "key": "chip.on.title", "ru": "Режим плана включён — нажмите, чтобы выключить (/plan off)"}
+{"ns": "plan", "key": "chip.exitFailed", "ru": "Не удалось выйти из режима плана"}
+{"ns": "messageQuotes", "key": "quote.add", "ru": "Цитировать текст"}

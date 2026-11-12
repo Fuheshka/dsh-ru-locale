@@ -1,0 +1,151 @@
+[
+ {
+  "group": "group-01",
+  "ns": [
+   "conversation"
+  ],
+  "rows": 389
+ },
+ {
+  "group": "group-02",
+  "ns": [
+   "pluginManager"
+  ],
+  "rows": 291
+ },
+ {
+  "group": "group-03",
+  "ns": [
+   "forgePanel"
+  ],
+  "rows": 265
+ },
+ {
+  "group": "group-04",
+  "ns": [
+   "liveshare",
+   "sidebarBrowser",
+   "settings.locale"
+  ],
+  "rows": 250
+ },
+ {
+  "group": "group-05",
+  "ns": [
+   "trajectory",
+   "cordis"
+  ],
+  "rows": 250
+ },
+ {
+  "group": "group-06",
+  "ns": [
+   "stats",
+   "settings",
+   "skill"
+  ],
+  "rows": 250
+ },
+ {
+  "group": "group-07",
+  "ns": [
+   "settings.models",
+   "pluginMarket",
+   "settings.theme",
+   "fileDrag"
+  ],
+  "rows": 250
+ },
+ {
+  "group": "group-08",
+  "ns": [
+   "workspace",
+   "voice-input",
+   "plan",
+   "messageQuotes"
+  ],
+  "rows": 250
+ },
+ {
+  "group": "group-09",
+  "ns": [
+   "deliverables",
+   "shortcuts",
+   "settings.account",
+   "creationRecommendations",
+   "open-in-app"
+  ],
+  "rows": 250
+ },
+ {
+  "group": "group-10",
+  "ns": [
+   "cuaPermissions",
+   "session-inspector",
+   "subagent",
+   "common",
+   "job",
+   "workflowRun"
+  ],
+  "rows": 250
+ },
+ {
+  "group": "group-11",
+  "ns": [
+   "sidebarRight",
+   "settings.pluginInventory",
+   "settings.subagent",
+   "settings.webSearch",
+   "cotTranslation",
+   "question",
+   "agent-team",
+   "fileActions"
+  ],
+  "rows": 250
+ },
+ {
+  "group": "group-12",
+  "ns": [
+   "settings.agentPreset",
+   "command",
+   "sidebarTerminal",
+   "pluginRecommendations",
+   "model",
+   "sidebarDocumentPreview",
+   "sidebarFiles",
+   "feedback",
+   "schedule.catalog",
+   "reference",
+   "sidebarExcel",
+   "slash.menu"
+  ],
+  "rows": 250
+ },
+ {
+  "group": "group-13",
+  "ns": [
+   "sidebarOffice",
+   "sidebarPdf",
+   "settings.shell",
+   "actionCards",
+   "session-log-download",
+   "goal",
+   "settings.permission",
+   "settings.agentLoop",
+   "sidebarImage",
+   "sidebar",
+   "approval",
+   "entryCustomization",
+   "settings.plugins",
+   "inspectorPanel",
+   "settings.sessionLog",
+   "documentHtml",
+   "documentMarkdown",
+   "claude-code-mods",
+   "sidebarCodePreview",
+   "contextMenu",
+   "secretMask"
+  ],
+  "rows": 176
+ }
+]

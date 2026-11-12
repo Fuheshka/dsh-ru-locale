@@ -1,0 +1,5 @@
+.DS_Store
+stage/
+work/report.json
+work/stage/
+*.log

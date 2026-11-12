@@ -1,0 +1,250 @@
+{"ns": "liveshare", "key": "header.action", "ru": "Поделиться"}
+{"ns": "liveshare", "key": "inputOrigin.sharedSession", "ru": "Из общей сессии [{subjectId}]"}
+{"ns": "liveshare", "key": "dialog.title", "ru": "Поделиться сессией"}
+{"ns": "liveshare", "key": "dialog.done", "ru": "Готово"}
+{"ns": "liveshare", "key": "dialog.shareLink", "ru": "Ссылка для общего доступа"}
+{"ns": "liveshare", "key": "dialog.sessionMode", "ru": "Разрешение сессии"}
+{"ns": "liveshare", "key": "dialog.sessionMode.view", "ru": "Только чтение"}
+{"ns": "liveshare", "key": "dialog.sessionMode.write", "ru": "Запись в рабочей области"}
+{"ns": "liveshare", "key": "dialog.sessionMode.hint.view", "ru": "Только чтение: зрители читают файлы и историю сессии в пределах общего доступа и могут отправлять сообщения в сессию, но все инструменты работают в песочнице только для чтения, и записать файлы нельзя."}
+{"ns": "liveshare", "key": "dialog.sessionMode.hint.write", "ru": "Запись в рабочей области: зритель работает в ограниченной песочнице с записью — он меняет файлы в пределах общего доступа и не выше потолка записи; чтение и запись за этими пределами отклоняются, а глобальные настройки, учётные данные и другие сессии остаются закрытыми."}
+{"ns": "liveshare", "key": "dialog.ptcSandboxWarning", "ru": "Внимание: песочница PTC в LiveShare пока не завершена — зритель может читать или записывать файлы за пределами общей рабочей области через run_code. Делитесь только с теми, кому доверяете."}
+{"ns": "liveshare", "key": "dialog.allowsFork", "ru": "Разрешить зрителям ответвлять сессию"}
+{"ns": "liveshare", "key": "dialog.allowsForkHint", "ru": "Ответвлённые сессии сохраняют те же разрешения, что и исходная сессия."}
+{"ns": "liveshare", "key": "dialog.sessionMode.notGranted", "ru": "Этот Harness не сообщил разрешение сессии: у владельца устаревшая сборка, её нужно обновить, иначе общий доступ не сможет его передать."}
+{"ns": "liveshare", "key": "dialog.permissions", "ru": "Разрешения общего доступа"}
+{"ns": "liveshare", "key": "dialog.permissions.save", "ru": "Сохранить изменения"}
+{"ns": "liveshare", "key": "dialog.permissions.saving", "ru": "Сохранение…"}
+{"ns": "liveshare", "key": "dialog.permissions.saved", "ru": "Разрешения общего доступа и эндпоинты плагинов сохранены."}
+{"ns": "liveshare", "key": "dialog.permissions.failed", "ru": "Разрешения общего доступа не сохранены. Повторите попытку."}
+{"ns": "liveshare", "key": "dialog.permissions.partial", "ru": "Разрешение сессии обновлено, но эндпоинты плагинов не сохранены. Повторите попытку."}
+{"ns": "liveshare", "key": "dialog.permissions.modeUnsupported", "ru": "Этот Harness не сообщил разрешение сессии, поэтому здесь его нельзя изменить."}
+{"ns": "liveshare", "key": "dialog.permissions.unsaved", "ru": "Есть несохранённые изменения."}
+{"ns": "liveshare", "key": "dialog.permissions.discard", "ru": "Есть несохранённые изменения; повторное нажатие «Готово» отменит их."}
+{"ns": "liveshare", "key": "dialog.capabilities", "ru": "Эндпоинты плагинов"}
+{"ns": "liveshare", "key": "dialog.capabilities.global", "ru": "Разрешения плагинов"}
+{"ns": "liveshare", "key": "dialog.capabilities.global.none", "ru": "Запретить всё"}
+{"ns": "liveshare", "key": "dialog.capabilities.global.all", "ru": "Разрешить всё"}
+{"ns": "liveshare", "key": "dialog.capabilities.global.custom", "ru": "Выборочно"}
+{"ns": "liveshare", "key": "dialog.capabilities.tier.none", "ru": "Недоступно"}
+{"ns": "liveshare", "key": "dialog.capabilities.tier.all", "ru": "Все методы"}
+{"ns": "liveshare", "key": "dialog.capabilities.partial", "ru": "Частично"}
+{"ns": "liveshare", "key": "dialog.capabilities.empty", "ru": "Ни один плагин пока не объявляет эндпоинты для общего доступа."}
+{"ns": "liveshare", "key": "dialog.capabilities.createFailed", "ru": "Общий доступ создан, но эндпоинты плагинов не сохранены; повторите в разделе «Разрешения общего доступа»."}
+{"ns": "liveshare", "key": "dialog.linkHelp", "ru": "Закрытие этой панели не останавливает общий доступ."}
+{"ns": "liveshare", "key": "dialog.copyFailed", "ru": "Не удалось скопировать ссылку. Выделите ссылку и скопируйте её вручную."}
+{"ns": "liveshare", "key": "dialog.diagnostics", "ru": "Диагностика подключения"}
+{"ns": "liveshare", "key": "dialog.accessUnavailable", "ru": "Сейчас не удаётся показать, кому открыт этот общий доступ. Действующие разрешения не меняются."}
+{"ns": "liveshare", "key": "dialog.selectedCount", "ru": "Сервис подтвердил выбранных людей: {count}."}
+{"ns": "liveshare", "key": "dialog.deploymentAccess", "ru": "Установка разрешает доступ ещё {count} идентичностям — выбор здесь не единственное правило доступа."}
+{"ns": "liveshare", "key": "dialog.selectedRetired", "ru": "Этот общий доступ сохраняет старую область «определённые коллеги»; в новых доступны только два режима выше."}
+{"ns": "liveshare", "key": "dialog.description", "ru": "Создать ссылку LiveShare только для чтения: {title}"}
+{"ns": "liveshare", "key": "dialog.relay", "ru": "Адрес сервиса общего доступа"}
+{"ns": "liveshare", "key": "dialog.relaySaved", "ru": "Сохранено. Новые общие доступы будут использовать этот адрес."}
+{"ns": "liveshare", "key": "dialog.relayInvalid", "ru": "Введите полный адрес, начинающийся с http:// или https://."}
+{"ns": "liveshare", "key": "dialog.relayCurrent", "ru": "Текущий адрес"}
+{"ns": "liveshare", "key": "dialog.relayUnset", "ru": "Адрес не задан"}
+{"ns": "liveshare", "key": "dialog.relaySource.unset", "ru": "Не задан"}
+{"ns": "liveshare", "key": "dialog.relaySource.saved", "ru": "Сохранённый адрес"}
+{"ns": "liveshare", "key": "dialog.relayVerified", "ru": "Проверен на этом адресе"}
+{"ns": "liveshare", "key": "dialog.relayUnverified", "ru": "Не проверен на этом адресе"}
+{"ns": "liveshare", "key": "dialog.relayReverify", "ru": "Адрес изменился; войдите снова на новом адресе."}
+{"ns": "liveshare", "key": "dialog.relayUnsavedHint", "ru": "Адрес ещё не сохранён; сохраните его, чтобы он заработал."}
+{"ns": "liveshare", "key": "dialog.identity.expired", "ru": "Срок действия входа истёк. Войдите снова, прежде чем создавать общий доступ."}
+{"ns": "liveshare", "key": "dialog.identity.unverified", "ru": "Вход не выполнен, поэтому создать общий доступ нельзя."}
+{"ns": "liveshare", "key": "dialog.identity.relayChanged", "ru": "Текущий вход относится к другому адресу Relay. Войдите снова на этом адресе."}
+{"ns": "liveshare", "key": "dialog.identity.unknown", "ru": "Статус входа сейчас недоступен. Повторите попытку позже; без входа общий доступ не создаётся."}
+{"ns": "liveshare", "key": "dialog.identity.retry", "ru": "Повторить"}
+{"ns": "liveshare", "key": "dialog.identity.verify", "ru": "Войти"}
+{"ns": "liveshare", "key": "dialog.identity.reverify", "ru": "Войти снова"}
+{"ns": "liveshare", "key": "dialog.identity.verifyBlocked", "ru": "Сохраните адрес и убедитесь, что он отвечает, а потом войдите."}
+{"ns": "liveshare", "key": "dialog.identity.loginOpening", "ru": "Запуск входа…"}
+{"ns": "liveshare", "key": "dialog.identity.loginWaiting", "ru": "Завершите вход в открывшемся окне."}
+{"ns": "liveshare", "key": "dialog.identity.loginVerifying", "ru": "Проверка результата входа…"}
+{"ns": "liveshare", "key": "dialog.identity.loginDone", "ru": "Вход выполнен; загружается состояние аккаунта."}
+{"ns": "liveshare", "key": "dialog.identity.loginCancelled", "ru": "Вход отменён; учётные данные не сохранены."}
+{"ns": "liveshare", "key": "dialog.identity.loginExpired", "ru": "Срок этой попытки входа истёк; начните заново."}
+{"ns": "liveshare", "key": "dialog.identity.loginMismatch", "ru": "Ответ на вход не относился к этому запросу и был проигнорирован."}
+{"ns": "liveshare", "key": "dialog.identity.loginReplayed", "ru": "Эта попытка входа уже использована; начните заново."}
+{"ns": "liveshare", "key": "dialog.identity.loginUnavailable", "ru": "Не удалось начать вход: Relay недоступен или этот адрес его не поддерживает."}
+{"ns": "liveshare", "key": "dialog.identity.loginBlocked", "ru": "Не удалось открыть окно входа (возможно, браузер его заблокировал). Разрешите всплывающие окна и повторите попытку."}
+{"ns": "liveshare", "key": "dialog.identity.loginFailed", "ru": "Вход не завершён. Повторите попытку."}
+{"ns": "liveshare", "key": "dialog.identity.expires", "ru": "Действует до {time}"}
+{"ns": "liveshare", "key": "dialog.identity.renewed", "ru": "Продлевается автоматически в пределах выданного разрешения."}
+{"ns": "liveshare", "key": "dialog.identity.relayUnsupported", "ru": "Relay по этому адресу пока не умеет проверять личности. Обновите его, прежде чем создавать общий доступ: анонимный доступ эта страница не создаёт."}
+{"ns": "liveshare", "key": "dialog.expiry", "ru": "Срок действия"}
+{"ns": "liveshare", "key": "dialog.expiry.never", "ru": "Бессрочно"}
+{"ns": "liveshare", "key": "dialog.expiry.hour", "ru": "Через 1 час"}
+{"ns": "liveshare", "key": "dialog.expiry.day", "ru": "Через 24 часа"}
+{"ns": "liveshare", "key": "dialog.expiry.week", "ru": "Через 7 дней"}
+{"ns": "liveshare", "key": "dialog.expiry.until", "ru": "До {time}"}
+{"ns": "liveshare", "key": "dialog.linkSharing", "ru": "Общий доступ по ссылке"}
+{"ns": "liveshare", "key": "dialog.help", "ru": "Доступ открывается только к этой сессии. Что может делать зритель, решает разрешение сессии; остановить доступ можно в любой момент в разделе «Управление общим доступом»."}
+{"ns": "liveshare", "key": "dialog.mode.open", "ru": "Любой в организации, у кого есть ссылка"}
+{"ns": "liveshare", "key": "dialog.mode.selected", "ru": "Определённые коллеги"}
+{"ns": "liveshare", "key": "dialog.expiry.clear", "ru": "Бессрочно"}
+{"ns": "liveshare", "key": "dialog.create", "ru": "Создать общий доступ"}
+{"ns": "liveshare", "key": "dialog.creating", "ru": "Создание…"}
+{"ns": "liveshare", "key": "dialog.cancel", "ru": "Отмена"}
+{"ns": "liveshare", "key": "dialog.copy", "ru": "Копировать ссылку"}
+{"ns": "liveshare", "key": "dialog.copied", "ru": "Скопировано"}
+{"ns": "liveshare", "key": "dialog.manage", "ru": "Управление общим доступом"}
+{"ns": "liveshare", "key": "dialog.hostUnavailable", "ru": "Не удаётся подключиться к сервису общего доступа DSH LiveShare."}
+{"ns": "liveshare", "key": "dialog.testing", "ru": "Подключение к сервису общего доступа…"}
+{"ns": "liveshare", "key": "dialog.testOk", "ru": "Связь с Relay установлена"}
+{"ns": "liveshare", "key": "dialog.testWarn", "ru": "Relay доступен по HTTP, но регистрация не завершилась, а хост причину не сообщил. Общий доступ всё равно можно создать — шлюз повторит попытку."}
+{"ns": "liveshare", "key": "dialog.testFail", "ru": "Не удалось подключиться к Relay (хост причину не сообщил)."}
+{"ns": "liveshare", "key": "dialog.addressHint", "ru": "Сначала сохраните адрес сервиса общего доступа."}
+{"ns": "liveshare", "key": "dialog.connectivityChecking", "ru": "Проверка доступности адреса сервиса общего доступа…"}
+{"ns": "liveshare", "key": "dialog.permissionChecking", "ru": "Проверка, может ли хост публиковать общий доступ по этому адресу…"}
+{"ns": "liveshare", "key": "dialog.permissionOk", "ru": "Вход выполнен: хост может публиковать общий доступ."}
+{"ns": "liveshare", "key": "dialog.permissionPending", "ru": "Прежде чем создать общий доступ, нужно проверить этот адрес."}
+{"ns": "liveshare", "key": "dialog.permissionFailed", "ru": "Проверка разрешения не завершилась (хост причину не сообщил)."}
+{"ns": "liveshare", "key": "dialog.outgoing", "ru": "Мои общие доступы"}
+{"ns": "liveshare", "key": "dialog.noOutgoing", "ru": "Общих сессий пока нет"}
+{"ns": "liveshare", "key": "dialog.share.online", "ru": "В сети"}
+{"ns": "liveshare", "key": "dialog.share.offline", "ru": "Не в сети"}
+{"ns": "liveshare", "key": "dialog.open", "ru": "Открыть"}
+{"ns": "liveshare", "key": "dialog.stop", "ru": "Остановить общий доступ"}
+{"ns": "liveshare", "key": "dialog.stopFailed", "ru": "Не удалось остановить общий доступ. Повторите попытку."}
+{"ns": "liveshare", "key": "manage.title", "ru": "Управление общим доступом"}
+{"ns": "liveshare", "key": "manage.open", "ru": "Управление"}
+{"ns": "liveshare", "key": "manage.cancelShare", "ru": "Отменить общий доступ"}
+{"ns": "liveshare", "key": "manage.description", "ru": "Статус в сети и область доступа по каждому общему доступу."}
+{"ns": "liveshare", "key": "manage.stop.title", "ru": "Остановить общий доступ?"}
+{"ns": "liveshare", "key": "manage.stop.description", "ru": "Опубликованная ссылка сразу перестанет работать — все, у кого она открыта, потеряют доступ."}
+{"ns": "liveshare", "key": "manage.stop.acknowledge", "ru": "Я понимаю, что опубликованная ссылка сразу перестанет работать"}
+{"ns": "liveshare", "key": "manage.identityExpired", "ru": "Вход больше не действует — это мешает только создавать новые общие доступы. Уже опубликованные ниже не затронуты: их ссылки по-прежнему копируются, и ими можно управлять."}
+{"ns": "liveshare", "key": "manage.loading", "ru": "Загрузка общих доступов…"}
+{"ns": "liveshare", "key": "manage.empty", "ru": "Общих сессий пока нет."}
+{"ns": "liveshare", "key": "manage.unavailable", "ru": "Не удалось загрузить общие доступы. Показано последнее известное состояние."}
+{"ns": "liveshare", "key": "manage.refresh", "ru": "Обновить"}
+{"ns": "liveshare", "key": "manage.history", "ru": "История"}
+{"ns": "liveshare", "key": "manage.historyLoading", "ru": "Загрузка истории…"}
+{"ns": "liveshare", "key": "manage.historyFailed", "ru": "Не удалось загрузить историю. Повторите попытку."}
+{"ns": "liveshare", "key": "manage.expiresAt", "ru": "Истекает {time}"}
+{"ns": "liveshare", "key": "manage.expiredAt", "ru": "Истёк {time}"}
+{"ns": "liveshare", "key": "manage.sessionMode", "ru": "Разрешение сессии"}
+{"ns": "liveshare", "key": "manage.sessionModeSwitch", "ru": "Разрешение сессии для «{title}»"}
+{"ns": "liveshare", "key": "manage.allowsForkSwitch", "ru": "Могут ли зрители ответвлять сессию «{title}»"}
+{"ns": "liveshare", "key": "manage.sessionModeUnsupported", "ru": "Этот Harness не сообщил разрешение сессии, поэтому здесь его нельзя задать."}
+{"ns": "liveshare", "key": "manage.sessionModeFailed", "ru": "Разрешение сессии не сохранено. Повторите попытку."}
+{"ns": "liveshare", "key": "manage.capabilities", "ru": "Эндпоинты плагинов"}
+{"ns": "liveshare", "key": "manage.audit.shareCreate", "ru": "Общий доступ создан"}
+{"ns": "liveshare", "key": "manage.audit.accessRequest", "ru": "Запрошен доступ на чтение"}
+{"ns": "liveshare", "key": "manage.audit.accessApproved", "ru": "Запрос подтверждён"}
+{"ns": "liveshare", "key": "manage.audit.accessGrant", "ru": "Доступ на чтение предоставлен"}
+{"ns": "liveshare", "key": "manage.audit.accessRevoke", "ru": "Доступ на чтение отозван"}
+{"ns": "liveshare", "key": "manage.audit.shareStop", "ru": "Общий доступ остановлен"}
+{"ns": "liveshare", "key": "manage.done", "ru": "Готово"}
+{"ns": "liveshare", "key": "viewer.title", "ru": "Сессия LiveShare только для чтения"}
+{"ns": "liveshare", "key": "viewer.pluginUnsupported", "ru": "Плагин {plugin} недоступен в этом общем доступе — часть функций недоступна."}
+{"ns": "liveshare", "key": "viewer.dismiss", "ru": "Закрыть"}
+{"ns": "liveshare", "key": "viewer.sharedBy", "ru": "Поделился {owner} · {title}"}
+{"ns": "liveshare", "key": "viewer.readonlyNote", "ru": "Только чтение: управлять сессией можно, но читать — только файлы в пределах общего доступа; изменить ничего нельзя."}
+{"ns": "liveshare", "key": "viewer.writeUnavailableNote", "ru": "Владелец разрешил запись, но этой сессией сейчас нельзя управлять; отправка станет доступна, когда сессия будет готова."}
+{"ns": "liveshare", "key": "viewer.model.title", "ru": "Модель, на которой работает эта сессия; выбрал владелец, открывший доступ"}
+{"ns": "liveshare", "key": "viewer.model.locked", "ru": "Зрители не могут сменить модель"}
+{"ns": "liveshare", "key": "viewer.permission.title", "ru": "Разрешение сессии для этого общего доступа; задаёт владелец"}
+{"ns": "liveshare", "key": "viewer.permission.locked", "ru": "Зрители не могут изменить его сами"}
+{"ns": "liveshare", "key": "viewer.permission.unconfirmed", "ru": "Не подтверждено"}
+{"ns": "liveshare", "key": "viewer.transcriptLabel", "ru": "Содержимое сессии (только чтение)"}
+{"ns": "liveshare", "key": "viewer.role.user", "ru": "Пользователь"}
+{"ns": "liveshare", "key": "viewer.role.assistant", "ru": "Ассистент"}
+{"ns": "liveshare", "key": "viewer.role.tool", "ru": "Инструмент"}
+{"ns": "liveshare", "key": "viewer.loading", "ru": "Подключение к сессии…"}
+{"ns": "liveshare", "key": "viewer.empty", "ru": "В этой сессии пока нечего показать."}
+{"ns": "liveshare", "key": "viewer.reconnecting", "ru": "Соединение прервано, переподключение…"}
+{"ns": "liveshare", "key": "viewer.offline", "ru": "Общий доступ не в сети — соединение восстановится автоматически."}
+{"ns": "liveshare", "key": "viewer.retry", "ru": "Повторить сейчас"}
+{"ns": "liveshare", "key": "viewer.expired", "ru": "Этот общий доступ истёк и больше не действует. Попросите владельца открыть его снова."}
+{"ns": "liveshare", "key": "viewer.revoked", "ru": "Владелец остановил общий доступ или отозвал ваш доступ."}
+{"ns": "liveshare", "key": "viewer.reauthenticate", "ru": "Срок входа истёк. Войдите снова."}
+{"ns": "liveshare", "key": "viewer.reauthenticateAction", "ru": "Войти снова"}
+{"ns": "liveshare", "key": "viewer.status.connecting", "ru": "Подключение к общему доступу…"}
+{"ns": "liveshare", "key": "viewer.status.invalid", "ru": "Ссылка недействительна или этот общий доступ удалён."}
+{"ns": "liveshare", "key": "viewer.status.invalidHint", "ru": "Проверьте, что ссылка полная, или попросите у владельца новую."}
+{"ns": "liveshare", "key": "viewer.status.offline", "ru": "Владелец сейчас не в сети; страница переподключится автоматически."}
+{"ns": "liveshare", "key": "viewer.status.offlineHint", "ru": "Подождите немного или нажмите «Повторить». Если это не поможет, свяжитесь с владельцем."}
+{"ns": "liveshare", "key": "viewer.status.stopped", "ru": "Владелец остановил этот общий доступ."}
+{"ns": "liveshare", "key": "viewer.status.stoppedHint", "ru": "Если доступ ещё нужен, попросите владельца включить его снова."}
+{"ns": "liveshare", "key": "viewer.status.expired", "ru": "Этот общий доступ истёк."}
+{"ns": "liveshare", "key": "viewer.status.expiredHint", "ru": "Попросите владельца заново открыть доступ к сессии."}
+{"ns": "liveshare", "key": "viewer.status.reauthenticate", "ru": "Срок входа истёк."}
+{"ns": "liveshare", "key": "viewer.status.unavailable", "ru": "Сервис общего доступа сейчас недоступен; идёт повторная попытка."}
+{"ns": "liveshare", "key": "viewer.status.unavailableHint", "ru": "Повторите попытку чуть позже; если сервис так и не поднялся, вернитесь позже."}
+{"ns": "liveshare", "key": "viewer.action.reload", "ru": "Обновить"}
+{"ns": "liveshare", "key": "viewer.action.retry", "ru": "Повторить"}
+{"ns": "liveshare", "key": "viewer.action.signIn", "ru": "Войти снова"}
+{"ns": "liveshare", "key": "viewer.action.directory", "ru": "Назад к общим доступам"}
+{"ns": "liveshare", "key": "viewer.expiresAt", "ru": "Доступ до {time}"}
+{"ns": "liveshare", "key": "viewer.picker.ownerUnknown", "ru": "Неизвестный владелец"}
+{"ns": "liveshare", "key": "viewer.picker.version", "ru": "DSH"}
+{"ns": "liveshare", "key": "viewer.picker.groupCount", "ru": "Общих доступов: {count}"}
+{"ns": "liveshare", "key": "viewer.picker.online", "ru": "В сети"}
+{"ns": "liveshare", "key": "viewer.picker.offline", "ru": "Не в сети"}
+{"ns": "liveshare", "key": "viewer.picker.subjectLabel", "ru": "субъект …{label}"}
+{"ns": "liveshare", "key": "viewer.picker.historical", "ru": "Непроверенная история"}
+{"ns": "liveshare", "key": "viewer.picker.historicalNote", "ru": "Эти общие доступы появились до проверки личности; права доступа не меняются."}
+{"ns": "liveshare", "key": "viewer.brand", "ru": "LiveShare"}
+{"ns": "liveshare", "key": "viewer.home", "ru": "Вернуться на главную LiveShare"}
+{"ns": "liveshare", "key": "viewer.sharedByShort", "ru": "Поделился {owner}"}
+{"ns": "liveshare", "key": "viewer.relayVersion", "ru": "Relay {release}"}
+{"ns": "liveshare", "key": "viewer.refused", "ru": "liveshare: {subject} отклонён со статусом {status}"}
+{"ns": "liveshare", "key": "viewer.relayAnswered", "ru": "liveshare: Relay вернул {status}"}
+{"ns": "liveshare", "key": "viewer.relaySilent", "ru": "liveshare: Relay ничего не ответил по {subject}"}
+{"ns": "liveshare", "key": "viewer.unreachable", "ru": "liveshare: {subject} не дошёл до Relay, идёт повторная попытка"}
+{"ns": "liveshare", "key": "viewer.noAnswer", "ru": "нет ответа"}
+{"ns": "liveshare", "key": "viewer.row.fork", "ru": "Ответвить сессию"}
+{"ns": "liveshare", "key": "viewer.row.forkSource", "ru": "Ответвление от «{title}»"}
+{"ns": "liveshare", "key": "viewer.row.branchRefused", "ru": "Не удалось завершить ответвление: {reason}"}
+{"ns": "liveshare", "key": "viewer.sharePath.unavailable", "ru": "Эта страница не открывает файлы рабочей области: общий доступ передаёт пути к файлам, а не их содержимое."}
+{"ns": "liveshare", "key": "viewer.reason.fork-not-permitted", "ru": "Владелец не разрешает ответвлять эту сессию"}
+{"ns": "liveshare", "key": "viewer.reason.fork-not-implemented", "ru": "Эта установка пока не поддерживает ответвление"}
+{"ns": "liveshare", "key": "viewer.reason.write-not-implemented", "ru": "Эта установка пока не поддерживает запись"}
+{"ns": "liveshare", "key": "viewer.reason.share-not-found", "ru": "Этот общий доступ больше не существует"}
+{"ns": "liveshare", "key": "viewer.reason.share-stopped", "ru": "Общий доступ остановлен"}
+{"ns": "liveshare", "key": "viewer.reason.share-expired", "ru": "Общий доступ истёк"}
+{"ns": "liveshare", "key": "viewer.reason.source-session-mismatch", "ru": "В запросе ответвления указана не та сессия, что в общем доступе"}
+{"ns": "liveshare", "key": "viewer.reason.fork-operation-conflict", "ru": "В этом запросе ответвления префикс отличался от предыдущего, поэтому новая сессия не создана"}
+{"ns": "liveshare", "key": "viewer.reason.fork-enforcement-failed", "ru": "Сессия ответвления создана, но ограничения песочницы установить не удалось — пользоваться ей нельзя"}
+{"ns": "liveshare", "key": "viewer.reason.mode-view", "ru": "Владелец перевёл этот общий доступ в режим только для чтения"}
+{"ns": "liveshare", "key": "viewer.reason.unconfirmed", "ru": "Не удалось подтвердить текущее состояние этого общего доступа; он остаётся в режиме только для чтения, пока состояние не подтвердится"}
+{"ns": "liveshare", "key": "viewer.reason.fork-viewer-unknown", "ru": "Relay не подтвердил вашу личность, поэтому ответвление нельзя создать"}
+{"ns": "liveshare", "key": "viewer.reason.fork-unknown-child", "ru": "Эта сессия не является ответвлением общего доступа"}
+{"ns": "liveshare", "key": "viewer.reason.fork-viewer-mismatch", "ru": "Это ответвление принадлежит другому зрителю"}
+{"ns": "liveshare", "key": "viewer.reason.fork-source-revoked", "ru": "Общий доступ, из которого создано это ответвление, больше не действует"}
+{"ns": "liveshare", "key": "viewer.reason.fork-ceiling-uninstalled", "ru": "На этом хосте не установлены ограничения выполнения только для чтения"}
+{"ns": "liveshare", "key": "viewer.reason.fork-prepare-failed", "ru": "Хост не смог подготовить это ответвление, поэтому действие не выполнено"}
+{"ns": "liveshare", "key": "viewer.reason.share-not-writable", "ru": "Владелец не разрешает запись в эту сессию"}
+{"ns": "liveshare", "key": "viewer.reason.source-write-unavailable", "ru": "Хост не смог ограничить общую сессию, поэтому не может ею управлять"}
+{"ns": "liveshare", "key": "viewer.reason.prompt-identity-missing", "ru": "В этой отправке не было идентификатора запроса для указания авторства, поэтому хост её не выполнил"}
+{"ns": "liveshare", "key": "viewer.reason.viewer-not-authorized", "ru": "Аккаунт больше не может открыть этот общий доступ"}
+{"ns": "liveshare", "key": "viewer.reason.liveshare/read-only", "ru": "Эта сессия вне вашего общего доступа, поэтому запись не выполнялась"}
+{"ns": "sidebarBrowser", "key": "type.label", "ru": "Браузер"}
+{"ns": "sidebarBrowser", "key": "guide.title", "ru": "Браузер"}
+{"ns": "sidebarBrowser", "key": "guide.description", "ru": "Просмотр веб-страниц"}
+{"ns": "sidebarBrowser", "key": "shortcut.noSession", "ru": "Сначала откройте сессию"}
+{"ns": "sidebarBrowser", "key": "address.placeholder", "ru": "Введите адрес HTTP(S)"}
+{"ns": "sidebarBrowser", "key": "address.changed", "ru": "URL изменился"}
+{"ns": "sidebarBrowser", "key": "back", "ru": "Назад"}
+{"ns": "sidebarBrowser", "key": "forward", "ru": "Вперёд"}
+{"ns": "sidebarBrowser", "key": "reload", "ru": "Обновить"}
+{"ns": "sidebarBrowser", "key": "go", "ru": "Перейти"}
+{"ns": "sidebarBrowser", "key": "external", "ru": "Открыть в системном браузере"}
+{"ns": "sidebarBrowser", "key": "sandbox.disable", "ru": "Отключить ограничения песочницы"}
+{"ns": "sidebarBrowser", "key": "sandbox.enable", "ru": "Восстановить ограничения песочницы"}
+{"ns": "sidebarBrowser", "key": "sandbox.warning", "ru": "Ограничения песочницы отключены: страница может менять адрес приложения верхнего уровня, а также использовать скачивания, модальные окна и блокировку ввода."}
+{"ns": "sidebarBrowser", "key": "start", "ru": "Введите адрес HTTP(S), чтобы начать просмотр"}
+{"ns": "sidebarBrowser", "key": "loading", "ru": "Открытие…"}
+{"ns": "sidebarBrowser", "key": "restore.previous", "ru": "Ранее открыто"}
+{"ns": "sidebarBrowser", "key": "restore.action", "ru": "Восстановить страницу"}
+{"ns": "sidebarBrowser", "key": "error.empty", "ru": "Введите адрес."}
+{"ns": "sidebarBrowser", "key": "error.invalid", "ru": "Адрес некорректный или слишком длинный."}
+{"ns": "sidebarBrowser", "key": "error.protocol", "ru": "Поддерживаются только адреса HTTP и HTTPS; для локальных файлов используйте предпросмотр документа."}
+{"ns": "sidebarBrowser", "key": "error.credentials", "ru": "Адрес не может содержать имя пользователя или пароль."}
+{"ns": "sidebarBrowser", "key": "error.application-origin", "ru": "Встроенный браузер не может открыть само приложение DSH."}
+{"ns": "sidebarBrowser", "key": "load.failed", "ru": "Страница не загрузилась; обновите её или откройте в системном браузере."}
+{"ns": "sidebarBrowser", "key": "load.failed.detail", "ru": "Ошибка загрузки страницы ({code}): {description}"}
+{"ns": "sidebarBrowser", "key": "address.unknown", "ru": "Страница перешла на другой адрес; этот контейнер не может прочитать её новый URL."}
+{"ns": "settings.locale", "key": "language.title", "ru": "Язык"}

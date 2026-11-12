@@ -1,0 +1,250 @@
+{"ns": "trajectory", "key": "view.trajectory", "ru": "Траектория"}
+{"ns": "trajectory", "key": "toolbar.aria", "ru": "Панель инструментов траектории"}
+{"ns": "trajectory", "key": "toolbar.duration", "ru": "Продолжительность"}
+{"ns": "trajectory", "key": "toolbar.useActualDuration", "ru": "Использовать фактическую продолжительность"}
+{"ns": "trajectory", "key": "toolbar.useEqualWidth", "ru": "Использовать операции равной ширины"}
+{"ns": "trajectory", "key": "toolbar.actualTime", "ru": "Фактическое время"}
+{"ns": "trajectory", "key": "toolbar.turns", "ru": "Ходы"}
+{"ns": "trajectory", "key": "toolbar.expandTurns", "ru": "Развернуть ходы"}
+{"ns": "trajectory", "key": "toolbar.collapseTurns", "ru": "Свернуть ходы"}
+{"ns": "trajectory", "key": "toolbar.calls", "ru": "Вызовы"}
+{"ns": "trajectory", "key": "toolbar.expandCalls", "ru": "Развернуть вызовы"}
+{"ns": "trajectory", "key": "toolbar.collapseCalls", "ru": "Свернуть вызовы"}
+{"ns": "trajectory", "key": "toolbar.subCalls", "ru": "Вложенные вызовы"}
+{"ns": "trajectory", "key": "toolbar.expandSubCalls", "ru": "Развернуть вложенные вызовы"}
+{"ns": "trajectory", "key": "toolbar.collapseSubCalls", "ru": "Свернуть вложенные вызовы"}
+{"ns": "trajectory", "key": "toolbar.search", "ru": "Поиск по траектории"}
+{"ns": "trajectory", "key": "toolbar.searchPlaceholder", "ru": "Поиск"}
+{"ns": "trajectory", "key": "kind.system", "ru": "СИСТЕМА"}
+{"ns": "trajectory", "key": "kind.user", "ru": "ПОЛЬЗОВАТЕЛЬ"}
+{"ns": "trajectory", "key": "kind.context", "ru": "КОНТЕКСТ"}
+{"ns": "trajectory", "key": "kind.compacted", "ru": "СЖАТО"}
+{"ns": "trajectory", "key": "kind.message", "ru": "Сообщение"}
+{"ns": "trajectory", "key": "kind.assistant", "ru": "АССИСТЕНТ"}
+{"ns": "trajectory", "key": "kind.tool", "ru": "ИНСТРУМЕНТ"}
+{"ns": "trajectory", "key": "kind.subtool", "ru": "ВЛОЖЕННЫЙ ИНСТРУМЕНТ"}
+{"ns": "trajectory", "key": "kind.sub", "ru": "Подэлемент"}
+{"ns": "trajectory", "key": "column.input", "ru": "Ввод"}
+{"ns": "trajectory", "key": "column.output", "ru": "Вывод"}
+{"ns": "trajectory", "key": "column.think", "ru": "Размышления"}
+{"ns": "trajectory", "key": "column.time", "ru": "Время"}
+{"ns": "trajectory", "key": "column.model", "ru": "Модель"}
+{"ns": "trajectory", "key": "column.tools", "ru": "Инструменты"}
+{"ns": "trajectory", "key": "turn.label", "ru": "Ход {turn}"}
+{"ns": "trajectory", "key": "section.betweenTurns", "ru": "Между ходами"}
+{"ns": "trajectory", "key": "group.message", "ru": "Сообщение"}
+{"ns": "trajectory", "key": "group.step", "ru": "Шаг {step}"}
+{"ns": "trajectory", "key": "group.compaction", "ru": "Сжатие {seq}"}
+{"ns": "trajectory", "key": "status.failed", "ru": "Не удалось"}
+{"ns": "trajectory", "key": "status.pending", "ru": "Ожидается"}
+{"ns": "trajectory", "key": "status.completed", "ru": "Завершено"}
+{"ns": "trajectory", "key": "timing.notAvailable", "ru": "Недоступно"}
+{"ns": "trajectory", "key": "timing.notRecorded", "ru": "Не записано"}
+{"ns": "trajectory", "key": "timing.stepStartUnavailable", "ru": "Начало шага недоступно"}
+{"ns": "trajectory", "key": "timing.firstTokenUnavailable", "ru": "Первый токен недоступен"}
+{"ns": "trajectory", "key": "timing.usageUnavailable", "ru": "Расход недоступен"}
+{"ns": "trajectory", "key": "timing.outputTokensUnavailable", "ru": "Выходные токены недоступны"}
+{"ns": "trajectory", "key": "timing.durationTooShort", "ru": "Продолжительность слишком коротка"}
+{"ns": "trajectory", "key": "timing.showLocalTime", "ru": "Показать местное время"}
+{"ns": "trajectory", "key": "timing.showUnixTimestamp", "ru": "Показать временную метку Unix"}
+{"ns": "trajectory", "key": "timing.started", "ru": "Начало"}
+{"ns": "trajectory", "key": "timing.totalDuration", "ru": "Общая продолжительность"}
+{"ns": "trajectory", "key": "timing.ttft", "ru": "TTFT"}
+{"ns": "trajectory", "key": "timing.generation", "ru": "Генерация"}
+{"ns": "trajectory", "key": "timing.throughput", "ru": "Пропускная способность"}
+{"ns": "trajectory", "key": "timing.duration", "ru": "Продолжительность"}
+{"ns": "trajectory", "key": "timing.source", "ru": "Источник тайминга"}
+{"ns": "trajectory", "key": "timing.sessionTimestamps", "ru": "Временные метки сессии"}
+{"ns": "trajectory", "key": "timing.sessionTimestampsRunning", "ru": "Временные метки сессии (выполняется)"}
+{"ns": "trajectory", "key": "timing.request", "ru": "Тайминг запроса"}
+{"ns": "trajectory", "key": "unit.milliseconds", "ru": "{value} мс"}
+{"ns": "trajectory", "key": "unit.seconds", "ru": "{value} с"}
+{"ns": "trajectory", "key": "unit.tokens", "ru": "{value} ток"}
+{"ns": "trajectory", "key": "unit.tokensPerSecond", "ru": "{value} ток/с"}
+{"ns": "trajectory", "key": "usage.tokens", "ru": "Токены"}
+{"ns": "trajectory", "key": "usage.reasoning", "ru": "Рассуждения"}
+{"ns": "trajectory", "key": "usage.content", "ru": "Содержимое"}
+{"ns": "trajectory", "key": "usage.notReported", "ru": "Расход не указан"}
+{"ns": "trajectory", "key": "usage.input", "ru": "Ввод"}
+{"ns": "trajectory", "key": "usage.cached", "ru": "Из кэша"}
+{"ns": "trajectory", "key": "usage.cacheCreated", "ru": "Записано в кэш"}
+{"ns": "trajectory", "key": "usage.other", "ru": "Другое"}
+{"ns": "trajectory", "key": "usage.output", "ru": "Вывод"}
+{"ns": "trajectory", "key": "usage.thisRequest", "ru": "Этот запрос"}
+{"ns": "trajectory", "key": "usage.sessionCumulative", "ru": "Всего за сессию"}
+{"ns": "trajectory", "key": "options.notRecorded", "ru": "Опции не записаны"}
+{"ns": "trajectory", "key": "options.json", "ru": "Опции запроса в JSON"}
+{"ns": "trajectory", "key": "source.unknown", "ru": "Неизвестно"}
+{"ns": "trajectory", "key": "source.user", "ru": "Пользователь"}
+{"ns": "trajectory", "key": "source.plugin", "ru": "Плагин"}
+{"ns": "trajectory", "key": "source.pluginNamed", "ru": "Плагин · {plugin}"}
+{"ns": "trajectory", "key": "source.goal", "ru": "Цель"}
+{"ns": "trajectory", "key": "source.goalRound", "ru": "Цель · раунд {round}"}
+{"ns": "trajectory", "key": "source.notRecorded", "ru": "Источник не записан"}
+{"ns": "trajectory", "key": "source.messageJson", "ru": "Источник сообщения в JSON"}
+{"ns": "trajectory", "key": "tab.summary", "ru": "Резюме"}
+{"ns": "trajectory", "key": "tab.rawOutput", "ru": "Исходный вывод"}
+{"ns": "trajectory", "key": "tab.preview", "ru": "Предпросмотр"}
+{"ns": "trajectory", "key": "tab.raw", "ru": "Исходные данные"}
+{"ns": "trajectory", "key": "tab.source", "ru": "Источник"}
+{"ns": "trajectory", "key": "tab.payload", "ru": "Полезная нагрузка"}
+{"ns": "trajectory", "key": "tab.result", "ru": "Результат"}
+{"ns": "trajectory", "key": "tab.schema", "ru": "Схема"}
+{"ns": "trajectory", "key": "tab.timing", "ru": "Тайминг"}
+{"ns": "trajectory", "key": "tab.diff", "ru": "Дифф"}
+{"ns": "trajectory", "key": "tab.systemPrompt", "ru": "Системный промпт"}
+{"ns": "trajectory", "key": "tab.tools", "ru": "Инструменты"}
+{"ns": "trajectory", "key": "tab.options", "ru": "Опции"}
+{"ns": "trajectory", "key": "tab.usage", "ru": "Расход"}
+{"ns": "trajectory", "key": "record.toolCallOnly", "ru": "(только вызов инструмента)"}
+{"ns": "trajectory", "key": "record.noContent", "ru": "Нет содержимого"}
+{"ns": "trajectory", "key": "record.noPayload", "ru": "Полезная нагрузка не записана"}
+{"ns": "trajectory", "key": "record.noResult", "ru": "Результат не зафиксирован"}
+{"ns": "trajectory", "key": "record.noOutput", "ru": "Нет вывода"}
+{"ns": "trajectory", "key": "record.schemaUnavailable", "ru": "Схема недоступна"}
+{"ns": "trajectory", "key": "record.parameters", "ru": "Параметры"}
+{"ns": "trajectory", "key": "record.resultJson", "ru": "Результат в JSON"}
+{"ns": "trajectory", "key": "record.rawResult", "ru": "Исходный результат"}
+{"ns": "trajectory", "key": "record.renderedResult", "ru": "Отображаемый результат"}
+{"ns": "trajectory", "key": "record.rawResultUnavailable", "ru": "Исходные результаты доступны только для вызовов инструментов в реальном времени"}
+{"ns": "trajectory", "key": "record.json", "ru": "JSON"}
+{"ns": "trajectory", "key": "record.parametersJson", "ru": "параметры в JSON"}
+{"ns": "trajectory", "key": "record.namedParametersJson", "ru": "параметры {name} в JSON"}
+{"ns": "trajectory", "key": "record.payloadJson", "ru": "полезная нагрузка в JSON"}
+{"ns": "trajectory", "key": "record.outputJson", "ru": "Результат в JSON"}
+{"ns": "trajectory", "key": "record.thinking", "ru": "Размышления"}
+{"ns": "trajectory", "key": "record.wrapLines", "ru": "Переносить строки"}
+{"ns": "trajectory", "key": "code.source", "ru": "Код"}
+{"ns": "trajectory", "key": "code.output", "ru": "Вывод"}
+{"ns": "trajectory", "key": "code.copySource", "ru": "Копировать код"}
+{"ns": "trajectory", "key": "code.copyOutput", "ru": "Копировать вывод"}
+{"ns": "trajectory", "key": "code.originalJson", "ru": "Исходный JSON"}
+{"ns": "trajectory", "key": "code.running", "ru": "Выполняется…"}
+{"ns": "trajectory", "key": "record.systemPromptMissing", "ru": "В этом запросе нет системного промпта"}
+{"ns": "trajectory", "key": "record.toolsMissing", "ru": "В этом запросе нет инструментов"}
+{"ns": "trajectory", "key": "record.systemPrompt", "ru": "Системный промпт"}
+{"ns": "trajectory", "key": "record.tools", "ru": "Инструменты"}
+{"ns": "trajectory", "key": "block.openSummary", "ru": "Открыть сводку вызовов инструментов для блока №{index}"}
+{"ns": "trajectory", "key": "block.openSummaryTitle", "ru": "Открыть сводку вызовов инструментов"}
+{"ns": "trajectory", "key": "block.label", "ru": "Блок №{index} {type}"}
+{"ns": "trajectory", "key": "history.loadingTrajectory", "ru": "Загрузка траектории…"}
+{"ns": "trajectory", "key": "history.loadingEarlier", "ru": "Загрузка более ранней истории…"}
+{"ns": "trajectory", "key": "history.loadingEarlierAria", "ru": "Загрузка более ранней истории…"}
+{"ns": "trajectory", "key": "history.loadEarlier", "ru": "Загрузить более раннюю историю"}
+{"ns": "trajectory", "key": "history.clickToLoadEarlier", "ru": "Нажмите, чтобы загрузить более раннюю историю"}
+{"ns": "trajectory", "key": "request.label", "ru": "Запрос №{request}"}
+{"ns": "trajectory", "key": "request.labelCompaction", "ru": "Запрос №{request} · Сжатие"}
+{"ns": "trajectory", "key": "request.compaction", "ru": "Сжатие · {section}"}
+{"ns": "trajectory", "key": "request.compactionPurpose", "ru": "Сжатие"}
+{"ns": "trajectory", "key": "request.retryProgress", "ru": "{retry} из {maximum}"}
+{"ns": "trajectory", "key": "request.collapsedSummary", "ru": "Свёрнутая сводка: {kind}, {summary}"}
+{"ns": "trajectory", "key": "request.collapsedTurn", "ru": "ход"}
+{"ns": "trajectory", "key": "request.collapsedAssistant", "ru": "ассистент"}
+{"ns": "trajectory", "key": "request.collapsedTool", "ru": "вложенные вызовы"}
+{"ns": "trajectory", "key": "request.rowAria", "ru": "{request}{kind}, {content}"}
+{"ns": "trajectory", "key": "request.rowPrefix", "ru": "Запрос {request}, "}
+{"ns": "trajectory", "key": "request.rowAriaCompaction", "ru": "Запрос {request}, сжатие"}
+{"ns": "trajectory", "key": "request.noContent", "ru": "нет содержимого"}
+{"ns": "trajectory", "key": "summary.toolCalls.one", "ru": "Вызовов: {count}"}
+{"ns": "trajectory", "key": "summary.toolCalls.other", "ru": "Вызовов: {count}"}
+{"ns": "trajectory", "key": "summary.steps.one", "ru": "Шагов: {count}"}
+{"ns": "trajectory", "key": "summary.steps.other", "ru": "Шагов: {count}"}
+{"ns": "trajectory", "key": "details.event", "ru": "Подробности события"}
+{"ns": "trajectory", "key": "details.resize", "ru": "Изменить ширину панели подробностей"}
+{"ns": "trajectory", "key": "details.resizeTitle", "ru": "Перетащите, чтобы изменить размер. Двойной щелчок — сброс."}
+{"ns": "trajectory", "key": "details.close", "ru": "Закрыть подробности"}
+{"ns": "trajectory", "key": "details.status", "ru": "Статус"}
+{"ns": "trajectory", "key": "details.purpose", "ru": "Назначение"}
+{"ns": "trajectory", "key": "details.provider", "ru": "Провайдер"}
+{"ns": "trajectory", "key": "details.model", "ru": "Модель"}
+{"ns": "trajectory", "key": "details.toolCalls", "ru": "Вызовы инструментов"}
+{"ns": "trajectory", "key": "details.subtoolCalls", "ru": "Вызовы вложенных инструментов"}
+{"ns": "trajectory", "key": "details.error", "ru": "Ошибка"}
+{"ns": "trajectory", "key": "details.lastAttemptError", "ru": "Ошибка последней попытки"}
+{"ns": "trajectory", "key": "details.failure.auth", "ru": "Ключ API недействителен"}
+{"ns": "trajectory", "key": "details.retry", "ru": "Повторить"}
+{"ns": "trajectory", "key": "details.retryDelay", "ru": "Задержка повтора"}
+{"ns": "trajectory", "key": "details.result", "ru": "Результат"}
+{"ns": "trajectory", "key": "details.compacted", "ru": "Сжато"}
+{"ns": "trajectory", "key": "details.assistantMessage", "ru": "Сообщение ассистента"}
+{"ns": "trajectory", "key": "details.source", "ru": "Источник"}
+{"ns": "trajectory", "key": "details.hierarchy", "ru": "Иерархия"}
+{"ns": "trajectory", "key": "details.toolCall", "ru": "Вызов инструмента"}
+{"ns": "trajectory", "key": "timeline.aria", "ru": "Временная шкала траектории"}
+{"ns": "trajectory", "key": "timeline.overviewAria", "ru": "Обзор временной шкалы; перетащите по горизонтали, чтобы сфокусироваться на событиях"}
+{"ns": "trajectory", "key": "timeline.noTimingData", "ru": "Нет данных о тайминге"}
+{"ns": "trajectory", "key": "timeline.total", "ru": "Всего {duration}"}
+{"ns": "trajectory", "key": "timeline.started", "ru": "Начало: {time}"}
+{"ns": "trajectory", "key": "timeline.ttftDecoding", "ru": "TTFT {ttft} · Декодирование {decoding}"}
+{"ns": "trajectory", "key": "layout.compacting", "ru": "Сжатие контекста…"}
+{"ns": "trajectory", "key": "layout.compactionFailed", "ru": "Не удалось сжать контекст"}
+{"ns": "trajectory", "key": "layout.compacted", "ru": "Контекст сжат"}
+{"ns": "trajectory", "key": "layout.toolCallOnly", "ru": "Только вызов инструмента"}
+{"ns": "trajectory", "key": "attachment.list", "ru": "Вложения"}
+{"ns": "trajectory", "key": "attachment.imageName", "ru": "Изображение {index}"}
+{"ns": "trajectory", "key": "layout.imageCount", "ru": "Изображения ×{count}"}
+{"ns": "trajectory", "key": "layout.fileAttachments", "ru": "Файлы ×{count}"}
+{"ns": "trajectory", "key": "layout.initialSystemPrompt", "ru": "Начальный системный промпт"}
+{"ns": "trajectory", "key": "layout.systemPromptUpdated", "ru": "Системный промпт обновлён"}
+{"ns": "trajectory", "key": "layout.toolsUpdated", "ru": "Инструменты обновлены"}
+{"ns": "trajectory", "key": "layout.toolAdded", "ru": "Добавлен инструмент: {name}"}
+{"ns": "trajectory", "key": "layout.toolRemoved", "ru": "Инструмент удалён: {name}"}
+{"ns": "trajectory", "key": "layout.toolUpdateNotice", "ru": "Инструменты обновлены"}
+{"ns": "trajectory", "key": "layout.toolsAdded", "ru": "Добавлено: {names}"}
+{"ns": "trajectory", "key": "layout.toolsAddedCount", "ru": "Добавлено: {count}"}
+{"ns": "trajectory", "key": "layout.toolsChanged", "ru": "Добавлено: {added}, удалено: {removed}"}
+{"ns": "trajectory", "key": "layout.toolsRemoved", "ru": "Удалено: {names}"}
+{"ns": "trajectory", "key": "layout.toolsRemovedCount", "ru": "Удалено: {count}"}
+{"ns": "trajectory", "key": "layout.systemPromptAndToolsUpdated", "ru": "Системный промпт и инструменты обновлены"}
+{"ns": "trajectory", "key": "layout.compactionInterrupted", "ru": "Сжатие контекста прервано."}
+{"ns": "cordis", "key": "row.defineTitle", "ru": "Зарегистрировать плагин Cordis"}
+{"ns": "cordis", "key": "a11y.preparing", "ru": "Подготовка вызова инструмента Cordis"}
+{"ns": "cordis", "key": "row.runTitle", "ru": "Запустить плагин Cordis"}
+{"ns": "cordis", "key": "row.updateTitle", "ru": "Обновить плагин Cordis"}
+{"ns": "cordis", "key": "row.stopTitle", "ru": "Остановить плагин Cordis"}
+{"ns": "cordis", "key": "row.removeTitle", "ru": "Удалить плагин Cordis"}
+{"ns": "cordis", "key": "purpose.missing", "ru": "(назначение не указано)"}
+{"ns": "cordis", "key": "status.idle", "ru": "Готово"}
+{"ns": "cordis", "key": "status.awaitingApproval", "ru": "Ожидает подтверждения"}
+{"ns": "cordis", "key": "status.failed", "ru": "Не удалось запустить"}
+{"ns": "cordis", "key": "status.clientPending", "ru": "Клиент готов к активации"}
+{"ns": "cordis", "key": "status.running", "ru": "Выполняется"}
+{"ns": "cordis", "key": "status.removed", "ru": "Удалён"}
+{"ns": "cordis", "key": "status.superseded", "ru": "Доступен более новый запуск"}
+{"ns": "cordis", "key": "run.removed", "ru": "Этого пакета больше нет"}
+{"ns": "cordis", "key": "run.superseded", "ru": "Ниже есть более новая карточка запуска"}
+{"ns": "cordis", "key": "panel.hint", "ru": "Управление запуском — в панели Cordis над настройками"}
+{"ns": "cordis", "key": "panel.plugins.aria", "ru": "Плагины Cordis"}
+{"ns": "cordis", "key": "panel.approvals.aria", "ru": "Подтверждения Cordis"}
+{"ns": "cordis", "key": "panel.trigger", "ru": "Плагин Cordis"}
+{"ns": "cordis", "key": "panel.runningCount", "ru": "Работает: {count}"}
+{"ns": "cordis", "key": "panel.title", "ru": "Плагины Cordis"}
+{"ns": "cordis", "key": "panel.empty", "ru": "Плагины ещё не определены"}
+{"ns": "cordis", "key": "panel.loading", "ru": "Чтение…"}
+{"ns": "cordis", "key": "panel.readFailed", "ru": "Не удалось прочитать список плагинов: {message}"}
+{"ns": "cordis", "key": "panel.group.current", "ru": "Эта сессия"}
+{"ns": "cordis", "key": "panel.group.others", "ru": "Другие сессии"}
+{"ns": "cordis", "key": "panel.version", "ru": "Версия"}
+{"ns": "cordis", "key": "panel.current", "ru": "Текущий: {packageId}"}
+{"ns": "cordis", "key": "panel.next", "ru": "Далее: {packageId}"}
+{"ns": "cordis", "key": "action.approve", "ru": "Разрешить"}
+{"ns": "cordis", "key": "action.approveOnce", "ru": "Разрешить только эту версию"}
+{"ns": "cordis", "key": "action.approvePlugin", "ru": "Разрешить будущие версии этого плагина"}
+{"ns": "cordis", "key": "action.decline", "ru": "Отклонить"}
+{"ns": "cordis", "key": "action.run", "ru": "Запустить"}
+{"ns": "cordis", "key": "action.stop", "ru": "Остановить"}
+{"ns": "cordis", "key": "action.remove", "ru": "Удалить"}
+{"ns": "cordis", "key": "action.retry", "ru": "Повторить"}
+{"ns": "cordis", "key": "action.rollback", "ru": "Откатить"}
+{"ns": "cordis", "key": "action.inspect", "ru": "Открыть в инспекторе"}
+{"ns": "cordis", "key": "render.failedAbdicated", "ru": "Не удалось выполнить рендеринг в {slot}; восстановлен интерфейс по умолчанию:"}
+{"ns": "cordis", "key": "render.failedHeld", "ru": "Не удалось выполнить рендеринг в {slot}:"}
+{"ns": "cordis", "key": "a11y.defining", "ru": "Определение плагина"}
+{"ns": "cordis", "key": "a11y.failed", "ru": "Не удалось определить плагин"}
+{"ns": "cordis", "key": "a11y.stopped", "ru": "Определение прервано"}
+{"ns": "cordis", "key": "body.source", "ru": "Код плагина"}
+{"ns": "cordis", "key": "body.hostCode", "ru": "Хост"}
+{"ns": "cordis", "key": "body.clientCode", "ru": "Клиент"}
+{"ns": "cordis", "key": "body.output", "ru": "Результат"}
+{"ns": "cordis", "key": "body.copy", "ru": "Копировать"}
+{"ns": "cordis", "key": "body.copied", "ru": "Скопировано"}
