@@ -28,7 +28,9 @@
 
 2. **Cost meter → Display → Sidebar**: карточка включена и остаётся в футере
    над строкой пользователя. В `~/.dsh/storages/cost-meter/ledger.json`:
-   `config.sidebar: true`, `config.peakNotice: true`.
+   `config.sidebar: true`, `config.peakNotice: true`,
+   `config.balance.display: "both"` (баланс в ₽ и $),
+   `config.hideOfficialBalance: false`.
 
 3. **Баланс**: если в настройках `dsh-cost-meter` задан отдельный
    `DEEPSEEK_API_KEY` и Balance API возвращает `$0.00`, ключ нужно убрать —
