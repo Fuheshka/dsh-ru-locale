@@ -11,6 +11,10 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 CORPUS = os.path.join(HERE, "corpus.jsonl")
 OUT = os.path.join(HERE, "out")
+# Third-party plugin strings: the corpus/out pair for bundles installed into the
+# profile, kept apart so the upstream corpus stays a byte-stable snapshot.
+VENDOR_CORPUS = os.path.join(HERE, "vendor", "vendor-corpus.jsonl")
+VENDOR_OUT = os.path.join(HERE, "out-vendor")
 CLIENT = os.path.normpath(os.path.join(HERE, "..", "pkg", "client.js"))
 LOCALE_ID = "ru-x-dsh"
 LABEL = "Русский (улучшенный)"
@@ -26,26 +30,31 @@ def load(path):
 
 def main():
     corpus = list(load(CORPUS))
+    vendor = list(load(VENDOR_CORPUS)) if os.path.exists(VENDOR_CORPUS) else []
     translated = {}
-    for name in sorted(os.listdir(OUT)):
-        if not name.endswith(".jsonl"):
+    for directory in (OUT, VENDOR_OUT):
+        if not os.path.isdir(directory):
             continue
-        for row in load(os.path.join(OUT, name)):
-            translated[(row["ns"], row["key"])] = row["ru"]
+        for name in sorted(os.listdir(directory)):
+            if not name.endswith(".jsonl"):
+                continue
+            for row in load(os.path.join(directory, name)):
+                translated[(row["ns"], row["key"])] = row["ru"]
 
     overrides_path = os.path.join(HERE, "overrides.jsonl")
     if os.path.exists(overrides_path):
         for row in load(overrides_path):
             translated[(row["ns"], row["key"])] = row["ru"]
 
-    missing = [r for r in corpus if (r["ns"], r["key"]) not in translated]
+    all_rows = corpus + vendor
+    missing = [r for r in all_rows if (r["ns"], r["key"]) not in translated]
     if missing:
         print(f"missing {len(missing)} keys, e.g. {[(m['ns'], m['key']) for m in missing[:5]]}")
         return 1
 
     tree = {}
     order = []
-    for row in corpus:
+    for row in all_rows:
         ns = row["ns"]
         if ns not in tree:
             tree[ns] = {}
@@ -103,7 +112,7 @@ window.__ModuleLoader__.load({{
     with open(CLIENT, "w", encoding="utf-8") as fh:
         fh.write(js)
     size = os.path.getsize(CLIENT)
-    print(f"wrote {CLIENT}: {len(order)} namespaces, {len(corpus)} strings, {size // 1024} KiB")
+    print(f"wrote {CLIENT}: {len(order)} namespaces, {len(all_rows)} strings, {size // 1024} KiB")
     return 0
 
 

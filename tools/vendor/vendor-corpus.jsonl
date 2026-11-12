@@ -1,0 +1,508 @@
+{"ns": "dsh-tidy-display", "key": "common.copy", "en": "Copy", "ru": "Копировать", "zh": "复制", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "common.copied", "en": "Copied", "ru": "Скопировано", "zh": "已复制", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "common.collapse", "en": "Collapse", "ru": "Свернуть", "zh": "收起", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "common.expand", "en": "Expand", "ru": "Развернуть", "zh": "展开", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "common.expandLines", "en": "Expand {n} more lines", "ru": "Развернуть ещё {n} строк", "zh": "展开其余 {n} 行", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "view.reader", "en": "Reading", "ru": "Чтение", "zh": "阅读", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.fallbackError", "en": "The model service is not responding or the connection dropped; please try again.", "ru": "Сервис модели временно не отвечает или соединение прервано; повторите попытку позже.", "zh": "模型服务暂时无响应或连接中断，请稍后重试。", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.stopped", "en": "Stopped", "ru": "Остановлено", "zh": "已停止", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.steering", "en": "Steering message", "ru": "Дополнительное сообщение", "zh": "补充消息", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.turnError", "en": "This turn failed", "ru": "Этот проход завершился с ошибкой", "zh": "本轮运行失败", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.maxTokens", "en": "Output hit the length limit; the answer is not complete.", "ru": "Достигнут лимит длины вывода; ответ неполный.", "zh": "已到达输出长度限制，回答尚未完整。", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.retryNotice", "en": "The model request failed and a retry is pending. Details stay in the process.", "ru": "Запрос к модели не прошёл, ожидается повтор. Подробности остались в процессе.", "zh": "模型请求未成功，正在等待重试。详情保留在执行过程中。", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.commandError", "en": "The command did not run successfully", "ru": "Команда выполнилась неуспешно", "zh": "命令执行未成功", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.commandRecordFallback", "en": "See the command record in the original chat", "ru": "Смотреть запись команды в исходной беседе", "zh": "查看原对话中的命令记录", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.unknownNode", "en": "This record type is not wired into the reading view yet: {kind}", "ru": "Этот тип записи ещё не поддерживается в режиме чтения: {kind}", "zh": "此记录类型暂未接入阅读页：{kind}", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.viewInChat", "en": "View in chat", "ru": "Смотреть в беседе", "zh": "在对话中查看", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.rawRecord", "en": "Raw record", "ru": "Сырая запись", "zh": "查看原始记录", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.systemPrompt", "en": "System prompt", "ru": "Системный промпт", "zh": "系统提示词", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.modelRetryRecord", "en": "Model retry record", "ru": "Запись повтора модели", "zh": "模型重试记录", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.commandRecord", "en": "Command record", "ru": "Запись команды", "zh": "命令记录", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.sessionError", "en": "This session cannot be read right now: {message}", "ru": "Эта сессия сейчас не читается: {message}", "zh": "会话暂时无法读取：{message}", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.loading", "en": "Reading session…", "ru": "Чтение сессии…", "zh": "正在读取会话…", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.deepDiving", "en": "Thinking…", "ru": "Думаю...", "zh": "深度求索中...", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.jumpBottom", "en": "Back to bottom", "ru": "Вниз", "zh": "回到底部", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.pendingQuestion", "en": "A question needs your answer", "ru": "Ваш ответ на вопрос требуется", "zh": "需要你回答一个问题", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.pendingConfirm", "en": "Your confirmation is needed", "ru": "Требуется ваше подтверждение", "zh": "需要你的确认", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.pendingHint", "en": "Handle it in the native action area below. This notice stays out of the process fold.", "ru": "Обработайте это в нативной области действий ниже. Это предупреждение не сворачивается в процесс.", "zh": "请在下方原生操作区处理。此提示不会收进执行过程。", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.blockError", "en": "This content cannot be shown in the reading view; the original chat record is untouched.", "ru": "Это содержимое нельзя показать в режиме чтения; запись в исходной беседе не затронута.", "zh": "此内容暂时无法在阅读页显示；原对话中的记录未受影响。", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.unknownBlock", "en": "This content type is not wired into the reading view yet; the raw content is kept.", "ru": "Этот тип содержимого ещё не поддерживается; сырое содержимое сохранено.", "zh": "此内容类型尚未接入阅读页，原始内容已保留。", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.rawContent", "en": "View raw content", "ru": "Смотреть сырое содержимое", "zh": "查看原始内容", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.toolArgs", "en": "Tool arguments · {name}", "ru": "Аргументы инструмента · {name}", "zh": "工具参数 · {name}", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.copyFailed", "en": "Copy failed; please select the text manually", "ru": "Не удалось скопировать, выделите текст вручную", "zh": "未能复制，请手动选择文字", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.copyAnswer", "en": "Copy answer", "ru": "Копировать ответ", "zh": "复制回答", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.forkAria", "en": "Fork a new session from here", "ru": "Создать ответвлённую сессию отсюда", "zh": "以此处为基础创建分叉会话", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.forkTitle", "en": "Fork a new session from here (Fork)", "ru": "Создать ответвлённую сессию отсюда (Fork)", "zh": "以此处为基础创建分叉会话 (Fork)", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.copyMessage", "en": "Copy message", "ru": "Копировать сообщение", "zh": "复制消息", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reader.blockErrorDetail", "en": "({detail})", "ru": "（{detail}）", "zh": "（{detail}）", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "image.zoom", "en": "Zoom image", "ru": "Увеличить изображение", "zh": "放大图片", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "image.zoomNamed", "en": "Zoom image: {name}", "ru": "Увеличить изображение: {name}", "zh": "放大图片：{name}", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "image.alt", "en": "Chat image", "ru": "Изображение беседы", "zh": "会话图片", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "image.altPending", "en": "Image being sent", "ru": "Отправляемое изображение", "zh": "发送的图片", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "image.error", "en": "The image could not be loaded", "ru": "Изображение не загрузилось", "zh": "图片未能加载", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "image.loading", "en": "Loading image", "ru": "Загрузка изображения", "zh": "正在加载图片", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "image.retry", "en": "Retry", "ru": "Повторить", "zh": "重试", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "image.preview", "en": "Image preview", "ru": "Просмотр изображения", "zh": "图片预览", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "image.close", "en": "Close image preview", "ru": "Закрыть просмотр", "zh": "关闭图片预览", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "status.process", "en": "Process", "ru": "Процесс", "zh": "执行过程", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "status.elapsedSec", "en": "Took {n} s", "ru": "Длит. {n} с", "zh": "用时 {n} 秒", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "status.elapsedMin", "en": "Took {m} min {s} s", "ru": "Длит. {m} мин {s} с", "zh": "用时 {m} 分 {s} 秒", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "status.awaitUser", "en": "Waiting for you", "ru": "Ожидание ваших действий", "zh": "等待你的操作", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "status.subagents", "en": "{count} subagents", "ru": "Под-агентов: {count}", "zh": "{count} 个子代理", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "status.usingTool", "en": "Using a tool", "ru": "Использует инструмент", "zh": "正在使用工具", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "status.thinking", "en": "Thinking", "ru": "Думает", "zh": "正在思考", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "status.outputting", "en": "Writing output", "ru": "Выводит", "zh": "正在输出", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "status.preparingReply", "en": "Preparing a reply", "ru": "Готовит ответ", "zh": "正在准备回复", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "status.processing", "en": "Working", "ru": "Обрабатывает", "zh": "正在处理", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "compaction.label", "en": "Compacted history context", "ru": "История контекста сжата", "zh": "已压缩历史上下文", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "compaction.items", "en": "Compacted {items} context entries", "ru": "Сжато {items} записей контекста", "zh": "已压缩 {items} 条上下文", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "compaction.tokens", "en": "Compacted context · freed about {tokens} tokens", "ru": "Контекст сжат · освобождено около {tokens} токенов", "zh": "已压缩上下文 · 释放约 {tokens} tokens", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "compaction.itemsTokens", "en": "Compacted {items} context entries · freed about {tokens} tokens", "ru": "Сжато {items} записей · освобождено около {tokens} токенов", "zh": "已压缩 {items} 条上下文 · 释放约 {tokens} tokens", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "compaction.titleCollapse", "en": "Hide the memory digest", "ru": "Свернуть сводку памяти", "zh": "收起历史记忆摘要", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "compaction.titleExpand", "en": "Expand to read the digest distilled at this node", "ru": "Разверните, чтобы прочитать сводку этого узла", "zh": "展开查看此节点提炼的记忆摘要", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "compaction.toggleCollapse", "en": "Hide digest", "ru": "Скрыть заметку", "zh": "收起备忘", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "compaction.toggleExpand", "en": "View digest", "ru": "Показать заметку", "zh": "查看备忘", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "compaction.summaryHeader", "en": "Digest of the earlier conversation", "ru": "Заметка о предыдущей части диалога", "zh": "前期对话要点备忘", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "compaction.errorTitle", "en": "Context compaction did not succeed", "ru": "Сжатие контекста не удалось", "zh": "上下文压缩未成功", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "deliverables.label", "en": "Deliverables", "ru": "Результаты", "zh": "产物", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "deliverables.more", "en": "+ {count} files", "ru": "+ ещё {count} файлов", "zh": "+ {count} 个文件", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "deliverables.workspaceTitle", "en": "Open the whole workspace folder in the file manager", "ru": "Открыть всю рабочую папку в файловом менеджере", "zh": "在访达中打开整个工作区目录", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "deliverables.workspaceOpened", "en": "Folder opened", "ru": "Папка открыта", "zh": "已打开访达", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "deliverables.showInFolder", "en": "Show in folder", "ru": "Показать в папке", "zh": "在文件夹中显示", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "deliverables.openSidebar", "en": "Open {path} in the built-in panel", "ru": "Открыть {path} во встроенной панели", "zh": "在内置面板中打开 {path}", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "deliverables.openExternal", "en": "Open {path} in the system app", "ru": "Открыть {path} в системном приложении", "zh": "用系统应用打开 {path}", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "deliverables.openedSidebar", "en": "Opened in panel", "ru": "Открыто в панели", "zh": "已在面板打开", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "deliverables.openedExternal", "en": "Opened externally", "ru": "Открыто внешне", "zh": "已在外部打开", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "deliverables.fileActions", "en": "File actions", "ru": "Действия с файлом", "zh": "文件操作", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "deliverables.revealTitle", "en": "Reveal the containing folder ({folder})", "ru": "Показать содержащую папку ({folder})", "zh": "在访达中定位所在目录 ({folder})", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "deliverables.revealAria", "en": "Reveal the containing folder", "ru": "Показать содержащую папку", "zh": "在访达中显示所在目录", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "deliverables.copyPath", "en": "Copy relative path", "ru": "Копировать относительный путь", "zh": "复制相对路径", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "deliverables.openPath", "en": "Open {path}", "ru": "Открыть {path}", "zh": "打开 {path}", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "toolbar.autoFoldTitle", "en": "When a new thought starts, fold the earlier steps into one summary line. Turning this off keeps the raw process and streaming output.", "ru": "Сворачивать предыдущие шаги в одну строку сводки при начале нового размышления. Если выключить, исходный процесс и потоковый вывод сохраняются.", "zh": "新思考产生时，是否自动将此前步骤收拢为一行汇总。关闭后完整保留原始过程与流式输出。", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "toolbar.autoFoldOn", "en": "Auto-fold on", "ru": "Авто-сворачивание вкл", "zh": "自动折叠开", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "toolbar.autoFoldOff", "en": "Auto-fold off", "ru": "Авто-сворачивание выкл", "zh": "自动折叠关", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "history.loading", "en": "Loading earlier records", "ru": "Загрузка более ранних записей", "zh": "正在加载更早记录", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "history.load", "en": "Load earlier records", "ru": "Загрузить более ранние записи", "zh": "加载更早记录", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "history.error", "en": "History could not be loaded; try again. Nothing already loaded changed.", "ru": "Не удалось загрузить историю, можно повторить; уже загруженное содержимое не изменилось.", "zh": "历史记录加载失败，可再次尝试；现有内容未改变。", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.phase.preparing", "en": "Generating input", "ru": "Формируется ввод", "zh": "输入生成中", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.phase.running", "en": "Running", "ru": "Выполняется", "zh": "执行中", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.phase.returned", "en": "Returned", "ru": "Возвращено", "zh": "已返回", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.phase.succeeded", "en": "Done", "ru": "Готово", "zh": "已完成", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.phase.failed", "en": "Failed", "ru": "Ошибка", "zh": "失败", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.phase.interrupted", "en": "Interrupted", "ru": "Прервано", "zh": "已中断", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.generatingInput", "en": "Input still being generated · not executed · last 12 lines", "ru": "Ввод ещё формируется · не выполнен · последние 12 строк", "zh": "正在生成的输入 · 尚未执行 · 末尾 12 行", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.inputFileContent", "en": "File content in the tool input", "ru": "Содержимое файла во входе инструмента", "zh": "工具输入中的文件内容", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.previewTruncated", "en": " · first 1,600 lines previewed, full content in the raw data", "ru": " · предпросмотр первых 1 600 строк, полное содержимое в сырых данных", "zh": " · 预览前 1,600 行，完整内容在原始数据中", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.fileContent", "en": "File content", "ru": "Содержимое файла", "zh": "文件内容", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.generatingCommand", "en": "Command still being generated · not executed", "ru": "Команда формируется · не выполнена", "zh": "正在生成命令 · 尚未执行", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.submittedCommand", "en": "Submitted command", "ru": "Отправленная команда", "zh": "提交的命令", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.receivedFields", "en": "Input fields received", "ru": "Полученные поля ввода", "zh": "已收到的输入字段", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.input", "en": "Tool input", "ru": "Вход инструмента", "zh": "工具输入", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.interruptedNoResult", "en": "Interrupted with no tool result. The generated input is still viewable.", "ru": "Прервано без результата инструмента. Сформированный ввод доступен.", "zh": "已中断，没有工具结果。已生成的输入仍可查看。", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.preparingNote", "en": "The model is generating the tool input; the tool has not started.", "ru": "Модель формирует вход инструмента, инструмент ещё не запущен.", "zh": "模型正在生成工具输入，工具还未开始执行。", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.waitingResult", "en": "The tool started and is waiting for a result.", "ru": "Инструмент запущен и ожидает результат.", "zh": "工具已开始执行，正在等待结果。", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.cancelled", "en": "The tool was cancelled and did not finish. Input and raw response are still viewable.", "ru": "Инструмент отменён без завершения. Ввод и сырой ответ доступны.", "zh": "工具已取消，未正常完成。输入和原始返回记录仍可查看。", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.writeReturned", "en": "The file tool returned. Below is the submitted content; the full record is under “Raw”.", "ru": "Файловый инструмент вернул ответ. Ниже отправленное содержимое; полная запись в «Сырых данных».", "zh": "文件工具已返回。以下为提交的内容；完整返回记录可在「原始数据」查看。", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.codeNoOutput", "en": "The code ran with no output to show.", "ru": "Код выполнен, вывод показывать не нужно.", "zh": "代码已执行，没有可展示的输出。", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.mediaElsewhere", "en": "Images and extended content are shown separately in the chat.", "ru": "Изображения и расширенный контент показаны отдельно в беседе.", "zh": "图片或扩展内容已在对话中单独展示。", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.noContent", "en": "The tool returned nothing displayable.", "ru": "Инструмент ничего не вернул для показа.", "zh": "工具没有返回可展示的内容。", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.stoppedKept", "en": "Stopped · call record kept", "ru": "Остановлено · запись вызова сохранена", "zh": "已停止 · 调用记录保留", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.tab.preview", "en": "Preview", "ru": "Предпросмотр", "zh": "生成预览", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.tab.result", "en": "Result", "ru": "Результат", "zh": "结果", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.tab.input", "en": "Input", "ru": "Ввод", "zh": "输入", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.tab.raw", "en": "Raw", "ru": "Сырые данные", "zh": "原始数据", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.deepNested", "en": "Deeper nested calls are available in the original chat.", "ru": "Более вложенные вызовы видны в исходной беседе.", "zh": "更深的嵌套调用可在原对话查看。", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.ledger", "en": "Tool", "ru": "Инструмент", "zh": "工具", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.receivedChars", "en": "{n} characters of input received", "ru": "Получено {n} символов ввода", "zh": "已接收 {n} 字符输入", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.submittedWaiting", "en": "Submitted · waiting for the tool", "ru": "Отправлено · ожидание ответа инструмента", "zh": "已提交 · 等待工具返回", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.stoppedInputKept", "en": "Stopped · input record kept", "ru": "Остановлено · запись ввода сохранена", "zh": "已停止 · 输入记录保留", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.executedFor", "en": "Ran {duration}", "ru": "Выполнялся {duration}", "zh": "执行 {duration}", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.resultRecorded", "en": "Result recorded", "ru": "Результат записан", "zh": "结果已记录", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.exitCode", "en": "Exit code {code}", "ru": "Код выхода {code}", "zh": "退出码 {code}", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.signal", "en": "Signal {signal}", "ru": "Сигнал {signal}", "zh": "信号 {signal}", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.tabsAria", "en": "Execution data for {title}", "ru": "Данные выполнения для {title}", "zh": "{title}的执行数据", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.selectionPaused", "en": "Preview updates are paused to keep your selection; see the card title for the current state.", "ru": "Обновление предпросмотра приостановлено, чтобы сохранить выделение; текущее состояние в заголовке карточки.", "zh": "为保留选区，预览暂停更新；当前状态见卡片标题。", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.allInputFields", "en": "All input fields", "ru": "Все поля ввода", "zh": "全部输入字段", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.inputFields", "en": "Input fields", "ru": "Поля ввода", "zh": "输入字段", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.rawNote", "en": "Full record · read-only · code inside is never executed", "ru": "Полная запись · только чтение · код внутри не выполняется", "zh": "完整记录 · 只读 · 不执行其中的代码", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.result", "en": "Tool result", "ru": "Результат инструмента", "zh": "工具结果", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.inputNotArrived", "en": "Input has not arrived yet", "ru": "Ввод ещё не поступил", "zh": "输入尚未到达", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.subCalls", "en": "Sub-calls", "ru": "Вложенные вызовы", "zh": "子调用", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.ms", "en": "{n} ms", "ru": "{n} мс", "zh": "{n} 毫秒", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.sec", "en": "{n} s", "ru": "{n} с", "zh": "{n} 秒", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.verbWrite", "en": "Write", "ru": "Запись", "zh": "写入", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.verbEdit", "en": "Edit", "ru": "Изменение", "zh": "修改", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.verbRead", "en": "Read", "ru": "Чтение", "zh": "读取", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.titleEditPatch", "en": "Edit a patch", "ru": "Изменение патча", "zh": "修改代码补丁", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.titleWriteFile", "en": "Write the file", "ru": "Запись файла", "zh": "写入文件", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.titleEditFile", "en": "Edit the file", "ru": "Изменение файла", "zh": "修改文件", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.titleReadFile", "en": "Read the file", "ru": "Чтение файла", "zh": "读取文件", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.runCommand", "en": "Run command", "ru": "Выполнить команду", "zh": "运行命令", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.findFiles", "en": "Find files", "ru": "Найти файлы", "zh": "查找文件", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.searchContent", "en": "Search content", "ru": "Искать в содержимом", "zh": "搜索内容", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.webSearch", "en": "Web search", "ru": "Поиск в вебе", "zh": "搜索网页", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.webFetch", "en": "Read page", "ru": "Прочитать страницу", "zh": "读取网页", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.runCode", "en": "Run code", "ru": "Выполнить код", "zh": "运行代码", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.preparingFile", "en": "Generating file content", "ru": "Формирование содержимого файла", "zh": "正在生成文件内容", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.preparingCommand", "en": "Preparing the command", "ru": "Подготовка команды", "zh": "正在准备命令", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "tool.preparingInput", "en": "Preparing tool input", "ru": "Подготовка ввода инструмента", "zh": "正在准备工具输入", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reason.label", "en": "Thinking", "ru": "Размышление", "zh": "思考", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reason.step", "en": "Step {n}", "ru": "Шаг {n}", "zh": "步骤 {n}", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reason.region", "en": "Thinking for step {n}", "ru": "Размышление шага {n}", "zh": "步骤 {n} 的思考", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reason.regionScrollable", "en": "Thinking for step {n}, scrollable", "ru": "Размышление шага {n}, прокручивается", "zh": "步骤 {n} 的思考，可滚动阅读", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reason.pauseAria", "en": "Pause following the thinking", "ru": "Приостановить автоследование", "zh": "暂停自动跟随思考", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reason.resumeAria", "en": "Keep following the latest thinking", "ru": "Продолжить следить за свежим размышлением", "zh": "继续跟随最新思考", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reason.selectionHint", "en": "Clear the text selection to keep following", "ru": "Снимите выделение текста, чтобы продолжить слежение", "zh": "取消文字选择后可继续跟随", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reason.pause", "en": "Pause follow", "ru": "Пауза слежения", "zh": "暂停跟随", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reason.follow", "en": "Follow latest", "ru": "Следить за свежим", "zh": "跟随最新", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reason.manualReading", "en": "Reading manually", "ru": "Ручное чтение", "zh": "手动阅读", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reason.scrollableReading", "en": "Scroll to read", "ru": "Прокручиваемое чтение", "zh": "可滚动阅读", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reason.collapseAria", "en": "Collapse the full thinking", "ru": "Свернуть полное размышление", "zh": "收起完整思考", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reason.expandAria", "en": "Expand to read the full thinking", "ru": "Развернуть и прочитать полное размышление", "zh": "展开阅读完整思考", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "reason.expandRead", "en": "Expand", "ru": "Развернуть", "zh": "展开阅读", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "disclosure.process", "en": "Thinking and process", "ru": "Размышление и процесс", "zh": "思考与过程", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "disclosure.collapseAria", "en": "Collapse {name}", "ru": "Свернуть {name}", "zh": "收起{name}", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "disclosure.expandAria", "en": "Expand {name}", "ru": "Развернуть {name}", "zh": "展开{name}", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "fold.previous", "en": "Earlier steps", "ru": "Предыдущие шаги", "zh": "此前步骤", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "fold.processDetail", "en": "Process details for this turn", "ru": "Подробности процесса этого прохода", "zh": "本轮过程详情", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "fold.reasoning", "en": "Thinking ×{n}", "ru": "Размышления ×{n}", "zh": "思考×{n}", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "fold.body", "en": "Output ×{n}", "ru": "Вывод ×{n}", "zh": "输出×{n}", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "fold.tool", "en": "Tools ×{n}", "ru": "Инструменты ×{n}", "zh": "工具×{n}", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "fold.record", "en": "Records ×{n}", "ru": "Записи ×{n}", "zh": "记录×{n}", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "turn.aborted", "en": "This turn stopped; generated content is kept.", "ru": "Проход остановлен, сформированное содержимое сохранено.", "zh": "本轮已停止，已生成的内容仍保留。", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "turn.blocked", "en": "This turn is blocked; check the original chat and the action area below.", "ru": "Проход требует обработки блокирующих элементов; проверьте исходную беседу и область действий ниже.", "zh": "本轮需要处理阻塞事项；请查看原对话与下方操作区。", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "turn.maxTokens", "en": "Output reached the per-turn length limit and may be incomplete.", "ru": "Вывод достиг лимита длины прохода, содержимое может быть неполным.", "zh": "输出达到本轮长度限制，内容可能尚未完整。", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "turn.error", "en": "This turn did not finish; the error stays below.", "ru": "Проход не завершён; сообщение об ошибке осталось ниже.", "zh": "本轮未完成；错误信息保留在下方。", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "turn.unknown", "en": "This turn ended as: {reason}. Check the full record in the original chat.", "ru": "Состояние завершения прохода: {reason}. Проверьте полную запись в исходной беседе.", "zh": "本轮结束状态：{reason}。请在原对话中核对完整记录。", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "metrics.tokensTitle", "en": "Token usage for this turn", "ru": "Потребление токенов за этот проход", "zh": "查看本轮 Token 消耗", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "metrics.usage", "en": "Usage {tokens}", "ru": "Расход {tokens}", "zh": "用量 {tokens}", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "metrics.timingTitle", "en": "Timing and speed for this turn", "ru": "Длительность и скорость этого прохода", "zh": "查看本轮用时和速度", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "metrics.dialogAria", "en": "Turn overview", "ru": "Обзор прохода", "zh": "本轮概况", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "metrics.header", "en": "Turn performance and usage", "ru": "Производительность и расход прохода", "zh": "本轮性能与用量概况", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "metrics.timingSection", "en": "Duration and generation speed", "ru": "Длительность и скорость генерации", "zh": "耗时与生成速度", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "metrics.totalTime", "en": "Total time", "ru": "Общее время", "zh": "总用时", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "metrics.tps", "en": "Throughput (TPS)", "ru": "Пропускная способность (TPS)", "zh": "生成吞吐 (TPS)", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "metrics.ttft", "en": "Time to first token (TTFT)", "ru": "Задержка первого токена (TTFT)", "zh": "首字延迟 (TTFT)", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "metrics.tokenSection", "en": "Token breakdown", "ru": "Разбивка по токенам", "zh": "Token 消耗分解", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "metrics.total", "en": "Total", "ru": "Всего", "zh": "总消耗", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "metrics.input", "en": "Input", "ru": "Вход", "zh": "输入", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "metrics.cacheHit", "en": "{pct}% hits", "ru": "Попаданий {pct}%", "zh": "命中 {pct}%", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "metrics.cacheRead", "en": "Cache read", "ru": "Чтение кэша", "zh": "缓存读取", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "metrics.output", "en": "Output", "ru": "Вывод", "zh": "输出", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "metrics.thinkingTokens", "en": "Thinking {n}", "ru": "Размышление {n}", "zh": "思考 {n}", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "time.seconds", "en": "{n}s", "ru": "{n} с", "zh": "{n}秒", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "time.minutesSeconds", "en": "{m}m {ss}s", "ru": "{m} мин {ss} с", "zh": "{m}分{ss}秒", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "time.ranFor", "en": "Took {duration}", "ru": "Длительность {duration}", "zh": "用时 {duration}", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "time.overtime", "en": "No answer yet", "ru": "Ответ не поступил", "zh": "暂未响应", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "date.monthDay", "en": "{m}/{d} {clock}", "ru": "{d}.{m} {clock}", "zh": "{m}月{d}日 {clock}", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "date.yearMonthDay", "en": "{y}-{m}-{d} {clock}", "ru": "{d}.{m}.{y} {clock}", "zh": "{y}年{m}月{d}日 {clock}", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "rail.olderHead", "en": "Older history not loaded", "ru": "Более ранняя история не загружена", "zh": "更早历史未加载", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "rail.olderTip", "en": "Click to load earlier records · this rail covers the {count} loaded turns", "ru": "Нажмите, чтобы загрузить более ранние записи · эта полоса охватывает только {count} загруженных проходов", "zh": "点击加载更早记录 · 当前轨道仅覆盖已加载的 {count} 轮", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "rail.aria", "en": "User message navigator", "ru": "Навигация по сообщениям пользователя", "zh": "用户消息定位", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "diff.linesAria", "en": "{label} · {added} lines added, {removed} removed", "ru": "{label} · изменено {added} строк, удалено {removed}", "zh": "{label} · 改动 {added} 行，删除 {removed} 行", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "mcp.defaultTitle", "en": "Interactive MCP App", "ru": "Интерактивное MCP-приложение", "zh": "交互式 MCP App", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "mcp.receiptChoice", "en": "Choice: {value}", "ru": "Выбор: {value}", "zh": "选择: {value}", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "mcp.receiptAction", "en": "Action: {value}", "ru": "Действие: {value}", "zh": "操作: {value}", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "mcp.receiptVariant", "en": "Variant: {value}", "ru": "Вариант: {value}", "zh": "方案: {value}", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "mcp.reset", "en": "Reset the component state", "ru": "Сбросить состояние компонента", "zh": "重置组件状态", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "mcp.ready", "en": "Ready: {receipt}", "ru": "Готово: {receipt}", "zh": "已就绪：{receipt}", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "mcp.fillHint", "en": "Put this result back into the composer, then press Enter to send", "ru": "Перенесите этот результат в поле ввода и отправьте Enter", "zh": "把这条结果重新填入输入框，然后回车发送", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "mcp.fillButton", "en": "Fill composer", "ru": "Вставить в поле ввода", "zh": "填入输入框", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "mcp.generating", "en": "Generating the interactive component...", "ru": "Генерация интерактивного компонента...", "zh": "正在生成交互组件...", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "mcp.generatingNamed", "en": "Generating the interactive component ({title})...", "ru": "Генерация интерактивного компонента（{title}）...", "zh": "正在生成交互组件（{title}）...", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "md.copyCode", "en": "Copy code", "ru": "Копировать код", "zh": "复制代码", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "md.footnotes", "en": "Footnotes", "ru": "Сноски", "zh": "脚注", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "read.code", "en": "Code", "ru": "Код", "zh": "代码", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "read.wrap", "en": "Wrap lines", "ru": "Перенос строк", "zh": "自动换行", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "read.unwrap", "en": "No wrap", "ru": "Без переноса", "zh": "不换行", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "read.window", "en": "Showing {shown} / {total} lines", "ru": "Строки {shown} / {total}", "zh": "显示 {shown} / {total} 行", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "read.collapseAria", "en": "Collapse file content", "ru": "Свернуть содержимое файла", "zh": "收起文件内容", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "term.noExitCode", "en": "No exit code", "ru": "Код выхода отсутствует", "zh": "无退出码", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "term.noOutput", "en": "No output", "ru": "Нет вывода", "zh": "没有输出", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "term.collapseAria", "en": "Collapse command output", "ru": "Свернуть вывод команды", "zh": "收起命令输出", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "diff.collapseAria", "en": "Collapse diff", "ru": "Свернуть различия", "zh": "收起差异", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "search.paths", "en": "{shown} / {total} paths", "ru": "{shown} / {total} путей", "zh": "{shown} / {total} 个路径", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "search.matches", "en": "{shown} / {total} matches · {files} files", "ru": "{shown} / {total} совпадений · файлов {files}", "zh": "{shown} / {total} 处匹配 · {files} 个文件", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "search.truncated", "en": " (truncated)", "ru": " (результат усечён)", "zh": "（结果已截断）", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "search.noResults", "en": "No results", "ru": "Нет результатов", "zh": "没有结果", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "search.collapseAria", "en": "Collapse search results", "ru": "Свернуть результаты поиска", "zh": "收起搜索结果", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "web.sourcesTruncated", "en": "Sources truncated", "ru": "Источники усечены", "zh": "来源已截断", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "web.contentTruncated", "en": "Content truncated", "ru": "Содержимое усечено", "zh": "内容已截断", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "json.truncated", "en": "Content too long, truncated ({total} characters)", "ru": "Содержимое слишком длинное, усечено（{total} символов）", "zh": "内容过长，已截断（共 {total} 个字符）", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "json.copyValue", "en": "Copy value", "ru": "Копировать значение", "zh": "复制值", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "json.copyJson", "en": "Copy JSON", "ru": "Копировать JSON", "zh": "复制 JSON", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "json.copyPath", "en": "Copy path", "ru": "Копировать путь", "zh": "复制路径", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "json.copyPretty", "en": "Copy formatted JSON", "ru": "Копировать форматированный JSON", "zh": "复制格式化 JSON", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "json.copyCompact", "en": "Copy compact JSON", "ru": "Копировать компактный JSON", "zh": "复制紧凑 JSON", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "json.copyFailed", "en": "Copy failed", "ru": "Копирование не удалось", "zh": "复制失败", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "json.collapseNode", "en": "Collapse node", "ru": "Свернуть узел", "zh": "收起节点", "source": "tidy-display"}
+{"ns": "dsh-tidy-display", "key": "json.expandNode", "en": "Expand node", "ru": "Развернуть узел", "zh": "展开节点", "source": "tidy-display"}
+{"ns": "vision-router", "key": "nav", "en": "Vision Router · Image understanding", "ru": null, "zh": "Vision Router · 图片识别", "source": "vision-router"}
+{"ns": "vision-router", "key": "settingsNav", "en": "Vision Router", "ru": null, "zh": "Vision Router", "source": "vision-router"}
+{"ns": "vision-router", "key": "desc", "en": "Your chat model thinks and answers; the vision model reads images. Configure them independently.", "ru": null, "zh": "聊天模型负责思考与回答，识图模型负责看图片；两者可以独立设置", "source": "vision-router"}
+{"ns": "vision-router", "key": "quickStartTitle", "en": "Chat and image understanding are separate", "ru": null, "zh": "聊天和看图分别设置", "source": "vision-router"}
+{"ns": "vision-router", "key": "quickStartBody", "en": "Your chat model handles reasoning and answers; the vision model reads images. When sending images, choose a model marked “+ Auto Vision” in chat.", "ru": null, "zh": "聊天模型负责思考和回答，识图模型负责看图片。发图片时，在聊天页选择带「+ 自动识图」的模型即可。", "source": "vision-router"}
+{"ns": "vision-router", "key": "quickStartLive", "en": "To change only image understanding, edit “Vision model” below. Your current chat model will not change.", "ru": null, "zh": "只想更换识图模型？直接修改下面的「识图模型」，不会影响当前聊天模型。", "source": "vision-router"}
+{"ns": "vision-router", "key": "quickStartGuide", "en": "Show beginner guide again", "ru": null, "zh": "重新查看新手引导", "source": "vision-router"}
+{"ns": "vision-router", "key": "onboardingTitle", "en": "Vision Router is ready 🎉", "ru": null, "zh": "Vision Router 已准备好 🎉", "source": "vision-router"}
+{"ns": "vision-router", "key": "onboardingBody", "en": "For first use, remember one thing: the chat model answers, and the vision model reads images. Follow these 3 steps.", "ru": null, "zh": "第一次使用只需要记住：聊天模型负责回答，识图模型负责看图。跟着下面 3 步设置即可。", "source": "vision-router"}
+{"ns": "vision-router", "key": "onboardingStep1Title", "en": "1 · Choose your chat model", "ru": null, "zh": "1 · 选择聊天模型", "source": "vision-router"}
+{"ns": "vision-router", "key": "onboardingStep1Body", "en": "Choose the model you normally use from the lower-right chat selector. For images, choose its “+ Auto Vision” version.", "ru": null, "zh": "在聊天页右下角选择你平时使用的模型。需要发图片时，请选择带「+ 自动识图」的版本。", "source": "vision-router"}
+{"ns": "vision-router", "key": "onboardingStep2Title", "en": "2 · Choose the vision model", "ru": null, "zh": "2 · 选择识图模型", "source": "vision-router"}
+{"ns": "vision-router", "key": "onboardingStep2Body", "en": "Open Settings → Vision Router and choose it under “Vision model”. It only reads images and does not replace your chat model.", "ru": null, "zh": "打开「设置 → Vision Router」，在「识图模型」里选择。它只负责读取图片，不会替换你的聊天模型。", "source": "vision-router"}
+{"ns": "vision-router", "key": "onboardingStep3Title", "en": "3 · Add fallback models", "ru": null, "zh": "3 · 设置备用模型", "source": "vision-router"}
+{"ns": "vision-router", "key": "onboardingStep3Body", "en": "Add more than one vision model if you want. If one fails, Vision Router tries the next; the built-in free fallback remains available at the end.", "ru": null, "zh": "可以添加多个识图模型；前一个不可用时会自动尝试下一个。全部失败后，还可以使用内置免费兜底。", "source": "vision-router"}
+{"ns": "vision-router", "key": "onboardingGuide", "en": "Guide me through vision setup", "ru": null, "zh": "带我设置识图模型", "source": "vision-router"}
+{"ns": "vision-router", "key": "onboardingLater", "en": "Later", "ru": null, "zh": "稍后", "source": "vision-router"}
+{"ns": "vision-router", "key": "onboardingClose", "en": "Close", "ru": null, "zh": "关闭", "source": "vision-router"}
+{"ns": "vision-router", "key": "guideStep1Title", "en": "Step 1 · Choose your chat model", "ru": null, "zh": "第 1 步 · 选择聊天模型", "source": "vision-router"}
+{"ns": "vision-router", "key": "guideStep1Body", "en": "The model selector next to the chat input in the lower-right corner is now highlighted. For image turns, pick a group marked “+ Auto Vision”; the model inside still handles chat, reasoning, and tool calls. Click “Next” when done.", "ru": null, "zh": "聊天页右下角、输入框旁的模型选择器已经被高亮。选择你平时使用的聊天模型；发图片时请选择带「+ 自动识图」的版本。选好后点击「下一步」。", "source": "vision-router"}
+{"ns": "vision-router", "key": "guideStepNext", "en": "Next", "ru": null, "zh": "下一步", "source": "vision-router"}
+{"ns": "vision-router", "key": "guidePromptTitle", "en": "Step 2 · Choose the vision model", "ru": null, "zh": "第 2 步 · 选择识图模型", "source": "vision-router"}
+{"ns": "vision-router", "key": "guidePromptLauncherBody", "en": "Click the highlighted settings launcher at the bottom-left of the sidebar. In Desktop it may appear as your account avatar or the More menu. You can also press “Next”.", "ru": null, "zh": "点击侧边栏左下角被高亮的设置入口；Desktop 中这里可能显示为账号头像或「更多」。也可以直接点「下一步」继续。", "source": "vision-router"}
+{"ns": "vision-router", "key": "guidePromptMenuBody", "en": "In the account menu, click the highlighted “Settings” item (or press “Next” to open Settings automatically).", "ru": null, "zh": "在弹出的账号菜单中点击被高亮的「设置」（或点「下一步」自动打开设置面板）。", "source": "vision-router"}
+{"ns": "vision-router", "key": "guidePromptNavBody", "en": "In Settings, click the highlighted “Vision Router” entry (or press “Next”). I will take you directly to “Vision model”.", "ru": null, "zh": "在设置面板左侧点击被高亮的「Vision Router」入口（或点「下一步」自动进入）。我会直接定位到「识图模型」。", "source": "vision-router"}
+{"ns": "vision-router", "key": "guidePromptCancel", "en": "End guide", "ru": null, "zh": "结束引导", "source": "vision-router"}
+{"ns": "vision-router", "key": "guideChainTitle", "en": "Step 3 · Add fallback models", "ru": null, "zh": "第 3 步 · 设置备用模型", "source": "vision-router"}
+{"ns": "vision-router", "key": "guideChainBody", "en": "Vision models are tried from top to bottom. You may add several fallbacks or leave them empty; the built-in OVH free model remains the final fallback. Save when done.", "ru": null, "zh": "这里的识图模型会从上到下依次尝试。可以添加多个备用模型，也可以全部留空；内置 OVH 免费模型会在最后自动兜底。选好后点击页面底部「保存」。", "source": "vision-router"}
+{"ns": "vision-router", "key": "guideDone", "en": "Finish guide", "ru": null, "zh": "完成引导", "source": "vision-router"}
+{"ns": "vision-router", "key": "pending", "en": "Unsaved", "ru": null, "zh": "未保存", "source": "vision-router"}
+{"ns": "vision-router", "key": "readOnly", "en": "The active settings provider is read-only.", "ru": null, "zh": "当前设置提供方只读。", "source": "vision-router"}
+{"ns": "vision-router", "key": "remoteSettingsDisabledTitle", "en": "Remote settings are disabled", "ru": null, "zh": "远程设置未启用", "source": "vision-router"}
+{"ns": "vision-router", "key": "remoteSettingsDisabledBody", "en": "Remote writes are off by default. On the machine running DSH, open the loopback UI and enable “Allow trusted-host remote settings” under Settings → Vision Router → Advanced settings → Network.", "ru": null, "zh": "出于安全考虑，远程修改默认关闭。请先在运行 DSH 的机器上通过回环地址打开「设置 → Vision Router → 高级设置 → 网络」，启用「允许可信 Host 远程修改设置」。", "source": "vision-router"}
+{"ns": "vision-router", "key": "remoteSettingsUnavailableTitle", "en": "Remote settings channel unavailable", "ru": null, "zh": "远程设置通道不可用", "source": "vision-router"}
+{"ns": "vision-router", "key": "remoteSettingsUnavailableBody", "en": "Vision Router could not reach its scoped remote-settings channel. Update the plugin and make sure this remote address is configured as a DSH trusted host.", "ru": null, "zh": "无法连接 Vision Router 的远程设置通道。请确认插件已更新，并且当前远程地址已按 DSH 的方式配置为 trusted host。", "source": "vision-router"}
+{"ns": "vision-router", "key": "remoteSettingsRetry", "en": "Retry", "ru": null, "zh": "重试", "source": "vision-router"}
+{"ns": "vision-router", "key": "remoteSettingsInitializingTitle", "en": "Remote settings are initializing", "ru": null, "zh": "远程设置正在初始化", "source": "vision-router"}
+{"ns": "vision-router", "key": "remoteSettingsInitializingBody", "en": "The Vision Router settings namespace is not ready yet. This page will retry automatically.", "ru": null, "zh": "Vision Router 设置命名空间尚未就绪，页面会自动重试。", "source": "vision-router"}
+{"ns": "vision-router", "key": "remoteSettingsProxyBody", "en": "The remote-settings route returned 404. If DSH is behind Nginx, Caddy, or another reverse proxy, also forward /vision-router-settings/* to DSH.", "ru": null, "zh": "远程设置路由返回 404。若使用 Nginx/Caddy/其他反向代理，请同时转发 /vision-router-settings/* 到 DSH。", "source": "vision-router"}
+{"ns": "vision-router", "key": "remoteSafeScopeHint", "en": "Remote pages can change low-risk preferences only. Network, credentials, local backends, artifact paths, desktop capture, and host routing remain loopback-only.", "ru": null, "zh": "远程页面只允许修改低风险偏好；网络、凭据、本地后端、产物目录、桌面截图和宿主路由等设置只能在 DSH 本机修改。", "source": "vision-router"}
+{"ns": "vision-router", "key": "settingsConflict", "en": "Settings changed on another client. The latest values were refreshed; review your draft and save again.", "ru": null, "zh": "设置已被另一端修改。已刷新最新配置，请确认你的修改后重新保存。", "source": "vision-router"}
+{"ns": "vision-router", "key": "overridden", "en": "Overridden", "ru": null, "zh": "已覆盖", "source": "vision-router"}
+{"ns": "vision-router", "key": "reset", "en": "Reset", "ru": null, "zh": "恢复默认", "source": "vision-router"}
+{"ns": "vision-router", "key": "toggleInstantDescribe", "en": "Instant local image recognition", "ru": null, "zh": "即时本地识图", "source": "vision-router"}
+{"ns": "vision-router", "key": "hintInstantDescribe", "en": "When on (and at least one local vision backend is enabled), image blocks are recognized locally on the first model step — the model understands the image immediately without calling a vision tool first. If Ollama fails, LM Studio is tried next. Multiple images are recognized concurrently (up to 3 — local inference is VRAM-bound); a failing image is skipped without affecting the rest; total failure falls back to the tool-hint marker. The session log keeps the original image.", "ru": null, "zh": "开启后（需同时开启至少一个本地视觉后端），图片轮第一轮直接用本地模型识别图片块；若同时开启「结构化预识别（1+x）」，则由 1+x 首遍识别接管，本开关不会额外再跑一遍；Ollama 失败会继续尝试 LM Studio。一次贴多张图时并发识别（上限 3，本地推理受显存限制），单张失败自动跳过、不影响其余；整体失败则回退为工具提示标记。会话日志仍保留原图。", "source": "vision-router"}
+{"ns": "vision-router", "key": "groupLocalOllama", "en": "Local vision · Ollama / LM Studio", "ru": null, "zh": "本地视觉 · Ollama / LM Studio", "source": "vision-router"}
+{"ns": "vision-router", "key": "localVisionHeroHint", "en": "This section only configures Ollama / LM Studio backends. The automatic first visual pass is controlled solely by “Structured pre-scan (1+x)” above; no extra switch is needed.", "ru": null, "zh": "这里只配置 Ollama / LM Studio 本地视觉后端；自动首遍识别统一由上方「结构化预识别（1+x）」控制，无需额外开关。", "source": "vision-router"}
+{"ns": "vision-router", "key": "localVisionOff", "en": "Off", "ru": null, "zh": "未开启", "source": "vision-router"}
+{"ns": "vision-router", "key": "localVisionOn", "en": "On", "ru": null, "zh": "已开启", "source": "vision-router"}
+{"ns": "vision-router", "key": "localVisionStylePlainShort", "en": "plain", "ru": null, "zh": "平铺", "source": "vision-router"}
+{"ns": "vision-router", "key": "localVisionStyleStructuredShort", "en": "structured", "ru": null, "zh": "结构化", "source": "vision-router"}
+{"ns": "vision-router", "key": "localVisionInstantShort", "en": "instant", "ru": null, "zh": "即时识别", "source": "vision-router"}
+{"ns": "vision-router", "key": "localOllamaEnabled", "en": "Local Ollama recognition", "ru": null, "zh": "本地 Ollama 识别", "source": "vision-router"}
+{"ns": "vision-router", "key": "localOllamaBaseURL", "en": "Ollama base URL (OpenAI-compatible)", "ru": null, "zh": "Ollama 地址（OpenAI 兼容）", "source": "vision-router"}
+{"ns": "vision-router", "key": "localOllamaModel", "en": "Ollama model name", "ru": null, "zh": "Ollama 模型名", "source": "vision-router"}
+{"ns": "vision-router", "key": "localOllamaTemperature", "en": "Temperature", "ru": null, "zh": "温度 temperature", "source": "vision-router"}
+{"ns": "vision-router", "key": "localOllamaTopP", "en": "Top-p", "ru": null, "zh": "top_p", "source": "vision-router"}
+{"ns": "vision-router", "key": "localMaxTokens", "en": "Max output tokens", "ru": null, "zh": "最大输出 token", "source": "vision-router"}
+{"ns": "vision-router", "key": "localReasoningEffort", "en": "Reasoning effort", "ru": null, "zh": "推理强度", "source": "vision-router"}
+{"ns": "vision-router", "key": "localReasoningDefault", "en": "Provider default", "ru": null, "zh": "服务端默认", "source": "vision-router"}
+{"ns": "vision-router", "key": "localReasoningNone", "en": "Disable reasoning", "ru": null, "zh": "关闭推理", "source": "vision-router"}
+{"ns": "vision-router", "key": "localRequestFormat", "en": "Request protocol", "ru": null, "zh": "请求协议", "source": "vision-router"}
+{"ns": "vision-router", "key": "localFormatOpenAI", "en": "OpenAI (/chat/completions)", "ru": null, "zh": "OpenAI（/chat/completions）", "source": "vision-router"}
+{"ns": "vision-router", "key": "localFormatAnthropic", "en": "Anthropic (/messages)", "ru": null, "zh": "Anthropic（/messages）", "source": "vision-router"}
+{"ns": "vision-router", "key": "localFormatLmStudio", "en": "LM Studio native (/api/v1/chat)", "ru": null, "zh": "LM Studio 原生（/api/v1/chat）", "source": "vision-router"}
+{"ns": "vision-router", "key": "localTemperaturePlaceholder", "en": "Blank = server default; suggested 0.5", "ru": null, "zh": "留空=服务端默认；建议 0.5", "source": "vision-router"}
+{"ns": "vision-router", "key": "localTopPPlaceholder", "en": "Blank = server default; suggested 0.8", "ru": null, "zh": "留空=服务端默认；建议 0.8", "source": "vision-router"}
+{"ns": "vision-router", "key": "localLmStudioModelPlaceholder", "en": "Model identifier from Developer or /v1/models", "ru": null, "zh": "填写 Developer 页或 /v1/models 中的模型标识", "source": "vision-router"}
+{"ns": "vision-router", "key": "localLmStudioModelRequired", "en": "Enter a real model identifier before enabling LM Studio.", "ru": null, "zh": "启用 LM Studio 时必须填写真实模型标识。", "source": "vision-router"}
+{"ns": "vision-router", "key": "localModelRequiredShort", "en": "model required", "ru": null, "zh": "模型待填写", "source": "vision-router"}
+{"ns": "vision-router", "key": "hintLocalOllama", "en": "When enabled, local-ollama heads the vision chain (private / free / offline); when Ollama is down it is skipped automatically and the chain falls through to the cloud. Off by default.", "ru": null, "zh": "开启后 local-ollama 排在视觉链最前（隐私 / 零费用 / 离线）；Ollama 未运行时自动跳过并降级到云链，不影响任何调用。默认关闭。", "source": "vision-router"}
+{"ns": "vision-router", "key": "localLmStudioEnabled", "en": "Local LM Studio recognition", "ru": null, "zh": "本地 LM Studio 识别", "source": "vision-router"}
+{"ns": "vision-router", "key": "localLmStudioBaseURL", "en": "LM Studio base URL (OpenAI-compatible)", "ru": null, "zh": "LM Studio 地址（OpenAI 兼容）", "source": "vision-router"}
+{"ns": "vision-router", "key": "localLmStudioModel", "en": "LM Studio model name", "ru": null, "zh": "LM Studio 模型名", "source": "vision-router"}
+{"ns": "vision-router", "key": "localLmStudioTemperature", "en": "Temperature", "ru": null, "zh": "温度 temperature", "source": "vision-router"}
+{"ns": "vision-router", "key": "localLmStudioTopP", "en": "Top-p", "ru": null, "zh": "top_p", "source": "vision-router"}
+{"ns": "vision-router", "key": "hintLocalLmStudio", "en": "A local backend on the same level as Ollama: LM Studio's compatible endpoint (default http://localhost:1234/v1). Model must be the real identifier shown in Developer or returned by /v1/models. When enabled, local-lmstudio sits after local-ollama and before the cloud chain; when LM Studio is down it is skipped automatically. Off by default.", "ru": null, "zh": "与 Ollama 同层级的本地后端：LM Studio 的兼容端点（默认 http://localhost:1234/v1）。模型名必须填写 Developer 页或 /v1/models 返回的真实模型标识。启用后 local-lmstudio 排在 local-ollama 之后、云链之前；未运行时自动跳过降级。默认关闭。", "source": "vision-router"}
+{"ns": "vision-router", "key": "localDescribeStyle", "en": "Local recognition output style", "ru": null, "zh": "本地识别输出风格", "source": "vision-router"}
+{"ns": "vision-router", "key": "localDescribeStylePlain", "en": "Plain description", "ru": null, "zh": "平铺描述", "source": "vision-router"}
+{"ns": "vision-router", "key": "localDescribeStyleStructured", "en": "Structured (【初步判断】format)", "ru": null, "zh": "结构化（【初步判断】格式）", "source": "vision-router"}
+{"ns": "vision-router", "key": "hintLocalDescribeStyle", "en": "Affects only local recognition output (instant image recognition / screenshot recognition); structured is better for screenshot analysis (GUI / documents / chat logs).", "ru": null, "zh": "仅影响本地识别（即时识图 / 截图识图）的输出格式；结构化对截图分析（GUI / 文档 / 聊天记录）质量更高。", "source": "vision-router"}
+{"ns": "vision-router", "key": "invalidProviders", "en": "Each line must be \"provider/model\", e.g. openrouter/qwen3-vl-235b", "ru": null, "zh": "每行需为「provider/model」，例如 openrouter/qwen3-vl-235b", "source": "vision-router"}
+{"ns": "vision-router", "key": "invalidTextProvider", "en": "Format \"provider/model\", e.g. deepseek-official/deepseek-v4-pro", "ru": null, "zh": "格式为「provider/model」，例如 deepseek-official/deepseek-v4-pro", "source": "vision-router"}
+{"ns": "vision-router", "key": "invalidTimeout", "en": "Must be an integer ≥ 1000 (milliseconds)", "ru": null, "zh": "需为 ≥1000 的整数（毫秒）", "source": "vision-router"}
+{"ns": "vision-router", "key": "invalidGeneric", "en": "Invalid input", "ru": null, "zh": "输入无效", "source": "vision-router"}
+{"ns": "vision-router", "key": "selectProvider", "en": "Select provider…", "ru": null, "zh": "选择供应商…", "source": "vision-router"}
+{"ns": "vision-router", "key": "selectModel", "en": "Select model…", "ru": null, "zh": "选择模型…", "source": "vision-router"}
+{"ns": "vision-router", "key": "pickProviderFirst", "en": "Pick a provider first", "ru": null, "zh": "先选供应商", "source": "vision-router"}
+{"ns": "vision-router", "key": "freeTag", "en": " (free)", "ru": null, "zh": "（免费）", "source": "vision-router"}
+{"ns": "vision-router", "key": "builtinFreeTag", "en": " (built-in free model)", "ru": null, "zh": "（内置免费模型）", "source": "vision-router"}
+{"ns": "vision-router", "key": "builtinFallbackLabel", "en": "Built-in free fallback (automatic)", "ru": null, "zh": "内置免费兜底（自动）", "source": "vision-router"}
+{"ns": "vision-router", "key": "builtinFallbackEnabled", "en": "Enabled", "ru": null, "zh": "已启用", "source": "vision-router"}
+{"ns": "vision-router", "key": "builtinFallbackDisabled", "en": "Disabled", "ru": null, "zh": "已关闭", "source": "vision-router"}
+{"ns": "vision-router", "key": "builtinFallbackBody", "en": "The anonymous OVHcloud vision chain contains {count} models, starting with {primary}. Anonymous limits are {perModelRpm} requests/minute per IP per model; {count} independent model buckets are about {totalRpm} RPM in theory, subject to OVH rate limiting. It always runs after your user models and needs no signup or API key.", "ru": null, "zh": "OVHcloud 匿名视觉链共 {count} 个模型，首选 {primary}。匿名限额为每 IP、每模型 {perModelRpm} 次/分钟；{count} 个模型独立限额，理论合计约 {totalRpm} 次/分钟，实际以 OVH 限流为准。它固定在上面用户模型之后尝试，免注册、免 Key。", "source": "vision-router"}
+{"ns": "vision-router", "key": "chainLabel", "en": "Vision model", "ru": null, "zh": "识图模型", "source": "vision-router"}
+{"ns": "vision-router", "key": "chainHint", "en": "Choose the models Vision Router uses to read images. They are tried from top to bottom, with automatic failover.", "ru": null, "zh": "选择 Vision Router 用来读取图片的模型。将按从上到下的顺序尝试，失败时自动切换到下一个。", "source": "vision-router"}
+{"ns": "vision-router", "key": "addFallback", "en": "+ Add fallback vision model", "ru": null, "zh": "+ 添加备用识图模型", "source": "vision-router"}
+{"ns": "vision-router", "key": "remove", "en": "Remove", "ru": null, "zh": "移除", "source": "vision-router"}
+{"ns": "vision-router", "key": "removeTitle", "en": "Remove this row", "ru": null, "zh": "移除这一行", "source": "vision-router"}
+{"ns": "vision-router", "key": "textModelLabel", "en": "Text fallback model", "ru": null, "zh": "文字回退模型", "source": "vision-router"}
+{"ns": "vision-router", "key": "textModelHint", "en": "Usually unnecessary; leave empty to use the default chat model.", "ru": null, "zh": "通常无需设置；留空即使用默认聊天模型。", "source": "vision-router"}
+{"ns": "vision-router", "key": "defaultChainNote", "en": "These models read images and do not change the chat model selected in the composer. Your models are tried in order; the built-in OVH free model remains the final fallback.", "ru": null, "zh": "这里设置负责看图的模型，不会改变聊天页选择的聊天模型。你的模型按顺序尝试；内置 OVH 免费模型固定作为最后兜底。", "source": "vision-router"}
+{"ns": "vision-router", "key": "catalogLoading", "en": "Loading the model catalog (same source as Settings → Models)…", "ru": null, "zh": "正在加载模型目录（与「设置 > 模型」同源）…", "source": "vision-router"}
+{"ns": "vision-router", "key": "catalogUnavailable", "en": "Connection service unavailable (no model catalog); falling back to free-text input.", "ru": null, "zh": "连接服务不可用（拿不到模型目录），退回手动输入。", "source": "vision-router"}
+{"ns": "vision-router", "key": "catalogTimeout", "en": "Catalog request timed out (15s)", "ru": null, "zh": "目录请求超时（15 秒）", "source": "vision-router"}
+{"ns": "vision-router", "key": "catalogEmpty", "en": "Model catalog is empty: ", "ru": null, "zh": "模型目录为空：", "source": "vision-router"}
+{"ns": "vision-router", "key": "catalogErrorEnvelope", "en": "The model catalog endpoint failed", "ru": null, "zh": "模型目录接口返回失败", "source": "vision-router"}
+{"ns": "vision-router", "key": "catalogError", "en": "Model catalog unavailable (", "ru": null, "zh": "模型目录不可用（", "source": "vision-router"}
+{"ns": "vision-router", "key": "catalogFallback", "en": "); model fields fell back to free-text input.", "ru": null, "zh": "），模型字段已退回手动输入。", "source": "vision-router"}
+{"ns": "vision-router", "key": "catalogPartialFailure", "en": "Some configured providers failed to load their model catalog: {detail}. They may still appear in Settings → Models, but are temporarily unavailable here.", "ru": null, "zh": "部分已配置供应商的模型目录加载失败：{detail}。这些供应商可能仍会显示在「设置 → 模型」中，但暂时不会出现在这里。", "source": "vision-router"}
+{"ns": "vision-router", "key": "visionCapsLoading", "en": "Reading model image-capability metadata (advisory only; it does not hide selectable models)…", "ru": null, "zh": "正在读取模型图片能力声明（仅用于提示，不影响可选模型）…", "source": "vision-router"}
+{"ns": "vision-router", "key": "visionCapsError", "en": "Capabilities unavailable; models remain selectable, but image delivery depends on Host input declaration.", "ru": null, "zh": "能力数据不可用，仍可选择模型；实际图片投递取决于Host声明及传输支持。", "source": "vision-router"}
+{"ns": "vision-router", "key": "visionCapsFiltered", "en": "Model capability labels do not restrict selection; a Host text-only label may block image delivery.", "ru": null, "zh": "能力声明不限制后端选择；Host标为仅文本可能导致图片无法送达。", "source": "vision-router"}
+{"ns": "vision-router", "key": "visionCapabilityUndeclaredWarning", "en": "Image capability unknown; Vision Router tries the adapter and falls through on failure.", "ru": null, "zh": "图片能力未知：调用时尝试原生adapter，失败后尝试下一后端。", "source": "vision-router"}
+{"ns": "vision-router", "key": "visionCapabilityTextOnlyWarning", "en": "Host text-only strips images before adapter; only verified HTTP Chat Completions can bridge. If supported, enable Image in DSH Settings → Models → Input types. Older Hosts: llm-pi-ai input: [text, image]; llm-deepseek inputModalities: [text, image]. Otherwise skip this backend.", "ru": null, "zh": "Host 将此模型标为仅文本，adapter 调用前会剥离图片；仅兼容的 HTTP Chat Completions 可桥接。若支持图片，在 DSH「设置 → 模型 → 输入类型」勾选图片；旧 Host 设 llm-pi-ai 的 input: [text, image] 或 llm-deepseek 的 inputModalities: [text, image] 后重载配置，否则跳过此后端。", "source": "vision-router"}
+{"ns": "vision-router", "key": "visionCapabilityUnknownWarning", "en": "Image capability is checked at call time; failures fall through.", "ru": null, "zh": "图片能力待验证；调用失败会尝试下一后端。", "source": "vision-router"}
+{"ns": "vision-router", "key": "visionCapsEmptyTitle", "en": "No selectable user vision models", "ru": null, "zh": "没有可选的用户视觉模型", "source": "vision-router"}
+{"ns": "vision-router", "key": "visionCapsEmptyBody", "en": "DSH reported {count} user models, but none are explicitly marked as accepting images, so Vision Router hid them safely.", "ru": null, "zh": "检测到 {count} 个用户模型，但它们都没有被 DSH 明确标记为支持图片，因此已被安全隐藏。", "source": "vision-router"}
+{"ns": "vision-router", "key": "visionCapsHiddenPrefix", "en": "Hidden models:", "ru": null, "zh": "被隐藏的模型：", "source": "vision-router"}
+{"ns": "vision-router", "key": "visionCapsReasonMissingImage", "en": "image input not declared", "ru": null, "zh": "未声明 image", "source": "vision-router"}
+{"ns": "vision-router", "key": "visionCapsReasonUnverified", "en": "image capability could not be verified", "ru": null, "zh": "无法验证图片能力", "source": "vision-router"}
+{"ns": "vision-router", "key": "visionCapsHiddenMore", "en": "{count} more models not shown", "ru": null, "zh": "另有 {count} 个模型未显示", "source": "vision-router"}
+{"ns": "vision-router", "key": "visionCapsMissingImageHint", "en": "For a model that truly accepts images, enable Image in DSH Settings → Models → Input types. Older Hosts: set the correct input field in your profile cordis.patch.yml. Extra vision labels cannot change Host pixel delivery.", "ru": null, "zh": "若模型确实支持图片，请到 DSH「设置 → 模型 → 输入类型」启用图片并保存；旧 Host 可在 profile 的 cordis.patch.yml 中声明正确的模型输入类型。仅添加额外视觉模型标记不能改变 Host 图片投递。", "source": "vision-router"}
+{"ns": "vision-router", "key": "visionCapsRetry", "en": "Re-detect models", "ru": null, "zh": "重新检测模型", "source": "vision-router"}
+{"ns": "vision-router", "key": "chainInvalidCurrent", "en": "This saved backend is no longer callable, or is a non-generative/recursive route, so runtime will skip it: ", "ru": null, "zh": "当前保存的后端已不在可调用模型目录中，或属于非生成式/递归路由，运行时会跳过：", "source": "vision-router"}
+{"ns": "vision-router", "key": "retryCatalog", "en": "Retry catalog", "ru": null, "zh": "重试加载目录", "source": "vision-router"}
+{"ns": "vision-router", "key": "advanced", "en": "Advanced settings", "ru": null, "zh": "高级设置", "source": "vision-router"}
+{"ns": "vision-router", "key": "groupPerformance", "en": "Performance", "ru": null, "zh": "性能", "source": "vision-router"}
+{"ns": "vision-router", "key": "groupCompatibility", "en": "Compatibility", "ru": null, "zh": "兼容性", "source": "vision-router"}
+{"ns": "vision-router", "key": "groupCost", "en": "Cost", "ru": null, "zh": "成本", "source": "vision-router"}
+{"ns": "vision-router", "key": "groupNetwork", "en": "Network", "ru": null, "zh": "网络", "source": "vision-router"}
+{"ns": "vision-router", "key": "groupDeveloper", "en": "Developer settings", "ru": null, "zh": "开发者设置", "source": "vision-router"}
+{"ns": "vision-router", "key": "groupDiagnostics", "en": "Version & diagnostics", "ru": null, "zh": "版本与诊断", "source": "vision-router"}
+{"ns": "vision-router", "key": "developerHint", "en": "These controls are for route overrides, capability labels, and compatibility debugging. Most users can leave them alone.", "ru": null, "zh": "这些选项用于路由覆盖、能力标记和兼容调试；一般无需修改。", "source": "vision-router"}
+{"ns": "vision-router", "key": "groupTextModel", "en": "Text fallback model", "ru": null, "zh": "文字回退模型", "source": "vision-router"}
+{"ns": "vision-router", "key": "textModelGroupHint", "en": "Usually unnecessary. Used only when whole-turn vision routing is enabled and plain text should return to the chat model.", "ru": null, "zh": "通常无需设置。仅在开启「整轮交给视觉模型」且需要把纯文字消息切回聊天模型时使用。", "source": "vision-router"}
+{"ns": "vision-router", "key": "groupBehavior", "en": "Image behavior", "ru": null, "zh": "识图行为", "source": "vision-router"}
+{"ns": "vision-router", "key": "groupParams", "en": "Performance & timeouts", "ru": null, "zh": "性能与超时", "source": "vision-router"}
+{"ns": "vision-router", "key": "groupVisionOverrides", "en": "Vision capability overrides", "ru": null, "zh": "视觉能力覆盖", "source": "vision-router"}
+{"ns": "vision-router", "key": "extraVisionModelsLabel", "en": "Extra vision capability labels", "ru": null, "zh": "额外视觉模型标记", "source": "vision-router"}
+{"ns": "vision-router", "key": "extraVisionModelsHint", "en": "This setting no longer unlocks the picker or admission: every callable generative model is selectable already. Use it only when you want to explicitly label an undeclared model as visual. This label does not change Host input declarations. Verified HTTP Chat Completions can bridge; other explicit text-only routes fail safely.", "ru": null, "zh": "这个设置不再用于“解锁”下拉或允许调用；所有可调用生成式模型本来就能被选择。只有当你希望把某个未声明图片能力的模型明确标记为视觉模型时才需要填写。此标记不会更改 Host 输入声明。仅经验证的 HTTP Chat Completions 渠道可直接桥接；其他纯文本声明会被安全拒绝。", "source": "vision-router"}
+{"ns": "vision-router", "key": "groupRoutes", "en": "Route names", "ru": null, "zh": "路由名称", "source": "vision-router"}
+{"ns": "vision-router", "key": "groupProxy", "en": "Network", "ru": null, "zh": "网络", "source": "vision-router"}
+{"ns": "vision-router", "key": "networkAuthorityHint", "en": "Vision Router does not own egress by default: it follows the current DSH/Host network path. The proxy below is only an advanced vision-request override.", "ru": null, "zh": "默认不接管网络出口：Vision Router 沿用 DSH/Host 当前网络路径。下方代理只用于需要给视觉请求单独指定出口的高级覆盖。", "source": "vision-router"}
+{"ns": "vision-router", "key": "proxyLabel", "en": "Vision-only proxy override", "ru": null, "zh": "视觉专用代理覆盖", "source": "vision-router"}
+{"ns": "vision-router", "key": "proxyHint", "en": "Leave empty to follow the DSH/Host network path. Set only to override vision requests, e.g. http://127.0.0.1:10808 or socks5://127.0.0.1:10808; legacy socks5h:// values are supported. Applies immediately.", "ru": null, "zh": "留空即沿用 DSH/Host 网络路径。仅需单独覆盖视觉请求时填写，如 http://127.0.0.1:10808 或 socks5://127.0.0.1:10808；兼容旧配置 socks5h://。修改即时生效。", "source": "vision-router"}
+{"ns": "vision-router", "key": "allowRemoteSettingsLabel", "en": "Allow trusted-host remote settings", "ru": null, "zh": "允许可信 Host 远程修改设置", "source": "vision-router"}
+{"ns": "vision-router", "key": "allowRemoteSettingsHint", "en": "Off by default. Enable only when you trust clients that can reach this DSH instance; trustedHosts is not authentication. Remote clients can change only explicitly allow-listed low-risk preferences; network, credentials, local backends, artifact paths, desktop capture, and host routing remain loopback-only.", "ru": null, "zh": "默认关闭。仅在你信任能访问该 DSH 实例的客户端时开启；trustedHosts 不是身份认证。远程端仅能修改明确列入白名单的低风险偏好，网络、凭据、本地后端、产物目录、桌面截图和宿主路由始终只能在本机修改。", "source": "vision-router"}
+{"ns": "vision-router", "key": "proxyHostsLabel", "en": "Vision proxy override hosts (one per line)", "ru": null, "zh": "视觉代理覆盖域名（每行一个）", "source": "vision-router"}
+{"ns": "vision-router", "key": "proxyHostsHint", "en": "Used only when the vision-only proxy override above is set. These hosts use the plugin override; all other requests keep the DSH/Host network path. Empty clears the override.", "ru": null, "zh": "仅在上方填写视觉专用代理时生效；这些域名使用插件覆盖，其余请求继续沿用 DSH/Host 网络路径。留空清除覆盖。", "source": "vision-router"}
+{"ns": "vision-router", "key": "saveFailed", "en": "Save failed: some changes were not written. Unwritten changes were kept; please retry.", "ru": null, "zh": "保存失败：部分配置未写入。未写入的修改已保留，请重试。", "source": "vision-router"}
+{"ns": "vision-router", "key": "discard", "en": "Discard", "ru": null, "zh": "放弃修改", "source": "vision-router"}
+{"ns": "vision-router", "key": "testConnection", "en": "Test connection", "ru": null, "zh": "测试连接", "source": "vision-router"}
+{"ns": "vision-router", "key": "testConnecting", "en": "Testing…", "ru": null, "zh": "测试中…", "source": "vision-router"}
+{"ns": "vision-router", "key": "testOk", "en": "Connected", "ru": null, "zh": "连接正常", "source": "vision-router"}
+{"ns": "vision-router", "key": "testFailed", "en": "Connection failed", "ru": null, "zh": "连接失败", "source": "vision-router"}
+{"ns": "vision-router", "key": "openLogFolder", "en": "Open logs folder", "ru": null, "zh": "打开日志文件夹", "source": "vision-router"}
+{"ns": "vision-router", "key": "openLogFolderFailed", "en": "Could not open logs folder", "ru": null, "zh": "无法打开日志文件夹", "source": "vision-router"}
+{"ns": "vision-router", "key": "updateTitle", "en": "Updates", "ru": null, "zh": "版本更新", "source": "vision-router"}
+{"ns": "vision-router", "key": "checkUpdate", "en": "Check for updates", "ru": null, "zh": "检查更新", "source": "vision-router"}
+{"ns": "vision-router", "key": "updateChecking", "en": "Checking…", "ru": null, "zh": "检查中…", "source": "vision-router"}
+{"ns": "vision-router", "key": "updateAvailable", "en": "Update available: v{latest} (current v{current})", "ru": null, "zh": "发现新版本 v{latest}（当前 v{current}）", "source": "vision-router"}
+{"ns": "vision-router", "key": "updateCurrent", "en": "Up to date: v{current}", "ru": null, "zh": "已是最新版本 v{current}", "source": "vision-router"}
+{"ns": "vision-router", "key": "updateAhead", "en": "Current v{current} is ahead of registry v{latest}; this may be a source or prerelease build, so no downgrade is suggested.", "ru": null, "zh": "当前 v{current} 高于 registry 最新 v{latest}；可能是源码或预发布构建，不会建议降级。", "source": "vision-router"}
+{"ns": "vision-router", "key": "updateFailed", "en": "Update check failed: {error}", "ru": null, "zh": "更新检查失败：{error}", "source": "vision-router"}
+{"ns": "vision-router", "key": "updateNoDiagnostic", "en": "The update-check endpoint returned no diagnostic error details", "ru": null, "zh": "更新检查接口未返回可诊断的错误详情", "source": "vision-router"}
+{"ns": "vision-router", "key": "updateInvalidResponse", "en": "The update-check endpoint returned an invalid response", "ru": null, "zh": "更新检查接口返回了无效响应", "source": "vision-router"}
+{"ns": "vision-router", "key": "updateInstallHint", "en": "The current DSH CLI was verified, so Vision Router can update through this same DSH installation. Restart DSH after the update to load the new plugin bundle.", "ru": null, "zh": "已安全识别当前 DSH CLI，可直接用这套 DSH 更新插件；完成后需要重启 DSH 才会加载新版本。", "source": "vision-router"}
+{"ns": "vision-router", "key": "updateAutoUnavailable", "en": "The current DSH CLI could not be verified safely, so automatic update is disabled. Update through the same DSH/plugin installation path you originally used.", "ru": null, "zh": "当前 DSH CLI 无法被安全识别，因此不执行自动更新。请沿用你原来安装 DSH / 插件的方式手动更新。", "source": "vision-router"}
+{"ns": "vision-router", "key": "updateNow", "en": "Update to v{latest}", "ru": null, "zh": "一键更新到 v{latest}", "source": "vision-router"}
+{"ns": "vision-router", "key": "updateRunning", "en": "Updating…", "ru": null, "zh": "正在更新…", "source": "vision-router"}
+{"ns": "vision-router", "key": "updateConfirm", "en": "Vision Router will update through the DSH CLI that is currently running. You will need to restart DSH afterward. Continue?", "ru": null, "zh": "将通过当前正在运行的 DSH 更新 Vision Router。更新完成后需要重启 DSH。继续吗？", "source": "vision-router"}
+{"ns": "vision-router", "key": "updateSuccess", "en": "The update command completed (target v{latest}). Restart DSH to load the new version.", "ru": null, "zh": "更新命令已完成（目标 v{latest}）。请重启 DSH；重启后新版本才会生效。", "source": "vision-router"}
+{"ns": "vision-router", "key": "updateSuccessVerified", "en": "The update command completed (target v{latest}, installed v{installed} verified). Restart DSH to load the new version.", "ru": null, "zh": "更新命令已完成（目标 v{latest}，已确认安装 v{installed}）。请重启 DSH；重启后新版本才会生效。", "source": "vision-router"}
+{"ns": "vision-router", "key": "updateActionFailed", "en": "One-click update failed: {error}", "ru": null, "zh": "一键更新失败：{error}", "source": "vision-router"}
+{"ns": "vision-router", "key": "updateReleaseNotes", "en": "View release notes", "ru": null, "zh": "查看更新说明", "source": "vision-router"}
+{"ns": "vision-router", "key": "updateRegistryFallback", "en": "The configured registry failed; the check succeeded through the official npm registry.", "ru": null, "zh": "当前配置的 registry 不可用，已自动改用 npm 官方源完成检查。", "source": "vision-router"}
+{"ns": "vision-router", "key": "updateReleaseFallback", "en": "npm registry checks failed, so the latest version was resolved from GitHub Releases; installation still requires an accessible npm registry.", "ru": null, "zh": "npm registry 检查失败，已通过 GitHub Releases 获取最新版本号；安装仍需 npm registry 可访问。", "source": "vision-router"}
+{"ns": "vision-router", "key": "updateManualUnknownTarget", "en": "The latest version could not be confirmed, so no @latest or plain update command is generated. Open Releases first, confirm the newest version, then replace <version> in the template below.", "ru": null, "zh": "无法确认最新版本，因此不会生成 @latest 或普通 update 命令。请先打开 Releases 确认最新版本号，再把下方 <version> 替换为该版本。", "source": "vision-router"}
+{"ns": "vision-router", "key": "updateManualTitle", "en": "Manual update", "ru": null, "zh": "手动更新", "source": "vision-router"}
+{"ns": "vision-router", "key": "updateManualSource", "en": "DSH source checkout / pnpm:", "ru": null, "zh": "源码仓库 / pnpm DSH：", "source": "vision-router"}
+{"ns": "vision-router", "key": "updateManualNpx", "en": "Normal npm / npx DSH:", "ru": null, "zh": "普通 npm / npx DSH：", "source": "vision-router"}
+{"ns": "vision-router", "key": "updateManualAgeHint", "en": "The command above only uses a confirmed exact version; if no version can be confirmed, the UI shows a <version> template instead. pnpm 11 can silently withhold @latest / plain update for releases younger than 24h (minimumReleaseAge) even while reporting success, so those ambiguous update forms are no longer recommended here.", "ru": null, "zh": "上方只会使用已确认的具体版本号；若无法确认版本，则只提供 <version> 模板。pnpm 11 默认会在新版本发布 24 小时内静默拦截 @latest / 普通 update（minimumReleaseAge 策略，但命令仍可能显示成功），所以这里不再推荐这两种模糊更新方式。", "source": "vision-router"}
+{"ns": "vision-router", "key": "updateProject", "en": "Project", "ru": null, "zh": "项目主页", "source": "vision-router"}
+{"ns": "vision-router", "key": "updateReleases", "en": "Releases", "ru": null, "zh": "Releases", "source": "vision-router"}
+{"ns": "vision-router", "key": "save", "en": "Save", "ru": null, "zh": "保存", "source": "vision-router"}
+{"ns": "vision-router", "key": "saving", "en": "Saving…", "ru": null, "zh": "保存中…", "source": "vision-router"}
+{"ns": "vision-router", "key": "renderFailed", "en": "Settings card failed to render: ", "ru": null, "zh": "设置卡渲染失败：", "source": "vision-router"}
+{"ns": "vision-router", "key": "toggleRouting", "en": "Send the whole image turn to the vision model", "ru": null, "zh": "整轮交给视觉模型", "source": "vision-router"}
+{"ns": "vision-router", "key": "toggleReverseRouting", "en": "Keep text-only messages on the chat model", "ru": null, "zh": "纯文字消息仍使用聊天模型", "source": "vision-router"}
+{"ns": "vision-router", "key": "toggleTool", "en": "Vision tools", "ru": null, "zh": "识图工具", "source": "vision-router"}
+{"ns": "vision-router", "key": "toggleStructuredVisionBootstrap", "en": "Structured pre-scan (1+x, experimental)", "ru": null, "zh": "结构化预识别（1+x，实验）", "source": "vision-router"}
+{"ns": "vision-router", "key": "toggleAutoWrapProviders", "en": "Auto-create “+ Auto Vision” model groups", "ru": null, "zh": "自动创建「+ 自动识图」模型组", "source": "vision-router"}
+{"ns": "vision-router", "key": "toggleRewriteImages", "en": "Protect text-only models", "ru": null, "zh": "保护纯文字模型", "source": "vision-router"}
+{"ns": "vision-router", "key": "toggleDownscale", "en": "Auto downscale", "ru": null, "zh": "图片自动压缩", "source": "vision-router"}
+{"ns": "vision-router", "key": "toggleCache", "en": "Vision answer cache", "ru": null, "zh": "识图答案缓存", "source": "vision-router"}
+{"ns": "vision-router", "key": "toggleLocalOnlyVision", "en": "Local-only vision", "ru": null, "zh": "仅本地视觉", "source": "vision-router"}
+{"ns": "vision-router", "key": "toggleFreeFallback", "en": "Built-in free fallback", "ru": null, "zh": "内置免费兜底", "source": "vision-router"}
+{"ns": "vision-router", "key": "toggleFreeCloudFirst", "en": "Free cloud first", "ru": null, "zh": "云端免费优先", "source": "vision-router"}
+{"ns": "vision-router", "key": "toggleDesktopScreenshot", "en": "Desktop screenshot vision", "ru": null, "zh": "桌面截图识图", "source": "vision-router"}
+{"ns": "vision-router", "key": "toggleStealth", "en": "Stealth mode", "ru": null, "zh": "隐身模式", "source": "vision-router"}
+{"ns": "vision-router", "key": "hintRouting", "en": "Off by default. When enabled, the entire image turn is handled directly by the vision model instead of the current chat model calling vision tools. This preserves legacy behavior and is usually unnecessary; only the vision models configured above participate.", "ru": null, "zh": "默认关闭。开启后，发送图片的整轮对话会直接由视觉模型处理，而不是由当前聊天模型调用识图工具。用于兼容旧版行为，一般无需开启；开启后只使用上方识图模型链中的后端。", "source": "vision-router"}
+{"ns": "vision-router", "key": "hintReverseRouting", "en": "Only applies when whole-turn vision routing is enabled; plain text messages continue to use the chat model.", "ru": null, "zh": "仅在「整轮交给视觉模型」开启时生效；纯文字消息继续交给聊天模型处理。", "source": "vision-router"}
+{"ns": "vision-router", "key": "hintTool", "en": "Lets the chat model inspect, locate, crop, and compare images as needed. Recommended on.", "ru": null, "zh": "允许聊天模型按需查看、定位、裁剪和比较图片。推荐保持开启。", "source": "vision-router"}
+{"ns": "vision-router", "key": "hintStructuredVisionBootstrap", "en": "Off by default. Each image task first gets one task-independent structured visual baseline with no task goal passed into the pre-scan, then the chat model must make at least one evidence or deepening vision call for the original request (1+x, x>=1). Enabled Ollama / LM Studio backends participate in this same vision chain; there is no separate instant-recognition switch. This improves evidence quality but adds at least one visual call. If OCR is needed, calls without an explicit engine follow the “Default OCR engine” setting; an explicit engine=tesseract/vision always wins for that call. Keep Vision tools enabled.", "ru": null, "zh": "默认关闭。开启后，每个图片任务会先做一次不读取具体任务目标的结构化预识别，再由聊天模型根据原问题至少追加一次验证或深挖识图调用（1+x，x≥1）。启用的 Ollama / LM Studio 会和其他视觉后端一样参与这条识图链，不需要另开「即时识图」。准确性更高，但会增加至少一次视觉调用；若后续需要 OCR，未显式指定 engine 时会遵循「OCR 默认引擎」设置；单次显式 engine=tesseract/vision 始终优先。需保持「识图工具」开启。", "source": "vision-router"}
+{"ns": "vision-router", "key": "hintAutoWrapProviders", "en": "Automatically creates a “+ Auto Vision” version of enabled chat models. Original model groups stay unchanged. Recommended on.", "ru": null, "zh": "自动为已启用的聊天模型创建带「+ 自动识图」的版本。原模型不受影响，推荐保持开启。", "source": "vision-router"}
+{"ns": "vision-router", "key": "hintRewriteImages", "en": "Prevents raw image content from being sent to a text-only model that cannot read it. Recommended on.", "ru": null, "zh": "避免把无法读取的原始图片直接发送给纯文字模型。推荐保持开启。", "source": "vision-router"}
+{"ns": "vision-router", "key": "hintDownscale", "en": "Images beyond the pixel budget are resized before the vision call, cutting latency and cost; on by default.", "ru": null, "zh": "超过像素预算的图片先缩放再送视觉模型，降低延迟与成本；默认开启。", "source": "vision-router"}
+{"ns": "vision-router", "key": "hintCache", "en": "Caches vision answers (keyed by image content + question); on by default.", "ru": null, "zh": "缓存识图答案（按图片内容 + 问题）；默认开启。", "source": "vision-router"}
+{"ns": "vision-router", "key": "hintLocalOnlyVision", "en": "When enabled, only visual backends on loopback addresses may run. Cloud/DSH providers and the OVH free fallback are blocked at runtime, so Vision Router does not send image bytes or crops to cloud vision services. Derived result text—descriptions, OCR, and coordinates—is still passed to the current chat model; if that model is remote, image semantics may still leave this machine. For a strict end-to-end local workflow, select a local chat model too.", "ru": null, "zh": "开启后仅允许回环地址上的本地视觉后端；云端/DSH Provider 与 OVH 免费兜底会被运行时硬阻止，因此 Vision Router 不会把图片和裁剪发送到云端视觉服务。视觉后端返回的描述、OCR、坐标等识图结果文本仍会交给当前聊天模型；若聊天模型在云端，图片语义仍可能离开本机。严格纯本地还需同时选择本地聊天模型。", "source": "vision-router"}
+{"ns": "vision-router", "key": "hintFreeFallback", "en": "If your selected vision models fail, automatically try the built-in OVH free models. No signup or API key required.", "ru": null, "zh": "当你选择的识图模型都不可用时，自动尝试内置 OVH 免费模型。免注册、免 API Key。", "source": "vision-router"}
+{"ns": "vision-router", "key": "hintFreeCloudFirst", "en": "Off by default. When enabled, cloud backends try the built-in OVH free models first (no signup, no API key), and your paid endpoints only act as a fallback after every free model fails, keeping cloud vision at zero cost. Local backends are unaffected and stay first. When off, the existing order is preserved (paid first, free appended last).", "ru": null, "zh": "默认关闭。开启后，云端后端先尝试内置 OVH 免费模型（免注册、免 API Key），你配置的付费端点仅在免费模型全部失败后作为兜底，尽量把云端识别成本降到零。本地后端不受影响，仍在最前。关闭时保持既有顺序（付费在前、免费补全在后）。", "source": "vision-router"}
+{"ns": "vision-router", "key": "hintDesktopScreenshot", "en": "Lets the model capture the desktop on demand for image understanding. Off by default; vision_screenshot is exposed only when enabled. On macOS, saving the enabled setting immediately triggers a screen-recording permission check; if permission was already granted, macOS will not prompt again.", "ru": null, "zh": "允许模型按需截取桌面屏幕用于识图。默认关闭；开启后才提供 vision_screenshot 工具。macOS 在保存开启时会立即触发一次屏幕录制授权检查；如果已经授权，系统不会重复弹窗。", "source": "vision-router"}
+{"ns": "vision-router", "key": "hintStealth", "en": "Retained only for persisted-setting compatibility. On every DSH Host supported by DVR 2.3, the official provider stays Host-owned: Vision Router uses the “+ Auto Vision” wrapper and never takes over or reconstructs deepseek-official, nor asks you to disable llm-deepseek. Custom routes like opencode are auto-wrapped by default; use the manual wrapper section below only when you want to restrict their scope.", "ru": null, "zh": "仅保留旧配置字段兼容。DVR 2.3 支持的 DSH 中官方 provider 始终归 Host 所有，Vision Router 只使用「+ 自动识图」包装，不再接管或重建 deepseek-official，也不要求你禁用 llm-deepseek。opencode 等自定义路由默认自动包装，只有要限制范围时才用下方手动包装。", "source": "vision-router"}
+{"ns": "vision-router", "key": "stealthOfficialHostOwnedHint", "en": "The official DeepSeek provider is disabled or unavailable, but this DSH Host owns that provider route. Vision Router will not recreate it. Re-enable llm-deepseek, then use the “+ Auto Vision” wrapper / Vision control for image tasks.", "ru": null, "zh": "检测到官方 DeepSeek provider 被禁用或不可用，但当前 DSH 已由 Host 负责该路由。Vision Router 不会自行重建它。请重新启用 llm-deepseek，再通过「+ 自动识图」包装 /「👁 识图」处理图片任务。", "source": "vision-router"}
+{"ns": "vision-router", "key": "numTimeoutMs", "en": "Single vision request timeout (ms)", "ru": null, "zh": "单次识图请求超时（毫秒）", "source": "vision-router"}
+{"ns": "vision-router", "key": "numVisionTaskTimeoutMs", "en": "Vision task maximum time (ms)", "ru": null, "zh": "识图任务最长时间（毫秒）", "source": "vision-router"}
+{"ns": "vision-router", "key": "numOcrTimeoutMs", "en": "OCR maximum time (ms)", "ru": null, "zh": "OCR 最长时间（毫秒）", "source": "vision-router"}
+{"ns": "vision-router", "key": "selectOcrEngine", "en": "Default OCR engine", "ru": null, "zh": "OCR 默认引擎", "source": "vision-router"}
+{"ns": "vision-router", "key": "hintOcrEngine", "en": "Default policy when vision_ocr does not explicitly choose an engine. Auto tries local Tesseract first and falls back to the vision model; Tesseract uses local OCR only; Vision skips Tesseract. An explicit engine=tesseract/vision on a tool call always wins.", "ru": null, "zh": "决定 vision_ocr 未显式指定 engine 时的默认策略。自动：先本地 Tesseract，失败/空结果再用视觉模型；Tesseract：只用本地 OCR；视觉模型：直接跳过 Tesseract。单次工具调用显式 engine=tesseract/vision 始终优先。", "source": "vision-router"}
+{"ns": "vision-router", "key": "ocrEngineAuto", "en": "Auto (Tesseract → vision)", "ru": null, "zh": "自动（Tesseract → 视觉模型）", "source": "vision-router"}
+{"ns": "vision-router", "key": "ocrEngineTesseract", "en": "Tesseract only", "ru": null, "zh": "仅 Tesseract", "source": "vision-router"}
+{"ns": "vision-router", "key": "ocrEngineVision", "en": "Vision model only", "ru": null, "zh": "仅视觉模型", "source": "vision-router"}
+{"ns": "vision-router", "key": "numDownscaleMaxPixels", "en": "Image pixel limit", "ru": null, "zh": "图片像素上限", "source": "vision-router"}
+{"ns": "vision-router", "key": "numCacheTtlSeconds", "en": "Cache TTL (seconds)", "ru": null, "zh": "缓存有效期（秒）", "source": "vision-router"}
+{"ns": "vision-router", "key": "numCacheMaxEntries", "en": "Maximum cached answers", "ru": null, "zh": "最大缓存数量", "source": "vision-router"}
+{"ns": "vision-router", "key": "selectVisionDepth", "en": "Vision depth", "ru": null, "zh": "看图深度", "source": "vision-router"}
+{"ns": "vision-router", "key": "groupDeepDive", "en": "Deep-dive guidance (optional)", "ru": null, "zh": "识图深度（可选）", "source": "vision-router"}
+{"ns": "vision-router", "key": "guidanceOverridesLabel", "en": "Custom vision guidance (optional)", "ru": null, "zh": "自定义识图引导（可选）", "source": "vision-router"}
+{"ns": "vision-router", "key": "guidanceOverridesHint", "en": "Usually nothing to set here. Vision uses built-in guidance per image type by default; you can write a custom guidance line for a specific type (e.g. document, UI, person) so the vision model looks the way you want. Example: pick \"document（文档）\" and enter \"Focus on contract clauses and signatures.\"", "ru": null, "zh": "一般不需要设置。识图时默认按图片类型自动使用内置引导；你可以为某个图片类型（如文档、界面、人物）写一句自己的引导语，让视觉模型按你的要求细看。例如选「document（文档）」，填「重点关注合同条款与签名」。", "source": "vision-router"}
+{"ns": "vision-router", "key": "guidanceOverridePlaceholder", "en": "Enter custom guidance (empty = built-in)", "ru": null, "zh": "输入自定义引导语（留空 = 使用内置）", "source": "vision-router"}
+{"ns": "vision-router", "key": "addGuidanceOverride", "en": "+ Add a custom guidance line", "ru": null, "zh": "+ 添加一条自定义引导", "source": "vision-router"}
+{"ns": "vision-router", "key": "selectKind", "en": "Select image type…", "ru": null, "zh": "选择图片类型…", "source": "vision-router"}
+{"ns": "vision-router", "key": "visionDepthFast", "en": "Quick (overall-first)", "ru": null, "zh": "快速（优先整体判断）", "source": "vision-router"}
+{"ns": "vision-router", "key": "visionDepthStandard", "en": "Standard (evidence as needed, default)", "ru": null, "zh": "标准（按需查证，默认）", "source": "vision-router"}
+{"ns": "vision-router", "key": "visionDepthDeep", "en": "Thorough (proactive cross-checking)", "ru": null, "zh": "细致（主动交叉验证）", "source": "vision-router"}
+{"ns": "vision-router", "key": "hintVisionDepth", "en": "Vision depth chooses the inspection strategy, not a call-count limit: Quick stays overall-first, Standard verifies evidence as needed, and Thorough proactively inspects details and cross-checks important claims. To cap calls, enable “Limit deep-dive calls” below.", "ru": null, "zh": "看图深度只决定识图策略，不限制调用次数：快速优先整体判断，标准按问题需要查证，细致会主动做更多局部检查与交叉验证。如需限制调用次数，请启用下方「限制深挖次数」。", "source": "vision-router"}
+{"ns": "vision-router", "key": "depthCapTitle", "en": "Limit deep-dive calls", "ru": null, "zh": "限制深挖次数", "source": "vision-router"}
+{"ns": "vision-router", "key": "depthCapHint", "en": "Off by default, so visual evidence calls are unlimited. Enable this to cap successful deep-evidence calls for the turn. The bootstrap pre-scan does not count, and failed or empty-evidence calls do not consume the cap.", "ru": null, "zh": "默认关闭，不限制视觉证据调用次数。启用后可设置本轮最多允许多少次成功的深挖证据调用；bootstrap 预识别不计入，失败或空证据调用不占次数。", "source": "vision-router"}
+{"ns": "vision-router", "key": "depthCapValueLabel", "en": "Maximum deep-dive calls", "ru": null, "zh": "最多深挖次数", "source": "vision-router"}
+{"ns": "vision-router", "key": "depthCapInvalid", "en": "Enter an integer from 1 to 100.", "ru": null, "zh": "请输入 1–100 之间的整数。", "source": "vision-router"}
+{"ns": "vision-router", "key": "numHintTimeoutMs", "en": "Per vision-call deadline; default 120000.", "ru": null, "zh": "单个视觉请求超时；默认 120000。", "source": "vision-router"}
+{"ns": "vision-router", "key": "numHintVisionTaskTimeoutMs", "en": "One vision task (all providers, fallbacks and retries) shares this wall-clock budget; default 120000. Auth failures and rate limits trip their backend immediately.", "ru": null, "zh": "一次识图任务（含全部 provider、回退与重试）共享的总时限；默认 120000。认证失败/限流会立即熔断对应后端。", "source": "vision-router"}
+{"ns": "vision-router", "key": "numHintOcrTimeoutMs", "en": "Total budget for one OCR task: tesseract gets at most 12s, the vision fallback only the remainder; default 30000.", "ru": null, "zh": "一次 OCR 任务的总时限；本地 tesseract 最多用 12 秒，视觉模型回退只用剩余部分；默认 30000。", "source": "vision-router"}
+{"ns": "vision-router", "key": "numHintDownscaleMaxPixels", "en": "About 8MP = 8000000; larger images are resized before the vision call.", "ru": null, "zh": "约 8MP = 8000000；超过的图先缩放再送视觉模型。", "source": "vision-router"}
+{"ns": "vision-router", "key": "numHintCacheTtlSeconds", "en": "Vision answer cache lifetime; 0 = forever; default 3600.", "ru": null, "zh": "视觉答案缓存有效期；0 = 永久；默认 3600。", "source": "vision-router"}
+{"ns": "vision-router", "key": "numHintCacheMaxEntries", "en": "Cache LRU capacity; default 200.", "ru": null, "zh": "缓存 LRU 容量；默认 200。", "source": "vision-router"}
+{"ns": "vision-router", "key": "textWrapperRoute", "en": "Wrapper route name", "ru": null, "zh": "包装路由名", "source": "vision-router"}
+{"ns": "vision-router", "key": "textChainRoute", "en": "Chain route name", "ru": null, "zh": "视觉链路由名", "source": "vision-router"}
+{"ns": "vision-router", "key": "textHintWrapperRoute", "en": "The auto-vision entry route shown in the model picker.", "ru": null, "zh": "模型选择器里显示的「自动识图」入口路由名。", "source": "vision-router"}
+{"ns": "vision-router", "key": "textHintChainRoute", "en": "The fallback chain mount route (vision tools call real providers directly, not through it).", "ru": null, "zh": "视觉链的挂载路由名（识图工具经由真实 provider 直接调用，不经过它）。", "source": "vision-router"}
+{"ns": "vision-router", "key": "textWrappedProviders", "en": "Manual model wrappers (optional)", "ru": null, "zh": "手动包装模型（可选）", "source": "vision-router"}
+{"ns": "vision-router", "key": "groupWrappers", "en": "Limit auto-vision scope manually (optional)", "ru": null, "zh": "手动限定自动识图范围（可选）", "source": "vision-router"}
+{"ns": "vision-router", "key": "textHintWrappedProviders", "en": "Usually leave this alone. Use it only after disabling automatic creation, or when only selected models should appear in a “+ Auto Vision” group: one `provider` wraps all models, while `provider/model1,model2` limits the set. Applies immediately; no restart.", "ru": null, "zh": "通常不用配置。只有关闭自动创建，或只想让某些模型出现在「+ 自动识图」组时才使用：每行 `provider` 包装全部模型，或 `provider/model1,model2` 只包装指定模型。改动即时生效，无需重启。", "source": "vision-router"}
+{"ns": "vision-router", "key": "wrapHint", "en": "Usually no configuration is needed: enabled models from Settings → Models are discovered and wrapped automatically. Add rows here only to restrict one provider’s auto-vision scope, or after turning off automatic creation above. Empty model = every model on that route. The original model group always remains untouched. Applies immediately; no restart.", "ru": null, "zh": "通常无需配置：默认会自动发现并包装「设置 → 模型」里已启用的模型。只有想限制某个 provider 的自动识图范围，或关闭上方自动创建后手动指定时才在这里添加；模型留空 = 该路由全部模型。原模型组始终保留不变。改动即时生效，无需重启。", "source": "vision-router"}
+{"ns": "vision-router", "key": "wrapAllModels", "en": "All models (empty = wrap all)", "ru": null, "zh": "全部模型（不选 = 包装全部）", "source": "vision-router"}
+{"ns": "vision-router", "key": "addWrapper", "en": "+ Add manual wrapper", "ru": null, "zh": "+ 添加手动包装", "source": "vision-router"}
+{"ns": "vision-router", "key": "textProviders", "en": "Vision model", "ru": null, "zh": "识图模型", "source": "vision-router"}
+{"ns": "vision-router", "key": "textProvidersHint", "en": "One vision model per line, tried from top to bottom. Leave empty to rely on the built-in free fallback.", "ru": null, "zh": "每行一个识图模型，从上到下依次尝试；留空则只使用内置免费兜底。", "source": "vision-router"}
+{"ns": "vision-router", "key": "textTextProvider", "en": "Text fallback model", "ru": null, "zh": "文字回退模型", "source": "vision-router"}
+{"ns": "vision-router", "key": "textTextProviderHint", "en": "Format \"provider/model\".", "ru": null, "zh": "格式「provider/model」。", "source": "vision-router"}
+{"ns": "vision-router", "key": "presentingImage", "en": "Preparing image…", "ru": null, "zh": "正在准备图片…", "source": "vision-router"}
+{"ns": "vision-router", "key": "presentedImage", "en": "Image", "ru": null, "zh": "图片", "source": "vision-router"}
+{"ns": "vision-router", "key": "openPresentedImage", "en": "Open original image", "ru": null, "zh": "点击查看原图", "source": "vision-router"}
+{"ns": "vision-router", "key": "openNamedImage", "en": "Open original image: {name}", "ru": null, "zh": "查看原图：{name}", "source": "vision-router"}
+{"ns": "vision-router", "key": "loadingPresentedImage", "en": "Loading image…", "ru": null, "zh": "图片加载中…", "source": "vision-router"}
+{"ns": "vision-router", "key": "retryPresentedImage", "en": "Load failed, click to retry", "ru": null, "zh": "加载失败，点击重试", "source": "vision-router"}
+{"ns": "vision-router", "key": "imagePreviewDialog", "en": "Image preview", "ru": null, "zh": "图片预览", "source": "vision-router"}
+{"ns": "vision-router", "key": "closeImagePreview", "en": "Close preview", "ru": null, "zh": "关闭预览", "source": "vision-router"}

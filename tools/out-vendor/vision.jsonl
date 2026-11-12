@@ -1,0 +1,269 @@
+{"ns": "vision-router", "key": "nav", "ru": "Vision Router · распознавание изображений"}
+{"ns": "vision-router", "key": "settingsNav", "ru": "Vision Router"}
+{"ns": "vision-router", "key": "desc", "ru": "Чат-модель думает и отвечает, vision-модель читает изображения. Настраиваются они независимо."}
+{"ns": "vision-router", "key": "quickStartTitle", "ru": "Чат и распознавание изображений — это разное"}
+{"ns": "vision-router", "key": "quickStartBody", "ru": "Чат-модель отвечает за рассуждения и ответы, vision-модель читает изображения. Отправляя изображения, выбирайте в чате модель с меткой «+ Auto Vision»."}
+{"ns": "vision-router", "key": "quickStartLive", "ru": "Нужно поменять только распознавание изображений? Измените «Vision-модель» ниже — текущая чат-модель не изменится."}
+{"ns": "vision-router", "key": "quickStartGuide", "ru": "Показать руководство для новичков ещё раз"}
+{"ns": "vision-router", "key": "onboardingTitle", "ru": "Vision Router готов 🎉"}
+{"ns": "vision-router", "key": "onboardingBody", "ru": "При первом запуске запомните главное: чат-модель отвечает, vision-модель читает изображения. Дальше — 3 шага."}
+{"ns": "vision-router", "key": "onboardingStep1Title", "ru": "1 · Выберите чат-модель"}
+{"ns": "vision-router", "key": "onboardingStep1Body", "ru": "Выберите модель, которой обычно пользуетесь, в селекторе чата справа внизу. Для изображений выбирайте её версию «+ Auto Vision»."}
+{"ns": "vision-router", "key": "onboardingStep2Title", "ru": "2 · Выберите vision-модель"}
+{"ns": "vision-router", "key": "onboardingStep2Body", "ru": "Откройте «Настройки → Vision Router» и выберите её в поле «Vision-модель». Она только читает изображения и не заменяет чат-модель."}
+{"ns": "vision-router", "key": "onboardingStep3Title", "ru": "3 · Добавьте резервные модели"}
+{"ns": "vision-router", "key": "onboardingStep3Body", "ru": "Можно добавить несколько vision-моделей: если одна не отвечает, Vision Router попробует следующую, а в конце остаётся встроенный бесплатный резерв."}
+{"ns": "vision-router", "key": "onboardingGuide", "ru": "Провести по настройке распознавания"}
+{"ns": "vision-router", "key": "onboardingLater", "ru": "Позже"}
+{"ns": "vision-router", "key": "onboardingClose", "ru": "Закрыть"}
+{"ns": "vision-router", "key": "guideStep1Title", "ru": "Шаг 1 · Выберите чат-модель"}
+{"ns": "vision-router", "key": "guideStep1Body", "ru": "Селектор модели рядом с полем ввода в правом нижнем углу чата подсвечен. Для ходов с изображениями выбирайте группу с меткой «+ Auto Vision»: модель внутри по-прежнему отвечает за чат, рассуждения и вызовы инструментов. Когда закончите, нажмите «Далее»."}
+{"ns": "vision-router", "key": "guideStepNext", "ru": "Далее"}
+{"ns": "vision-router", "key": "guidePromptTitle", "ru": "Шаг 2 · Выберите vision-модель"}
+{"ns": "vision-router", "key": "guidePromptLauncherBody", "ru": "Нажмите подсвеченный вход в настройки в левом нижнем углу боковой панели. В десктопном приложении это может быть аватар аккаунта или меню «Ещё». Можно также нажать «Далее»."}
+{"ns": "vision-router", "key": "guidePromptMenuBody", "ru": "В меню аккаунта нажмите подсвеченный пункт «Настройки» (или «Далее», чтобы открыть настройки автоматически)."}
+{"ns": "vision-router", "key": "guidePromptNavBody", "ru": "В настройках нажмите подсвеченный пункт «Vision Router» (или «Далее»). Я сразу перейду к «Vision-модели»."}
+{"ns": "vision-router", "key": "guidePromptCancel", "ru": "Завершить руководство"}
+{"ns": "vision-router", "key": "guideChainTitle", "ru": "Шаг 3 · Добавьте резервные модели"}
+{"ns": "vision-router", "key": "guideChainBody", "ru": "Vision-модели перебираются сверху вниз. Можно добавить несколько резервных или не добавлять ни одной — встроенная бесплатная модель OVH останется последним резервом. Закончив, сохраните настройки."}
+{"ns": "vision-router", "key": "guideDone", "ru": "Завершить руководство"}
+{"ns": "vision-router", "key": "pending", "ru": "Не сохранено"}
+{"ns": "vision-router", "key": "readOnly", "ru": "Активный провайдер настроек доступен только для чтения."}
+{"ns": "vision-router", "key": "remoteSettingsDisabledTitle", "ru": "Удалённые настройки отключены"}
+{"ns": "vision-router", "key": "remoteSettingsDisabledBody", "ru": "Удалённая запись по умолчанию выключена. На машине с DSH откройте UI по loopback-адресу и включите «Разрешить удалённые настройки с доверенного хоста» в разделе «Настройки → Vision Router → Дополнительные настройки → Сеть»."}
+{"ns": "vision-router", "key": "remoteSettingsUnavailableTitle", "ru": "Канал удалённых настроек недоступен"}
+{"ns": "vision-router", "key": "remoteSettingsUnavailableBody", "ru": "Vision Router не смог подключиться к своему каналу удалённых настроек. Обновите плагин и убедитесь, что этот удалённый адрес настроен в DSH как доверенный хост."}
+{"ns": "vision-router", "key": "remoteSettingsRetry", "ru": "Повторить"}
+{"ns": "vision-router", "key": "remoteSettingsInitializingTitle", "ru": "Удалённые настройки инициализируются"}
+{"ns": "vision-router", "key": "remoteSettingsInitializingBody", "ru": "Пространство имён настроек Vision Router ещё не готово. Страница повторит попытку автоматически."}
+{"ns": "vision-router", "key": "remoteSettingsProxyBody", "ru": "Маршрут удалённых настроек вернул 404. Если DSH стоит за Nginx, Caddy или другим обратным прокси, пробросьте на DSH также /vision-router-settings/*."}
+{"ns": "vision-router", "key": "remoteSafeScopeHint", "ru": "На удалённых страницах можно менять только низкорисковые предпочтения. Сеть, учётные данные, локальные бэкенды, пути к артефактам, захват экрана и маршрутизация хоста остаются доступны только с loopback-адреса."}
+{"ns": "vision-router", "key": "settingsConflict", "ru": "Настройки изменил другой клиент. Загружены последние значения; проверьте свои правки и сохраните снова."}
+{"ns": "vision-router", "key": "overridden", "ru": "Переопределено"}
+{"ns": "vision-router", "key": "reset", "ru": "Сбросить"}
+{"ns": "vision-router", "key": "toggleInstantDescribe", "ru": "Мгновенное локальное распознавание"}
+{"ns": "vision-router", "key": "hintInstantDescribe", "ru": "Когда включено (и активен хотя бы один локальный визуальный бэкенд), блоки изображений распознаются локально на первом шаге модели — модель понимает изображение сразу, не вызывая инструмент распознавания. Если Ollama не отвечает, следующей пробуется LM Studio. Несколько изображений распознаются параллельно (до 3 — локальный инференс ограничен видеопамятью); неудачное изображение пропускается и не мешает остальным; при полном провале остаётся маркер-подсказка инструмента. В журнале сессии сохраняется исходное изображение."}
+{"ns": "vision-router", "key": "groupLocalOllama", "ru": "Локальное распознавание · Ollama / LM Studio"}
+{"ns": "vision-router", "key": "localVisionHeroHint", "ru": "Здесь настраиваются только бэкенды Ollama / LM Studio. Автоматический первый проход распознавания управляется исключительно пунктом «Структурированный предварительный проход (1+x)» выше — отдельный переключатель не нужен."}
+{"ns": "vision-router", "key": "localVisionOff", "ru": "Выключено"}
+{"ns": "vision-router", "key": "localVisionOn", "ru": "Включено"}
+{"ns": "vision-router", "key": "localVisionStylePlainShort", "ru": "простой"}
+{"ns": "vision-router", "key": "localVisionStyleStructuredShort", "ru": "структурированный"}
+{"ns": "vision-router", "key": "localVisionInstantShort", "ru": "мгновенный"}
+{"ns": "vision-router", "key": "localOllamaEnabled", "ru": "Локальное распознавание через Ollama"}
+{"ns": "vision-router", "key": "localOllamaBaseURL", "ru": "Базовый URL Ollama (совместимый с OpenAI)"}
+{"ns": "vision-router", "key": "localOllamaModel", "ru": "Имя модели Ollama"}
+{"ns": "vision-router", "key": "localOllamaTemperature", "ru": "Температура"}
+{"ns": "vision-router", "key": "localOllamaTopP", "ru": "Top-p"}
+{"ns": "vision-router", "key": "localMaxTokens", "ru": "Максимум выходных токенов"}
+{"ns": "vision-router", "key": "localReasoningEffort", "ru": "Уровень рассуждений"}
+{"ns": "vision-router", "key": "localReasoningDefault", "ru": "По умолчанию у провайдера"}
+{"ns": "vision-router", "key": "localReasoningNone", "ru": "Отключить рассуждения"}
+{"ns": "vision-router", "key": "localRequestFormat", "ru": "Протокол запросов"}
+{"ns": "vision-router", "key": "localFormatOpenAI", "ru": "OpenAI (/chat/completions)"}
+{"ns": "vision-router", "key": "localFormatAnthropic", "ru": "Anthropic (/messages)"}
+{"ns": "vision-router", "key": "localFormatLmStudio", "ru": "LM Studio, нативный (/api/v1/chat)"}
+{"ns": "vision-router", "key": "localTemperaturePlaceholder", "ru": "Пусто — по умолчанию на сервере; рекомендуется 0.5"}
+{"ns": "vision-router", "key": "localTopPPlaceholder", "ru": "Пусто — по умолчанию на сервере; рекомендуется 0.8"}
+{"ns": "vision-router", "key": "localLmStudioModelPlaceholder", "ru": "Идентификатор модели из раздела Developer или /v1/models"}
+{"ns": "vision-router", "key": "localLmStudioModelRequired", "ru": "Укажите реальный идентификатор модели, прежде чем включать LM Studio."}
+{"ns": "vision-router", "key": "localModelRequiredShort", "ru": "нужна модель"}
+{"ns": "vision-router", "key": "hintLocalOllama", "ru": "Когда включено, local-ollama стоит первым в цепочке распознавания (приватно, бесплатно, офлайн); если Ollama не запущена, бэкенд пропускается и цепочка переходит к облаку. По умолчанию выключено."}
+{"ns": "vision-router", "key": "localLmStudioEnabled", "ru": "Локальное распознавание через LM Studio"}
+{"ns": "vision-router", "key": "localLmStudioBaseURL", "ru": "Базовый URL LM Studio (совместимый с OpenAI)"}
+{"ns": "vision-router", "key": "localLmStudioModel", "ru": "Имя модели LM Studio"}
+{"ns": "vision-router", "key": "localLmStudioTemperature", "ru": "Температура"}
+{"ns": "vision-router", "key": "localLmStudioTopP", "ru": "Top-p"}
+{"ns": "vision-router", "key": "hintLocalLmStudio", "ru": "Локальный бэкенд того же уровня, что и Ollama: совместимая конечная точка LM Studio (по умолчанию http://localhost:1234/v1). В поле модели должен быть реальный идентификатор из раздела Developer или из ответа /v1/models. Когда включено, local-lmstudio идёт после local-ollama и перед облачной цепочкой; если LM Studio не запущена, бэкенд пропускается автоматически. По умолчанию выключено."}
+{"ns": "vision-router", "key": "localDescribeStyle", "ru": "Формат локального распознавания"}
+{"ns": "vision-router", "key": "localDescribeStylePlain", "ru": "Простое описание"}
+{"ns": "vision-router", "key": "localDescribeStyleStructured", "ru": "Структурированное (формат 【初步判断】)"}
+{"ns": "vision-router", "key": "hintLocalDescribeStyle", "ru": "Влияет только на вывод локального распознавания (мгновенное распознавание изображений и скриншотов); структурированный формат лучше подходит для анализа скриншотов (интерфейсы, документы, переписка)."}
+{"ns": "vision-router", "key": "invalidProviders", "ru": "Каждая строка должна быть в формате «provider/model», например openrouter/qwen3-vl-235b"}
+{"ns": "vision-router", "key": "invalidTextProvider", "ru": "Формат «provider/model», например deepseek-official/deepseek-v4-pro"}
+{"ns": "vision-router", "key": "invalidTimeout", "ru": "Нужно целое число ≥ 1000 (миллисекунды)"}
+{"ns": "vision-router", "key": "invalidGeneric", "ru": "Недопустимое значение"}
+{"ns": "vision-router", "key": "selectProvider", "ru": "Выберите провайдера…"}
+{"ns": "vision-router", "key": "selectModel", "ru": "Выберите модель…"}
+{"ns": "vision-router", "key": "pickProviderFirst", "ru": "Сначала выберите провайдера"}
+{"ns": "vision-router", "key": "freeTag", "ru": " (бесплатно)"}
+{"ns": "vision-router", "key": "builtinFreeTag", "ru": " (встроенная бесплатная модель)"}
+{"ns": "vision-router", "key": "builtinFallbackLabel", "ru": "Встроенный бесплатный резерв (автоматически)"}
+{"ns": "vision-router", "key": "builtinFallbackEnabled", "ru": "Включён"}
+{"ns": "vision-router", "key": "builtinFallbackDisabled", "ru": "Выключен"}
+{"ns": "vision-router", "key": "builtinFallbackBody", "ru": "Анонимная цепочка OVHcloud содержит моделей: {count}, первая — {primary}. Анонимный лимит — {perModelRpm} запросов в минуту на IP для каждой модели; {count} независимых лимитов моделей дают в теории около {totalRpm} RPM, но фактически всё решает ограничение OVH. Цепочка всегда идёт после ваших моделей и не требует регистрации и ключа API."}
+{"ns": "vision-router", "key": "chainLabel", "ru": "Vision-модель"}
+{"ns": "vision-router", "key": "chainHint", "ru": "Выберите модели, которыми Vision Router читает изображения. Они перебираются сверху вниз с автоматическим переходом на резерв при сбое."}
+{"ns": "vision-router", "key": "addFallback", "ru": "+ Добавить резервную vision-модель"}
+{"ns": "vision-router", "key": "remove", "ru": "Удалить"}
+{"ns": "vision-router", "key": "removeTitle", "ru": "Удалить эту строку"}
+{"ns": "vision-router", "key": "textModelLabel", "ru": "Резервная модель для текста"}
+{"ns": "vision-router", "key": "textModelHint", "ru": "Обычно не нужна; оставьте пустой, чтобы использовать чат-модель по умолчанию."}
+{"ns": "vision-router", "key": "defaultChainNote", "ru": "Эти модели читают изображения и не меняют чат-модель, выбранную в поле ввода. Ваши модели перебираются по порядку, а встроенная бесплатная модель OVH остаётся последним резервом."}
+{"ns": "vision-router", "key": "catalogLoading", "ru": "Загрузка каталога моделей (тот же источник, что в «Настройки → Модели»)…"}
+{"ns": "vision-router", "key": "catalogUnavailable", "ru": "Сервис подключения недоступен (каталог моделей не получен); переключаемся на ручной ввод."}
+{"ns": "vision-router", "key": "catalogTimeout", "ru": "Запрос каталога истёк по таймауту (15 с)"}
+{"ns": "vision-router", "key": "catalogEmpty", "ru": "Каталог моделей пуст: "}
+{"ns": "vision-router", "key": "catalogErrorEnvelope", "ru": "Конечная точка каталога моделей вернула ошибку"}
+{"ns": "vision-router", "key": "catalogError", "ru": "Каталог моделей недоступен ("}
+{"ns": "vision-router", "key": "catalogFallback", "ru": "); поля модели переключены на ручной ввод."}
+{"ns": "vision-router", "key": "catalogPartialFailure", "ru": "Не удалось загрузить каталог моделей у некоторых настроенных провайдеров: {detail}. Они могут по-прежнему отображаться в «Настройки → Модели», но здесь временно недоступны."}
+{"ns": "vision-router", "key": "visionCapsLoading", "ru": "Чтение метаданных о поддержке изображений (только для подсказки; выбор моделей не ограничивает)…"}
+{"ns": "vision-router", "key": "visionCapsError", "ru": "Данные о возможностях недоступны; модели остаются доступными для выбора, но доставка изображений зависит от объявления входных типов хоста."}
+{"ns": "vision-router", "key": "visionCapsFiltered", "ru": "Метки возможностей не ограничивают выбор; если хост помечает модель как текстовую, доставка изображений может не работать."}
+{"ns": "vision-router", "key": "visionCapabilityUndeclaredWarning", "ru": "Поддержка изображений неизвестна; Vision Router попробует адаптер и при сбое перейдёт к следующему бэкенду."}
+{"ns": "vision-router", "key": "visionCapabilityTextOnlyWarning", "ru": "Хост помечает модель как текстовую и удаляет изображения до вызова адаптера; передать их могут только проверенные HTTP Chat Completions. Если модель поддерживает изображения, включите «Изображение» в DSH «Настройки → Модели → Типы ввода». В старых хостах: llm-pi-ai input: [text, image]; llm-deepseek inputModalities: [text, image]. Иначе пропустите этот бэкенд."}
+{"ns": "vision-router", "key": "visionCapabilityUnknownWarning", "ru": "Поддержка изображений проверяется во время вызова; при сбое произойдёт переход к следующему бэкенду."}
+{"ns": "vision-router", "key": "visionCapsEmptyTitle", "ru": "Нет доступных пользовательских vision-моделей"}
+{"ns": "vision-router", "key": "visionCapsEmptyBody", "ru": "DSH вернул моделей пользователя: {count}, но ни одна явно не помечена как принимающая изображения, поэтому Vision Router безопасно их скрыл."}
+{"ns": "vision-router", "key": "visionCapsHiddenPrefix", "ru": "Скрытые модели:"}
+{"ns": "vision-router", "key": "visionCapsReasonMissingImage", "ru": "ввод изображений не объявлен"}
+{"ns": "vision-router", "key": "visionCapsReasonUnverified", "ru": "не удалось проверить поддержку изображений"}
+{"ns": "vision-router", "key": "visionCapsHiddenMore", "ru": "Скрыто ещё моделей: {count}"}
+{"ns": "vision-router", "key": "visionCapsMissingImageHint", "ru": "Если модель действительно принимает изображения, включите «Изображение» в DSH «Настройки → Модели → Типы ввода». В старых хостах укажите правильное поле входных типов в cordis.patch.yml профиля. Дополнительные метки vision не влияют на передачу пикселей хостом."}
+{"ns": "vision-router", "key": "visionCapsRetry", "ru": "Повторно определить модели"}
+{"ns": "vision-router", "key": "chainInvalidCurrent", "ru": "Этот сохранённый бэкенд больше не вызывается или относится к негенеративному либо рекурсивному маршруту, поэтому среда выполнения его пропустит: "}
+{"ns": "vision-router", "key": "retryCatalog", "ru": "Повторить загрузку каталога"}
+{"ns": "vision-router", "key": "advanced", "ru": "Дополнительные настройки"}
+{"ns": "vision-router", "key": "groupPerformance", "ru": "Производительность"}
+{"ns": "vision-router", "key": "groupCompatibility", "ru": "Совместимость"}
+{"ns": "vision-router", "key": "groupCost", "ru": "Стоимость"}
+{"ns": "vision-router", "key": "groupNetwork", "ru": "Сеть"}
+{"ns": "vision-router", "key": "groupDeveloper", "ru": "Настройки разработчика"}
+{"ns": "vision-router", "key": "groupDiagnostics", "ru": "Версия и диагностика"}
+{"ns": "vision-router", "key": "developerHint", "ru": "Эти параметры нужны для переопределения маршрутов, меток возможностей и отладки совместимости. Большинству пользователей они не нужны."}
+{"ns": "vision-router", "key": "groupTextModel", "ru": "Резервная модель для текста"}
+{"ns": "vision-router", "key": "textModelGroupHint", "ru": "Обычно не нужна. Используется, только когда включена передача всего хода vision-модели и обычный текст должен вернуться к чат-модели."}
+{"ns": "vision-router", "key": "groupBehavior", "ru": "Поведение с изображениями"}
+{"ns": "vision-router", "key": "groupParams", "ru": "Производительность и таймауты"}
+{"ns": "vision-router", "key": "groupVisionOverrides", "ru": "Переопределение поддержки изображений"}
+{"ns": "vision-router", "key": "extraVisionModelsLabel", "ru": "Дополнительные метки vision-моделей"}
+{"ns": "vision-router", "key": "extraVisionModelsHint", "ru": "Эта настройка больше не открывает доступ к выбору и вызову: любая вызываемая генеративная модель уже доступна. Заполняйте её, только если хотите явно пометить модель без объявленной поддержки изображений как визуальную. На объявления входных типов хоста метка не влияет. Проверенные HTTP Chat Completions могут передавать изображения; другие маршруты с явной текстовой поддержкой безопасно отклоняются."}
+{"ns": "vision-router", "key": "groupRoutes", "ru": "Имена маршрутов"}
+{"ns": "vision-router", "key": "groupProxy", "ru": "Сеть"}
+{"ns": "vision-router", "key": "networkAuthorityHint", "ru": "Vision Router по умолчанию не управляет исходящим трафиком: он идёт сетевым путём DSH и хоста. Прокси ниже — только дополнительное переопределение для запросов распознавания."}
+{"ns": "vision-router", "key": "proxyLabel", "ru": "Отдельный прокси для распознавания"}
+{"ns": "vision-router", "key": "proxyHint", "ru": "Оставьте пустым, чтобы использовать сетевой путь DSH и хоста. Заполняйте, только чтобы переопределить его для запросов распознавания, например http://127.0.0.1:10808 или socks5://127.0.0.1:10808; поддерживаются старые значения socks5h://. Применяется сразу."}
+{"ns": "vision-router", "key": "allowRemoteSettingsLabel", "ru": "Разрешить удалённые настройки с доверенного хоста"}
+{"ns": "vision-router", "key": "allowRemoteSettingsHint", "ru": "По умолчанию выключено. Включайте, только если доверяете клиентам, которые могут достучаться до этого экземпляра DSH; trustedHosts — не аутентификация. Удалённые клиенты могут менять только явно разрешённые низкорисковые предпочтения; сеть, учётные данные, локальные бэкенды, пути к артефактам, захват экрана и маршрутизация хоста остаются доступны только с loopback-адреса."}
+{"ns": "vision-router", "key": "proxyHostsLabel", "ru": "Хосты для прокси распознавания (по одному в строке)"}
+{"ns": "vision-router", "key": "proxyHostsHint", "ru": "Используется, только если выше задан отдельный прокси для распознавания. Эти хосты пойдут через прокси плагина, остальные запросы сохранят сетевой путь DSH и хоста. Пустое значение сбрасывает переопределение."}
+{"ns": "vision-router", "key": "saveFailed", "ru": "Не удалось сохранить: часть изменений не записана. Незаписанные изменения сохранены — повторите попытку."}
+{"ns": "vision-router", "key": "discard", "ru": "Отменить изменения"}
+{"ns": "vision-router", "key": "testConnection", "ru": "Проверить подключение"}
+{"ns": "vision-router", "key": "testConnecting", "ru": "Проверка…"}
+{"ns": "vision-router", "key": "testOk", "ru": "Подключено"}
+{"ns": "vision-router", "key": "testFailed", "ru": "Не удалось подключиться"}
+{"ns": "vision-router", "key": "openLogFolder", "ru": "Открыть папку журналов"}
+{"ns": "vision-router", "key": "openLogFolderFailed", "ru": "Не удалось открыть папку журналов"}
+{"ns": "vision-router", "key": "updateTitle", "ru": "Обновления"}
+{"ns": "vision-router", "key": "checkUpdate", "ru": "Проверить обновления"}
+{"ns": "vision-router", "key": "updateChecking", "ru": "Проверка…"}
+{"ns": "vision-router", "key": "updateAvailable", "ru": "Доступно обновление: v{latest} (сейчас v{current})"}
+{"ns": "vision-router", "key": "updateCurrent", "ru": "Установлена последняя версия: v{current}"}
+{"ns": "vision-router", "key": "updateAhead", "ru": "Текущая версия v{current} новее последней в registry v{latest}; возможно, это сборка из исходников или пререлиз, поэтому понижение не предлагается."}
+{"ns": "vision-router", "key": "updateFailed", "ru": "Не удалось проверить обновления: {error}"}
+{"ns": "vision-router", "key": "updateNoDiagnostic", "ru": "Конечная точка проверки обновлений не вернула диагностических подробностей"}
+{"ns": "vision-router", "key": "updateInvalidResponse", "ru": "Конечная точка проверки обновлений вернула некорректный ответ"}
+{"ns": "vision-router", "key": "updateInstallHint", "ru": "Текущий DSH CLI проверен, поэтому Vision Router может обновиться через эту же установку DSH. После обновления перезапустите DSH, чтобы загрузился новый пакет плагина."}
+{"ns": "vision-router", "key": "updateAutoUnavailable", "ru": "Текущий DSH CLI не удалось безопасно опознать, поэтому автообновление отключено. Обновляйте тем же способом, которым устанавливали DSH и плагин."}
+{"ns": "vision-router", "key": "updateNow", "ru": "Обновить до v{latest}"}
+{"ns": "vision-router", "key": "updateRunning", "ru": "Обновление…"}
+{"ns": "vision-router", "key": "updateConfirm", "ru": "Vision Router обновится через запущенный DSH CLI. После этого потребуется перезапустить DSH. Продолжить?"}
+{"ns": "vision-router", "key": "updateSuccess", "ru": "Команда обновления выполнена (цель v{latest}). Перезапустите DSH, чтобы загрузилась новая версия."}
+{"ns": "vision-router", "key": "updateSuccessVerified", "ru": "Команда обновления выполнена (цель v{latest}, установка v{installed} подтверждена). Перезапустите DSH, чтобы загрузилась новая версия."}
+{"ns": "vision-router", "key": "updateActionFailed", "ru": "Не удалось обновить в один клик: {error}"}
+{"ns": "vision-router", "key": "updateReleaseNotes", "ru": "Посмотреть описание обновления"}
+{"ns": "vision-router", "key": "updateRegistryFallback", "ru": "Настроенный registry недоступен; проверка прошла через официальный npm registry."}
+{"ns": "vision-router", "key": "updateReleaseFallback", "ru": "Проверка через npm registry не удалась, поэтому последняя версия взята из GitHub Releases; для установки всё равно нужен доступный npm registry."}
+{"ns": "vision-router", "key": "updateManualUnknownTarget", "ru": "Не удалось подтвердить последнюю версию, поэтому команда с @latest или обычным update не формируется. Сначала откройте Releases, уточните номер последней версии, затем подставьте его вместо <version> в шаблоне ниже."}
+{"ns": "vision-router", "key": "updateManualTitle", "ru": "Ручное обновление"}
+{"ns": "vision-router", "key": "updateManualSource", "ru": "Исходники DSH / pnpm:"}
+{"ns": "vision-router", "key": "updateManualNpx", "ru": "Обычный npm / npx DSH:"}
+{"ns": "vision-router", "key": "updateManualAgeHint", "ru": "Команда выше использует только подтверждённую точную версию; если версию подтвердить нельзя, UI показывает шаблон <version>. pnpm 11 может молча не выполнить @latest или обычный update для релизов младше 24 часов (minimumReleaseAge), при этом сообщив об успехе, поэтому эти неоднозначные формы обновления здесь больше не рекомендуются."}
+{"ns": "vision-router", "key": "updateProject", "ru": "Проект"}
+{"ns": "vision-router", "key": "updateReleases", "ru": "Releases"}
+{"ns": "vision-router", "key": "save", "ru": "Сохранить"}
+{"ns": "vision-router", "key": "saving", "ru": "Сохранение…"}
+{"ns": "vision-router", "key": "renderFailed", "ru": "Не удалось отрисовать карточку настроек: "}
+{"ns": "vision-router", "key": "toggleRouting", "ru": "Передавать весь ход с изображением vision-модели"}
+{"ns": "vision-router", "key": "toggleReverseRouting", "ru": "Оставлять текстовые сообщения на чат-модели"}
+{"ns": "vision-router", "key": "toggleTool", "ru": "Инструменты распознавания"}
+{"ns": "vision-router", "key": "toggleStructuredVisionBootstrap", "ru": "Структурированный предварительный проход (1+x, экспериментально)"}
+{"ns": "vision-router", "key": "toggleAutoWrapProviders", "ru": "Автоматически создавать группы «+ Auto Vision»"}
+{"ns": "vision-router", "key": "toggleRewriteImages", "ru": "Защита текстовых моделей"}
+{"ns": "vision-router", "key": "toggleDownscale", "ru": "Автоматически уменьшать"}
+{"ns": "vision-router", "key": "toggleCache", "ru": "Кэш ответов распознавания"}
+{"ns": "vision-router", "key": "toggleLocalOnlyVision", "ru": "Только локальное распознавание"}
+{"ns": "vision-router", "key": "toggleFreeFallback", "ru": "Встроенный бесплатный резерв"}
+{"ns": "vision-router", "key": "toggleFreeCloudFirst", "ru": "Сначала бесплатное облако"}
+{"ns": "vision-router", "key": "toggleDesktopScreenshot", "ru": "Распознавание скриншотов рабочего стола"}
+{"ns": "vision-router", "key": "toggleStealth", "ru": "Скрытый режим"}
+{"ns": "vision-router", "key": "hintRouting", "ru": "По умолчанию выключено. Когда включено, весь ход с изображением обрабатывает напрямую vision-модель, а не текущая чат-модель через инструменты распознавания. Это сохраняет прежнее поведение и обычно не нужно; участвуют только vision-модели, настроенные выше."}
+{"ns": "vision-router", "key": "hintReverseRouting", "ru": "Действует, только когда включена передача всего хода vision-модели; обычный текст по-прежнему обрабатывает чат-модель."}
+{"ns": "vision-router", "key": "hintTool", "ru": "Позволяет чат-модели по необходимости рассматривать, находить, обрезать и сравнивать изображения. Рекомендуется держать включённым."}
+{"ns": "vision-router", "key": "hintStructuredVisionBootstrap", "ru": "По умолчанию выключено. Каждая задача с изображением сначала получает независимый от задачи структурированный визуальный базис: цель задачи в предварительный проход не передаётся. Затем чат-модель должна сделать хотя бы один вызов распознавания для проверки или углубления по исходному запросу (1+x, x≥1). Включённые бэкенды Ollama и LM Studio участвуют в этой же цепочке; отдельного переключателя мгновенного распознавания нет. Качество доказательств растёт, но добавляется минимум один визуальный вызов. Если нужен OCR, вызовы без явно указанного движка следуют настройке «Движок OCR по умолчанию»; явный engine=tesseract/vision всегда главнее для этого вызова. Держите «Инструменты распознавания» включёнными."}
+{"ns": "vision-router", "key": "hintAutoWrapProviders", "ru": "Автоматически создаёт версию «+ Auto Vision» для включённых чат-моделей. Исходные группы моделей не меняются. Рекомендуется держать включённым."}
+{"ns": "vision-router", "key": "hintRewriteImages", "ru": "Не даёт отправлять необработанное содержимое изображения текстовой модели, которая его не прочитает. Рекомендуется держать включённым."}
+{"ns": "vision-router", "key": "hintDownscale", "ru": "Изображения больше лимита по пикселям уменьшаются перед отправкой на распознавание — меньше задержка и стоимость; по умолчанию включено."}
+{"ns": "vision-router", "key": "hintCache", "ru": "Кэширует ответы распознавания (ключ — содержимое изображения плюс вопрос); по умолчанию включено."}
+{"ns": "vision-router", "key": "hintLocalOnlyVision", "ru": "Когда включено, работать могут только визуальные бэкенды на loopback-адресах. Облачные провайдеры DSH и бесплатный резерв OVH блокируются на уровне среды выполнения, поэтому Vision Router не отправляет изображения и фрагменты в облачные сервисы распознавания. Текст результатов — описания, OCR, координаты — всё равно передаётся текущей чат-модели; если она в облаке, семантика изображения может покинуть машину. Для строго локального сценария выберите и локальную чат-модель."}
+{"ns": "vision-router", "key": "hintFreeFallback", "ru": "Если выбранные vision-модели не сработали, автоматически пробуются встроенные бесплатные модели OVH. Регистрация и ключ API не нужны."}
+{"ns": "vision-router", "key": "hintFreeCloudFirst", "ru": "По умолчанию выключено. Когда включено, облачные бэкенды сначала пробуют встроенные бесплатные модели OVH (без регистрации и ключа API), а ваши платные конечные точки становятся резервом только после отказа всех бесплатных — так облачное распознавание остаётся бесплатным. Локальные бэкенды не затрагиваются и идут первыми. Когда выключено, сохраняется текущий порядок (платные впереди, бесплатные в конце)."}
+{"ns": "vision-router", "key": "hintDesktopScreenshot", "ru": "Разрешает модели по запросу захватывать рабочий стол для распознавания изображений. По умолчанию выключено; инструмент vision_screenshot доступен только при включении. В macOS сохранение включённой настройки сразу запускает проверку разрешения на запись экрана; если разрешение уже выдано, система не спросит повторно."}
+{"ns": "vision-router", "key": "hintStealth", "ru": "Оставлено только для совместимости с сохранёнными настройками. Во всех хостах DSH, которые поддерживает DVR 2.3, официальный провайдер принадлежит хосту: Vision Router использует обёртку «+ Auto Vision» и не перехватывает и не пересоздаёт deepseek-official, а также не просит отключать llm-deepseek. Пользовательские маршруты вроде opencode по умолчанию оборачиваются автоматически; ручной раздел ниже нужен, только чтобы ограничить их область."}
+{"ns": "vision-router", "key": "stealthOfficialHostOwnedHint", "ru": "Официальный провайдер DeepSeek отключён или недоступен, но этот хост DSH владеет его маршрутом. Vision Router не будет его пересоздавать. Снова включите llm-deepseek, затем обрабатывайте задачи с изображениями через обёртку «+ Auto Vision» или управление распознаванием."}
+{"ns": "vision-router", "key": "numTimeoutMs", "ru": "Таймаут одного запроса распознавания (мс)"}
+{"ns": "vision-router", "key": "numVisionTaskTimeoutMs", "ru": "Максимальное время задачи распознавания (мс)"}
+{"ns": "vision-router", "key": "numOcrTimeoutMs", "ru": "Максимальное время OCR (мс)"}
+{"ns": "vision-router", "key": "selectOcrEngine", "ru": "Движок OCR по умолчанию"}
+{"ns": "vision-router", "key": "hintOcrEngine", "ru": "Политика по умолчанию, когда vision_ocr не выбирает движок явно. «Авто» сначала пробует локальный Tesseract и при неудаче переходит к vision-модели; «Только Tesseract» использует лишь локальный OCR; «Только vision-модель» пропускает Tesseract. Явный engine=tesseract/vision в вызове инструмента всегда главнее."}
+{"ns": "vision-router", "key": "ocrEngineAuto", "ru": "Авто (Tesseract → vision-модель)"}
+{"ns": "vision-router", "key": "ocrEngineTesseract", "ru": "Только Tesseract"}
+{"ns": "vision-router", "key": "ocrEngineVision", "ru": "Только vision-модель"}
+{"ns": "vision-router", "key": "numDownscaleMaxPixels", "ru": "Лимит пикселей изображения"}
+{"ns": "vision-router", "key": "numCacheTtlSeconds", "ru": "Срок жизни кэша (с)"}
+{"ns": "vision-router", "key": "numCacheMaxEntries", "ru": "Максимум ответов в кэше"}
+{"ns": "vision-router", "key": "selectVisionDepth", "ru": "Глубина распознавания"}
+{"ns": "vision-router", "key": "groupDeepDive", "ru": "Указания для глубокого разбора (необязательно)"}
+{"ns": "vision-router", "key": "guidanceOverridesLabel", "ru": "Свои указания для распознавания (необязательно)"}
+{"ns": "vision-router", "key": "guidanceOverridesHint", "ru": "Обычно здесь ничего задавать не нужно. По умолчанию для каждого типа изображения используется встроенное указание; можно написать своё для конкретного типа (например, документ, интерфейс, человек), чтобы vision-модель смотрела так, как нужно. Пример: выберите тип «документ» и введите «Обратите внимание на пункты договора и подписи»."}
+{"ns": "vision-router", "key": "guidanceOverridePlaceholder", "ru": "Введите своё указание (пусто — встроенное)"}
+{"ns": "vision-router", "key": "addGuidanceOverride", "ru": "+ Добавить своё указание"}
+{"ns": "vision-router", "key": "selectKind", "ru": "Выберите тип изображения…"}
+{"ns": "vision-router", "key": "visionDepthFast", "ru": "Быстро (сначала общая картина)"}
+{"ns": "vision-router", "key": "visionDepthStandard", "ru": "Стандартно (проверка по необходимости, по умолчанию)"}
+{"ns": "vision-router", "key": "visionDepthDeep", "ru": "Подробно (активная перекрёстная проверка)"}
+{"ns": "vision-router", "key": "hintVisionDepth", "ru": "Глубина распознавания задаёт стратегию, а не лимит вызовов: «Быстро» сначала смотрит общую картину, «Стандартно» проверяет доказательства по необходимости, «Подробно» активно изучает детали и перепроверяет важные утверждения. Чтобы ограничить число вызовов, включите «Ограничить глубокий разбор» ниже."}
+{"ns": "vision-router", "key": "depthCapTitle", "ru": "Ограничить глубокий разбор"}
+{"ns": "vision-router", "key": "depthCapHint", "ru": "По умолчанию выключено, поэтому число визуальных вызовов не ограничено. Включите, чтобы задать максимум успешных вызовов глубокой проверки за ход. Предварительный проход не считается, неудачные вызовы и вызовы без доказательств лимит не тратят."}
+{"ns": "vision-router", "key": "depthCapValueLabel", "ru": "Максимум вызовов глубокого разбора"}
+{"ns": "vision-router", "key": "depthCapInvalid", "ru": "Введите целое число от 1 до 100."}
+{"ns": "vision-router", "key": "numHintTimeoutMs", "ru": "Таймаут одного визуального вызова; по умолчанию 120000."}
+{"ns": "vision-router", "key": "numHintVisionTaskTimeoutMs", "ru": "Общий лимит времени одной задачи распознавания (все провайдеры, резервы и повторы); по умолчанию 120000. Ошибки авторизации и лимиты частоты сразу отключают соответствующий бэкенд."}
+{"ns": "vision-router", "key": "numHintOcrTimeoutMs", "ru": "Общий лимит одной задачи OCR: tesseract получает не больше 12 с, vision-резерв — только остаток; по умолчанию 30000."}
+{"ns": "vision-router", "key": "numHintDownscaleMaxPixels", "ru": "Примерно 8MP = 8000000; более крупные изображения уменьшаются перед распознаванием."}
+{"ns": "vision-router", "key": "numHintCacheTtlSeconds", "ru": "Срок жизни кэша ответов распознавания; 0 — бессрочно; по умолчанию 3600."}
+{"ns": "vision-router", "key": "numHintCacheMaxEntries", "ru": "Ёмкость LRU-кэша; по умолчанию 200."}
+{"ns": "vision-router", "key": "textWrapperRoute", "ru": "Имя маршрута-обёртки"}
+{"ns": "vision-router", "key": "textChainRoute", "ru": "Имя маршрута цепочки"}
+{"ns": "vision-router", "key": "textHintWrapperRoute", "ru": "Маршрут-вход автоматического распознавания, отображаемый в селекторе моделей."}
+{"ns": "vision-router", "key": "textHintChainRoute", "ru": "Маршрут монтирования резервной цепочки (инструменты распознавания вызывают реальных провайдеров напрямую, минуя его)."}
+{"ns": "vision-router", "key": "textWrappedProviders", "ru": "Ручные обёртки моделей (необязательно)"}
+{"ns": "vision-router", "key": "groupWrappers", "ru": "Вручную ограничить область автоматического распознавания (необязательно)"}
+{"ns": "vision-router", "key": "textHintWrappedProviders", "ru": "Обычно не трогайте. Нужно только после отключения автоматического создания или когда в группе «+ Auto Vision» должны быть лишь выбранные модели: `provider` оборачивает все модели, а `provider/model1,model2` ограничивает набор. Применяется сразу, перезапуск не нужен."}
+{"ns": "vision-router", "key": "wrapHint", "ru": "Обычно настройка не нужна: включённые модели из «Настройки → Модели» обнаруживаются и оборачиваются автоматически. Добавляйте строки, только чтобы ограничить область автоматического распознавания для провайдера или задать её вручную после отключения автоматического создания выше. Пустая модель — все модели маршрута. Исходная группа моделей всегда остаётся неизменной. Применяется сразу, перезапуск не нужен."}
+{"ns": "vision-router", "key": "wrapAllModels", "ru": "Все модели (пусто — обернуть все)"}
+{"ns": "vision-router", "key": "addWrapper", "ru": "+ Добавить ручную обёртку"}
+{"ns": "vision-router", "key": "textProviders", "ru": "Vision-модель"}
+{"ns": "vision-router", "key": "textProvidersHint", "ru": "По одной vision-модели в строке, перебор сверху вниз. Оставьте пустым, чтобы использовать только встроенный бесплатный резерв."}
+{"ns": "vision-router", "key": "textTextProvider", "ru": "Резервная модель для текста"}
+{"ns": "vision-router", "key": "textTextProviderHint", "ru": "Формат «provider/model»."}
+{"ns": "vision-router", "key": "presentingImage", "ru": "Подготовка изображения…"}
+{"ns": "vision-router", "key": "presentedImage", "ru": "Изображение"}
+{"ns": "vision-router", "key": "openPresentedImage", "ru": "Открыть оригинал"}
+{"ns": "vision-router", "key": "openNamedImage", "ru": "Открыть оригинал: {name}"}
+{"ns": "vision-router", "key": "loadingPresentedImage", "ru": "Загрузка изображения…"}
+{"ns": "vision-router", "key": "retryPresentedImage", "ru": "Не удалось загрузить. Нажмите, чтобы повторить"}
+{"ns": "vision-router", "key": "imagePreviewDialog", "ru": "Предпросмотр изображения"}
+{"ns": "vision-router", "key": "closeImagePreview", "ru": "Закрыть предпросмотр"}

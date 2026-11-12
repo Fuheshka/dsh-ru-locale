@@ -1,0 +1,239 @@
+{"ns": "dsh-tidy-display", "key": "common.copy", "ru": "Копировать"}
+{"ns": "dsh-tidy-display", "key": "common.copied", "ru": "Скопировано"}
+{"ns": "dsh-tidy-display", "key": "common.collapse", "ru": "Свернуть"}
+{"ns": "dsh-tidy-display", "key": "common.expand", "ru": "Развернуть"}
+{"ns": "dsh-tidy-display", "key": "common.expandLines", "ru": "Развернуть ещё: {n}"}
+{"ns": "dsh-tidy-display", "key": "view.reader", "ru": "Просмотр"}
+{"ns": "dsh-tidy-display", "key": "reader.fallbackError", "ru": "Сервис модели не отвечает или соединение прервано. Повторите попытку."}
+{"ns": "dsh-tidy-display", "key": "reader.stopped", "ru": "Остановлено"}
+{"ns": "dsh-tidy-display", "key": "reader.steering", "ru": "Направляющее сообщение"}
+{"ns": "dsh-tidy-display", "key": "reader.turnError", "ru": "Ход завершился с ошибкой"}
+{"ns": "dsh-tidy-display", "key": "reader.maxTokens", "ru": "Достигнут лимит длины вывода; ответ неполный."}
+{"ns": "dsh-tidy-display", "key": "reader.retryNotice", "ru": "Запрос к модели не удался, ожидается повтор. Подробности — в процессе."}
+{"ns": "dsh-tidy-display", "key": "reader.commandError", "ru": "Команда завершилась с ошибкой"}
+{"ns": "dsh-tidy-display", "key": "reader.commandRecordFallback", "ru": "Смотреть запись команды в исходной беседе"}
+{"ns": "dsh-tidy-display", "key": "reader.unknownNode", "ru": "Этот тип записи ещё не поддерживается в режиме просмотра: {kind}"}
+{"ns": "dsh-tidy-display", "key": "reader.viewInChat", "ru": "Посмотреть в беседе"}
+{"ns": "dsh-tidy-display", "key": "reader.rawRecord", "ru": "Сырая запись"}
+{"ns": "dsh-tidy-display", "key": "reader.systemPrompt", "ru": "Системный промпт"}
+{"ns": "dsh-tidy-display", "key": "reader.modelRetryRecord", "ru": "Запись повтора запроса к модели"}
+{"ns": "dsh-tidy-display", "key": "reader.commandRecord", "ru": "Запись команды"}
+{"ns": "dsh-tidy-display", "key": "reader.sessionError", "ru": "Эту сессию сейчас нельзя прочитать: {message}"}
+{"ns": "dsh-tidy-display", "key": "reader.loading", "ru": "Загрузка сессии…"}
+{"ns": "dsh-tidy-display", "key": "reader.deepDiving", "ru": "Размышляет…"}
+{"ns": "dsh-tidy-display", "key": "reader.jumpBottom", "ru": "Вниз"}
+{"ns": "dsh-tidy-display", "key": "reader.pendingQuestion", "ru": "Нужен ответ на вопрос"}
+{"ns": "dsh-tidy-display", "key": "reader.pendingConfirm", "ru": "Требуется подтверждение"}
+{"ns": "dsh-tidy-display", "key": "reader.pendingHint", "ru": "Обработайте это в области действий ниже. Уведомление не сворачивается вместе с процессом."}
+{"ns": "dsh-tidy-display", "key": "reader.blockError", "ru": "Это содержимое нельзя показать в режиме просмотра. Запись в исходной беседе не затронута."}
+{"ns": "dsh-tidy-display", "key": "reader.unknownBlock", "ru": "Этот тип содержимого ещё не поддерживается в режиме просмотра; исходное содержимое сохранено."}
+{"ns": "dsh-tidy-display", "key": "reader.rawContent", "ru": "Посмотреть сырое содержимое"}
+{"ns": "dsh-tidy-display", "key": "reader.toolArgs", "ru": "Аргументы инструмента · {name}"}
+{"ns": "dsh-tidy-display", "key": "reader.copyFailed", "ru": "Не удалось скопировать. Выделите текст вручную"}
+{"ns": "dsh-tidy-display", "key": "reader.copyAnswer", "ru": "Копировать ответ"}
+{"ns": "dsh-tidy-display", "key": "reader.forkAria", "ru": "Ответвить новую сессию отсюда"}
+{"ns": "dsh-tidy-display", "key": "reader.forkTitle", "ru": "Ответвить новую сессию отсюда (Fork)"}
+{"ns": "dsh-tidy-display", "key": "reader.copyMessage", "ru": "Копировать сообщение"}
+{"ns": "dsh-tidy-display", "key": "reader.blockErrorDetail", "ru": "({detail})"}
+{"ns": "dsh-tidy-display", "key": "image.zoom", "ru": "Увеличить изображение"}
+{"ns": "dsh-tidy-display", "key": "image.zoomNamed", "ru": "Увеличить изображение: {name}"}
+{"ns": "dsh-tidy-display", "key": "image.alt", "ru": "Изображение из беседы"}
+{"ns": "dsh-tidy-display", "key": "image.altPending", "ru": "Отправляемое изображение"}
+{"ns": "dsh-tidy-display", "key": "image.error", "ru": "Изображение не загрузилось"}
+{"ns": "dsh-tidy-display", "key": "image.loading", "ru": "Загрузка изображения"}
+{"ns": "dsh-tidy-display", "key": "image.retry", "ru": "Повторить"}
+{"ns": "dsh-tidy-display", "key": "image.preview", "ru": "Предпросмотр изображения"}
+{"ns": "dsh-tidy-display", "key": "image.close", "ru": "Закрыть предпросмотр"}
+{"ns": "dsh-tidy-display", "key": "status.process", "ru": "Процесс"}
+{"ns": "dsh-tidy-display", "key": "status.elapsedSec", "ru": "Заняло {n} с"}
+{"ns": "dsh-tidy-display", "key": "status.elapsedMin", "ru": "Заняло {m} мин {s} с"}
+{"ns": "dsh-tidy-display", "key": "status.awaitUser", "ru": "Ожидает вас"}
+{"ns": "dsh-tidy-display", "key": "status.subagents", "ru": "Субагентов: {count}"}
+{"ns": "dsh-tidy-display", "key": "status.usingTool", "ru": "Использует инструмент"}
+{"ns": "dsh-tidy-display", "key": "status.thinking", "ru": "Размышляет"}
+{"ns": "dsh-tidy-display", "key": "status.outputting", "ru": "Выводит"}
+{"ns": "dsh-tidy-display", "key": "status.preparingReply", "ru": "Готовит ответ"}
+{"ns": "dsh-tidy-display", "key": "status.processing", "ru": "Работает"}
+{"ns": "dsh-tidy-display", "key": "compaction.label", "ru": "Контекст истории сжат"}
+{"ns": "dsh-tidy-display", "key": "compaction.items", "ru": "Сжато записей контекста: {items}"}
+{"ns": "dsh-tidy-display", "key": "compaction.tokens", "ru": "Контекст сжат · освобождено около {tokens} токенов"}
+{"ns": "dsh-tidy-display", "key": "compaction.itemsTokens", "ru": "Сжато записей контекста: {items} · освобождено около {tokens} токенов"}
+{"ns": "dsh-tidy-display", "key": "compaction.titleCollapse", "ru": "Свернуть сводку памяти"}
+{"ns": "dsh-tidy-display", "key": "compaction.titleExpand", "ru": "Развернуть, чтобы прочитать сводку, сформированную в этом узле"}
+{"ns": "dsh-tidy-display", "key": "compaction.toggleCollapse", "ru": "Скрыть сводку"}
+{"ns": "dsh-tidy-display", "key": "compaction.toggleExpand", "ru": "Показать сводку"}
+{"ns": "dsh-tidy-display", "key": "compaction.summaryHeader", "ru": "Сводка по предыдущей части диалога"}
+{"ns": "dsh-tidy-display", "key": "compaction.errorTitle", "ru": "Не удалось сжать контекст"}
+{"ns": "dsh-tidy-display", "key": "deliverables.label", "ru": "Результаты"}
+{"ns": "dsh-tidy-display", "key": "deliverables.more", "ru": "+ файлов: {count}"}
+{"ns": "dsh-tidy-display", "key": "deliverables.workspaceTitle", "ru": "Открыть папку рабочей области в файловом менеджере"}
+{"ns": "dsh-tidy-display", "key": "deliverables.workspaceOpened", "ru": "Папка открыта"}
+{"ns": "dsh-tidy-display", "key": "deliverables.showInFolder", "ru": "Показать в папке"}
+{"ns": "dsh-tidy-display", "key": "deliverables.openSidebar", "ru": "Открыть {path} во встроенной панели"}
+{"ns": "dsh-tidy-display", "key": "deliverables.openExternal", "ru": "Открыть {path} в системном приложении"}
+{"ns": "dsh-tidy-display", "key": "deliverables.openedSidebar", "ru": "Открыто в панели"}
+{"ns": "dsh-tidy-display", "key": "deliverables.openedExternal", "ru": "Открыто во внешнем приложении"}
+{"ns": "dsh-tidy-display", "key": "deliverables.fileActions", "ru": "Действия с файлом"}
+{"ns": "dsh-tidy-display", "key": "deliverables.revealTitle", "ru": "Показать папку с файлом ({folder})"}
+{"ns": "dsh-tidy-display", "key": "deliverables.revealAria", "ru": "Показать папку с файлом"}
+{"ns": "dsh-tidy-display", "key": "deliverables.copyPath", "ru": "Копировать относительный путь"}
+{"ns": "dsh-tidy-display", "key": "deliverables.openPath", "ru": "Открыть {path}"}
+{"ns": "dsh-tidy-display", "key": "toolbar.autoFoldTitle", "ru": "Сворачивать предыдущие шаги в одну строку сводки при начале нового размышления. Если выключить, исходный процесс и потоковый вывод сохраняются."}
+{"ns": "dsh-tidy-display", "key": "toolbar.autoFoldOn", "ru": "Автосворачивание вкл"}
+{"ns": "dsh-tidy-display", "key": "toolbar.autoFoldOff", "ru": "Автосворачивание выкл"}
+{"ns": "dsh-tidy-display", "key": "history.loading", "ru": "Загрузка более ранних записей"}
+{"ns": "dsh-tidy-display", "key": "history.load", "ru": "Загрузить более ранние записи"}
+{"ns": "dsh-tidy-display", "key": "history.error", "ru": "Не удалось загрузить историю. Повторите попытку. Уже загруженное не изменилось."}
+{"ns": "dsh-tidy-display", "key": "tool.phase.preparing", "ru": "Формируется ввод"}
+{"ns": "dsh-tidy-display", "key": "tool.phase.running", "ru": "Выполняется"}
+{"ns": "dsh-tidy-display", "key": "tool.phase.returned", "ru": "Возвращено"}
+{"ns": "dsh-tidy-display", "key": "tool.phase.succeeded", "ru": "Готово"}
+{"ns": "dsh-tidy-display", "key": "tool.phase.failed", "ru": "Ошибка"}
+{"ns": "dsh-tidy-display", "key": "tool.phase.interrupted", "ru": "Прервано"}
+{"ns": "dsh-tidy-display", "key": "tool.generatingInput", "ru": "Ввод ещё формируется · не выполнен · последние 12 строк"}
+{"ns": "dsh-tidy-display", "key": "tool.inputFileContent", "ru": "Содержимое файла во входе инструмента"}
+{"ns": "dsh-tidy-display", "key": "tool.previewTruncated", "ru": " · предпросмотр первых 1 600 строк, полное содержимое в сырых данных"}
+{"ns": "dsh-tidy-display", "key": "tool.fileContent", "ru": "Содержимое файла"}
+{"ns": "dsh-tidy-display", "key": "tool.generatingCommand", "ru": "Команда формируется · не выполнена"}
+{"ns": "dsh-tidy-display", "key": "tool.submittedCommand", "ru": "Отправленная команда"}
+{"ns": "dsh-tidy-display", "key": "tool.receivedFields", "ru": "Полученные поля ввода"}
+{"ns": "dsh-tidy-display", "key": "tool.input", "ru": "Вход инструмента"}
+{"ns": "dsh-tidy-display", "key": "tool.interruptedNoResult", "ru": "Прервано без результата инструмента. Сформированный ввод доступен."}
+{"ns": "dsh-tidy-display", "key": "tool.preparingNote", "ru": "Модель формирует вход инструмента, инструмент ещё не запущен."}
+{"ns": "dsh-tidy-display", "key": "tool.waitingResult", "ru": "Инструмент запущен и ожидает результат."}
+{"ns": "dsh-tidy-display", "key": "tool.cancelled", "ru": "Инструмент отменён без завершения. Ввод и сырой ответ доступны."}
+{"ns": "dsh-tidy-display", "key": "tool.writeReturned", "ru": "Файловый инструмент вернул ответ. Ниже отправленное содержимое; полная запись — в разделе «Сырые данные»."}
+{"ns": "dsh-tidy-display", "key": "tool.codeNoOutput", "ru": "Код выполнен, вывода нет"}
+{"ns": "dsh-tidy-display", "key": "tool.mediaElsewhere", "ru": "Изображения и расширенный контент показаны отдельно в беседе."}
+{"ns": "dsh-tidy-display", "key": "tool.noContent", "ru": "Инструмент ничего не вернул для показа."}
+{"ns": "dsh-tidy-display", "key": "tool.stoppedKept", "ru": "Остановлено · запись вызова сохранена"}
+{"ns": "dsh-tidy-display", "key": "tool.tab.preview", "ru": "Предпросмотр"}
+{"ns": "dsh-tidy-display", "key": "tool.tab.result", "ru": "Результат"}
+{"ns": "dsh-tidy-display", "key": "tool.tab.input", "ru": "Ввод"}
+{"ns": "dsh-tidy-display", "key": "tool.tab.raw", "ru": "Сырые данные"}
+{"ns": "dsh-tidy-display", "key": "tool.deepNested", "ru": "Более вложенные вызовы видны в исходной беседе."}
+{"ns": "dsh-tidy-display", "key": "tool.ledger", "ru": "Инструмент"}
+{"ns": "dsh-tidy-display", "key": "tool.receivedChars", "ru": "Получено символов ввода: {n}"}
+{"ns": "dsh-tidy-display", "key": "tool.submittedWaiting", "ru": "Отправлено · ожидание ответа инструмента"}
+{"ns": "dsh-tidy-display", "key": "tool.stoppedInputKept", "ru": "Остановлено · запись ввода сохранена"}
+{"ns": "dsh-tidy-display", "key": "tool.executedFor", "ru": "Выполнялся {duration}"}
+{"ns": "dsh-tidy-display", "key": "tool.resultRecorded", "ru": "Результат записан"}
+{"ns": "dsh-tidy-display", "key": "tool.exitCode", "ru": "Код выхода: {code}"}
+{"ns": "dsh-tidy-display", "key": "tool.signal", "ru": "Сигнал: {signal}"}
+{"ns": "dsh-tidy-display", "key": "tool.tabsAria", "ru": "Данные выполнения для {title}"}
+{"ns": "dsh-tidy-display", "key": "tool.selectionPaused", "ru": "Обновление предпросмотра приостановлено, чтобы сохранить выделение; текущее состояние в заголовке карточки."}
+{"ns": "dsh-tidy-display", "key": "tool.allInputFields", "ru": "Все поля ввода"}
+{"ns": "dsh-tidy-display", "key": "tool.inputFields", "ru": "Поля ввода"}
+{"ns": "dsh-tidy-display", "key": "tool.rawNote", "ru": "Полная запись · только чтение · код внутри не выполняется"}
+{"ns": "dsh-tidy-display", "key": "tool.result", "ru": "Результат инструмента"}
+{"ns": "dsh-tidy-display", "key": "tool.inputNotArrived", "ru": "Ввод ещё не поступил"}
+{"ns": "dsh-tidy-display", "key": "tool.subCalls", "ru": "Вложенные вызовы"}
+{"ns": "dsh-tidy-display", "key": "tool.ms", "ru": "{n} мс"}
+{"ns": "dsh-tidy-display", "key": "tool.sec", "ru": "{n} с"}
+{"ns": "dsh-tidy-display", "key": "tool.verbWrite", "ru": "Запись"}
+{"ns": "dsh-tidy-display", "key": "tool.verbEdit", "ru": "Изменение"}
+{"ns": "dsh-tidy-display", "key": "tool.verbRead", "ru": "Чтение"}
+{"ns": "dsh-tidy-display", "key": "tool.titleEditPatch", "ru": "Изменение патча"}
+{"ns": "dsh-tidy-display", "key": "tool.titleWriteFile", "ru": "Запись файла"}
+{"ns": "dsh-tidy-display", "key": "tool.titleEditFile", "ru": "Изменение файла"}
+{"ns": "dsh-tidy-display", "key": "tool.titleReadFile", "ru": "Чтение файла"}
+{"ns": "dsh-tidy-display", "key": "tool.runCommand", "ru": "Выполнить команду"}
+{"ns": "dsh-tidy-display", "key": "tool.findFiles", "ru": "Найти файлы"}
+{"ns": "dsh-tidy-display", "key": "tool.searchContent", "ru": "Искать в содержимом"}
+{"ns": "dsh-tidy-display", "key": "tool.webSearch", "ru": "Поиск в интернете"}
+{"ns": "dsh-tidy-display", "key": "tool.webFetch", "ru": "Прочитать страницу"}
+{"ns": "dsh-tidy-display", "key": "tool.runCode", "ru": "Выполнить код"}
+{"ns": "dsh-tidy-display", "key": "tool.preparingFile", "ru": "Формирование содержимого файла"}
+{"ns": "dsh-tidy-display", "key": "tool.preparingCommand", "ru": "Подготовка команды"}
+{"ns": "dsh-tidy-display", "key": "tool.preparingInput", "ru": "Подготовка ввода инструмента"}
+{"ns": "dsh-tidy-display", "key": "reason.label", "ru": "Размышления"}
+{"ns": "dsh-tidy-display", "key": "reason.step", "ru": "Шаг {n}"}
+{"ns": "dsh-tidy-display", "key": "reason.region", "ru": "Размышления на шаге {n}"}
+{"ns": "dsh-tidy-display", "key": "reason.regionScrollable", "ru": "Размышления на шаге {n}, с прокруткой"}
+{"ns": "dsh-tidy-display", "key": "reason.pauseAria", "ru": "Приостановить слежение за размышлением"}
+{"ns": "dsh-tidy-display", "key": "reason.resumeAria", "ru": "Продолжить следить за последним размышлением"}
+{"ns": "dsh-tidy-display", "key": "reason.selectionHint", "ru": "Снимите выделение текста, чтобы продолжить слежение"}
+{"ns": "dsh-tidy-display", "key": "reason.pause", "ru": "Пауза слежения"}
+{"ns": "dsh-tidy-display", "key": "reason.follow", "ru": "Следить за последним"}
+{"ns": "dsh-tidy-display", "key": "reason.manualReading", "ru": "Ручное чтение"}
+{"ns": "dsh-tidy-display", "key": "reason.scrollableReading", "ru": "Прокрутка для чтения"}
+{"ns": "dsh-tidy-display", "key": "reason.collapseAria", "ru": "Свернуть размышления"}
+{"ns": "dsh-tidy-display", "key": "reason.expandAria", "ru": "Развернуть и прочитать размышления полностью"}
+{"ns": "dsh-tidy-display", "key": "reason.expandRead", "ru": "Развернуть"}
+{"ns": "dsh-tidy-display", "key": "disclosure.process", "ru": "Размышления и процесс"}
+{"ns": "dsh-tidy-display", "key": "disclosure.collapseAria", "ru": "Свернуть {name}"}
+{"ns": "dsh-tidy-display", "key": "disclosure.expandAria", "ru": "Развернуть {name}"}
+{"ns": "dsh-tidy-display", "key": "fold.previous", "ru": "Предыдущие шаги"}
+{"ns": "dsh-tidy-display", "key": "fold.processDetail", "ru": "Подробности процесса этого хода"}
+{"ns": "dsh-tidy-display", "key": "fold.reasoning", "ru": "Размышления ×{n}"}
+{"ns": "dsh-tidy-display", "key": "fold.body", "ru": "Вывод ×{n}"}
+{"ns": "dsh-tidy-display", "key": "fold.tool", "ru": "Инструменты ×{n}"}
+{"ns": "dsh-tidy-display", "key": "fold.record", "ru": "Записи ×{n}"}
+{"ns": "dsh-tidy-display", "key": "turn.aborted", "ru": "Ход остановлен, сформированное содержимое сохранено."}
+{"ns": "dsh-tidy-display", "key": "turn.blocked", "ru": "Ход заблокирован. Проверьте исходную беседу и область действий ниже."}
+{"ns": "dsh-tidy-display", "key": "turn.maxTokens", "ru": "Вывод достиг лимита длины хода и может быть неполным."}
+{"ns": "dsh-tidy-display", "key": "turn.error", "ru": "Ход не завершён. Ошибка ниже."}
+{"ns": "dsh-tidy-display", "key": "turn.unknown", "ru": "Ход завершился со статусом: {reason}. Проверьте полную запись в исходной беседе."}
+{"ns": "dsh-tidy-display", "key": "metrics.tokensTitle", "ru": "Расход токенов за этот ход"}
+{"ns": "dsh-tidy-display", "key": "metrics.usage", "ru": "Расход: {tokens}"}
+{"ns": "dsh-tidy-display", "key": "metrics.timingTitle", "ru": "Длительность и скорость этого хода"}
+{"ns": "dsh-tidy-display", "key": "metrics.dialogAria", "ru": "Обзор хода"}
+{"ns": "dsh-tidy-display", "key": "metrics.header", "ru": "Производительность и расход за ход"}
+{"ns": "dsh-tidy-display", "key": "metrics.timingSection", "ru": "Длительность и скорость генерации"}
+{"ns": "dsh-tidy-display", "key": "metrics.totalTime", "ru": "Общее время"}
+{"ns": "dsh-tidy-display", "key": "metrics.tps", "ru": "Пропускная способность (TPS)"}
+{"ns": "dsh-tidy-display", "key": "metrics.ttft", "ru": "Время до первого токена (TTFT)"}
+{"ns": "dsh-tidy-display", "key": "metrics.tokenSection", "ru": "Разбивка по токенам"}
+{"ns": "dsh-tidy-display", "key": "metrics.total", "ru": "Всего"}
+{"ns": "dsh-tidy-display", "key": "metrics.input", "ru": "Вход"}
+{"ns": "dsh-tidy-display", "key": "metrics.cacheHit", "ru": "Попаданий {pct}%"}
+{"ns": "dsh-tidy-display", "key": "metrics.cacheRead", "ru": "Чтение из кэша"}
+{"ns": "dsh-tidy-display", "key": "metrics.output", "ru": "Вывод"}
+{"ns": "dsh-tidy-display", "key": "metrics.thinkingTokens", "ru": "Размышления: {n}"}
+{"ns": "dsh-tidy-display", "key": "time.seconds", "ru": "{n} с"}
+{"ns": "dsh-tidy-display", "key": "time.minutesSeconds", "ru": "{m} мин {ss} с"}
+{"ns": "dsh-tidy-display", "key": "time.ranFor", "ru": "Заняло {duration}"}
+{"ns": "dsh-tidy-display", "key": "time.overtime", "ru": "Ответ не поступил"}
+{"ns": "dsh-tidy-display", "key": "date.monthDay", "ru": "{d}.{m} {clock}"}
+{"ns": "dsh-tidy-display", "key": "date.yearMonthDay", "ru": "{d}.{m}.{y} {clock}"}
+{"ns": "dsh-tidy-display", "key": "rail.olderHead", "ru": "Более ранняя история не загружена"}
+{"ns": "dsh-tidy-display", "key": "rail.olderTip", "ru": "Нажмите, чтобы загрузить более ранние записи · полоса охватывает только загруженные ходы: {count}"}
+{"ns": "dsh-tidy-display", "key": "rail.aria", "ru": "Навигация по сообщениям пользователя"}
+{"ns": "dsh-tidy-display", "key": "diff.linesAria", "ru": "{label} · добавлено строк: {added}, удалено: {removed}"}
+{"ns": "dsh-tidy-display", "key": "mcp.defaultTitle", "ru": "Интерактивное MCP-приложение"}
+{"ns": "dsh-tidy-display", "key": "mcp.receiptChoice", "ru": "Выбор: {value}"}
+{"ns": "dsh-tidy-display", "key": "mcp.receiptAction", "ru": "Действие: {value}"}
+{"ns": "dsh-tidy-display", "key": "mcp.receiptVariant", "ru": "Вариант: {value}"}
+{"ns": "dsh-tidy-display", "key": "mcp.reset", "ru": "Сбросить состояние компонента"}
+{"ns": "dsh-tidy-display", "key": "mcp.ready", "ru": "Готово: {receipt}"}
+{"ns": "dsh-tidy-display", "key": "mcp.fillHint", "ru": "Перенесите результат в поле ввода и нажмите Enter, чтобы отправить"}
+{"ns": "dsh-tidy-display", "key": "mcp.fillButton", "ru": "Вставить в поле ввода"}
+{"ns": "dsh-tidy-display", "key": "mcp.generating", "ru": "Генерация интерактивного компонента…"}
+{"ns": "dsh-tidy-display", "key": "mcp.generatingNamed", "ru": "Генерация интерактивного компонента ({title})…"}
+{"ns": "dsh-tidy-display", "key": "md.copyCode", "ru": "Копировать код"}
+{"ns": "dsh-tidy-display", "key": "md.footnotes", "ru": "Сноски"}
+{"ns": "dsh-tidy-display", "key": "read.code", "ru": "Код"}
+{"ns": "dsh-tidy-display", "key": "read.wrap", "ru": "Перенос строк"}
+{"ns": "dsh-tidy-display", "key": "read.unwrap", "ru": "Без переноса"}
+{"ns": "dsh-tidy-display", "key": "read.window", "ru": "Показано строк: {shown} / {total}"}
+{"ns": "dsh-tidy-display", "key": "read.collapseAria", "ru": "Свернуть содержимое файла"}
+{"ns": "dsh-tidy-display", "key": "term.noExitCode", "ru": "Код выхода отсутствует"}
+{"ns": "dsh-tidy-display", "key": "term.noOutput", "ru": "Нет вывода"}
+{"ns": "dsh-tidy-display", "key": "term.collapseAria", "ru": "Свернуть вывод команды"}
+{"ns": "dsh-tidy-display", "key": "diff.collapseAria", "ru": "Свернуть различия"}
+{"ns": "dsh-tidy-display", "key": "search.paths", "ru": "{shown} / {total} путей"}
+{"ns": "dsh-tidy-display", "key": "search.matches", "ru": "Совпадений: {shown} / {total} · файлов: {files}"}
+{"ns": "dsh-tidy-display", "key": "search.truncated", "ru": " (результат усечён)"}
+{"ns": "dsh-tidy-display", "key": "search.noResults", "ru": "Нет результатов"}
+{"ns": "dsh-tidy-display", "key": "search.collapseAria", "ru": "Свернуть результаты поиска"}
+{"ns": "dsh-tidy-display", "key": "web.sourcesTruncated", "ru": "Источники усечены"}
+{"ns": "dsh-tidy-display", "key": "web.contentTruncated", "ru": "Содержимое усечено"}
+{"ns": "dsh-tidy-display", "key": "json.truncated", "ru": "Содержимое слишком длинное, усечено ({total} символов)"}
+{"ns": "dsh-tidy-display", "key": "json.copyValue", "ru": "Копировать значение"}
+{"ns": "dsh-tidy-display", "key": "json.copyJson", "ru": "Копировать JSON"}
+{"ns": "dsh-tidy-display", "key": "json.copyPath", "ru": "Копировать путь"}
+{"ns": "dsh-tidy-display", "key": "json.copyPretty", "ru": "Копировать форматированный JSON"}
+{"ns": "dsh-tidy-display", "key": "json.copyCompact", "ru": "Копировать компактный JSON"}
+{"ns": "dsh-tidy-display", "key": "json.copyFailed", "ru": "Копирование не удалось"}
+{"ns": "dsh-tidy-display", "key": "json.collapseNode", "ru": "Свернуть узел"}
+{"ns": "dsh-tidy-display", "key": "json.expandNode", "ru": "Развернуть узел"}
