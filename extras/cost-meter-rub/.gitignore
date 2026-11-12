@@ -1,0 +1,7 @@
+backup/
+*.log
+autofix-state.json
+patch-state.json
+.patch-state-*.json
+.autofix.lock
+*.rub-bak

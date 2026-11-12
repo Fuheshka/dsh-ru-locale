@@ -1,0 +1,86 @@
+diff --git a/packages/client/src/features/context-stats/meter-ring.ts b/packages/client/src/features/context-stats/meter-ring.ts
+index 2c6ea80..7855411 100644
+--- a/packages/client/src/features/context-stats/meter-ring.ts
++++ b/packages/client/src/features/context-stats/meter-ring.ts
+@@ -333,7 +333,7 @@ export function install(ctx: HostContext, ui: FeatureUi<typeof manifest>) {
+     face.hiddenMeter = meter
+     if (meter === null) return
+     markContextMeter(meter)
+-    meter.setAttribute(METER_HIDDEN_ATTR, '')
++    setAttributeIfChanged(meter, METER_HIDDEN_ATTR, '')
+   }
+ 
+   // The host renders its meter anew at moments of its own (a turn ending), and
+diff --git a/packages/client/src/features/effort/slider.ts b/packages/client/src/features/effort/slider.ts
+index 37c361e..7c4291d 100644
+--- a/packages/client/src/features/effort/slider.ts
++++ b/packages/client/src/features/effort/slider.ts
+@@ -354,10 +354,10 @@ export function createEffortControl(opts: {
+     const at = Math.max(0, selected)
+     root.removeAttribute('data-empty')
+     track.removeAttribute('aria-disabled')
+-    track.setAttribute('aria-valuemin', '0')
+-    track.setAttribute('aria-valuemax', String(steps.length - 1))
+-    track.setAttribute('aria-valuenow', String(at))
+-    track.setAttribute('aria-valuetext', steps[at] ? steps[at].name : '')
++    setAttributeIfChanged(track, 'aria-valuemin', '0')
++    setAttributeIfChanged(track, 'aria-valuemax', String(steps.length - 1))
++    setAttributeIfChanged(track, 'aria-valuenow', String(at))
++    setAttributeIfChanged(track, 'aria-valuetext', steps[at] ? steps[at].name : '')
+   }
+ 
+   /** Drop the wait for the host's echo (echo seen, ladder changed, or timeout). */
+diff --git a/packages/client/src/features/turn-nav/turn-nav.ts b/packages/client/src/features/turn-nav/turn-nav.ts
+index 3f8ce30..2f80bdd 100644
+--- a/packages/client/src/features/turn-nav/turn-nav.ts
++++ b/packages/client/src/features/turn-nav/turn-nav.ts
+@@ -5,7 +5,7 @@ import { motionReduced } from '../../core/prefs'
+ import { createTurnNavHost } from './turn-nav-host'
+ import type { TurnCurrentReading, TurnItem } from './turn-nav-host'
+ import { CHAT_TURN_ATTRIBUTE, PEER_SHEET_SELECTOR } from '@dsh-claude-style/contracts/dom'
+-import { buildElement, closestFrom } from '@dsh-claude-style/engine/dom'
++import { buildElement, closestFrom, setAttributeIfChanged } from '@dsh-claude-style/engine/dom'
+ import { POPOVER_CLOSE_DELAY, closeOtherPopovers, createHoverIntent, registerPopover, unregisterPopover } from '../../shared/popover'
+ import { inPageBox } from '../../shared/page-zoom'
+ import { easeScrollFor, holdReader, scrollPositionFor, writeScroll } from '@dsh-claude-style/engine/scroll-owner'
+@@ -57,6 +57,8 @@ export function install(ctx: HostContext, ui: FeatureUi<typeof manifest>) {
+   const TURN_NAV_LANDED_ATTR = 'data-dsh-claude-turn-nav-landed'
+   /** The card's name in the popover registry */
+   const TURN_NAV_POPOVER = 'turnNav'
++  /** On a mark whose turn is outside the loaded window: the host draws it fainter. */
++  const TURN_MARK_UNLOADED_ATTR = 'data-unloaded'
+   /** One turn's height on the rail and in the card: the two have to match for a row to sit on its mark. */
+   const TURN_NAV_PITCH = 24
+   /** How far the strip's ends rest before the pointer steers the list: a brush on an edge holds the turn it reached. */
+@@ -173,13 +175,29 @@ export function install(ctx: HostContext, ui: FeatureUi<typeof manifest>) {
+   /** One mark per turn; a turn outside the loaded window is drawn fainter, as the host draws it. */
+   /** Runs only while the rail is mounted. */
+   function drawMarks(items: TurnItem[]) {
+-    if (drawnItems === items) return
++    const sameTurns = track !== null && track.childElementCount === items.length
++    if (drawnItems === items && sameTurns) return
+     drawnItems = items
++    if (sameTurns) {
++      // The same turns again: only a turn's loaded state can have moved, and
++      // rebuilding the marks would insert and remove a node per turn per pass.
++      const marks = track!.children
++      for (let i = 0; i < items.length; i += 1) {
++        const mark = marks[i]
++        if (!(mark instanceof HTMLElement)) continue
++        if (items[i].loaded) {
++          if (mark.hasAttribute(TURN_MARK_UNLOADED_ATTR)) mark.removeAttribute(TURN_MARK_UNLOADED_ATTR)
++        } else setAttributeIfChanged(mark, TURN_MARK_UNLOADED_ATTR, '')
++      }
++      current = -1
++      currentReading = null
++      return
++    }
+     const marks = document.createDocumentFragment()
+     for (let i = 0; i < items.length; i++) {
+       const mark = buildElement('span', 'dsh-claude-turn-rail-mark')
+       mark.style.top = `${i * TURN_NAV_PITCH}px`
+-      if (!items[i].loaded) mark.setAttribute('data-unloaded', '')
++      if (!items[i].loaded) mark.setAttribute(TURN_MARK_UNLOADED_ATTR, '')
+       marks.appendChild(mark)
+     }
+     track!.replaceChildren(marks)

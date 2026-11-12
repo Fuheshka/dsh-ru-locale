@@ -75,6 +75,22 @@ python3 tools/coverage.py          # таблица: плагин → namespace 
 Строки плагинов лежат отдельно от основного корпуса: `tools/vendor/vendor-corpus.jsonl`
 (вход) и `tools/out-vendor/*.jsonl` (перевод), сборка `tools/build.py` подхватывает оба.
 
+## Фиксы вне языкового пакета
+
+В [`extras/`](extras/) лежат исправления, которые мы делали отдельно от
+словарей. Они не входят в `pkg/` и не устанавливаются вместе с языком:
+
+| Фикс | Что делает | Как поставить |
+| --- | --- | --- |
+| [cost-meter-rub](extras/cost-meter-rub/) | цены API в `₽ / $` вместо юаней, автоматическое переприменение после обновления | `./extras/cost-meter-rub/install-autofix.sh` |
+| [claude-style-perf](extras/claude-style-perf/) | убирает лишние записи в DOM в теме Claude Style 0.20.3 | `dsh plugin add ./extras/claude-style-perf/dsh-claude-style-0.20.3.tgz` |
+| [panel-balance](extras/panel-balance/) | карточка расходов в футере вместо поповера; баланс из официального аккаунта | настройки DSH, см. README |
+
+Патчи в `extras/` живут в `node_modules` сторонних плагинов и слетают при их
+обновлении: для `dsh-cost-meter` есть launchd-автофиксер, тему после
+обновления нужно переустановить из собранного `tgz`. Секреты,
+`ledger.json` и `.credentials.yaml` в репозиторий не коммитятся.
+
 ## Принципы перевода
 
 - **Один термин на понятие:** сессия, ход/шаг, рабочая область, пресет,
@@ -110,6 +126,10 @@ tools/                   конвейер вычитки
 docs/
   PATCH.md               тот же текст как патч в чекаут DSH
   PR.md                  описание для PR в upstream
+extras/                  не-локализационные фиксы (см. выше)
+  cost-meter-rub/        патч ₽ / $ и launchd-автофиксер
+  claude-style-perf/     собранная тема 0.20.3 и диф
+  panel-balance/         рецепт настроек футера и баланса
 ```
 
 ## Обновление после апдейта DSH

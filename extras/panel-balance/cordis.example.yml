@@ -1,0 +1,7 @@
+# Фрагмент для ~/.dsh/profiles/desktop/cordis.patch.yml.
+# Вставьте collapseFooter в существующий блок dsh-claude-style,
+# не заменяйте весь блок: остальные настройки темы должны сохраниться.
+- id: ui-skin-claude-style
+  name: dsh-claude-style
+  config:
+    collapseFooter: false
